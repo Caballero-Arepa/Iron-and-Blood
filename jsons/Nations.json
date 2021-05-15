@@ -435,9 +435,9 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-                "name": "Baden",
+                "name": "Bavaria",
 		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
+		"adjective": ["Bavarian"],
                 "cityStateType": "Type",
 		"startBias": ["terrains"],
 		
@@ -494,7 +494,127 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-                "name": "City-State",
+                "name": "Braunschweig",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Bremen",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Frankfurt am Main",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Frankfurt am Main","city","cities","city"]
+	},
+	{
+                "name": "Hamburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Hannover",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Hesse-Darmstadt",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Hesse-Kassel",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
                 "cityStateType": "Type",
