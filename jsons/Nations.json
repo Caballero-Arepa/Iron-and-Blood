@@ -493,6 +493,7 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
+	//Disposable
 	{
                 "name": "Braunschweig",
 		"leaderName": "Leader Name",
@@ -511,7 +512,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Brunswick"]
 	},
 	{
                 "name": "Bremen",
@@ -608,13 +609,13 @@
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Zivilgesetzbuch",
+		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Darmstadt","Giessen","Mainz"]
 	},
 	{
-                "name": "Hesse-Kassel",
+                "name": "Holstein",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
                 "cityStateType": "Type",
@@ -632,6 +633,122 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lippe-Detmold",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lübeck",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Mecklenburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Oldenburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Saxony",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lucca",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"cities": ["Lucca"]
 	},
 	           {
                 "name": "City-State",
