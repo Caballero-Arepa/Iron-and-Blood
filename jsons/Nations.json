@@ -116,7 +116,7 @@
 	},
 		     {
                 "name": "The United States of America",
-		"leaderName": "Leader Name",
+		"leaderName": "George Washington",
 		"adjective": ["United Statian"],
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
@@ -160,7 +160,7 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
-	//Should I add it??
+	//Should I add it?? It will be hard to give unique things, for that, research is needed
 		     {
                 "name": "Spain",
 		"leaderName": "Leader Name",
@@ -184,7 +184,7 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
-	//Should I add it??
+	//Should I add it?? Maybe, but prob won't have anything unique
 		     {
                 "name": "Denmark",
 		"leaderName": "Leader Name",
@@ -452,7 +452,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Munich","city","cities","city"]
 	},
 	{
                 "name": "Baden",
@@ -751,6 +751,126 @@
 		"cities": ["Lucca"]
 	},
 	           {
+                "name": "Modena",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Modena"]
+	},
+	{
+                "name": "The Papal States",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Rome","city","cities","city"]
+	},
+	{
+                "name": "Two Sicilies",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities"]
+	},
+	{
+                "name": "Parma",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Parma"]
+	},
+	{
+                "name": "Tuscany",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Haiti",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
                 "name": "City-State",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
