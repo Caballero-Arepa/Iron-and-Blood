@@ -1,253 +1,189 @@
 [
+	//Europe
 	     {
                 "name": "United Kingdom",
 		"leaderName": "Victoria",
 		"adjective": ["British"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Victory type",
+/*		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
+		"afterPeace": "...",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 				
 		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"innerColor": [1,2,3],*/
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["London","city","cities","city"]
 	},
 		     {
                 "name": "France",
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Paris","city","cities","city"]
 	},
 		     {
                 "name": "Prussia",
 		"leaderName": "Otto von Bismark",
 		"adjective": ["Prussian"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Berlin","city","cities","city"]
 	},
 		     {
                 "name": "Russia",
-		"leaderName": "Leader Name",
+		"leaderName": "Alexander",
 		"adjective": ["Russian"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Moscow","city","cities","city"]
 	},
 		     {
                 "name": "Austria",
 		"leaderName": "Leader Name",
 		"adjective": ["Austrian"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Viena","city","cities","city"]
 	},
 		     {
-                "name": "The United States of America",
-		"leaderName": "George Washington",
-		"adjective": ["United Statian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
-		     {
-                "name": "Ottomen Empire",
+                "name": "Ottoman Empire",
 		"leaderName": "Leader Name",
 		"adjective": ["Ottoman"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Constantinople","city","cities","city"]
 	},
-	//Should I add it?? It will be hard to give unique things, for that, research is needed
 		     {
                 "name": "Spain",
 		"leaderName": "Leader Name",
 		"adjective": ["Spanish"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
-	},
-	//Should I add it?? Maybe, but prob won't have anything unique
-		     {
-                "name": "Denmark",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
-		     {
-                "name": "Portugal",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Madrid","city","cities","city"]
 	},
 		     {
                 "name": "Sweden",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
@@ -260,17 +196,44 @@
                 "name": "Sardinia-Piedmont",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
+/*		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	//European CS
+		     {
+                "name": "Denmark",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
@@ -280,45 +243,22 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 		     {
-                "name": "Mexico",
+                "name": "Portugal",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+/*		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
-		     {
-                "name": "Empire of Brazil",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
@@ -331,17 +271,19 @@
                 "name": "Serbia",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
+ /*		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
+		"afterPeace": "...",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-				
+*/				
 		"outerColor": [3,2,1],
 		"innerColor": [1,2,3],
 		     
@@ -350,30 +292,6 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
-		     {
-                "name": "Civ",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
-	//City-States
 		     {
                 "name": "Luxemburg",
 		"leaderName": "Leader Name",
@@ -493,7 +411,6 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
-	//Disposable
 	{
                 "name": "Braunschweig",
 		"leaderName": "Leader Name",
@@ -850,6 +767,81 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
+	
+	//America
+		     {
+                "name": "Mexico",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+		     {
+                "name": "Empire of Brazil",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+		     {
+                "name": "The U.S.A",
+		"leaderName": "leader name",
+		"adjective": ["United Statian"], //XD
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Washington","city","cities","city"]
+	},
+	//American City-States
 	{
                 "name": "Haiti",
 		"leaderName": "Leader Name",
@@ -870,11 +862,37 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
+	
+	//Templates
+/*		     {
+                "name": "Template",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	{
                 "name": "City-State",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -889,5 +907,5 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital","city","cities","city"]
-	},
+	},*/
 	]
