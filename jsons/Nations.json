@@ -1,0 +1,1112 @@
+[
+	//Europe
+	     {
+                "name": "United Kingdom",
+		"leaderName": "Victoria",
+		"adjective": ["British"],
+		"startBias": ["Coast"],
+/*		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"afterPeace": "...",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [172,123,120],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["London","city","cities","city"]
+	},
+		     {
+                "name": "France",
+		"leaderName": "Napoleon",
+		"adjective": ["French"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [103,113,170],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Paris","city","cities","city"]
+	},
+		     {
+                "name": "Prussia",
+		"leaderName": "Otto von Bismark",
+		"adjective": ["Prussian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [96,113,125],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Berlin","city","cities","city"]
+	},
+		     {
+                "name": "Russia",
+		"leaderName": "Alexander",
+		"adjective": ["Russian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [114,129,104],
+		"innerColor": [226,170,2],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Moscow","city","cities","city"]
+	},
+		     {
+                "name": "Austria",
+		"leaderName": "Leader Name",
+		"adjective": ["Austrian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [181,181,181],
+		"innerColor": [226,35,31],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Viena","city","cities","city"]
+	},
+		     {
+                "name": "The Ottomen",
+		"leaderName": "Leader Name",
+		"adjective": ["Ottoman"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [156,169,153],
+		"innerColor": [43,151,32],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Constantinople","city","cities","city"]
+	},
+		     {
+                "name": "Spain",
+		"leaderName": "Leader Name",
+		"adjective": ["Spanish"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [179,161,102],
+		"innerColor": [151,32,37],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Madrid","city","cities","city"]
+	},
+		     {
+                "name": "Sweden",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [129,144,168],
+		"innerColor": [255,211,53],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Stockholm","city","cities","city"]
+	},
+		     {
+                "name": "Sardinia-Piedmont", //alias: Italy
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [141,151,158],
+		"innerColor": [205,0,0],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Milan","city","cities","city"]
+	},
+	//European CS
+		     {
+                "name": "Denmark",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [158,123,122],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Copenhagen","city","cities","city"]
+	},
+		     {
+                "name": "Portugal",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [121,156,136],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Lisboa","city","cities","city"]
+	},
+		     {
+                "name": "Serbia",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+ /*		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [156,123,118],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Belgrade","city","cities","city"]
+	},
+		     {
+                "name": "Greece",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//		"cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [139,159,169],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Athenas"]
+	},
+		     {
+                "name": "Luxemburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [116,147,123],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Luxemburg"]
+	},
+	{
+                "name": "Switzerland",
+		"leaderName": "Leader Name",
+		"adjective": ["Swiss"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [157,102,102],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Neutrality",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Bern","city","cities","city"]
+	},
+	{
+                "name": "Anhalt",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Bavaria",
+		"leaderName": "Leader Name",
+		"adjective": ["Bavarian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [142,160,181],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Munich","city","cities","city"]
+	},
+	{
+                "name": "Baden",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [138,177,172],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Württemberg",
+		"leaderName": "Leader Name",
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [135,153,141],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Braunschweig",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Brunswick"]
+	},
+	{
+                "name": "Bremen",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Frankfurt am Main",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [138,158,162],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Frankfurt am Main","city","cities","city"]
+	},
+	{
+                "name": "Hamburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [134,150,123],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Hannover",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [158,176,145],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Hesse-Darmstadt",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "The Zivilgesetzbuch",
+//		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
+		     
+		"cities": ["Darmstadt","Giessen","Mainz"]
+	},
+	{
+                "name": "Holstein",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [169,146,148],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lippe-Detmold",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lübeck",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+  //              "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Mecklenburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Oldenburg",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Saxony",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [153,151,162],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lucca",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [181,185,149],
+		"innerColor": [1,2,3],
+		     
+		"cities": ["Lucca"]
+	},
+	           {
+                "name": "Modena",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Modena"]
+	},
+	{
+                "name": "The Papal States",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [172,175,161],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Rome","city","cities","city"]
+	},
+	{
+                "name": "Two Sicilies",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [119,146,120],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities"]
+	},
+	{
+                "name": "Parma",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+ //               "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Parma"]
+	},
+	{
+                "name": "Tuscany",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [3,2,1],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	
+	//America
+		     {
+                "name": "Mexico",
+		"leaderName": "Leader Name",
+		"adjective": ["Mexican"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [158,182,159],
+		"innerColor": [193,105,46],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["México","city","cities","city"]
+	},
+		     {
+                "name": "Empire of Brazil",
+		"leaderName": "Pedro II",
+		"adjective": ["Brazilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [143,159,141],
+		"innerColor": [232,187,41],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Rio do Janeiro","city","cities","city"]
+	},
+		     {
+                "name": "Argentina",
+		"leaderName": "Leader Name",
+		"adjective": ["Argentinian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [132,132,154],
+		"innerColor": [241,240,255],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Buenos Aires","city","cities","city"]
+	},
+		     {
+                "name": "Paraguay",
+		"leaderName": "Gaspar R. Francia",
+		"adjective": ["Paraguayan"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [175,177,162],
+		"innerColor": [181,0,0],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Asunción","city","cities","city"]
+	},
+		     {
+                "name": "Gran Colombia",
+		"leaderName": "Simón Bolívar",
+		"adjective": ["Granadine"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [187,179,156],
+		"innerColor": [59,228,237],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Bogotá","Caracas","Guayaquil","city"]
+	},
+		     {
+                "name": "Chile",
+		"leaderName": "Leader Name",
+		"adjective": ["Chilean"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [181,155,133],
+		"innerColor": [237,65,59],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Santiago","city","cities","city"]
+	},
+		     {
+                "name": "Peru-Bolivia Conf.",
+		"leaderName": "Leader Name",
+		"adjective": ["Andean"],
+/*		"startBias": ["Hill"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [138,144,152],
+		"innerColor": [237,65,59],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Lima","city","cities","city"]
+	},
+		     {
+                "name": "U.S.C.A",
+		"leaderName": "Leader Name",
+		"adjective": ["Central American"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [133,161,189],
+		"innerColor": [255,254,253],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+		     {
+                "name": "The U.S.A",
+		"leaderName": "leader name",
+		"adjective": ["United Statian"], //XD
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [123,133,167],
+		"innerColor": [255,254,253],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Washington","city","cities","city"]
+	},
+		     {
+                "name": "Haiti",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [127,141,151],
+		"innerColor": [113,8,15],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	//American City-States
+	{
+                "name": "Uruguay",
+		"leaderName": "Leader Name",
+		"adjective": ["Uruguayan"],
+//                "cityStateType": "Type",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [145,134,129],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
+	}
+	
+/*	Templates
+		     {
+                "name": "Template",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "City-State",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [3,2,1],
+		"innerColor": [1,2,3],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},*/
+	]

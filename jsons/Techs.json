@@ -1,0 +1,505 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Neo-Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Enlightenment",
+				"row": 5,
+				"quote": "quote",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Neo-Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Rights of Man",
+				"row": 2,
+				"prerequisites": ["Enlightenment"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Private Banks",
+				"row": 5,
+				"prerequisites": ["Enlightenment"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Guild-based Production",
+				"row": 8,
+				"prerequisites": ["Enlightenment"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Flintlocks",
+				"row": 10,
+				"prerequisites": ["Enlightenment"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Napoleonic Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Patriotism",
+				"row": 1,
+				"prerequisites": ["Rights of Man"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Chemistry",
+				"row": 3,
+				"prerequisites": ["Rights of Man"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Market Structure",
+				"row": 4,
+				"prerequisites": ["Private Banks"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Army Professionalization",
+				"row": 6,
+				"prerequisites": ["Private Banks"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Steam Engine",
+				"row": 7,
+				"prerequisites": ["Guild-based Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Organized Factories",
+				"row": 9,
+				"prerequisites": ["Guild-based Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Paper Cartriges",
+				"row": 10,
+				"prerequisites": ["Flintlocks"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "1st Industrial Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Medicine",
+				"row": 1,
+				"prerequisites": ["Chemistry","Patriotism"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Fertilizer",
+				"row": 3,
+				"prerequisites": ["Chemistry"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Inorganic Chemistry",
+				"row": 4,
+				"prerequisites": ["Market Structure","Chemistry"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Silver Standard",
+				"row": 6,
+				"prerequisites": ["Market Structure","Army Professionalization"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Railroads",
+				"row": 7,
+				"prerequisites": ["Steam Engine"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Mass Production",
+				"row": 9,
+				"prerequisites": ["Organized Factories","Steam Engine"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Fulminate",
+				"row": 10,
+				"prerequisites": ["Paper Cartriges","Organized Factories"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "1st Industrial Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Photography",
+				"row": 1,
+				"prerequisites": ["Medicine"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Biology",
+				"row": 3,
+				"prerequisites": ["Fertilizer","Inorganic Chemistry"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Mechanical Mining",
+				"row": 4,
+				"prerequisites": ["Inorganic Chemistry"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Steel",
+				"row": 6,
+				"prerequisites": ["Silver Standard","Railroads"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Pressure Steam Engine",
+				"row": 7,
+				"prerequisites": ["Railroads"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Mechanical Production",
+				"row": 9,
+				"prerequisites": ["Mass Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Rifled Barrels",
+				"row": 10,
+				"prerequisites": ["Fulminate","Mass Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Victorian Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Idealism",
+				"row": 1,
+				"prerequisites": ["Photography"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Archeology",
+				"row": 3,
+				"prerequisites": ["Mechanical Mining","Biology","Photography"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Gold Standard",
+				"row": 4,
+				"prerequisites": ["Mechanical Mining","Steel"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Scientific Theory",
+				"row": 6,
+				"prerequisites": ["Pressure Steam Engine","Steel"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Dynamite",
+				"row": 7,
+				"prerequisites": ["Mechanical Production","Pressure Steam Engine"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Interchangeable Parts",
+				"row": 9,
+				"prerequisites": ["Mechanical Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Breech-loading",
+				"row": 10,
+				"prerequisites": ["Rifled Barrels"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Victorian Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Refrigeration",
+				"row": 1,
+				"prerequisites": ["Idealism","Archeology"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Education Sistem",
+				"row": 3,
+				"prerequisites": ["Archeology"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Stock Market",
+				"row": 4,
+				"prerequisites": ["Gold Standard"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Telegraph",
+				"row": 6,
+				"prerequisites": ["Scientific Theory"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Electricity",
+				"row": 7,
+				"prerequisites": ["Scientific Theory","Dynamite"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Advanced Metalcasting",
+				"row": 9,
+				"prerequisites": ["Dynamite","Interchangeable Parts"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Bolt Action Rifles",
+				"row": 10,
+				"prerequisites": ["Breech-loading","Interchangeable Parts"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "2nd Industrial Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Social Science",
+				"row": 1,
+				"prerequisites": ["Refrigeration","Education Sistem"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Cloride",
+				"row": 3,
+				"prerequisites": ["Education Sistem"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Advanced Medicine",
+				"row": 4,
+				"prerequisites": ["Stock Market","Telegraph"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Phonograph",
+				"row": 6,
+				"prerequisites": ["Telegraph"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Chain Production",
+				"row": 9,
+				"prerequisites": ["Electricity","Advanced Metalcasting"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Metal Cartriges",
+				"row": 10,
+				"prerequisites": ["Bolt Action Rifles"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "2nd Industrial Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Cinematography",
+				"row": 2,
+				"prerequisites": ["Social Science"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "International Standard",
+				"row": 4,
+				"prerequisites": ["Advanced Medicine","Cloride"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Radio",
+				"row": 6,
+				"prerequisites": ["Phonograph"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Aeronautics",
+				"row": 7,
+				"prerequisites": ["Electricity"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Combustion Engine",
+				"row": 9,
+				"prerequisites": ["Chain Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Magazines",
+				"row": 10,
+				"prerequisites": ["Metal Cartriges","Chain Production"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Long XIX Century",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Social Welfare",
+				"row": 2,
+				"prerequisites": ["Cinematography"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Internationalization",
+				"row": 4,
+				"prerequisites": ["Cinematography","International Standard","Radio"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Flight",
+				"row": 7,
+				"prerequisites": ["Aeronautics","Combustion Engine"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Advanced Hydrodinamics",
+				"row": 9,
+				"prerequisites": ["Combustion Engine"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
+				"name": "Machineguns",
+				"row": 10,
+				"prerequisites": ["Magazines"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Long XIX Century",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "The Future",
+				"row": 5,
+				"prerequisites": ["Flight","Social Welfare","Advanced Hydrodinamics","Machineguns","Internationalization"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+		]
+	},
+]

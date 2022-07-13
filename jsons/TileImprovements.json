@@ -1,0 +1,55 @@
+[
+
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Enlightenment",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Enlightenment",
+		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
+		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	// Unbuildable improvements
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]
