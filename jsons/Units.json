@@ -1,5 +1,101 @@
 [
 	{
+		"name": "Musket Inf.",
+		"unitType": "Blackpowder",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Fulminate",
+		"upgradesTo": "CapLock Inf.",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Drafted men amred with muskets made by artisans, each different to the other,\nand very well may or may not hit their target. That's why you form them up in lines."}
+		]
+	},
+	{
+		"name": "CapLock Inf.",
+		"unitType": "Muzzleloader",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Fulminate",
+		"obsoleteTech": "Rifled Barrels",
+		"upgradesTo": "Rifled Inf.",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This ingenious invention saves you from carrying burning sticks to lit your powder, and consecuently, faster fire rate."}
+		]
+	},
+	{
+		"name": "Rifled Inf.",
+		"unitType": "Muzzleloader",
+		"movement": 2,
+		"strength": 16,
+		"cost": 40,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Breech. Inf.",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "How thought spinning was a good trick? Because it actually is. Now our bullets hit where we aim them.\nAltough it's a pain chucking the ball inside the barrel. *sigh*"}
+		]
+	},
+	{
+		"name": "Breech. Inf.",
+		"unitType": "Breechloader",
+		"movement": 2,
+		"strength": 18,
+		"cost": 40,
+		"requiredTech": "Breech-loading",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Bolt Inf.",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Easy and simple, just open the chamber and insert it from behind, and you are ready to shoot. This is how it should have always been."}
+		]
+	},
+	{
+		"name": "Bolt Inf.",
+		"unitType": "Breechloader",
+		"movement": 2,
+		"strength": 22,
+		"cost": 40,
+		"requiredTech": "Bolt Action Rifles",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Carabine Inf.",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Reloading made easier than ever, and if brake your gun, no problem mate, you'll be equiped with replacements to fix your gun.\n  - I-In the middle of battle?\nYes of course! What, you thought you could go back to repair your gun? Hah, wake up little boy."}
+		]
+	},
+	{
+		"name": "Carabine Inf.",
+		"unitType": "Carabine",
+		"movement": 2,
+		"strength": 26,
+		"cost": 40,
+		"requiredTech": "Metal Cartriges",
+		"upgradesTo": "Infantry",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "With these metalic rounds, now your troops can fight all they want under anyweather condition. They aren't very happy about it, but you will."}
+		]
+	},
+	{
+		"name": "Infantry",
+		"unitType": "Carabine",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Magazines",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Capable of shooting multiple rounds without reloading, this bad boys will roll over the enemy and will be home by December, I assure you."}
+		]
+	},
+	//Old
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,

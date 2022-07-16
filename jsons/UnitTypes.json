@@ -1,4 +1,5 @@
 [
+//Temporal
     {
         "name": "Civilian",
         "movementType": "Land"
@@ -11,4 +12,30 @@
         "name": "Scout",
         "movementType": "Land"
     },
+	//Civilians
+	//Infantry
+    {
+        "name": "Blackpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Muzzleloader",
+        "movementType": "Land"
+    },
+    {
+        "name": "Breechloader",
+        "movementType": "Land"
+    },
+    {
+        "name": "Carabine",
+        "movementType": "Land"
+    },
+    {
+        "name": "Machinegun",
+        "movementType": "Land"
+    },
+	//Cavalry
+	//Naval
+	//Artillery
+	//Scout
 ]

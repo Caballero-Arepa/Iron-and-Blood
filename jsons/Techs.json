@@ -376,6 +376,13 @@
 				"uniques": ["unique"]
 			},
 			{
+				"name": "Combustion Engine",
+				"row": 7,
+				"prerequisites": ["Electricity"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
 				"name": "Chain Production",
 				"row": 9,
 				"prerequisites": ["Electricity","Advanced Metalcasting"],
@@ -406,6 +413,13 @@
 				"uniques": ["unique"]
 			},
 			{
+				"name": "Machineguns",
+				"row": 3,
+				"prerequisites": ["Cloride"],
+				"quote": "quote",
+				"uniques": ["unique"]
+			},
+			{
 				"name": "International Standard",
 				"row": 4,
 				"prerequisites": ["Advanced Medicine","Cloride"],
@@ -420,14 +434,14 @@
 				"uniques": ["unique"]
 			},
 			{
-				"name": "Aeronautics",
+				"name": "Flight",
 				"row": 7,
 				"prerequisites": ["Electricity"],
 				"quote": "quote",
 				"uniques": ["unique"]
 			},
 			{
-				"name": "Combustion Engine",
+				"name": "Advanced Hydrodinamics",
 				"row": 9,
 				"prerequisites": ["Chain Production"],
 				"quote": "quote",
@@ -449,41 +463,6 @@
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Social Welfare",
-				"row": 2,
-				"prerequisites": ["Cinematography"],
-				"quote": "quote",
-				"uniques": ["unique"]
-			},
-			{
-				"name": "Internationalization",
-				"row": 4,
-				"prerequisites": ["Cinematography","International Standard","Radio"],
-				"quote": "quote",
-				"uniques": ["unique"]
-			},
-			{
-				"name": "Flight",
-				"row": 7,
-				"prerequisites": ["Aeronautics","Combustion Engine"],
-				"quote": "quote",
-				"uniques": ["unique"]
-			},
-			{
-				"name": "Advanced Hydrodinamics",
-				"row": 9,
-				"prerequisites": ["Combustion Engine"],
-				"quote": "quote",
-				"uniques": ["unique"]
-			},
-			{
-				"name": "Machineguns",
-				"row": 10,
-				"prerequisites": ["Magazines"],
-				"quote": "quote",
-				"uniques": ["unique"]
-			},
 		]
 	},
 	{
@@ -496,7 +475,7 @@
 			{
 				"name": "The Future",
 				"row": 5,
-				"prerequisites": ["Flight","Social Welfare","Advanced Hydrodinamics","Machineguns","Internationalization"],
+				"prerequisites": ["Cinematography", "Machineguns", "International Standard", "Radio", "Flight", "Advanced Hydrodinamics", "Magazines"],
 				"quote": "quote",
 				"uniques": ["unique"]
 			},
