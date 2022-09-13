@@ -15,19 +15,7 @@
 	//Civilians
 	//Infantry
     {
-        "name": "Blackpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Muzzleloader",
-        "movementType": "Land"
-    },
-    {
-        "name": "Breechloader",
-        "movementType": "Land"
-    },
-    {
-        "name": "Carabine",
+        "name": "Infantry",
         "movementType": "Land"
     },
     {

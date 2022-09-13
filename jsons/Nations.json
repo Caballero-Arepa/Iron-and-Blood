@@ -16,7 +16,7 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */
-		"outerColor": [172,123,120],
+		"outerColor": [163,18,18],
 		"innerColor": [255,255,255],
 		     
 		"uniqueName": "Unique Name",
@@ -40,8 +40,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [103,113,170],
-		"innerColor": [255,255,255],
+		"outerColor": [38,115,197],
+		"innerColor": [255,255,227],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -64,8 +64,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [96,113,125],
-		"innerColor": [255,255,255],
+		"outerColor": [10,42,69],
+		"innerColor": [203,199,190],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -88,8 +88,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [114,129,104],
-		"innerColor": [226,170,2],
+		"outerColor": [106,141,81],
+		"innerColor": [236,178,0],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -112,8 +112,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [181,181,181],
-		"innerColor": [226,35,31],
+		"outerColor": [227,226,217],
+		"innerColor": [198,27,27],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -136,8 +136,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [156,169,153],
-		"innerColor": [43,151,32],
+		"outerColor": [224,216,176],
+		"innerColor": [117,154,37],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -160,7 +160,7 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [179,161,102],
+		"outerColor": [236,178,0],
 		"innerColor": [151,32,37],
 		     
 		"uniqueName": "Unique Name",
@@ -184,8 +184,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [129,144,168],
-		"innerColor": [255,211,53],
+		"outerColor": [37,56,123],
+		"innerColor": [227,225,44],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -208,8 +208,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 */				
-		"outerColor": [141,151,158],
-		"innerColor": [205,0,0],
+		"outerColor": [26,32,96],
+		"innerColor": [45,130,40],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
