@@ -22,6 +22,14 @@
         "name": "Machinegun",
         "movementType": "Land"
     },
+    {
+        "name": "Plane",
+        "movementType": "Land"
+    },
+    {
+        "name": "Airship",
+        "movementType": "Land"
+    },
 	//Cavalry
 	//Naval
 	//Artillery

@@ -1,4 +1,5 @@
 [
+//Infantry
 	{
 		"name": "CapLock Inf.",
 		"unitType": "Infantry",
@@ -87,6 +88,75 @@
 			{"text": "Capable of shooting multiple rounds without reloading, this bad boys will roll over the enemy and will be home by December, be sure of it."}
 		]
 	},
+//Machine guns
+	{
+		"name": Gatling gun",
+		"unitType": "Infantry",
+		"movement": 1,
+		"strength": 26,
+		"cost": 40,
+		"requiredTech": "Cloride",
+		"obsoleteTech": "Machineguns",
+		"upgradesTo": "Maxim gun",
+		"uniques": ["Machinegun"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Maxim gun",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Machineguns",
+		"uniques": ["Machinegun"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
+//Aerial
+	{
+		"name": "Biplane",
+		"unitType": "Plane",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Flight",
+		"uniques": ["Fighter"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Plane",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Flight",
+		"uniques": ["Bomber"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Airship",
+		"unitType": "Airship",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Flight",
+		"uniques": ["Airship"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
 	//Old
 	{
 		"name": "Worker",
@@ -112,17 +182,6 @@
 		"cost": 25,
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
 	},
 
 	/* Great people */

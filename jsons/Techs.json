@@ -46,7 +46,7 @@
 				"row": 10,
 				"prerequisites": ["Enlightenment"],
 				"quote": "quote",
-				"uniques": ["unique"]
+				"uniques": ["..."]
 			},
 		]
 	},
@@ -104,7 +104,7 @@
 				"row": 10,
 				"prerequisites": ["Flintlocks"],
 				"quote": "quote",
-				"uniques": ["unique"]
+				"uniques": ["+13% Strength for CapLock Infantry"]
 			},
 		]
 	},
@@ -162,7 +162,7 @@
 				"row": 10,
 				"prerequisites": ["Paper Cartriges","Organized Factories"],
 				"quote": "quote",
-				"uniques": ["unique"]
+				"uniques": ["+13% Strength for CapLock Infantry"]
 			},
 		]
 	},
