@@ -193,17 +193,17 @@
 		"cities": ["Stockholm","city","cities","city"]
 	},
 		     {
-                "name": "Sardinia-Piedmont", //alias: Italy
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+                "name": "Sardinia-Piedmont"
+		"leaderName": "Victor Emmanuel II",
+		"adjective": ["Sardinian","Piemonte","Sardinia-Piedmontan"],
+		"startBias": ["Plain"],
+		"preferredVictoryType": "Culture",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "I fear that I am only the first casualty in the defeat of my people's Kingdom.",
+		"introduction": "Hail me, lowly wanderer, for I am Victor Emmanuel II, King of Sardinia-Piedmont, and esteemed Duke of Savoy. What kind words do you bring me?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
@@ -211,10 +211,10 @@
 		"outerColor": [26,32,96],
 		"innerColor": [45,130,40],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Risorgimento",
+		"uniques": ["Tourism is added to Production when building Units. City-States under siege may surrender without incurring a warmonger penalty from their capture."],
 		     
-		"cities": ["Milan","city","cities","city"]
+		"cities": ["Turin","Cagliari","Chambéry","Cuneo","Nice","Thonon-les-Bains","Alessandria","Sassari","Novara","Bonneville","Oblia","Asti","Moûtiers","Tempio Pausania","Saint-Jean-de-Maurienne","Biella","Nuoro","Vercelli","Oristano","Annecy","Verbania","Carbonia","Iglesias"]
 	},
 	//European City States
 		     {
