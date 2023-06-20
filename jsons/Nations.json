@@ -5,7 +5,7 @@
 		"leaderName": "Victoria",
 		"adjective": ["British"],
 		"startBias": ["Coast"],
-/*		"preferredVictoryType": "Victory type",
+/*		"preferredVictoryType": "Science, Culture, Domination",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -26,27 +26,27 @@
 	},
 		     {
                 "name": "France",
-		"leaderName": "Napoleon",
+		"leaderName": "Napoleon III",
 		"adjective": ["French"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+/*		"startBias": ["Grassland"],
+		"preferredVictoryType": "Science, Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "Because of your actions, France declared war on you. Prepare for your demise, mon amie!",
+		"attacked": "Oh hoh hoh, mon amie, you think I will scare? Non, mon amie, prepare for your demise, because only fate is on your side, mon amie. Be ready for it, mon amie!",
+		"afterPeace": "Mon amie, we have achieved peace after this war. Let's celebrate for it, you know.",
+		"defeated": "Mon amie, not being able to die at the head of my troops, nothing remains for me but to place my sword in the hands of Your Majesty.",
+		"introduction": "Behold, great leader! For you stand before most esteemed Emperor of noble France and all her people - Napoleon the Third, heir of the Sun of Austerlitz and the illustrous house of Bonaparte.",
+		"neutralHello": "Bonjour, mon amie. What can I do for you?",
+		"hateHello": "*grunts* What can I do for you, mon amie? *grunts*",
+		"tradeRequest": "France has make this trade offer, please accept this, consider it was très magnificent.",
 */				
 		"outerColor": [38,115,197],
 		"innerColor": [255,255,227],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Liberal Empire",
+		"uniques": ["Gain Golden Age points from adopting Policies and conquering enemy cities. During Golden Ages, improvements are built twice as fast, and the Capital's Culture and Production output increases by 50%."],
 		     
-		"cities": ["Paris","city","cities","city"]
+		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
 	},
 		     {
                 "name": "Prussia",
