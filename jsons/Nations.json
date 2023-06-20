@@ -7,22 +7,22 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Science, Culture, Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"afterPeace": "...",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "As our protests are in vain, we hereby declare war.",
+		"attacked": "War? We are not amused.",
+		"defeated": "We are most quiet and calm in the face of this disaster. It has humbled Us to the deepest of Our heart.",
+		"introduction": "We are Victoria, sovereign and protector of the British Empire. We would venture to welcome you to Our Court, in the hopes that Our interests can be best served in the most civil manner agreeable.",
+		"afterPeace": "Peace is now upon us, I hope there is no more misunderstanding between us and our people.",
+		"neutralHello": "The United Kingdom of Great Britain and Ireland welcomes you. What do you want from us here?",
+		"hateHello": "What do you need from us?! Take that thing and get out. The United Kingdom do not, and I say, do NOT welcomed you at all.",
+		"tradeRequest": "Can you make a trade agreement with the United Kingdom?",
 
 		"outerColor": [163,18,18],
 		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Sun Never Sets",
+		"uniques": ["Gain Gold when settling; amount is greater the further from your Capital. Cities on other continents contribute 10% of their Science and Production to your Capital."],
 		     
-		"cities": ["London","city","cities","city"]
+		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
 	},
 		     {
                 "name": "France",
