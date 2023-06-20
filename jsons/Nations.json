@@ -5,7 +5,7 @@
 		"leaderName": "Victoria",
 		"adjective": ["British"],
 		"startBias": ["Coast"],
-/*		"preferredVictoryType": "Science, Culture, Domination",
+		"preferredVictoryType": "Science, Culture, Domination",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -15,7 +15,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [163,18,18],
 		"innerColor": [255,255,255],
 		     
@@ -28,7 +28,7 @@
                 "name": "France",
 		"leaderName": "Napoleon III",
 		"adjective": ["French"],
-/*		"startBias": ["Grassland"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Science, Culture",
 		
 		"declaringWar": "Because of your actions, France declared war on you. Prepare for your demise, mon amie!",
@@ -39,7 +39,7 @@
 		"neutralHello": "Bonjour, mon amie. What can I do for you?",
 		"hateHello": "*grunts* What can I do for you, mon amie? *grunts*",
 		"tradeRequest": "France has make this trade offer, please accept this, consider it was très magnificent.",
-*/				
+				
 		"outerColor": [38,115,197],
 		"innerColor": [255,255,227],
 		     
@@ -52,7 +52,7 @@
                 "name": "Prussia",
 		"leaderName": "Otto von Bismark",
 		"adjective": ["Prussian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -63,7 +63,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [10,42,69],
 		"innerColor": [203,199,190],
 		     
@@ -76,7 +76,7 @@
                 "name": "Russia",
 		"leaderName": "Alexander",
 		"adjective": ["Russian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -87,7 +87,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [106,141,81],
 		"innerColor": [236,178,0],
 		     
@@ -100,7 +100,7 @@
                 "name": "Austria",
 		"leaderName": "Leader Name",
 		"adjective": ["Austrian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -111,7 +111,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [227,226,217],
 		"innerColor": [198,27,27],
 		     
@@ -121,10 +121,10 @@
 		"cities": ["Viena","city","cities","city"]
 	},
 		     {
-                "name": "The Ottomen",
+                "name": "The Ottoman Empire",
 		"leaderName": "Leader Name",
 		"adjective": ["Ottoman"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -135,20 +135,20 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [224,216,176],
 		"innerColor": [117,154,37],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Constantinople","city","cities","city"]
+		"cities": ["Istanbul","city","cities","city"]
 	},
 		     {
                 "name": "Spain",
 		"leaderName": "Leader Name",
 		"adjective": ["Spanish"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -159,7 +159,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [236,178,0],
 		"innerColor": [151,32,37],
 		     
@@ -172,7 +172,7 @@
                 "name": "Sweden",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -183,7 +183,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [37,56,123],
 		"innerColor": [227,225,44],
 		     
@@ -196,32 +196,6 @@
                 "name": "Sardinia-Piedmont", //alias: Italy
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
-		"outerColor": [26,32,96],
-		"innerColor": [45,130,40],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Milan","city","cities","city"]
-	},
-	//European CS
-		     {
-                "name": "Denmark",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-/*		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
@@ -233,7 +207,33 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
+		"outerColor": [26,32,96],
+		"innerColor": [45,130,40],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Milan","city","cities","city"]
+	},
+	//European City States
+		     {
+                "name": "Denmark",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+				
 		"outerColor": [158,123,122],
 		"innerColor": [1,2,3],
 		     
@@ -246,7 +246,7 @@
                 "name": "Portugal",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-/*		"cityStateType": "Type",
+		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
@@ -258,7 +258,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [121,156,136],
 		"innerColor": [1,2,3],
 		     
@@ -271,7 +271,7 @@
                 "name": "Serbia",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
- /*		"cityStateType": "Type",
+		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
@@ -283,7 +283,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [156,123,118],
 		"innerColor": [1,2,3],
 		     
@@ -313,7 +313,7 @@
 		"cities": ["Athenas"]
 	},
 		     {
-                "name": "Luxemburg",
+                "name": "Luxembourg",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
 //                "cityStateType": "Type",
@@ -330,7 +330,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Luxemburg"]
+		"cities": ["Luxembourg"]
 	},
 	{
                 "name": "Switzerland",
@@ -688,7 +688,7 @@
 		"cities": ["Lucca"]
 	},
 	           {
-                "name": "Modena",
+                "name": "Modena and Reggio",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
 //                "cityStateType": "Type",
@@ -705,7 +705,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Modena"]
+		"cities": ["Modena","Ferrara"]
 	},
 	{
                 "name": "The Papal States",
