@@ -74,19 +74,19 @@
 	},
 		     {
                 "name": "Russia",
-		"leaderName": "Alexander",
+		"leaderName": "Alexander I",
 		"adjective": ["Russian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["None"],
+		"preferredVictoryType": "Science, Religion",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
+		"declaringWar": "O Bozhe! Хахахахаха! You have met your own demise, because Russia is declared WAR on you! Good luck!",
+		"attacked": "Bozhe moy! Do you think you can beat us Russians up? Now let's see who got the last laugh.",
 		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"defeated": "What a dark day this is. Not only for Russia, but also for the people and their now broken spirit.",
+		"introduction": "Hail, leader. I am Alexander I of Russia, and I am to God and my people the scales of liberty and sanctity.",
+		"neutralHello": "Rossiya greets you! What do you want?",
+		"hateHello": "What can Rossiya do to you? After this, maybe you need to SCRAM!!!",
+		"tradeRequest": "Rossiya has offer you this deal, you need to consider to accept the deal, it's good, you know.",
 				
 		"outerColor": [106,141,81],
 		"innerColor": [236,178,0],
@@ -94,7 +94,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Moscow","city","cities","city"]
+		"cities": ["St. Petersburg","Moscow","Kiev","Novgorod","Kharkov","Kazan","Simferopol","Smolensk","Kaluga","Minsk","Vitebsk","Borodino","Maloyaroslavets","Borisov","Fili","Vilno","Riga","Revel","Helsingfors","Belostok","Warsaw","Yekaterinoslav","Tula","Nizhniy Novgorod","Rostov-on-Don","Stavropol","Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Kharodar-on-Amur","Magadan","Vladivostok","Chukotka","Chadan","Kamchatka","Petropavlovsk","Murmansk"]
 	},
 		     {
                 "name": "Austria",
