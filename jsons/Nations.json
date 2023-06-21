@@ -296,8 +296,8 @@
                 "name": "Greece",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//		"cityStateType": "Type",
-//		"startBias": ["terrains"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -316,8 +316,8 @@
                 "name": "Luxembourg",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -334,30 +334,30 @@
 	},
 	{
                 "name": "Switzerland",
-		"leaderName": "Leader Name",
+		"leaderName": "Henry Dufour",
 		"adjective": ["Swiss"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Militaristic",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "You think we just sit there and do nothing while someone is being brutally murdered, huh? Non, that will be you sitting on your throne. You shall pay the price of that by war. Yes, we declared war upon your realm.",
+		"attacked": "You take our neutrality as a weakness, we Swiss will make sure you remembered today's mistake.",
+		"defeated": "So this is defeat? I have not before known such a bitter sting to my heart. I pray that the same fate does not one day befall you.",
+		"introduction": "Hail, commander. I am Guillaume-Henri Dufour, officer of the Swiss army forces. What brings you to me today?",
 				
-		"outerColor": [157,102,102],
-		"innerColor": [1,2,3],
+		"outerColor": [200,102,102],
+		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Neutrality",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Sonderbund War",
+		"uniques": ["Doubled Great General rate in own borders. Forts and Citadels generate Great Engineer Points during peace and heal adjacent Units during war."],
 		     
-		"cities": ["Bern","city","cities","city"]
+		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
 	},
 	{
                 "name": "Anhalt",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -376,8 +376,8 @@
                 "name": "Bavaria",
 		"leaderName": "Ludwig II",
 		"adjective": ["Bavarian"],
-//                "cityStateType": "Cultural",
-//		"startBias": ["Hills"],
+                "cityStateType": "Cultural",
+		"startBias": ["Hills"],
 		
 		"declaringWar": "Have at you, then! We shall write new legends of this day!",
 		"attacked": "Villain! You are as despicable as that Count Telramund! As that Fafnir!",
@@ -396,8 +396,8 @@
                 "name": "Baden",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -415,8 +415,8 @@
 	{
                 "name": "Württemberg",
 		"leaderName": "Leader Name",
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -435,8 +435,8 @@
                 "name": "Braunschweig",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -455,8 +455,8 @@
                 "name": "Bremen",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -475,8 +475,8 @@
                 "name": "Frankfurt am Main",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -495,8 +495,8 @@
                 "name": "Hamburg",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -515,8 +515,8 @@
                 "name": "Hannover",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+                "startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -535,8 +535,8 @@
                 "name": "Hesse-Darmstadt",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -547,7 +547,7 @@
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "The Zivilgesetzbuch",
-//		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
+		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
 		     
 		"cities": ["Darmstadt","Giessen","Mainz"]
 	},
@@ -555,8 +555,8 @@
                 "name": "Holstein",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -575,8 +575,8 @@
                 "name": "Lippe-Detmold",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -595,8 +595,8 @@
                 "name": "Lübeck",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-  //              "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -613,10 +613,10 @@
 	},
 	{
                 "name": "Mecklenburg",
-		"leaderName": "Leader Name",
+		"leaderName": "Charlotte",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -635,8 +635,8 @@
                 "name": "Oldenburg",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -655,8 +655,8 @@
                 "name": "Saxony",
 		"leaderName": "Frederick Augustus I",
 		"adjective": ["Saxon"],
-//                "cityStateType": "Militaristic",
-//		"startBias": ["None"],
+                "cityStateType": "Militaristic",
+		"startBias": ["None"],
 		
 		"declaringWar": "Saxony could be an ally of yours, but your idiotic actions let me think that you shall perish from this world. Good luck.",
 		"attacked": "Saxony is not happy because of your declaration of war towards us. We will show you that we are stronger than you ever think. May God is in your side.",
@@ -674,8 +674,8 @@
 	{
                 "name": "Lucca",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -691,8 +691,8 @@
                 "name": "Modena and Reggio",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+                "cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -709,43 +709,44 @@
 	},
 	{
                 "name": "The Papal States",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+		"leaderName": "Pius IX",
+		"adjective": ["Papal Civilian"],
+                "cityStateType": "Religious",
+		"preferredReligion":"Catholicism",
+		"startBias": ["Hills"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "I see you and your actions recently is not good, my son. But those actions are cruel and wild, I certainly can't stand it. I think you need to have a lesson. Get ready at the battlefield, my generals are waiting.",
+		"attacked": "By the Unam Sanctam, you are showing no respect to the pope, you will see, my son, you will see my generals crush you until you have nothing left. Deus sit nobis, non tuus.",
+		"defeated": "Long may you swelter in the sight of God for this wretched action.",
+		"introduction": "Welcome, my son. We are Pius IX, Supreme Pontiff and Bishop of Rome. We pray that our two great nations can live in harmony; together in the shadow of the Holy Mother Church.",
 				
-		"outerColor": [172,175,161],
-		"innerColor": [1,2,3],
+		"outerColor": [222,175,120],
+		"innerColor": [230,222,3],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Apostolic See",
+		"uniques":["Tourism is increased by 50% with civilizations that share your Religion. Spend Faith on Disciples which can be used to create unique Great Works. Begin with +1 Faith instead of Culture."],
 		     
-		"cities": ["Rome","city","cities","city"]
+		"cities": ["Rome","Benevento","Pontecorvo","Ascoli","Castel Gandolfo","Avignon","Ravenna","Bologna","Ferrara","Civitavecchia","Perugia","Assisi","Orvieto","Sinigallia","Ancona","Gubbio","Camerino","Fermò","Rimini","Urbino","Rieti","Todi","Velletri","Viterbo"]
 	},
 	{
                 "name": "Two Sicilies",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+		"leaderName": "Ferdinand I",
+		"adjective": ["Neapolitan","Sicilian"],
+                "cityStateType": "Militaristic, Cultural",
+		"startBias": ["Coast"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "I can't tolerate all of your shenanigans no more, get ready for war!",
+		"attacked": "Oh really? How about you read a book before, because I do, you don't, and my army is ready, and yours don't. Buona fortuna, coglione.",
+		"defeated": "Swiftly my allies shall come to my aid, and before supper has cooled I shall have been restored to the Bourbon throne.",
+		"introduction": "Come, come. I haven't got all day. I am Ferdinand I of the Two Sicilies. Now, introduce yourself.",
 				
-		"outerColor": [119,146,120],
-		"innerColor": [1,2,3],
+		"outerColor": [222,225,222],
+		"innerColor": [165,225,130],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Pride of Bourbon Sicily",
+		"uniques": ["Naval Units upgrade automatically when a new Technology is discovered. Receive a free Naval Unit when a Cargo Ship is built."],
 		     
-		"cities": ["Capital","city","cities"]
+		"cities": ["Naples","Palermo","Teramo","Aquila","Chieti","Campobasso","Capua","Aveilino","Salerno","San Severo","Foggia","Bari","Lecce","Pontenza","Cosenza","Catanzaro","Reggio","Caltanissetta","Catania","Girgenti","Amalfi","Messina","Notò","Trapani"]
 	},
 	{
                 "name": "Parma",
