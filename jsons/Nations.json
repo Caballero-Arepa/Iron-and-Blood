@@ -81,7 +81,7 @@
 		
 		"declaringWar": "O Bozhe! Хахахахаха! You have met your own demise, because Russia is declared WAR on you! Good luck!",
 		"attacked": "Bozhe moy! Do you think you can beat us Russians up? Now let's see who got the last laugh.",
-		"afterPeace": "...",
+		"afterPeace": "It seems this was just a lesson for you. Be cautious about that again if you dare to do it again.",
 		"defeated": "What a dark day this is. Not only for Russia, but also for the people and their now broken spirit.",
 		"introduction": "Hail, leader. I am Alexander I of Russia, and I am to God and my people the scales of liberty and sanctity.",
 		"neutralHello": "Rossiya greets you! What do you want?",
@@ -91,8 +91,8 @@
 		"outerColor": [106,141,81],
 		"innerColor": [236,178,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Holy Alliance",
+		"uniques": ["When declaring friendship, Russia and their friend lose Resistance faster and have increased religious pressure. Units fighting in land belonging to a friend earn +30% more Experience from combat and heal +10 damage per turn."],
 		     
 		"cities": ["St. Petersburg","Moscow","Kiev","Novgorod","Kharkov","Kazan","Simferopol","Smolensk","Kaluga","Minsk","Vitebsk","Borodino","Maloyaroslavets","Borisov","Fili","Vilno","Riga","Revel","Helsingfors","Belostok","Warsaw","Yekaterinoslav","Tula","Nizhniy Novgorod","Rostov-on-Don","Stavropol","Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Kharodar-on-Amur","Magadan","Vladivostok","Chukotka","Chadan","Kamchatka","Petropavlovsk","Murmansk"]
 	},
@@ -374,7 +374,7 @@
 	},
 	{
                 "name": "Bavaria",
-		"leaderName": "Leader Name",
+		"leaderName": "Ludwig II",
 		"adjective": ["Bavarian"],
 //                "cityStateType": "Type",
 //		"startBias": ["terrains"],
@@ -653,23 +653,23 @@
 	},
 	{
                 "name": "Saxony",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+		"leaderName": "Frederick Augustus I",
+		"adjective": ["Saxon"],
+//                "cityStateType": "Militaristic",
+//		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Saxony could be an ally of yours, but your idiotic actions let me think that you shall perish from this world. Good luck.",
+		"attacked": "Saxony is not happy because of your declaration of war towards us. We will show you that we are stronger than you ever think. May God is in your side.",
+		"defeated": "Treat my great palaces well, and I shall hold no ill-will against your victory here, today.",
+		"introduction": "Greetings and welcome, I am Frederick Augustus I of Saxony. I beckon you to join me in tour of my magnificant palaces.",
 				
-		"outerColor": [153,151,162],
-		"innerColor": [1,2,3],
+		"outerColor": [135,216,102],
+		"innerColor": [225,225,225],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Jewel of Europe",
+		"uniques": ["50% of Tourism contributes directly toward Wonder Production. Free Great Artist with each National Wonder."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Dresden","Leipzig","Wittenberg","Plauen","Freiburg","Chemnitz","Meissen","Zwickau","Naumburg","Zittau","Querturt","Wurzen","Colditz","Bischofswerda","Bautzen","Grossenhain","Merseburg","Weissenfels","Waldheim","Borna","Grimma","Guben","Gorlitz","Gotha","Coburg","Weimar","Jena","Altenburg","Hildburghausen","Hubertusburg","Riesa","Kamenz","Altrandstadt","Mittweida","Frankenberg","Dobein","Oschatz","Rossbach"]
 	},
 	{
                 "name": "Lucca",
