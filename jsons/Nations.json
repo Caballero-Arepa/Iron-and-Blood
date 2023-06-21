@@ -169,17 +169,17 @@
 		"cities": ["Madrid","city","cities","city"]
 	},
 		     {
-                "name": "Sweden",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+                "name": "Sweden-Norway",
+		"leaderName": "Oscar II",
+		"adjective": ["Swedish","Norwegian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Culture, Domination",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": ,
+		"introduction": "Greetings, my friend. I am Oscar II, King of Sweden and King of Norway. I must confess, I've been long awaiting our meeting.",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
@@ -244,28 +244,28 @@
 	},
 		     {
                 "name": "Portugal",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"leaderName": "Carlos I",
+		"adjective": ["Portuguese"],
+		"cityStateType": "Religious, Militaristic",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Culture, Religion",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "Let me retire to a life at sea. It's all I've ever wished.",
+		"introduction": "Welcome, welcome. I am Carlos I, king of Portugal. Tell me, do you share in the fondness I have for the sea?",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 				
-		"outerColor": [121,156,136],
-		"innerColor": [1,2,3],
+		"outerColor": [255,255,255],
+		"innerColor": [0,20,236],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Liberal Regenerator",
+		"uniques": ["Adopting Social Policies boosts Production progress toward Courthouses, Happiness, Food, or Gold Buildings, depending on the greatest need. If a city has no Building to rush, receive Golden Age Points instead."],
 		     
-		"cities": ["Lisboa","city","cities","city"]
+		"cities": ["Lisbon","Porto","Braga","Coimbra","Setúbal","Funchal","Viseu","Leiria","Évora","Aveiro","Guimarães","Ponta Delgada","Nova Lisboa","Castelo Branco","Santarém","Viana de Castelo","Bragança","Vila Real","Figueira da Foz","Olivença"]
 	},
 		     {
                 "name": "Serbia",
@@ -376,21 +376,21 @@
                 "name": "Bavaria",
 		"leaderName": "Ludwig II",
 		"adjective": ["Bavarian"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
+//                "cityStateType": "Cultural",
+//		"startBias": ["Hills"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Have at you, then! We shall write new legends of this day!",
+		"attacked": "Villain! You are as despicable as that Count Telramund! As that Fafnir!",
+		"defeated": "I shall now retreat to one of my great sanctums for good.",
+		"introduction": "Ahem. I am Ludwig II, King of Bavaria. I assure you, you sleep not. You have stumbled upon a dream, yes - no, a fantasy; a paradise unrivalled on all the earth - but it is a fantasy of mine into which you step. My dream in which I hope you'll stay a while.",
 				
 		"outerColor": [142,160,181],
 		"innerColor": [1,2,3],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Swan King",
+		"uniques": ["Culture yields from Wonders are added to the city during construction. Cities with a Wonder receive a free Great Work of Music slot."],
 		     
-		"cities": ["Munich","city","cities","city"]
+		"cities": ["Munich","Regensburg","Ingolstadt","Nuremberg","Straubing","Augsburg","Landshut","Freising","Ansbach","Bayreuth","Würzburg","Erlangen","Bamberg","Friedberg","Altotting","Amberg","Kempten","Muhldorf","Erding","Speyer","Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrucken","Eichstatt","Pfarrkirchen","Kelheim","Mainburg"]
 	},
 	{
                 "name": "Baden",
