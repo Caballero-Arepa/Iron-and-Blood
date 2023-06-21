@@ -52,25 +52,25 @@
                 "name": "Prussia",
 		"leaderName": "Otto von Bismark",
 		"adjective": ["Prussian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination, Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
+		"attacked": "Corrupted villain! We will bring you into the ground!",
+		"afterPeace": "Well, I hope ye have learned your lesson. And what do ye think about calling it a draw?",
+		"defeated": "Prussia has been destroyed. I weep for the future generations.",
+		"introduction": "In the name of the great Prussian populace, I bid you welcome.",
+		"neutralHello": "Hallo, what can Prussia do for you?",
+		"hateHello": "Prussia doesn't want to see you, but, what can Prussia do for you?",
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
 				
 		"outerColor": [10,42,69],
 		"innerColor": [203,199,190],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Furor Teutonicus",
+		"uniques": ["Upon defeating a Barbarian unit inside an encampment, there is a 67% chance you earn 25 Gold and they join your side. Pay 25% less for land unit maintenance."],
 		     
-		"cities": ["Berlin","city","cities","city"]
+		"cities": ["Berlin","Konigsberg","Potsdam","Magdeburg","Frankfurt","Danzig","Stettin","Elbing","Allenstein","Marienburg","Thorn","Posen","Breslau","Marienwerder","Kolberg","Kustrin","Essen","Kulm","Koblenz","Memel","Heilsberg","Brieg","Graudenz","Luckau","Tilsit","Braunsburg","Landsburg","Cottbus","Hannover","Charlottenburg","Cleves","Cologne","Sigmaringen","Saarbrucken","Preussich-Eylau"]
 	},
 		     {
                 "name": "Russia",
