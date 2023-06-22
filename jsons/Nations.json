@@ -219,28 +219,28 @@
 	//European City States
 		     {
                 "name": "Denmark",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"leaderName": "Frederick VII",
+		"adjective": ["Danish"],
+		"cityStateType": "Cultural",
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Science",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "Denmark does not tolerate any of your behaviors. Get ready to be knocked out.",
+		"attacked": "I see. Du bliver slået af os danskere!",
+		"afterPeace": "May us people can live in peace once more.",
+		"defeated": "I have failed my country, it's people, their love. Seems like a good time to go get drunk!",
+		"introduction": "Happy to meet you, friend. I am Frederick VII, King of Denmark, loved by my people and ever ready to go digging for lost artifacts.. or - if you prefer - go get drunk!",
+		"neutralHello": "Us Danes see you right. What can the Danes help you today?",
+		"hateHello": "Us Danes don't value you at all. But may I ask you this, what can us Danes do to you today?",
+		"tradeRequest": "As we know, us Danes want you to trade with us something that maybe can benifits both of our nations. Er I enige om handelsaftalen?",
 				
-		"outerColor": [158,123,122],
-		"innerColor": [1,2,3],
+		"outerColor": [208,123,122],
+		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "My Strength is The People's Love",
+		"uniques": ["Receive Golden Age Points whenever an Ancient Ruin is explored or an Archaeological Dig is constructed. During Golden Ages, Cities receive +50% Production towards Specialist Buildings."],
 		     
-		"cities": ["Copenhagen","city","cities","city"]
+		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Christiania","Jelling","Truso","Bergen","Fearoerne","Reykjavik","Trondheim","Godthåb","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsø","Vejle","Køge","Sandnes","Holstebro","Slagelse","Drammen","Hillerød","Sønderborg","Skien","Svendborg","Holbæk","Hjørring","Fladstrand","Haderslev","Ringsted","Skive"]
 	},
 		     {
                 "name": "Portugal",
