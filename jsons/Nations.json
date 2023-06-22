@@ -121,7 +121,7 @@
 		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Buda","Pest","Innsbruck","Prague","Kitzbühel","Nitra","Bratislava","Eisenstadt","Villach","Zagreb","Carniola","Maribol","Feldkirch","Amstetten","Wolfsburg","Split","Dubrovnik","Novi Sad","Targu Marge","Presov","Krakow"]
 	},
 		     {
-                "name": "The Ottoman Empire",
+                "name": "The Ottomans",
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
 		"startBias": ["terrains"],
@@ -146,27 +146,27 @@
 	},
 		     {
                 "name": "Spain",
-		"leaderName": "Leader Name",
+		"leaderName": "Ferdinand VII",
 		"adjective": ["Spanish"],
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "¡¿Cómo te atreves?! I will show you the power of the Spanish infantry, you will see.",
+		"attacked": "¡Oh mi señor! ¡Ay dios mío! Are you prepared for the battles and invasions from the Spanish infantry? I sure do when you say that.",
+		"afterPeace": "¡Oye, camaradas! Let's celebrate for the victory of both nations today!",
+		"defeated": "It seems that I, too, have failed Spain. There is no greater shame for me, so please, let us get this over with already.",
+		"introduction": "Greetings, leader. I, Ferdinand VII, are the rey de los españoles, the head of the Borbón español, and the successor of Charles IV. I hope we could live in peace.",
+		"neutralHello": "Hola, líder. What can España do for you today?",
+		"hateHello": "¡¡¡Di lo que quieras y luego, vete de aquí!!! (Say what you want quickly, and then, go outta here!)",
+		"tradeRequest": "España want to trade with you something, do you agree that this trade deal is justo?",
 				
 		"outerColor": [236,178,0],
 		"innerColor": [151,32,37],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Bourbon Reformers",
+		"uniques": ["Scientific and religious Great People may be expended for social policies. Domestic trade routes yield Gold and have specialist slots that, when filled, grant the appropriate Great Person points to the target city."],
 		     
-		"cities": ["Madrid","city","cities","city"]
+		"cities": ["Madrid","Seville","Barcelona","Córdoba","Toledo","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vittoria","Oviedo","Jaen","Logroño","Valladolid","Teruel","Almeria","Léon","Zamora","Mida","Lugo","Alicante","Cádiz","Elche","Alcorcón","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao","San Sebastián","Granada","Mérida","Huelva","Palma de Mallorca","Santa Cruz de Tenerife","Asturias"]
 	},
 		     {
                 "name": "Sweden-Norway",
