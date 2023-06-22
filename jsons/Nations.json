@@ -124,8 +124,8 @@
                 "name": "The Ottomans",
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
 		
 		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
 		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
@@ -250,9 +250,9 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Culture, Religion",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"declaringWar": "Oh! Que Deus esteja ao meu lado...Let's see who got better ships.",
+		"attacked": "Oh really, let's set sail and see who's nation got better seamanship.",
+		"afterPeace": "Que possamos viver em alegria e paz e não em guerra! (May we live in joy and peace not war!)",
 		"defeated": "Let me retire to a life at sea. It's all I've ever wished.",
 		"introduction": "Welcome, welcome. I am Carlos I, king of Portugal. Tell me, do you share in the fondness I have for the sea?",
 		"neutralHello": "Greetings",
@@ -290,7 +290,7 @@
 		"uniqueName": "July Crisis",
 		"uniques": ["Recieve increased Production towards Military Units and Buildings for each active Defensive Pact and Declaration of Friendship when not at War. Cities start with +25 Hitpoints."],
 		     
-		"cities": ["Belgrade","city","cities","city"]
+		"cities": ["Belgrade","Monastir","Skopje","Nish","Veles","Pristina","Prilep","Kregunevac","Obrid","Leskovac","Tetovo","Pozarevac","Sabac","Mitrovica","Vranje","Pirot","Novi Pazar","Kraljevo","Uzice","Waljevo","Smederovo","Prizren","Stip","Cacak","Kikinda","Novi Sad","Krusevac","Zajecar"]
 	},
 		     {
                 "name": "Greece",
@@ -314,21 +314,21 @@
 	},
 		     {
                 "name": "Luxembourg",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Adolphe",
+		"adjective": ["Luxembourgish"],
+                "cityStateType": "Cultural",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Wat?! Ik hoop dat je een verdomde muur raakt en erin blijft steken! (What?! I hope you hit a god-damned wall and stuck into it.",
+		"attacked": "The Luxembourgish will find and destroy your things and I assured that! Get ready to be crushed.",
+		"defeated": "May God be on my side, my people can't suffer from you but please take care of them with love, I must congrat to your victory.",
+		"introduction": "Greetings, leader. It seems you are here for a purpose, didn't you?",
 				
-		"outerColor": [116,147,123],
-		"innerColor": [1,2,3],
+		"outerColor": [107,107,223],
+		"innerColor": [202,100,4],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Protector of Adelsverein",
+		"uniques": ["Gain 1 Settlers every time a city has been settled in another continent/islands. Settlers can ignore terrain cost when it was wartime."],
 		     
 		"cities": ["Luxembourg"]
 	},
@@ -354,23 +354,23 @@
 	},
 	{
                 "name": "Anhalt",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Leopold IV",
+		"adjective": ["Civilian of Anhalt"],
+                "cityStateType": "Militaristic",
+		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [222,222,222],
+		"innerColor": [222,20,20],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "One of the First Modern Germans",
+		"uniques": ["Gain 1 Worker every time a Factory is being built. Gain 1 Rifled Infantry when a factory is being built during wartime."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Dessau","Köthen","Bernburg","Halle"]
 	},
 	{
                 "name": "Bavaria",
@@ -385,7 +385,7 @@
 		"introduction": "Ahem. I am Ludwig II, King of Bavaria. I assure you, you sleep not. You have stumbled upon a dream, yes - no, a fantasy; a paradise unrivalled on all the earth - but it is a fantasy of mine into which you step. My dream in which I hope you'll stay a while.",
 				
 		"outerColor": [142,160,181],
-		"innerColor": [1,2,3],
+		"innerColor": [225,225,225],
 		     
 		"uniqueName": "The Swan King",
 		"uniques": ["Culture yields from Wonders are added to the city during construction. Cities with a Wonder receive a free Great Work of Music slot."],
@@ -633,23 +633,23 @@
 	},
 	{
                 "name": "Oldenburg",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Augustus I",
+		"adjective": ["Civilian of Oldenburg"],
+                "cityStateType": "Maritime, Cultural",
+		"startBias": ["Coast"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [3,2,255],
+		"innerColor": [255,2,3],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Through the Weser and the Jade",
+		"uniques": ["Gain 25% Culture as Great People expended in Coastal cities."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Oldenburg","Jade","Augusthausen","Schweiburg","Jaderburg","Wapelersiel","Kreuzmoor"]
 	},
 	{
                 "name": "Saxony",
