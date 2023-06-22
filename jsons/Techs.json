@@ -8,7 +8,7 @@
 			{
 				"name": "Enlightenment",
 				"row": 5,
-				"quote": "quote",
+				"quote": "You are here for no other purpose than to realize your inner divinity and manifest your inner enlightenment. Foster peace in your own life and then apply the Art to all that you encounter. -Morihei Ueshiba",
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -24,25 +24,25 @@
 				"name": "Rights of Man",
 				"row": 2,
 				"prerequisites": ["Enlightenment"],
-				"quote": "quote",
+				"quote": "Independence is my happiness, and I view things as they are, without regard to place or person; my country is the world, and my religion is to do good. Whatever is my right as a man is also the right of another; and it becomes my duty to guarantee as well as to possess.   -Thomas Paine",
 			},
 			{
 				"name": "Private Banks",
 				"row": 5,
 				"prerequisites": ["Enlightenment"],
-				"quote": "quote",
+				"quote": "If the American people ever allow private banks to control the issue of their currency, first by inflation, then by deflation, the banks and corporations that will grow up around them will deprive the people of all property until their children wake up homeless on the continent their Fathers conquered.   -Thomas Jefferson",
 			},
 			{
 				"name": "Guild-based Production",
 				"row": 8,
 				"prerequisites": ["Enlightenment"],
-				"quote": "quote",
+				"quote": "Unions have been the only powerful and effective voice working people have ever had in the history of this country.    -Bruce Springsteen",
 			},
 			{
 				"name": "Flintlocks",
 				"row": 10,
 				"prerequisites": ["Enlightenment"],
-				"quote": "quote",
+				"quote": "Little Richard walked a few paces back, armed with a flintlock pistol, which he hoped would be effective against spiders.   -Dave Barry",
 			},
 		]
 	},
@@ -57,44 +57,44 @@
 				"name": "Patriotism",
 				"row": 1,
 				"prerequisites": ["Rights of Man"],
-				"quote": "quote",
+				"quote": "The patriot's blood is the seed of freedom's tree.    -Thomas Campbell",
 			},
 			{
 				"name": "Chemistry",
 				"row": 3,
 				"prerequisites": ["Rights of Man"],
-				"quote": "quote",
+				"quote": "One thing that you can't fake is chemistry.    -Blake Shelton",
 			},
 			{
 				"name": "Market Structure",
 				"row": 4,
 				"prerequisites": ["Private Banks"],
-				"quote": "quote",
+				"quote": "The tension between centrality, on the one hand, and competition, on the other, is probably the oldest of all market structure issues.       -Arthur Levitt",
 			},
 			{
 				"name": "Army Professionalization",
 				"row": 6,
 				"prerequisites": ["Private Banks"],
-				"quote": "quote",
+				"quote": "Associate with men of good quality if you esteem your own reputation; for it is better to be alone in the bad company.    -George Washington",
 			},
 			{
 				"name": "Steam Engine",
 				"row": 7,
 				"prerequisites": ["Guild-based Production"],
-				"quote": "quote",
+				"quote": "Science owes more to the steam engine than the steam engine owes to science.    -Lawrence Joseph Henderson",
 			},
 			{
 				"name": "Organized Factories",
 				"row": 9,
 				"prerequisites": ["Guild-based Production"],
-				"quote": "quote",
+				"quote": "If everybody else seems to be doing it one way, there might be more opportunity the other way.       -Andrew Scheuermann",
 			},
 			{
 				"name": "Paper Cartriges",
 				"row": 10,
 				"prerequisites": ["Flintlocks"],
-				"quote": "quote",
-				"uniques": ["+13% Strength for CapLock Infantry"]
+				"quote": "Nullam pretium id elit.",
+				"uniques": ["+13% Strength for Infantry"]
 			},
 		]
 	},
@@ -109,7 +109,7 @@
 				"name": "Medicine",
 				"row": 1,
 				"prerequisites": ["Chemistry","Patriotism"],
-				"quote": "quote",
+				"quote": "Where the art of medicine is loved, there is also love for humanity.   -Hippocrates",
 			},
 			{
 				"name": "Fertilizer",

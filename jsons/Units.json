@@ -1,7 +1,7 @@
 [
 //Infantry
 	{
-		"name": "CapLock Inf.",
+		"name": "Flintlock Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 8,
@@ -17,14 +17,14 @@
 		]
 	},
 	{
-		"name": "Rifled Inf.",
+		"name": "Rifled Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 16,
 		"cost": 40,
 		"requiredTech": "Rifled Barrels",
 		"obsoleteTech": "Bolt Action Rifles",
-		"upgradesTo": "Breech. Inf.",
+		"upgradesTo": "Breeching Infantry",
 		"uniques": ["Muzzleloader"],
 		"attackSound": "shot",
         "civilopediaText": [
@@ -32,14 +32,14 @@
 		]
 	},
 	{
-		"name": "Breech. Inf.",
+		"name": "Breeching Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 18,
 		"cost": 40,
 		"requiredTech": "Breech-loading",
 		"obsoleteTech": "Bolt Action Rifles",
-		"upgradesTo": "Bolt Inf.",
+		"upgradesTo": "Bolt Action Infantry",
 		"uniques": ["Breechloader"],
 		"attackSound": "shot",
         "civilopediaText": [
@@ -47,7 +47,7 @@
 		]
 	},
 	{
-		"name": "Bolt Inf.",
+		"name": "Bolt Action Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 22,
@@ -88,16 +88,28 @@
 			{"text": "Capable of shooting multiple rounds without reloading, this bad boys will roll over the enemy and will be home by December, be sure of it."}
 		]
 	},
+	{
+		"name":"Redcoat",
+		"unitType":"Infantry",
+		"movement":2,
+		"strength":16,
+		"cost":25,
+		"uniqueTo":"United Kingdom"
+		"requiredTech":"Rifled Barrels"
+		"obsoleteTech":"Bold Action Rifles"
+		"upgradesTo":"Breeching Infantry"
+		"uniques":["Muzzleloader","Ignores Terrain Cost.","Can move through foreign lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."
+		
 //Machine guns
 	{
-		"name": Gatling gun",
+		"name": "Gatling Gunner",
 		"unitType": "Infantry",
 		"movement": 1,
 		"strength": 26,
 		"cost": 40,
 		"requiredTech": "Cloride",
 		"obsoleteTech": "Machineguns",
-		"upgradesTo": "Maxim gun",
+		"upgradesTo": "Maxim Gunner",
 		"uniques": ["Machinegun"],
 		"attackSound": "shot",
         "civilopediaText": [
@@ -105,7 +117,7 @@
 		]
 	},
 	{
-		"name": "Maxim gun",
+		"name": "Maxim Gunner",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 30,
