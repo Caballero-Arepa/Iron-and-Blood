@@ -359,10 +359,10 @@
                 "cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "You are a danger to my industrial idealisms, may we apart from peace and come for war.",
+		"attacked": "You are hurting Anhalt and her industrious ideals, as the leader of Anhalt, I couldn't find any more solution other than war. Get ready, because Anhalt gonna avenge you for hurting it.",
+		"defeated": "It seems even industrious ideals couldn't save a nation alone.",
+		"introduction": "You are in present of Leopold IV, the leader of Anhalt and the advancer of Germanic industrial program.",
 				
 		"outerColor": [222,222,222],
 		"innerColor": [222,20,20],
@@ -394,42 +394,43 @@
 	},
 	{
                 "name": "Baden",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Charles Frederick",
+		"adjective": ["Civilian of Baden"],
+                "cityStateType": "Science",
+		"startBias": ["Hills"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "It seems war is inevitable. Oh well, let's see what Baden can or can't do and what your nation can or can't do.",
+		"attacked": "What? Do I hear that wrong? It seems you take our scientific development as a weakness, only a fool will ever believe that tale.",
+		"defeated": "Oh dear, well, I have been beaten. Please, take care of my citizens' studies and all of the knowledge that Baden holds, ok?",
+		"introduction": "Oh, what a surprise. I, Charles Frederick of Baden, is very delightful to see another leader. I hope we could advance our research together.",
 				
-		"outerColor": [138,177,172],
-		"innerColor": [1,2,3],
+		"outerColor": [238,227,100],
+		"innerColor": [225,2,3],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Margrave, the Elector, the Grand Duke",
+		"uniques": ["Gain Great People points faster when School or University was built in a city. Gain 25 Science Point for every Grand University."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Karlsruhe","Offenburg","Baden","Mannheim","Heidelberg","Bruchsal","Durlach","Lörrach","Singen","Konstanz","Villingen","Lahr","Rastadt","Pforzheim","Ederbach","Walldürn","Neuhausen","Taubarbischofsheim","Neudeursaus","Adelsheim","Möhringen","Bretten","Balienburg"]
 	},
 	{
                 "name": "Württemberg",
-		"leaderName": "Leader Name",
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Frederick I",
+		"adjective": ["Swabian"],
+                "cityStateType": "Militaristic",
+		"startBias": ["Hills"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Due to your actions, Württemberg must act. You must be stopped and you should scare, because we have the Preußischer Geist on every soldiers of mine, how about you?",
+		"attacked": "War is common in Swabian Commonwealth in the olden days, so I don't afraid of war, in fact, I prepared for it, how about you?",
+		"defeated": "The battle had set. You has deemed yourself the victor, and I, the loser. You're just got some Prussian spirit there.",
+		"introduction": "Greetings. I am once Frederick III of Nassau, now is Frederick I of Württemberg, nice to meet you, leader. This place have me with the Prussian roots, with the Swabian throne.",
 				
-		"outerColor": [135,153,141],
-		"innerColor": [1,2,3],
+		"outerColor": [1,2,3],
+		"innerColor": [255,25,30],
 		     
-		"uniqueName": "Unique Name",
+		"uniqueName": "With the Prussian Roots, with the Swabian Throne",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
 	},
 	{
                 "name": "Braunschweig",
