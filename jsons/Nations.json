@@ -428,7 +428,7 @@
 		"innerColor": [255,25,30],
 		     
 		"uniqueName": "With the Prussian Roots, with the Swabian Throne",
-		"uniques": ["Nation Unique"],
+		"uniques": ["When at war, all units will have 25% bonus in attack effectiveness and defense effectiveness. All units will gain the Royal Württemberg promotion when discovered Bold Action Rifles"],
 		     
 		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
 	},
