@@ -372,7 +372,7 @@
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
 		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"preferredVictoryType": "Domination",
 		
 		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
 		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
@@ -596,21 +596,21 @@
 	},
 		     {
                 "name": "Luxembourg",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
-		"outerColor": [81,102,86],
-		"innerColor": [108,205,224],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"leaderName": "Adolphe",
+		"adjective": ["Luxembourgish"],
+                "cityStateType": "Cultural",
+		"startBias": ["None"],
+
+		"declaringWar": "Wat?! Ik hoop dat je een verdomde muur raakt en erin blijft steken! (What?! I hope you hit a god-damned wall and stuck into it.",
+		"attacked": "The Luxembourgish will find and destroy your things and I assured that! Get ready to be crushed.",
+		"defeated": "May God be on my side, my people can't suffer from you but please take care of them with love, I must congrat to your victory.",
+		"introduction": "Greetings, leader. It seems you are here for a purpose, didn't you?",
+
+		"outerColor": [107,107,223],
+		"innerColor": [202,100,4],
+
+		"uniqueName": "Protector of Adelsverein",
+		"uniques": ["Gain 1 Settlers every time a city has been settled in another continent/islands. Settlers can ignore terrain cost when it was wartime."],
 		     
 		"cities": ["Luxembourg"]
 	},
@@ -622,9 +622,9 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Culture, Religion",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"declaringWar": "Oh! Que Deus esteja ao meu lado...Let's see who got better ships.",
+		"attacked": "Oh really, let's set sail and see who's nation got better seamanship.",
+		"afterPeace": "Que possamos viver em alegria e paz e não em guerra! (May we live in joy and peace not war!)",
 		"defeated": "Let me retire to a life at sea. It's all I've ever wished.",
 		"introduction": "Welcome, welcome. I am Carlos I, king of Portugal. Tell me, do you share in the fondness I have for the sea?",
 		"neutralHello": "Greetings",
@@ -662,7 +662,8 @@
 		"uniqueName": "July Crisis",
 		"uniques": ["Recieve increased Production towards Military Units and Buildings for each active Defensive Pact and Declaration of Friendship when not at War. Cities start with +25 Hitpoints."],
 		     
-		"cities": ["Belgrade","city","cities","city"]
+		"cities": ["Belgrade","Monastir","Skopje","Nish","Veles","Pristina","Prilep","Kregunevac","Obrid","Leskovac","Tetovo","Pozarevac","Sabac","Mitrovica","Vranje","Pirot","Novi Pazar","Kraljevo",
+               "Uzice","Waljevo","Smederovo","Prizren","Stip","Cacak","Kikinda","Novi Sad","Krusevac","Zajecar"]
 	},
 	{
                 "name": "Switzerland",
@@ -687,83 +688,83 @@
 			//German CS
 	{
                 "name": "Anhalt",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
+		"leaderName": "Leopold IV",
+		"adjective": ["Civilian of Anhalt"],
+                "cityStateType": "Militaristic",
+		"startBias": ["None"],
+
+		"declaringWar": "You are a danger to my industrial idealisms, may we apart from peace and come for war.",
+		"attacked": "You are hurting Anhalt and her industrious ideals, as the leader of Anhalt, I couldn't find any more solution other than war. Get ready, because Anhalt gonna avenge you for hurting it.",
+		"defeated": "It seems even industrious ideals couldn't save a nation alone.",
+		"introduction": "You are in present of Leopold IV, the leader of Anhalt and the advancer of Germanic industrial program.",
+
 		"outerColor": [126, 127, 131],
 		"innerColor": [152, 0, 45],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
+
+		"uniqueName": "One of the First Modern Germans",
+		"uniques": ["Gain 1 Worker every time a Factory is being built. Gain 1 Rifled Infantry when a factory is being built during wartime."],
+
+		"cities": ["Dessau","Köthen","Bernburg","Zerbst","Hoym","Ballenstadt","Halle","Wörlitz","Lindau","Roßlau","Staßfurt","Domburg","Großmülingen","Heddingen","Anhalt","Güntersbarge","Sandersleben","Coswig","Gemrode"]
 	},
 	{
-                "name": "Baden",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
+    "name": "Baden",
+		"leaderName": "Charles Frederick",
+		"adjective": ["Civilian of Baden"],
+    "cityStateType": "Science",
+		"startBias": ["Hills"],
+
+		"declaringWar": "It seems war is inevitable. Oh well, let's see what Baden can or can't do and what your nation can or can't do.",
+		"attacked": "What? Do I hear that wrong? It seems you take our scientific development as a weakness, only a fool will ever believe that tale.",
+		"defeated": "Oh dear, well, I have been beaten. Please, take care of my citizens' studies and all of the knowledge that Baden holds, ok?",
+		"introduction": "Oh, what a surprise. I, Charles Frederick of Baden, is very delightful to see another leader. I hope we could advance our research together.",
+
 		"outerColor": [126, 127, 131],
 		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
+
+		"uniqueName": "The Margrave, the Elector, the Grand Duke",
+		"uniques": ["Gain Great People points faster when School or University was built in a city. Gain 25 Science Point for every Grand University."],
+
+		"cities": ["Karlsruhe","Offenburg","Baden","Mannheim","Heidelberg","Bruchsal","Durlach","Lörrach","Singen","Konstanz","Villingen","Lahr","Rastadt","Pforzheim","Ederbach","Walldürn","Neuhausen","Taubarbischofsheim","Neudeursaus","Adelsheim","Möhringen","Bretten","Balienburg"]
 	},
 	{
-                "name": "Braunschweig",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
+    "name": "Braunschweig",
+    "leaderName": "Charles II",
+		"adjective": ["Civilian of Braunschweig"],
+    "cityStateType": "Cultural",
+		"startBias": ["None"],
+
+		"declaringWar": "I think you should head back to where you have started because Braunschweig gonna crush you 'til you surrender.",
+		"attacked": "Oh, really? Then maybe I should call for those Schwarze Legion once more.",
+		"defeated": "Maybe I wasn't chosen to a king in this world, just like that fateful Opera Game.",
+		"introduction": "Greetings, leader. I, Charles II, is the duke of Braunschweig, the not-so-great leader on the eye of the people.",
+
 		"outerColor": [126, 127, 131],
 		"innerColor": [140, 53, 19],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Brunswick"]
+
+		"uniqueName": "The Absolutist King in the world of Revolution",
+		"uniques": ["Recieve -1% Happiness every turn when at war. Can't take cities as puppets. Can't raze cities. Soldiers can't get the Heal Immediately promotion."],
+
+		"cities": ["Brunswick","Wolfenbüttel","Helmstadt","Seesen","Holzminden","Blankenburg","Gandersheim","Calvörde","Braunlage","Thedinghausen"]
 	},
 	{
-                "name": "Bremen",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
+    "name": "Bremen",
+		"leaderName": "Johann Smidt",
+		"adjective": ["Civilian of Bremen"],
+    "cityStateType": "Maritime, Militaristic",
+		"startBias": ["Coast"],
+
+		"declaringWar": "The Free Hanseatic City of Bremen had had enough of your shenanigans, get ready to be blown off.",
+		"attacked": "The Free Hanseatic City of Bremen will do anything to secure its freedom, and I must lead until my last breath.",
+		"defeated": "My people, my land, my city. All of what left is misery, dread, suffer, lost, sorrow, tears, bloodshed, fire, war and heartbroken people of Bremen.",
+		"introduction": "May I stated myself here? Alright, I am Johann Smidt, the Bürgermeister of the Free Hanseatic City of Bremen. I hope you don't mind looking at those trading boats.",
+
 		"outerColor": [126, 127, 131],
 		"innerColor": [98, 36, 10],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Bremen"]
+
+		"uniqueName": "The Senator of Bremen",
+		"uniques": ["When adopt Rights of Man, all cities will have a Great People, University and receive a 12 turns Golden Age. When a city built a Port, a Great Admiral will be in that city. When adopting Enlightenment, the Gold and Happiness in the city will be double."],
+
+		"cities": ["Bremen","Bremerhaven","Verden","Stadten"]
 	},
 	{
                 "name": "Frankfurt am Main",
@@ -863,7 +864,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Holstein","Schwelzin city","Glückstadt"]
 	},
 	{
                 "name": "Lippe-Detmold",
@@ -926,43 +927,44 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-                "name": "Oldenburg",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
+    "name": "Oldenburg",
+		"leaderName": "Augustus I",
+		"adjective": ["Civilian of Oldenburg"],
+    "cityStateType": "Maritime, Cultural",
+		"startBias": ["Coast"],
+
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
-				
+
 		"outerColor": [126, 127, 131],
 		"innerColor": [84, 67, 26],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
+
+		"uniqueName": "Through the Weser and the Jade",
+		"uniques": ["Gain 25% Culture as Great People expended in Coastal cities."],
+
+		"cities": ["Oldenburg","Jade","Augusthausen","Schweiburg","Jaderburg","Wapelersiel","Kreuzmoor"]
 	},
 	{
-                "name": "Württemberg",
-		"leaderName": "Leader Name",
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
+    "name": "Württemberg",
+    "leaderName": "Frederick I",
+		"adjective": ["Swabian"],
+    "cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+
+		"declaringWar": "Due to your actions, Württemberg must act. You must be stopped and you should scare, because we have the Preußischer Geist on every soldiers of mine, how about you?",
+		"attacked": "War is common in Swabian Commonwealth in the olden days, so I don't afraid of war, in fact, I prepared for it, how about you?",
+		"defeated": "The battle had set. You has deemed yourself the victor, and I, the loser. You're just got some Prussian spirit there.",
+		"introduction": "Greetings. I am once Frederick III of Nassau, now is Frederick I of Württemberg, nice to meet you, leader. This place have me with the Prussian roots, with the Swabian throne.",
+
 		"outerColor": [126, 127, 131],
 		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
+
+		"uniqueName": "With the Prussian Roots, with the Swabian Throne",
+		"uniques": ["When at war, all units will have 25% bonus in attack effectiveness and defense effectiveness. All infantry units will gain the Royal Württemberg promotion when discovered Bold Action Rifles"],
+
+		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
 	},
 			//Italian CS
 	{

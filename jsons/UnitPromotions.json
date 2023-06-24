@@ -53,4 +53,13 @@
         "column": 9,
         "row": 3
 	},
+	//Infantry (WIP)
+	{
+	        "name": "Royal Württemberg",
+	        "uniques": ["When discovered Bold Action Rifles, all infantry have 50% attack effectiveness"],
+	        "requiredTech": "Bold Action Rifles",
+	        "unitType": ["Infantry"],
+	"column": 8,
+	"row": 1
+	},
 ]
