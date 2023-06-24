@@ -8,50 +8,50 @@
 		     {
                 "name": "Argentina",
 		"leaderName": "Eva Péron",
-		"adjective": ["Argentinian"],
-		"startBias": ["None"],
-		"preferredVictoryType": "Victory type",
+		"adjective": ["Argentinian","Argentine"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"declaringWar": "Argentina isn't wanted to do this, but you made it to do it. We're going to have a war with you!",
+		"attacked": "Why would you wanted to declare war on us?! Oh dear, Argentina will not be peaceful with you for a while...",
+		"afterPeace": "¡Alegría! ¡Alegría! ¡Alegría para toda la Argentina! Today marks the day where Argentina is free from war and conflict! I hope we could be like this forever.",
 		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
 		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"neutralHello": "Greetings! What can Argentina do for you?",
+		"hateHello": "Oh dear, my people don't want you to be here. But, what can Argentina do for you?",
+		"tradeRequest": "Argentina wanted to trade with you! Would you accept this amazing deal from us Argentine?",
 
 		"outerColor": [32, 128, 147],
 		"innerColor": [245, 215, 105],
 		     
 		"uniqueName": "Pride of the People",
-		"uniques": ["Nation Unique"],
+		"uniques": ["+1 Food on Pastures. Upon researching Civil Service, receive a special citizen type in all your cities (The Descamisado), which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
 		     
-		"cities": ["Buenos Aires","city","cities","city"]
+		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Córdoba","Santa Fé","Rosario","Carmen de Patagones","Rio Negro","Tierra de Fuego"]
 	},
 		     {
                 "name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Science, Culture, Diplomacy",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "Your reign will be better under MY domain.",
+		"attacked": "I worry about all those who are affected by this conflict.",
+		"afterPeace": "May God bless Brazil forever! Brazil's power shines over all adversity!",
+		"defeated": "You destroyed everything of Brazil! This is why I prefer diplomacy to violence...",
+		"introduction": "I am Pedro II, Emperor of Brazil. I have little time for pleasantries, what brings you here?",
+		"neutralHello": "Greetings. What can Brazil do for you?",
+		"hateHello": "What do you want, you little disregard piece of disgrace?!",
+		"tradeRequest": "Should we, as two leaders meet together, prosper ourselves through commerce?",
 				
 		"outerColor": [28, 131, 36],
 		"innerColor": [236, 200, 83],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Patron of the Arts",
+		"uniques": ["Tourism output is +100% during their Golden Ages. Earn Great Artists, Musicians, and Writers 50% faster during their Golden Ages."],
 		     
-		"cities": ["Rio do Janeiro","city","cities","city"]
+		"cities": ["Rio do Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
 		     {
                 "name": "Central America",
@@ -127,16 +127,16 @@
 	},
 		     {
                 "name": "Haiti",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"leaderName": "Toussaint L'ouverture",
+		"adjective": ["Haitian"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination, Religious",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "You have brought slavery back to Haiti, but the Mawon will rise again, we always do, we always survive.",
+		"introduction": "I'm François Dominique Toussaint-Louverture, and I have led these fine people to freedom. I hope you can aid our revolution, or else.",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
@@ -144,8 +144,8 @@
 		"outerColor": [25, 25, 25],
 		"innerColor": [155, 82, 87],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Mother of all Revolutions",
+		"uniques": ["+1 Faith from Plantations. Enemy cities that follow your Religion are set as Occupied and grant you Golden Age Points. Adopting new Social Policies during Golden Ages requires less Culture."],
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
