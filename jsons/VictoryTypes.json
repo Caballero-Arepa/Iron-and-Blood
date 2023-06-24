@@ -1,14 +1,14 @@
 [
     {
         "name": "Science",
-        "victoryScreenHeader": "Build every city a factory.",
-        "milestones": ["Build [Factory]"],
+        "victoryScreenHeader": "Research all technologies.",
+        "milestones": ["Research all technologies"],
         "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
         "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "victoryScreenHeader": "Destroy all enemies or affiliates or allies of the enemies to win",
         "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
@@ -18,6 +18,13 @@
         "hiddenInVictoryScreen": true,
         "milestones": ["Have highest score after max turns"],
         "victoryString": "You are surpass the world by a margin, all the course of history will be written, and you have secured your civilization's seat in history. You are victorious.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Culture",
+        "victoryScreenHeader": "Build all wonders",
+        "milestones": ["Build Uffizi","Build Big Ben","Build Brandenburg Gate","Build Louvre","Build Bolshoi Theater","Build Eiffel Tower","Build White Castle","Build Oxford University","Panama Canal","Build Ruhr Valley","Build Statue of Liberty","Build St.Basil Cathedral"],
+        "victoryString": "",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
 ]
