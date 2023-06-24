@@ -120,10 +120,10 @@
 		"outerColor": [255,172,20],
 		"innerColor": [36,80,164],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Independence of a Continent",
+		"uniques": ["Occupied cities start with a Courthouse. Liberating a Civilization or City-State starts a Golden Age. Great People may be upgraded to Libertadors, losing the ability to build Citadels."],
 		     
-		"cities": ["Bogotá","Caracas","Guayaquil","Panama"]
+		"cities": ["Bogotá","Caracas","Quito","Panamá","Santo Tomás","Magangue","Guayaquil","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
 	},
 	{
                 "name": "Haiti",
@@ -132,13 +132,13 @@
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination, Religious",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"declaringWar": "My Houngan tell me that you had greed and ambition to conquer us so we will conquer you just in case you did first.",
+		"attacked": "Ah c'est ça? Let's see how your armies fight with ours.",
+		"afterPeace": "Congrats for both of us reaching for peace and not war.",
 		"defeated": "You have brought slavery back to Haiti, but the Mawon will rise again, we always do, we always survive.",
 		"introduction": "I'm François Dominique Toussaint-Louverture, and I have led these fine people to freedom. I hope you can aid our revolution, or else.",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
+		"neutralHello": "Greetings. What can Haiti do for you?",
+		"hateHello": "Why you bastard are coming here for? What do you want?!",
 		"tradeRequest": "Asking for trade",
 
 		"outerColor": [25, 25, 25],
@@ -147,7 +147,7 @@
 		"uniqueName": "Mother of all Revolutions",
 		"uniques": ["+1 Faith from Plantations. Enemy cities that follow your Religion are set as Occupied and grant you Golden Age Points. Adopting new Social Policies during Golden Ages requires less Culture."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Port-au-Prince","city","cities","city"]
 	},
 	{
                 "name": "Mexico",
@@ -160,7 +160,7 @@
 		"attacked": "Frase",
 		"afterPeace": "...",
 		"defeated": "Speech",
-		"introduction": "Speech?",
+		"introduction": "",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
