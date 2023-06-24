@@ -7,16 +7,16 @@
 	//America
 		     {
                 "name": "Argentina",
-		"leaderName": "Leader Name",
+		"leaderName": "Eva Péron",
 		"adjective": ["Argentinian"],
-		"startBias": ["terrains"],
+		"startBias": ["None"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
+		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
@@ -24,7 +24,7 @@
 		"outerColor": [32, 128, 147],
 		"innerColor": [245, 215, 105],
 		     
-		"uniqueName": "Unique Name",
+		"uniqueName": "Pride of the People",
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Buenos Aires","city","cities","city"]
