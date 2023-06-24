@@ -222,7 +222,7 @@
 		"cities": ["Tacna","La Paz","Lima","Sucre","Arequipa","Cobija","Trujillo","Santa Cruz","Huancayo","Potosí","Cusco","Oruro","Iquitos","Ayacucho","Tarija","Piura","Arica","Puno","Trinidad","Chiclayo","Abancay","Montero","Chimbote","Ica","Llallagua","Pucallpa","Juliaca","Desaguadero"]
 	},
 		     {
-                "name": "The U.S.A",
+                "name": "The United States",
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"], 
 /*		"startBias": ["Coast"],
@@ -244,6 +244,30 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Washington","New York","Philadelphia","Albany", "Baltimore","Boston","Cincinnati","St. Louis","Chicago","Louisville","Buffalo","Pittsburgh","Detroit","Milwaukee","Cleveland","Lowell","New Haven","Newark","Providence","Allegheny","Syracuse","Harrisburg","Wilmington","Manchester","Dayton","Indianapolis","Columbus","Worcester","Utica","Gettysburg","Sacramento"]
+	},
+	{
+		"name": "The Confederate States",
+		"leaderName": "Jefferson Davis",
+		"adjective": ["Confederates"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "The Confederacy is in danger, and you are the danger. Get ready to be beaten, you son of a thorn in the eye.",
+		"attacked": "You and your nation are a thorn in the eye of the Confederacy, get ready for war.",
+		"afterPeace": "Be careful, this peace is quite not long, if you do that mistake again.",
+		"defeated": "If the Confederacy has fallen, there should be written on its tombstone: Died of a Theory.",
+		"introduction": "Welcome to the Confederate States of America. We would be honored if you pay respect to our people.",
+		"neutralHello": "Greetings, may I say you're a friend of the Confederacy? Anyway, what can I do for you?",
+		"hateHello": "Uhhhh, why you are here and what do you want? I have no time for wasting on you.",
+		"tradeRequest": "We are asking for trade, my friend, the Confederacy have something for you.",
+
+		"outerColor": [22,20,25],
+		"innerColor": [230,221,30],
+		     
+		"uniqueName": "Rebel Yell",
+		"uniques": ["Infantry units receive a random, unique promotion upon entering combat for the first time. For 3 turns after the outbreak of war, all infantry units may force enemies to retreat."],
+		     
+		"cities": ["Richmond","Montgomery","New Orleans","Atlanta","Mobile","Memphis","Savannah","Charleston","Nashville","Norfolk","Petersburg","Alexandria","Augusta","Columbus","Wilmington","Macon","Fredericksburg","Baton Rouge","Jacksonville","Lynchburg","Raleigh","Wheeling","Jackson","Natchez","San Antonio","Winchester","Austin","Pensacola","Knoxville","Tallahassee","El Paso","Chattanooga","Santa Fe","Staunton","Algiers","New Bern","Fayetteville","Dallas","Tucson","Vicksburg","Danville"]
 	},
 	
 		//American City-States
