@@ -5,7 +5,7 @@
 	
 	
 	//America
-		     {
+	{
                 "name": "Argentina",
 		"leaderName": "Eva Péron",
 		"adjective": ["Argentinian","Argentine"],
@@ -29,7 +29,7 @@
 		     
 		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Córdoba","Santa Fé","Rosario","Carmen de Patagones","Rio Negro","Tierra de Fuego"]
 	},
-		     {
+	{
                 "name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
@@ -53,7 +53,7 @@
 		     
 		"cities": ["Rio do Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
-		     {
+	{
                 "name": "Central America",
 		"leaderName": "Leader Name",
 		"adjective": ["Central American"],
@@ -77,7 +77,7 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
-		     {
+	{
                 "name": "Chile",
 		"leaderName": "Leader Name",
 		"adjective": ["Chilean"],
@@ -101,7 +101,7 @@
 		     
 		"cities": ["Santiago","city","cities","city"]
 	},
-		     {
+	{
                 "name": "Gran Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine"],
@@ -125,7 +125,7 @@
 		     
 		"cities": ["Bogotá","Caracas","Guayaquil","Panama"]
 	},
-		     {
+	{
                 "name": "Haiti",
 		"leaderName": "Toussaint L'ouverture",
 		"adjective": ["Haitian"],
@@ -149,7 +149,7 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
-		     {
+	{
                 "name": "Mexico",
 		"leaderName": "Leader Name",
 		"adjective": ["Mexican"],
@@ -173,7 +173,7 @@
 		     
 		"cities": ["México","city","cities","city"]
 	},
-		     {
+	{
                 "name": "Paraguay",
 		"leaderName": "Gaspar R. Francia",
 		"adjective": ["Paraguayan"],
@@ -197,7 +197,7 @@
 		     
 		"cities": ["Asunción","city","cities","city"]
 	},
-		     {
+	{
                 "name": "Peru-Bolivia",
 		"leaderName": "Andrés de Santa Cruz",
 		"adjective": ["Andean"],
@@ -221,7 +221,7 @@
 		     
 		"cities": ["Tacna","La Paz","Lima","Sucre","Arequipa","Cobija","Trujillo","Santa Cruz","Huancayo","Potosí","Cusco","Oruro","Iquitos","Ayacucho","Tarija","Piura","Arica","Puno","Trinidad","Chiclayo","Abancay","Montero","Chimbote","Ica","Llallagua","Pucallpa","Juliaca","Desaguadero"]
 	},
-		     {
+	{
                 "name": "The United States",
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"], 
