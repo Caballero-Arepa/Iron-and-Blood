@@ -1,28 +1,347 @@
 [
-	//Europe
-	     {
-                "name": "United Kingdom",
-		"leaderName": "Victoria",
-		"adjective": ["British"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Science, Culture, Domination",
+	//These are the nations. Organized first by Continent, then Major Nations first, then Minor nation, all in alphabetical order
+	// Yes, minor nations also do get Unique Abilites and dialoges. They also follow a color code, depending on their association
+	// German CS have Grey background, or Italian CS have Green Background, etc, for gameplay purposes.
+	
+	
+	//America
+		     {
+                "name": "Argentina",
+		"leaderName": "Leader Name",
+		"adjective": ["Argentinian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
 		
-		"declaringWar": "As our protests are in vain, we hereby declare war.",
-		"attacked": "War? We are not amused.",
-		"defeated": "We are most quiet and calm in the face of this disaster. It has humbled Us to the deepest of Our heart.",
-		"introduction": "We are Victoria, sovereign and protector of the British Empire. We would venture to welcome you to Our Court, in the hopes that Our interests can be best served in the most civil manner agreeable.",
-		"afterPeace": "Peace is now upon us, I hope there is no more misunderstanding between us and our people.",
-		"neutralHello": "The United Kingdom of Great Britain and Ireland welcomes you. What do you want from us here?",
-		"hateHello": "What do you need from us?! Take that thing and get out. The United Kingdom do not, and I say, do NOT welcomed you at all.",
-		"tradeRequest": "Can you make a trade agreement with the United Kingdom?",
-
-		"outerColor": [163,18,18],
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [32, 128, 147],
+		"innerColor": [245, 215, 105],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Buenos Aires","city","cities","city"]
+	},
+		     {
+                "name": "Brazil",
+		"leaderName": "Pedro II",
+		"adjective": ["Brazilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [28, 131, 36],
+		"innerColor": [236, 200, 83],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Rio do Janeiro","city","cities","city"]
+	},
+		     {
+                "name": "Central America",
+		"leaderName": "Leader Name",
+		"adjective": ["Central American"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [119, 144, 170],
+		"innerColor": [255, 254, 253],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+		     {
+                "name": "Chile",
+		"leaderName": "Leader Name",
+		"adjective": ["Chilean"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [239, 191, 108],
+		"innerColor": [201, 55, 50],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Santiago","city","cities","city"]
+	},
+		     {
+                "name": "Gran Colombia",
+		"leaderName": "Simón Bolívar",
+		"adjective": ["Granadine"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [255,172,20],
+		"innerColor": [36,80,164],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Bogotá","Caracas","Guayaquil","Panama"]
+	},
+		     {
+                "name": "Haiti",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [25, 25, 25],
+		"innerColor": [155, 82, 87],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+		     {
+                "name": "Mexico",
+		"leaderName": "Leader Name",
+		"adjective": ["Mexican"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [33, 95, 20],
+		"innerColor": [211, 149, 108],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["México","city","cities","city"]
+	},
+		     {
+                "name": "Paraguay",
+		"leaderName": "Gaspar R. Francia",
+		"adjective": ["Paraguayan"],
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [175,177,162],
+		"innerColor": [181,0,0],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Asunción","city","cities","city"]
+	},
+		     {
+                "name": "Peru-Bolivia",
+		"leaderName": "Leader Name",
+		"adjective": ["Andean"],
+/*		"startBias": ["Hill"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/
+		"outerColor": [31, 89, 19],
+		"innerColor": [243, 131, 127],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Lima","city","cities","city"]
+	},
+		     {
+                "name": "The U.S.A",
+		"leaderName": "leader name",
+		"adjective": ["United Statian"], //XD
+/*		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+*/				
+		"outerColor": [36,80,164],
+		"innerColor": [255,254,253],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Washington","city","cities","city"]
+	},
+	
+		//American City-States
+	{
+                "name": "Uruguay",
+		"leaderName": "Leader Name",
+		"adjective": ["Uruguayan"],
+                "cityStateType": "Mercantile",
+//		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+				
+		"outerColor": [20,64,145],
+		"innerColor": [0, 1, 2],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Montevideo"]
+	},
+	
+	//Africa
+	//African City-States
+	
+	//Asia
+		//Asian City-States
+		
+	//Europe
+		     {
+                "name": "Austria",
+		"leaderName": "Francis II",
+		"adjective": ["Austrian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture",
+		
+		"declaringWar": "We are hereby, declare war on you because of your actions, you idiotic barbarian.",
+		"attacked": "Oh hoh hoh hoh!!! Ich glaube, du bist derjenige, der hier Witze macht. Get ready to meet your creator, because you let to your own demise. May God mercy you all because I won't be like him though.",
+		"afterPeace": "Let's celebrate this peace and make ourselves the victors of this war, for now.",
+		"defeated": "Your victory here today is but a small price to pay for your ultimate defeat. Rest assured, we are not done.",
+		"introduction": "You stand before Francis II, Holy Roman Emperor and emperor of Austria. So long as you are in my court, we shall converse like civilized men. I shall have neither revolutionaries nor radicals in my court.",
+		"neutralHello": "May God bless you here, what can I do for you?",
+		"hateHello": "May God throw you into the last levels of hell when you at your demise, what can I do for you?",
+		"tradeRequest": "Österreich fordert dieses Handelsabkommen, may you are wise to accept this trade deal, you know.",
+				
+		"outerColor": [227,226,217],
+		"innerColor": [198,27,27],
+		     
+		"uniqueName": "European Restoration",
+		"uniques": ["Half the rate of Espionage Resistance also increases Great People generation rate in a city. For each Social Policy Branch completed, Espionage Resistance is increased by 10%"],
+		     
+		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Buda","Pest","Innsbruck","Prague","Kitzbühel","Nitra","Bratislava","Eisenstadt","Villach","Zagreb","Carniola","Maribol","Feldkirch","Amstetten","Wolfsburg","Split","Dubrovnik","Novi Sad","Targu Marge","Presov","Krakow"]
+	},
+	{
+                "name": "Bavaria",
+		"leaderName": "Ludwig II",
+		"adjective": ["Bavarian"],
+		"startBias": ["Hills"],
+		
+		"declaringWar": "Have at you, then! We shall write new legends of this day!",
+		"attacked": "Villain! You are as despicable as that Count Telramund! As that Fafnir!",
+		"defeated": "I shall now retreat to one of my great sanctums for good.",
+		"introduction": "Ahem. I am Ludwig II, King of Bavaria. I assure you, you sleep not. You have stumbled upon a dream, yes - no, a fantasy; a paradise unrivalled on all the earth - but it is a fantasy of mine into which you step. My dream in which I hope you'll stay a while.",
+				
+		"outerColor": [34, 138, 158],
+		"innerColor": [230, 234, 240],
+		     
+		"uniqueName": "The Swan King",
+		"uniques": ["Culture yields from Wonders are added to the city during construction. Cities with a Wonder receive a free Great Work of Music slot."],
+		     
+		"cities": ["Munich","Regensburg","Ingolstadt","Nuremberg","Straubing","Augsburg","Landshut","Freising","Ansbach","Bayreuth","Würzburg","Erlangen","Bamberg","Friedberg","Altotting","Amberg","Kempten","Muhldorf","Erding","Speyer","Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrucken","Eichstatt","Pfarrkirchen","Kelheim","Mainburg"]
+	},
+		     {
+                "name": "Denmark",
+		"leaderName": "Frederick VII",
+		"adjective": ["Danish"],
+		"cityStateType": "Cultural",
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Science",
+		
+		"declaringWar": "Denmark does not tolerate any of your behaviors. Get ready to be knocked out.",
+		"attacked": "I see. Du bliver slået af os danskere!",
+		"afterPeace": "May us people can live in peace once more.",
+		"defeated": "I have failed my country, it's people, their love. Seems like a good time to go get drunk!",
+		"introduction": "Happy to meet you, friend. I am Frederick VII, King of Denmark, loved by my people and ever ready to go digging for lost artifacts.. or - if you prefer - go get drunk!",
+		"neutralHello": "Us Danes see you right. What can the Danes help you today?",
+		"hateHello": "Us Danes don't value you at all. But may I ask you this, what can us Danes do to you today?",
+		"tradeRequest": "As we know, us Danes want you to trade with us something that maybe can benifits both of our nations. Er I enige om handelsaftalen?",
+				
+		"outerColor": [171,43,43],
 		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Sun Never Sets",
-		"uniques": ["Gain Gold when settling; amount is greater the further from your Capital. Cities on other continents contribute 10% of their Science and Production to your Capital."],
+		"uniqueName": "My Strength is The People's Love",
+		"uniques": ["Receive Golden Age Points whenever an Ancient Ruin is explored or an Archaeological Dig is constructed. During Golden Ages, Cities receive +50% Production towards Specialist Buildings."],
 		     
-		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
+		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Christiania","Jelling","Truso","Bergen","Fearoerne","Reykjavik","Trondheim","Godthåb","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsø","Vejle","Køge","Sandnes","Holstebro","Slagelse","Drammen","Hillerød","Sønderborg","Skien","Svendborg","Holbæk","Hjørring","Fladstrand","Haderslev","Ringsted","Skive"]
 	},
 		     {
                 "name": "France",
@@ -47,6 +366,30 @@
 		"uniques": ["Gain Golden Age points from adopting Policies and conquering enemy cities. During Golden Ages, improvements are built twice as fast, and the Capital's Culture and Production output increases by 50%."],
 		     
 		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
+	},
+		     {
+                "name": "The Ottomans",
+		"leaderName": "Mahmud II",
+		"adjective": ["Ottoman"],
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
+		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+		"afterPeace": "I hope that you have learned something after this, remember those things as well. It could be useful in the future, you know.",
+		"defeated": "Don't you dare feel joyous and hopeful. Someday, you shall dig your own grave when you fail your people, and fail your own nation. You soon be thank me sooner or later.",
+		"introduction": "Welcome, leader! I, Mahmud II, ruler of the Ottoman realm, the glorious Ottoman Empire, you should glad about it because the Ottoman is been admired for centuries and more centuries to come.",
+		"neutralHello": "Greetings, leader. What should the great sultan here do for you here?",
+		"hateHello": "Why you are presented in my court despite I and my realm do not want you here?! Just saying what you want quickly, and then, get off or in other word, SCRAM!!!",
+		"tradeRequest": "The Ottoman realm want something of yours, so this deal is fair and is beneficial for both parties.",
+				
+		"outerColor": [228, 221, 187],
+		"innerColor": [99, 130, 31],
+		     
+		"uniqueName": "Tanzimat",
+		"uniques": ["Pay only one-third the usual cost of naval unit maintenance. Every technology discovered in last 30 turns reduces building maintenance."],
+		     
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakir","Izmir","Kayseri","Malatya","Marsin","Antalya","Zonguldak","Denizli","Oidu","Mugla","Eskisehir","Inebolu","Sinop","Adana","Tarsus","Artuin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyon","Bitlis","Damascus","Baghdad","Basra","Tripoli","Beirut","Homs","Mosul"]
 	},
 		     {
                 "name": "Prussia",
@@ -88,8 +431,8 @@
 		"hateHello": "What can Rossiya do to you? After this, maybe you need to SCRAM!!!",
 		"tradeRequest": "Rossiya has offer you this deal, you need to consider to accept the deal, it's good, you know.",
 				
-		"outerColor": [106,141,81],
-		"innerColor": [236,178,0],
+		"outerColor": [84,112,64],
+		"innerColor": [239,193,51],
 		     
 		"uniqueName": "Holy Alliance",
 		"uniques": ["When declaring friendship, Russia and their friend lose Resistance faster and have increased religious pressure. Units fighting in land belonging to a friend earn +30% more Experience from combat and heal +10 damage per turn."],
@@ -97,52 +440,47 @@
 		"cities": ["St. Petersburg","Moscow","Kiev","Novgorod","Kharkov","Kazan","Simferopol","Smolensk","Kaluga","Minsk","Vitebsk","Borodino","Maloyaroslavets","Borisov","Fili","Vilno","Riga","Revel","Helsingfors","Belostok","Warsaw","Yekaterinoslav","Tula","Nizhniy Novgorod","Rostov-on-Don","Stavropol","Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Kharodar-on-Amur","Magadan","Vladivostok","Chukotka","Chadan","Kamchatka","Petropavlovsk","Murmansk"]
 	},
 		     {
-                "name": "Austria",
-		"leaderName": "Francis II",
-		"adjective": ["Austrian"],
-		"startBias": ["None"],
+                "name": "Sardinia-Piedmont"
+		"leaderName": "Victor Emmanuel II",
+		"adjective": ["Sardinian","Piemonte","Sardinia-Piedmontan"],
+		"startBias": ["Plain"],
 		"preferredVictoryType": "Culture",
 		
-		"declaringWar": "We are hereby, declare war on you because of your actions, you idiotic barbarian.",
-		"attacked": "Oh hoh hoh hoh!!! Ich glaube, du bist derjenige, der hier Witze macht. Get ready to meet your creator, because you let to your own demise. May God mercy you all because I won't be like him though.",
-		"afterPeace": "Let's celebrate this peace and make ourselves the victors of this war, for now.",
-		"defeated": "Your victory here today is but a small price to pay for your ultimate defeat. Rest assured, we are not done.",
-		"introduction": "You stand before Francis II, Holy Roman Emperor and emperor of Austria. So long as you are in my court, we shall converse like civilized men. I shall have neither revolutionaries nor radicals in my court.",
-		"neutralHello": "May God bless you here, what can I do for you?",
-		"hateHello": "May God throw you into the last levels of hell when you at your demise, what can I do for you?",
-		"tradeRequest": "Österreich fordert dieses Handelsabkommen, may you are wise to accept this trade deal, you know.",
+		"declaringWar": "We see.what you did, and we decided to declare war on you. I hope you are a good person, but, this shatters all of my hope now.",
+		"attacked": "Sardinia-Pietmont wants you to meet your creator because of your actions. May God is on our side and let us kill you. Good luck to you.",
+		"afterPeace": "I hope you can be a better person after this.",
+		"defeated": "I fear that I am only the first casualty in the defeat of my people's Kingdom.",
+		"introduction": "Hail me, lowly wanderer, for I am Victor Emmanuel II, King of Sardinia-Piedmont, and esteemed Duke of Savoy. What kind words do you bring me?",
+		"neutralHello": "Greetings. What can I do for you now?",
+		"hateHello": "What?! Say it quickly! I don't have time with you!",
+		"tradeRequest": "We, as we are, looking forward for your acceptance towards our trade deal. Considered that it was magnificent.",
 				
-		"outerColor": [227,226,217],
-		"innerColor": [198,27,27],
+		"outerColor": [26,32,96],
+		"innerColor": [45,130,40],
 		     
-		"uniqueName": "European Restoration",
-		"uniques": ["Half the rate of Espionage Resistance also increases Great People generation rate in a city. For each Social Policy Branch completed, Espionage Resistance is increased by 10%"],
+		"uniqueName": "Risorgimento",
+		"uniques": ["Tourism is added to Production when building Units. City-States under siege may surrender without incurring a warmonger penalty from their capture."],
 		     
-		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Buda","Pest","Innsbruck","Prague","Kitzbühel","Nitra","Bratislava","Eisenstadt","Villach","Zagreb","Carniola","Maribol","Feldkirch","Amstetten","Wolfsburg","Split","Dubrovnik","Novi Sad","Targu Marge","Presov","Krakow"]
+		"cities": ["Turin","Cagliari","Chambéry","Cuneo","Nice","Thonon-les-Bains","Alessandria","Sassari","Novara","Bonneville","Oblia","Asti","Moûtiers","Tempio Pausania","Saint-Jean-de-Maurienne","Biella","Nuoro","Vercelli","Oristano","Annecy","Verbania","Carbonia","Iglesias"]
 	},
-		     {
-                "name": "The Ottomans",
-		"leaderName": "Mahmud II",
-		"adjective": ["Ottoman"],
+	{
+                "name": "Saxony",
+		"leaderName": "Frederick Augustus I",
+		"adjective": ["Saxon"],
 		"startBias": ["None"],
-		"preferredVictoryType": "Domination",
 		
-		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
-		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
-		"afterPeace": "I hope that you have learned something after this, remember those things as well. It could be useful in the future, you know.",
-		"defeated": "Don't you dare feel joyous and hopeful. Someday, you shall dig your own grave when you fail your people, and fail your own nation. You soon be thank me sooner or later.",
-		"introduction": "Welcome, leader! I, Mahmud II, ruler of the Ottoman realm, the glorious Ottoman Empire, you should glad about it because the Ottoman is been admired for centuries and more centuries to come.",
-		"neutralHello": "Greetings, leader. What should the great sultan here do for you here?",
-		"hateHello": "Why you are presented in my court despite I and my realm do not want you here?! Just saying what you want quickly, and then, get off or in other word, SCRAM!!!",
-		"tradeRequest": "The Ottoman realm want something of yours, so this deal is fair and is beneficial for both parties.",
+		"declaringWar": "Saxony could be an ally of yours, but your idiotic actions let me think that you shall perish from this world. Good luck.",
+		"attacked": "Saxony is not happy because of your declaration of war towards us. We will show you that we are stronger than you ever think. May God is in your side.",
+		"defeated": "Treat my great palaces well, and I shall hold no ill-will against your victory here, today.",
+		"introduction": "Greetings and welcome, I am Frederick Augustus I of Saxony. I beckon you to join me in tour of my magnificant palaces.",
 				
-		"outerColor": [224,216,176],
-		"innerColor": [117,154,37],
+		"outerColor": [36,36,36],
+		"innerColor": [48,137,30],
 		     
-		"uniqueName": "Tanzimat",
-		"uniques": ["Pay only one-third the usual cost of naval unit maintenance. Every technology discovered in last 30 turns reduces building maintenance."],
+		"uniqueName": "Jewel of Europe",
+		"uniques": ["50% of Tourism contributes directly toward Wonder Production. Free Great Artist with each National Wonder."],
 		     
-		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakir","Izmir","Kayseri","Malatya","Marsin","Antalya","Zonguldak","Denizli","Oidu","Mugla","Eskisehir","Inebolu","Sinop","Adana","Tarsus","Artuin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyon","Bitlis","Damascus","Baghdad","Basra","Tripoli","Beirut","Homs","Mosul"]
+		"cities": ["Dresden","Leipzig","Wittenberg","Plauen","Freiburg","Chemnitz","Meissen","Zwickau","Naumburg","Zittau","Querturt","Wurzen","Colditz","Bischofswerda","Bautzen","Grossenhain","Merseburg","Weissenfels","Waldheim","Borna","Grimma","Guben","Gorlitz","Gotha","Coburg","Weimar","Jena","Altenburg","Hildburghausen","Hubertusburg","Riesa","Kamenz","Altrandstadt","Mittweida","Frankenberg","Dobein","Oschatz","Rossbach"]
 	},
 		     {
                 "name": "Spain",
@@ -192,61 +530,95 @@
 		     
 		"cities": ["Stockholm","Christiania","Gothenburg","Trondheim","Malmö","Stavanger","Sundsvall","Tromsø","Uppsala","Kristiansand","Linköping","Fredrikstad","Norrköping","Tønsberg","Helsingborg","Porsgrunn","Västerås","Moss","Gävle","Arendal","Umeå","Bodø","Eskilstuna","Hamar","Karlstad","Larvik","Borås","Lillehammer","Luleå","Halden","Täby","Askøy","Halmstad","Molde"]
 	},
-		     {
-                "name": "Sardinia-Piedmont"
-		"leaderName": "Victor Emmanuel II",
-		"adjective": ["Sardinian","Piemonte","Sardinia-Piedmontan"],
-		"startBias": ["Plain"],
-		"preferredVictoryType": "Culture",
+	{
+                "name": "The Two Sicilies",
+		"leaderName": "Ferdinand I",
+		"adjective": ["Neapolitan","Sicilian"],
+		"startBias": ["Coast"],
 		
-		"declaringWar": "We see.what you did, and we decided to declare war on you. I hope you are a good person, but, this shatters all of my hope now.",
-		"attacked": "Sardinia-Pietmont wants you to meet your creator because of your actions. May God is on our side and let us kill you. Good luck to you.",
-		"afterPeace": "I hope you can be a better person after this.",
-		"defeated": "I fear that I am only the first casualty in the defeat of my people's Kingdom.",
-		"introduction": "Hail me, lowly wanderer, for I am Victor Emmanuel II, King of Sardinia-Piedmont, and esteemed Duke of Savoy. What kind words do you bring me?",
-		"neutralHello": "Greetings. What can I do for you now?",
-		"hateHello": "What?! Say it quickly! I don't have time with you!",
-		"tradeRequest": "We, as we are, looking forward for your acceptance towards our trade deal. Considered that it was magnificent.",
+		"declaringWar": "I can't tolerate all of your shenanigans no more, get ready for war!",
+		"attacked": "Oh really? How about you read a book before, because I do, you don't, and my army is ready, and yours don't. Buona fortuna, coglione.",
+		"defeated": "Swiftly my allies shall come to my aid, and before supper has cooled I shall have been restored to the Bourbon throne.",
+		"introduction": "Come, come. I haven't got all day. I am Ferdinand I of the Two Sicilies. Now, introduce yourself.",
 				
-		"outerColor": [26,32,96],
-		"innerColor": [45,130,40],
+		"outerColor": [129, 36, 164],
+		"innerColor": [165,225,130],
 		     
-		"uniqueName": "Risorgimento",
-		"uniques": ["Tourism is added to Production when building Units. City-States under siege may surrender without incurring a warmonger penalty from their capture."],
+		"uniqueName": "Pride of Bourbon Sicily",
+		"uniques": ["Naval Units upgrade automatically when a new Technology is discovered. Receive a free Naval Unit when a Cargo Ship is built."],
 		     
-		"cities": ["Turin","Cagliari","Chambéry","Cuneo","Nice","Thonon-les-Bains","Alessandria","Sassari","Novara","Bonneville","Oblia","Asti","Moûtiers","Tempio Pausania","Saint-Jean-de-Maurienne","Biella","Nuoro","Vercelli","Oristano","Annecy","Verbania","Carbonia","Iglesias"]
+		"cities": ["Naples","Palermo","Teramo","Aquila","Chieti","Campobasso","Capua","Aveilino","Salerno","San Severo","Foggia","Bari","Lecce","Pontenza","Cosenza","Catanzaro","Reggio","Caltanissetta","Catania","Girgenti","Amalfi","Messina","Notò","Trapani"]
 	},
-	//European City States
-		     {
-                "name": "Denmark",
-		"leaderName": "Frederick VII",
-		"adjective": ["Danish"],
-		"cityStateType": "Cultural",
-		"startBias": ["None"],
-		"preferredVictoryType": "Culture, Science",
+	     {
+                "name": "United Kingdom",
+		"leaderName": "Victoria",
+		"adjective": ["British"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Science, Culture, Domination",
 		
-		"declaringWar": "Denmark does not tolerate any of your behaviors. Get ready to be knocked out.",
-		"attacked": "I see. Du bliver slået af os danskere!",
-		"afterPeace": "May us people can live in peace once more.",
-		"defeated": "I have failed my country, it's people, their love. Seems like a good time to go get drunk!",
-		"introduction": "Happy to meet you, friend. I am Frederick VII, King of Denmark, loved by my people and ever ready to go digging for lost artifacts.. or - if you prefer - go get drunk!",
-		"neutralHello": "Us Danes see you right. What can the Danes help you today?",
-		"hateHello": "Us Danes don't value you at all. But may I ask you this, what can us Danes do to you today?",
-		"tradeRequest": "As we know, us Danes want you to trade with us something that maybe can benifits both of our nations. Er I enige om handelsaftalen?",
-				
-		"outerColor": [208,123,122],
+		"declaringWar": "As our protests are in vain, we hereby declare war.",
+		"attacked": "War? We are not amused.",
+		"defeated": "We are most quiet and calm in the face of this disaster. It has humbled Us to the deepest of Our heart.",
+		"introduction": "We are Victoria, sovereign and protector of the British Empire. We would venture to welcome you to Our Court, in the hopes that Our interests can be best served in the most civil manner agreeable.",
+		"afterPeace": "Peace is now upon us, I hope there is no more misunderstanding between us and our people.",
+		"neutralHello": "The United Kingdom of Great Britain and Ireland welcomes you. What do you want from us here?",
+		"hateHello": "What do you need from us?! Take that thing and get out. The United Kingdom do not, and I say, do NOT welcomed you at all.",
+		"tradeRequest": "Can you make a trade agreement with the United Kingdom?",
+
+		"outerColor": [163,18,18],
 		"innerColor": [255,255,255],
 		     
-		"uniqueName": "My Strength is The People's Love",
-		"uniques": ["Receive Golden Age Points whenever an Ancient Ruin is explored or an Archaeological Dig is constructed. During Golden Ages, Cities receive +50% Production towards Specialist Buildings."],
+		"uniqueName": "Sun Never Sets",
+		"uniques": ["Gain Gold when settling; amount is greater the further from your Capital. Cities on other continents contribute 10% of their Science and Production to your Capital."],
 		     
-		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Christiania","Jelling","Truso","Bergen","Fearoerne","Reykjavik","Trondheim","Godthåb","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsø","Vejle","Køge","Sandnes","Holstebro","Slagelse","Drammen","Hillerød","Sønderborg","Skien","Svendborg","Holbæk","Hjørring","Fladstrand","Haderslev","Ringsted","Skive"]
+		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
+	},
+		//European City States
+		     {
+                "name": "Greece",
+		"leaderName": "Elftherios Venizelos",
+		"adjective": ["Greek"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Ω αγαπητέ Κύριε! We Greeks gonna fight you and your army like the ancient times, through tactics and strategies.",
+		"attacked": "Πώς τολμάς?! We Greeks will take your thinking of weakness and shatter it with our tactics, I assured that is the truth.",
+		"defeated": "You may think yourself an invincible conqueror, but you merely join a long list of ancient and lost tyrants who thought they could subdue Greece - this is not our first defeat, and it will not be our last. We shall return.",
+		"introduction": "Welcome to Greece, friend. You behold a land more ancient and noble than you can comprehend - I have trouble with it too, sometimes. Treat my people with respect, and don't doubt you shall be repaid tenfold!",
+				
+		"outerColor": [63,79,198],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Epitaph to a Million Summers",
+		"uniques": ["Coastal cities receive a free source of Marble, and Archaeologists may excavate sources of Marble for Artifacts. Ancient and Classical era Wonders provide Great Work of Art slots."],
+		     
+		"cities": ["Athens","Thessaloniki","Heraklion","Patras","Adrianoupoli","Rhodes","Larissa","Volos","Ioannina","Chania","Kalamata","Smyrna","Alexandroupoli","Xanthi","Argos","Amaliada","Drama","Kardista","Tripoli","Ptolemaida","Kozani","Giannitsa","Chios","Pyrgos","Zante","Kavos","Malia","Sparta","Corfù","Konstantinupoli"]
+	},
+		     {
+                "name": "Luxembourg",
+		"leaderName": "Adolphe",
+		"adjective": ["Luxembourgish"],
+                "cityStateType": "Cultural",
+		"startBias": ["None"],
+
+		"declaringWar": "Wat?! Ik hoop dat je een verdomde muur raakt en erin blijft steken! (What?! I hope you hit a god-damned wall and stuck into it.",
+		"attacked": "The Luxembourgish will find and destroy your things and I assured that! Get ready to be crushed.",
+		"defeated": "May God be on my side, my people can't suffer from you but please take care of them with love, I must congrat to your victory.",
+		"introduction": "Greetings, leader. It seems you are here for a purpose, didn't you?",
+
+		"outerColor": [107,107,223],
+		"innerColor": [202,100,4],
+
+		"uniqueName": "Protector of Adelsverein",
+		"uniques": ["Gain 1 Settlers every time a city has been settled in another continent/islands. Settlers can ignore terrain cost when it was wartime."],
+		     
+		"cities": ["Luxembourg"]
 	},
 		     {
                 "name": "Portugal",
 		"leaderName": "Carlos I",
 		"adjective": ["Portuguese"],
-		"cityStateType": "Religious, Militaristic",
+		"cityStateType": "Militaristic",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Culture, Religion",
 		
@@ -259,8 +631,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 				
-		"outerColor": [255,255,255],
-		"innerColor": [0,20,236],
+		"outerColor": [36,80,164],
+		"innerColor": [214,218,225],
 		     
 		"uniqueName": "The Liberal Regenerator",
 		"uniques": ["Adopting Social Policies boosts Production progress toward Courthouses, Happiness, Food, or Gold Buildings, depending on the greatest need. If a city has no Building to rush, receive Golden Age Points instead."],
@@ -285,52 +657,13 @@
 		"tradeRequest": "We will need you some favor, do you mind trading with us? It might benefit you and me, you know.",
 				
 		"outerColor": [255,222,222],
-		"innerColor": [222,32,0],
+		"innerColor": [118,22,22],
 		     
 		"uniqueName": "July Crisis",
 		"uniques": ["Recieve increased Production towards Military Units and Buildings for each active Defensive Pact and Declaration of Friendship when not at War. Cities start with +25 Hitpoints."],
 		     
-		"cities": ["Belgrade","Monastir","Skopje","Nish","Veles","Pristina","Prilep","Kregunevac","Obrid","Leskovac","Tetovo","Pozarevac","Sabac","Mitrovica","Vranje","Pirot","Novi Pazar","Kraljevo","Uzice","Waljevo","Smederovo","Prizren","Stip","Cacak","Kikinda","Novi Sad","Krusevac","Zajecar"]
-	},
-		     {
-                "name": "Greece",
-		"leaderName": "Elftherios Venizelos",
-		"adjective": ["Greek"],
-		"cityStateType": "Militaristic",
-		"startBias": ["None"],
-		
-		"declaringWar": "Ω αγαπητέ Κύριε! We Greeks gonna fight you and your army like the ancient times, through tactics and strategies.",
-		"attacked": "Πώς τολμάς?! We Greeks will take your thinking of weakness and shatter it with our tactics, I assured that is the truth.",
-		"defeated": "You may think yourself an invincible conqueror, but you merely join a long list of ancient and lost tyrants who thought they could subdue Greece - this is not our first defeat, and it will not be our last. We shall return.",
-		"introduction": "Welcome to Greece, friend. You behold a land more ancient and noble than you can comprehend - I have trouble with it too, sometimes. Treat my people with respect, and don't doubt you shall be repaid tenfold!",
-				
-		"outerColor": [100,109,230],
-		"innerColor": [255,255,255],
-		     
-		"uniqueName": "Epitaph to a Million Summers",
-		"uniques": ["Coastal cities receive a free source of Marble, and Archaeologists may excavate sources of Marble for Artifacts. Ancient and Classical era Wonders provide Great Work of Art slots."],
-		     
-		"cities": ["Athens","Thessaloniki","Heraklion","Patras","Adrianoupoli","Rhodes","Larissa","Volos","Ioannina","Chania","Kalamata","Smyrna","Alexandroupoli","Xanthi","Argos","Amaliada","Drama","Kardista","Tripoli","Ptolemaida","Kozani","Giannitsa","Chios","Pyrgos","Zante","Kavos","Malia","Sparta","Corfù","Konstantinupoli"]
-	},
-		     {
-                "name": "Luxembourg",
-		"leaderName": "Adolphe",
-		"adjective": ["Luxembourgish"],
-                "cityStateType": "Cultural",
-		"startBias": ["None"],
-		
-		"declaringWar": "Wat?! Ik hoop dat je een verdomde muur raakt en erin blijft steken! (What?! I hope you hit a god-damned wall and stuck into it.",
-		"attacked": "The Luxembourgish will find and destroy your things and I assured that! Get ready to be crushed.",
-		"defeated": "May God be on my side, my people can't suffer from you but please take care of them with love, I must congrat to your victory.",
-		"introduction": "Greetings, leader. It seems you are here for a purpose, didn't you?",
-				
-		"outerColor": [107,107,223],
-		"innerColor": [202,100,4],
-		     
-		"uniqueName": "Protector of Adelsverein",
-		"uniques": ["Gain 1 Settlers every time a city has been settled in another continent/islands. Settlers can ignore terrain cost when it was wartime."],
-		     
-		"cities": ["Luxembourg"]
+		"cities": ["Belgrade","Monastir","Skopje","Nish","Veles","Pristina","Prilep","Kregunevac","Obrid","Leskovac","Tetovo","Pozarevac","Sabac","Mitrovica","Vranje","Pirot","Novi Pazar","Kraljevo",
+               "Uzice","Waljevo","Smederovo","Prizren","Stip","Cacak","Kikinda","Novi Sad","Krusevac","Zajecar"]
 	},
 	{
                 "name": "Switzerland",
@@ -344,139 +677,100 @@
 		"defeated": "So this is defeat? I have not before known such a bitter sting to my heart. I pray that the same fate does not one day befall you.",
 		"introduction": "Hail, commander. I am Guillaume-Henri Dufour, officer of the Swiss army forces. What brings you to me today?",
 				
-		"outerColor": [200,102,102],
-		"innerColor": [255,255,255],
+		"outerColor": [190,0,57],
+		"innerColor": [222,227,236],
 		     
 		"uniqueName": "Sonderbund War",
 		"uniques": ["Doubled Great General rate in own borders. Forts and Citadels generate Great Engineer Points during peace and heal adjacent Units during war."],
 		     
 		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
 	},
+			//German CS
 	{
                 "name": "Anhalt",
 		"leaderName": "Leopold IV",
 		"adjective": ["Civilian of Anhalt"],
                 "cityStateType": "Militaristic",
 		"startBias": ["None"],
-		
+
 		"declaringWar": "You are a danger to my industrial idealisms, may we apart from peace and come for war.",
 		"attacked": "You are hurting Anhalt and her industrious ideals, as the leader of Anhalt, I couldn't find any more solution other than war. Get ready, because Anhalt gonna avenge you for hurting it.",
 		"defeated": "It seems even industrious ideals couldn't save a nation alone.",
 		"introduction": "You are in present of Leopold IV, the leader of Anhalt and the advancer of Germanic industrial program.",
-				
-		"outerColor": [222,222,222],
-		"innerColor": [222,20,20],
-		     
+
+		"outerColor": [126, 127, 131],
+		"innerColor": [152, 0, 45],
+
 		"uniqueName": "One of the First Modern Germans",
 		"uniques": ["Gain 1 Worker every time a Factory is being built. Gain 1 Rifled Infantry when a factory is being built during wartime."],
-		     
+
 		"cities": ["Dessau","Köthen","Bernburg","Zerbst","Hoym","Ballenstadt","Halle","Wörlitz","Lindau","Roßlau","Staßfurt","Domburg","Großmülingen","Heddingen","Anhalt","Güntersbarge","Sandersleben","Coswig","Gemrode"]
 	},
 	{
-                "name": "Bavaria",
-		"leaderName": "Ludwig II",
-		"adjective": ["Bavarian"],
-                "cityStateType": "Cultural",
-		"startBias": ["Hills"],
-		
-		"declaringWar": "Have at you, then! We shall write new legends of this day!",
-		"attacked": "Villain! You are as despicable as that Count Telramund! As that Fafnir!",
-		"defeated": "I shall now retreat to one of my great sanctums for good.",
-		"introduction": "Ahem. I am Ludwig II, King of Bavaria. I assure you, you sleep not. You have stumbled upon a dream, yes - no, a fantasy; a paradise unrivalled on all the earth - but it is a fantasy of mine into which you step. My dream in which I hope you'll stay a while.",
-				
-		"outerColor": [142,160,181],
-		"innerColor": [225,225,225],
-		     
-		"uniqueName": "The Swan King",
-		"uniques": ["Culture yields from Wonders are added to the city during construction. Cities with a Wonder receive a free Great Work of Music slot."],
-		     
-		"cities": ["Munich","Regensburg","Ingolstadt","Nuremberg","Straubing","Augsburg","Landshut","Freising","Ansbach","Bayreuth","Würzburg","Erlangen","Bamberg","Friedberg","Altotting","Amberg","Kempten","Muhldorf","Erding","Speyer","Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrucken","Eichstatt","Pfarrkirchen","Kelheim","Mainburg"]
-	},
-	{
-                "name": "Baden",
+    "name": "Baden",
 		"leaderName": "Charles Frederick",
 		"adjective": ["Civilian of Baden"],
-                "cityStateType": "Science",
+    "cityStateType": "Science",
 		"startBias": ["Hills"],
-		
+
 		"declaringWar": "It seems war is inevitable. Oh well, let's see what Baden can or can't do and what your nation can or can't do.",
 		"attacked": "What? Do I hear that wrong? It seems you take our scientific development as a weakness, only a fool will ever believe that tale.",
 		"defeated": "Oh dear, well, I have been beaten. Please, take care of my citizens' studies and all of the knowledge that Baden holds, ok?",
 		"introduction": "Oh, what a surprise. I, Charles Frederick of Baden, is very delightful to see another leader. I hope we could advance our research together.",
-				
-		"outerColor": [238,227,100],
-		"innerColor": [225,2,3],
-		     
+
+		"outerColor": [126, 127, 131],
+		"innerColor": [1,2,3],
+
 		"uniqueName": "The Margrave, the Elector, the Grand Duke",
 		"uniques": ["Gain Great People points faster when School or University was built in a city. Gain 25 Science Point for every Grand University."],
-		     
+
 		"cities": ["Karlsruhe","Offenburg","Baden","Mannheim","Heidelberg","Bruchsal","Durlach","Lörrach","Singen","Konstanz","Villingen","Lahr","Rastadt","Pforzheim","Ederbach","Walldürn","Neuhausen","Taubarbischofsheim","Neudeursaus","Adelsheim","Möhringen","Bretten","Balienburg"]
 	},
 	{
-                "name": "Württemberg",
-		"leaderName": "Frederick I",
-		"adjective": ["Swabian"],
-                "cityStateType": "Militaristic",
-		"startBias": ["Hills"],
-		
-		"declaringWar": "Due to your actions, Württemberg must act. You must be stopped and you should scare, because we have the Preußischer Geist on every soldiers of mine, how about you?",
-		"attacked": "War is common in Swabian Commonwealth in the olden days, so I don't afraid of war, in fact, I prepared for it, how about you?",
-		"defeated": "The battle had set. You has deemed yourself the victor, and I, the loser. You're just got some Prussian spirit there.",
-		"introduction": "Greetings. I am once Frederick III of Nassau, now is Frederick I of Württemberg, nice to meet you, leader. This place have me with the Prussian roots, with the Swabian throne.",
-				
-		"outerColor": [1,2,3],
-		"innerColor": [255,25,30],
-		     
-		"uniqueName": "With the Prussian Roots, with the Swabian Throne",
-		"uniques": ["When at war, all units will have 25% bonus in attack effectiveness and defense effectiveness. All infantry units will gain the Royal Württemberg promotion when discovered Bold Action Rifles"],
-		     
-		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
-	},
-	{
-                "name": "Braunschweig",
-		"leaderName": "Charles II",
+    "name": "Braunschweig",
+    "leaderName": "Charles II",
 		"adjective": ["Civilian of Braunschweig"],
-                "cityStateType": "Cultural",
+    "cityStateType": "Cultural",
 		"startBias": ["None"],
-		
+
 		"declaringWar": "I think you should head back to where you have started because Braunschweig gonna crush you 'til you surrender.",
 		"attacked": "Oh, really? Then maybe I should call for those Schwarze Legion once more.",
 		"defeated": "Maybe I wasn't chosen to a king in this world, just like that fateful Opera Game.",
 		"introduction": "Greetings, leader. I, Charles II, is the duke of Braunschweig, the not-so-great leader on the eye of the people.",
-				
-		"outerColor": [50,50,255],
-		"innerColor": [222,222,25],
-		     
+
+		"outerColor": [126, 127, 131],
+		"innerColor": [140, 53, 19],
+
 		"uniqueName": "The Absolutist King in the world of Revolution",
 		"uniques": ["Recieve -1% Happiness every turn when at war. Can't take cities as puppets. Can't raze cities. Soldiers can't get the Heal Immediately promotion."],
-		     
+
 		"cities": ["Brunswick","Wolfenbüttel","Helmstadt","Seesen","Holzminden","Blankenburg","Gandersheim","Calvörde","Braunlage","Thedinghausen"]
 	},
 	{
-                "name": "Bremen",
+    "name": "Bremen",
 		"leaderName": "Johann Smidt",
 		"adjective": ["Civilian of Bremen"],
-                "cityStateType": "Maritime, Militaristic",
+    "cityStateType": "Maritime, Militaristic",
 		"startBias": ["Coast"],
-		
+
 		"declaringWar": "The Free Hanseatic City of Bremen had had enough of your shenanigans, get ready to be blown off.",
 		"attacked": "The Free Hanseatic City of Bremen will do anything to secure its freedom, and I must lead until my last breath.",
 		"defeated": "My people, my land, my city. All of what left is misery, dread, suffer, lost, sorrow, tears, bloodshed, fire, war and heartbroken people of Bremen.",
 		"introduction": "May I stated myself here? Alright, I am Johann Smidt, the Bürgermeister of the Free Hanseatic City of Bremen. I hope you don't mind looking at those trading boats.",
-				
-		"outerColor": [233,22,12],
-		"innerColor": [222,222,222],
-		     
+
+		"outerColor": [126, 127, 131],
+		"innerColor": [98, 36, 10],
+
 		"uniqueName": "The Senator of Bremen",
 		"uniques": ["When adopt Rights of Man, all cities will have a Great People, University and receive a 12 turns Golden Age. When a city built a Port, a Great Admiral will be in that city. When adopting Enlightenment, the Gold and Happiness in the city will be double."],
-		     
+
 		"cities": ["Bremen","Bremerhaven","Verden","Stadten"]
 	},
 	{
                 "name": "Frankfurt am Main",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -484,19 +778,19 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [138,158,162],
-		"innerColor": [1,2,3],
+		"outerColor": [126, 127, 131],
+		"innerColor": [255,268,0],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Frankfurt am Main","city","cities","city"]
+		"cities": ["Frankfurt am Main"]
 	},
 	{
                 "name": "Hamburg",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -504,19 +798,19 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [134,150,123],
-		"innerColor": [1,2,3],
+		"outerColor": [126, 127, 131],
+		"innerColor": [255, 185, 51],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Hamburg","city","cities","city"]
 	},
 	{
                 "name": "Hannover",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
                 "startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -524,7 +818,7 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [158,176,145],
+		"outerColor": [126, 127, 131],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
@@ -544,8 +838,8 @@
 		"defeated": "Well, Grand Duchy of Hesse is gone, as well as you take care of my humble citizens of Darmstadt then. This is a dark times for me and them.",
 		"introduction": "Welcome to the Grand Duchy of Hesse, I, Louis I, will guide you through the Rhein just for you to see its beauty.",
 				
-		"outerColor": [230,35,0],
-		"innerColor": [230,225,225],
+		"outerColor": [126, 127, 131],
+		"innerColor": [226, 223, 221],
 		     
 		"uniqueName": "The Zivilgesetzbuch",
 		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
@@ -556,7 +850,7 @@
                 "name": "Holstein",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -564,19 +858,19 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [169,146,148],
-		"innerColor": [1,2,3],
+		"outerColor": [126, 127, 131],
+		"innerColor": [112, 180, 195],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","Glückstadt"]
+		"cities": ["Holstein","Schwelzin city","Glückstadt"]
 	},
 	{
                 "name": "Lippe-Detmold",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -584,8 +878,8 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [126, 127, 131],
+		"innerColor": [152, 0, 0],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -596,7 +890,7 @@
                 "name": "Lübeck",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -604,8 +898,8 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [126, 127, 131],
+		"innerColor": [131, 28, 115],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -616,7 +910,7 @@
                 "name": "Mecklenburg",
 		"leaderName": "Charlotte",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -624,8 +918,8 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [126, 127, 131],
+		"innerColor": [109, 30, 139],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -633,49 +927,50 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-                "name": "Oldenburg",
+    "name": "Oldenburg",
 		"leaderName": "Augustus I",
 		"adjective": ["Civilian of Oldenburg"],
-                "cityStateType": "Maritime, Cultural",
+    "cityStateType": "Maritime, Cultural",
 		"startBias": ["Coast"],
-		
+
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
-				
-		"outerColor": [3,2,255],
-		"innerColor": [255,2,3],
-		     
+
+		"outerColor": [126, 127, 131],
+		"innerColor": [84, 67, 26],
+
 		"uniqueName": "Through the Weser and the Jade",
 		"uniques": ["Gain 25% Culture as Great People expended in Coastal cities."],
-		     
+
 		"cities": ["Oldenburg","Jade","Augusthausen","Schweiburg","Jaderburg","Wapelersiel","Kreuzmoor"]
 	},
 	{
-                "name": "Saxony",
-		"leaderName": "Frederick Augustus I",
-		"adjective": ["Saxon"],
-                "cityStateType": "Militaristic",
-		"startBias": ["None"],
-		
-		"declaringWar": "Saxony could be an ally of yours, but your idiotic actions let me think that you shall perish from this world. Good luck.",
-		"attacked": "Saxony is not happy because of your declaration of war towards us. We will show you that we are stronger than you ever think. May God is in your side.",
-		"defeated": "Treat my great palaces well, and I shall hold no ill-will against your victory here, today.",
-		"introduction": "Greetings and welcome, I am Frederick Augustus I of Saxony. I beckon you to join me in tour of my magnificant palaces.",
-				
-		"outerColor": [135,216,102],
-		"innerColor": [225,225,225],
-		     
-		"uniqueName": "Jewel of Europe",
-		"uniques": ["50% of Tourism contributes directly toward Wonder Production. Free Great Artist with each National Wonder."],
-		     
-		"cities": ["Dresden","Leipzig","Wittenberg","Plauen","Freiburg","Chemnitz","Meissen","Zwickau","Naumburg","Zittau","Querturt","Wurzen","Colditz","Bischofswerda","Bautzen","Grossenhain","Merseburg","Weissenfels","Waldheim","Borna","Grimma","Guben","Gorlitz","Gotha","Coburg","Weimar","Jena","Altenburg","Hildburghausen","Hubertusburg","Riesa","Kamenz","Altrandstadt","Mittweida","Frankenberg","Dobein","Oschatz","Rossbach"]
+    "name": "Württemberg",
+    "leaderName": "Frederick I",
+		"adjective": ["Swabian"],
+    "cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+
+		"declaringWar": "Due to your actions, Württemberg must act. You must be stopped and you should scare, because we have the Preußischer Geist on every soldiers of mine, how about you?",
+		"attacked": "War is common in Swabian Commonwealth in the olden days, so I don't afraid of war, in fact, I prepared for it, how about you?",
+		"defeated": "The battle had set. You has deemed yourself the victor, and I, the loser. You're just got some Prussian spirit there.",
+		"introduction": "Greetings. I am once Frederick III of Nassau, now is Frederick I of Württemberg, nice to meet you, leader. This place have me with the Prussian roots, with the Swabian throne.",
+
+		"outerColor": [126, 127, 131],
+		"innerColor": [1,2,3],
+
+		"uniqueName": "With the Prussian Roots, with the Swabian Throne",
+		"uniques": ["When at war, all units will have 25% bonus in attack effectiveness and defense effectiveness. All infantry units will gain the Royal Württemberg promotion when discovered Bold Action Rifles"],
+
+		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
 	},
+			//Italian CS
 	{
                 "name": "Lucca",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -683,7 +978,7 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [181,185,149],
+		"outerColor": [70, 114, 60],
 		"innerColor": [1,2,3],
 		     
 		"cities": ["Lucca"]
@@ -692,7 +987,7 @@
                 "name": "Modena and Reggio",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-                "cityStateType": "Type",
+                "cityStateType": "Ilustrated",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -700,7 +995,7 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
+		"outerColor": [70, 114, 60],
 		"innerColor": [1,2,3],
 		     
 		"uniqueName": "Unique Name",
@@ -712,7 +1007,7 @@
                 "name": "The Papal States",
 		"leaderName": "Pius IX",
 		"adjective": ["Papal Civilian"],
-                "cityStateType": "Religious",
+                "cityStateType": "Ilustrated",
 		"preferredReligion":"Catholicism",
 		"startBias": ["Hills"],
 		
@@ -721,8 +1016,8 @@
 		"defeated": "Long may you swelter in the sight of God for this wretched action.",
 		"introduction": "Welcome, my son. We are Pius IX, Supreme Pontiff and Bishop of Rome. We pray that our two great nations can live in harmony; together in the shadow of the Holy Mother Church.",
 				
-		"outerColor": [222,175,120],
-		"innerColor": [230,222,3],
+		"outerColor": [155, 122, 83],
+		"innerColor": [237, 231, 78],
 		     
 		"uniqueName": "Apostolic See",
 		"uniques":["Tourism is increased by 50% with civilizations that share your Religion. Spend Faith on Disciples which can be used to create unique Great Works. Begin with +1 Faith instead of Culture."],
@@ -730,30 +1025,10 @@
 		"cities": ["Rome","Benevento","Pontecorvo","Ascoli","Castel Gandolfo","Avignon","Ravenna","Bologna","Ferrara","Civitavecchia","Perugia","Assisi","Orvieto","Sinigallia","Ancona","Gubbio","Camerino","Fermò","Rimini","Urbino","Rieti","Todi","Velletri","Viterbo"]
 	},
 	{
-                "name": "Two Sicilies",
-		"leaderName": "Ferdinand I",
-		"adjective": ["Neapolitan","Sicilian"],
-                "cityStateType": "Militaristic, Cultural",
-		"startBias": ["Coast"],
-		
-		"declaringWar": "I can't tolerate all of your shenanigans no more, get ready for war!",
-		"attacked": "Oh really? How about you read a book before, because I do, you don't, and my army is ready, and yours don't. Buona fortuna, coglione.",
-		"defeated": "Swiftly my allies shall come to my aid, and before supper has cooled I shall have been restored to the Bourbon throne.",
-		"introduction": "Come, come. I haven't got all day. I am Ferdinand I of the Two Sicilies. Now, introduce yourself.",
-				
-		"outerColor": [222,225,222],
-		"innerColor": [165,225,130],
-		     
-		"uniqueName": "Pride of Bourbon Sicily",
-		"uniques": ["Naval Units upgrade automatically when a new Technology is discovered. Receive a free Naval Unit when a Cargo Ship is built."],
-		     
-		"cities": ["Naples","Palermo","Teramo","Aquila","Chieti","Campobasso","Capua","Aveilino","Salerno","San Severo","Foggia","Bari","Lecce","Pontenza","Cosenza","Catanzaro","Reggio","Caltanissetta","Catania","Girgenti","Amalfi","Messina","Notò","Trapani"]
-	},
-	{
                 "name": "Parma",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
- //               "cityStateType": "Type",
+               "cityStateType": "Cultural",
 //		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -761,7 +1036,7 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
+		"outerColor": [70, 114, 60],
 		"innerColor": [255,255,255],
 		     
 		"uniqueName": "Unique Name",
@@ -773,7 +1048,7 @@
                 "name": "Tuscany",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-//                "cityStateType": "Type",
+                "cityStateType": "Cultural",
 //		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -781,7 +1056,7 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 				
-		"outerColor": [3,2,1],
+		"outerColor": [70, 114, 60],
 		"innerColor": [255,255,255],
 		     
 		"uniqueName": "Unique Name",
@@ -790,268 +1065,8 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	
-	//America
-		     {
-                "name": "Mexico",
-		"leaderName": "Leader Name",
-		"adjective": ["Mexican"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
-		"outerColor": [158,182,159],
-		"innerColor": [193,105,46],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["México","city","cities","city"]
-	},
-		     {
-                "name": "Empire of Brazil",
-		"leaderName": "Pedro II",
-		"adjective": ["Brazilian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
-		"outerColor": [143,159,141],
-		"innerColor": [232,187,41],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Rio do Janeiro","city","cities","city"]
-	},
-		     {
-                "name": "Argentina",
-		"leaderName": "Leader Name",
-		"adjective": ["Argentinian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [132,132,154],
-		"innerColor": [241,240,255],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Buenos Aires","city","cities","city"]
-	},
-		     {
-                "name": "Paraguay",
-		"leaderName": "Gaspar R. Francia",
-		"adjective": ["Paraguayan"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [175,177,162],
-		"innerColor": [181,0,0],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Asunción","city","cities","city"]
-	},
-		     {
-                "name": "Gran Colombia",
-		"leaderName": "Simón Bolívar",
-		"adjective": ["Granadine"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [187,179,156],
-		"innerColor": [59,228,237],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Bogotá","Caracas","Guayaquil","city"]
-	},
-		     {
-                "name": "Chile",
-		"leaderName": "Leader Name",
-		"adjective": ["Chilean"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [181,155,133],
-		"innerColor": [237,65,59],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Santiago","city","cities","city"]
-	},
-		     {
-                "name": "Peru-Bolivia Conf.",
-		"leaderName": "Leader Name",
-		"adjective": ["Andean"],
-/*		"startBias": ["Hill"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [138,144,152],
-		"innerColor": [237,65,59],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Lima","city","cities","city"]
-	},
-		     {
-                "name": "U.S.C.A",
-		"leaderName": "Leader Name",
-		"adjective": ["Central American"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [133,161,189],
-		"innerColor": [255,254,253],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
-		     {
-                "name": "The U.S.A",
-		"leaderName": "leader name",
-		"adjective": ["United Statian"], //XD
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
-		"outerColor": [123,133,167],
-		"innerColor": [255,254,253],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Washington","city","cities","city"]
-	},
-		     {
-                "name": "Haiti",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
-		"outerColor": [127,141,151],
-		"innerColor": [113,8,15],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
-	//American City-States
-	{
-                "name": "Uruguay",
-		"leaderName": "Leader Name",
-		"adjective": ["Uruguayan"],
-//                "cityStateType": "Type",
-//		"startBias": ["terrains"],
-		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
-		"outerColor": [145,134,129],
-		"innerColor": [1,2,3],
-		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
-		     
-		"cities": ["Capital","city","cities","city"]
-	},
+	//Oceania
+
 	//Spectator
 	{
 		"name": "Spectator",
@@ -1061,8 +1076,8 @@
 	//Barbarian
 	{
 		"name": "Barbarians",
-		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
+		"outerColor": [0, 0, 0],
+		"innerColor": [185, 12, 12],
 		"uniques": ["Can only heal by pillaging"]
 	}
 	
@@ -1083,8 +1098,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
@@ -1103,8 +1118,8 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
