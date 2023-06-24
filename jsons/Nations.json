@@ -9,7 +9,7 @@
                 "name": "Argentina",
 		"leaderName": "Leader Name",
 		"adjective": ["Argentinian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -20,7 +20,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [32, 128, 147],
 		"innerColor": [245, 215, 105],
 		     
@@ -33,7 +33,7 @@
                 "name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -44,7 +44,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [28, 131, 36],
 		"innerColor": [236, 200, 83],
 		     
@@ -57,7 +57,7 @@
                 "name": "Central America",
 		"leaderName": "Leader Name",
 		"adjective": ["Central American"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -68,7 +68,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [119, 144, 170],
 		"innerColor": [255, 254, 253],
 		     
@@ -81,7 +81,7 @@
                 "name": "Chile",
 		"leaderName": "Leader Name",
 		"adjective": ["Chilean"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -92,7 +92,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [239, 191, 108],
 		"innerColor": [201, 55, 50],
 		     
@@ -105,7 +105,7 @@
                 "name": "Gran Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -116,7 +116,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [255,172,20],
 		"innerColor": [36,80,164],
 		     
@@ -129,7 +129,7 @@
                 "name": "Haiti",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -140,7 +140,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [25, 25, 25],
 		"innerColor": [155, 82, 87],
 		     
@@ -153,7 +153,7 @@
                 "name": "Mexico",
 		"leaderName": "Leader Name",
 		"adjective": ["Mexican"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -164,7 +164,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/				
+				
 		"outerColor": [33, 95, 20],
 		"innerColor": [211, 149, 108],
 		     
@@ -177,7 +177,7 @@
                 "name": "Paraguay",
 		"leaderName": "Gaspar R. Francia",
 		"adjective": ["Paraguayan"],
-/*		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
 		"declaringWar": "Frase",
@@ -188,7 +188,7 @@
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [175,177,162],
 		"innerColor": [181,0,0],
 		     
@@ -201,7 +201,7 @@
                 "name": "Peru-Bolivia",
 		"leaderName": "Andrés de Santa Cruz",
 		"adjective": ["Andean"],
-/*		"startBias": ["Hills"],
+		"startBias": ["Hills"],
 		"preferredVictoryType": "Domination",
 		
 		"declaringWar": "Today, I hereby declararte la guerra, cabrón. You're done. ¡¡¡Let's get it on, cabrón!!!",
@@ -212,7 +212,7 @@
 		"neutralHello": "Greetings, leader! What can we do for you, cabrón?",
 		"hateHello": "¿Por qué estás aquí en mi presente? What do you want? I don't have time for you.",
 		"tradeRequest": "Let just say we want to comercio with you, do you agree with this?",
-*/
+
 		"outerColor": [31, 89, 19],
 		"innerColor": [243, 131, 127],
 		     
@@ -225,7 +225,7 @@
                 "name": "The United States",
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"], 
-/*		"startBias": ["Coast"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomacy, Domination",
 		
 		"declaringWar": "Those who deny others freedom do not themselves deserve it.",
@@ -236,7 +236,7 @@
 		"neutralHello": "Greetings, leader. What can the United States of America do for you here?",
 		"hateHello": "A House divided against itself cannot stand. But now I must ask you, what can I do for you?",
 		"tradeRequest": "We want you to make a trade with us, because we got you a magnificent offer.",
-*/				
+				
 		"outerColor": [36,80,164],
 		"innerColor": [255,254,253],
 		     
@@ -276,7 +276,7 @@
 		"leaderName": "Leader Name",
 		"adjective": ["Uruguayan"],
                 "cityStateType": "Mercantile",
-//		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -318,7 +318,7 @@
 		//Asian City-States
 		
 	//Europe
-		     {
+	{
                 "name": "Austria",
 		"leaderName": "Francis II",
 		"adjective": ["Austrian"],
@@ -361,7 +361,7 @@
 		     
 		"cities": ["Munich","Regensburg","Ingolstadt","Nuremberg","Straubing","Augsburg","Landshut","Freising","Ansbach","Bayreuth","Würzburg","Erlangen","Bamberg","Friedberg","Altotting","Amberg","Kempten","Muhldorf","Erding","Speyer","Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrucken","Eichstatt","Pfarrkirchen","Kelheim","Mainburg"]
 	},
-		     {
+        {
                 "name": "Denmark",
 		"leaderName": "Frederick VII",
 		"adjective": ["Danish"],
@@ -386,7 +386,7 @@
 		     
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Christiania","Jelling","Truso","Bergen","Fearoerne","Reykjavik","Trondheim","Godthåb","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsø","Vejle","Køge","Sandnes","Holstebro","Slagelse","Drammen","Hillerød","Sønderborg","Skien","Svendborg","Holbæk","Hjørring","Fladstrand","Haderslev","Ringsted","Skive"]
 	},
-		     {
+	{
                 "name": "France",
 		"leaderName": "Napoleon III",
 		"adjective": ["French"],
@@ -410,7 +410,7 @@
 		     
 		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
 	},
-		     {
+	{
                 "name": "The Ottomans",
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
@@ -434,7 +434,7 @@
 		     
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakir","Izmir","Kayseri","Malatya","Marsin","Antalya","Zonguldak","Denizli","Oidu","Mugla","Eskisehir","Inebolu","Sinop","Adana","Tarsus","Artuin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyon","Bitlis","Damascus","Baghdad","Basra","Tripoli","Beirut","Homs","Mosul"]
 	},
-		     {
+	{
                 "name": "Prussia",
 		"leaderName": "Otto von Bismark",
 		"adjective": ["Prussian"],
@@ -458,7 +458,7 @@
 		     
 		"cities": ["Berlin","Konigsberg","Potsdam","Magdeburg","Frankfurt","Danzig","Stettin","Elbing","Allenstein","Marienburg","Thorn","Posen","Breslau","Marienwerder","Kolberg","Kustrin","Essen","Kulm","Koblenz","Memel","Heilsberg","Brieg","Graudenz","Luckau","Tilsit","Braunsburg","Landsburg","Cottbus","Hannover","Charlottenburg","Cleves","Cologne","Sigmaringen","Saarbrucken","Preussich-Eylau"]
 	},
-		     {
+	{
                 "name": "Russia",
 		"leaderName": "Alexander I",
 		"adjective": ["Russian"],
@@ -482,7 +482,7 @@
 		     
 		"cities": ["St. Petersburg","Moscow","Kiev","Novgorod","Kharkov","Kazan","Simferopol","Smolensk","Kaluga","Minsk","Vitebsk","Borodino","Maloyaroslavets","Borisov","Fili","Vilno","Riga","Revel","Helsingfors","Belostok","Warsaw","Yekaterinoslav","Tula","Nizhniy Novgorod","Rostov-on-Don","Stavropol","Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Kharodar-on-Amur","Magadan","Vladivostok","Chukotka","Chadan","Kamchatka","Petropavlovsk","Murmansk"]
 	},
-		     {
+	{
                 "name": "Sardinia-Piedmont"
 		"leaderName": "Victor Emmanuel II",
 		"adjective": ["Sardinian","Piemonte","Sardinia-Piedmontan"],
@@ -525,7 +525,7 @@
 		     
 		"cities": ["Dresden","Leipzig","Wittenberg","Plauen","Freiburg","Chemnitz","Meissen","Zwickau","Naumburg","Zittau","Querturt","Wurzen","Colditz","Bischofswerda","Bautzen","Grossenhain","Merseburg","Weissenfels","Waldheim","Borna","Grimma","Guben","Gorlitz","Gotha","Coburg","Weimar","Jena","Altenburg","Hildburghausen","Hubertusburg","Riesa","Kamenz","Altrandstadt","Mittweida","Frankenberg","Dobein","Oschatz","Rossbach"]
 	},
-		     {
+	{
                 "name": "Spain",
 		"leaderName": "Ferdinand VII",
 		"adjective": ["Spanish"],
@@ -549,7 +549,7 @@
 		     
 		"cities": ["Madrid","Seville","Barcelona","Córdoba","Toledo","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vittoria","Oviedo","Jaen","Logroño","Valladolid","Teruel","Almeria","Léon","Zamora","Mida","Lugo","Alicante","Cádiz","Elche","Alcorcón","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao","San Sebastián","Granada","Mérida","Huelva","Palma de Mallorca","Santa Cruz de Tenerife","Asturias"]
 	},
-		     {
+	{
                 "name": "Sweden-Norway",
 		"leaderName": "Oscar II",
 		"adjective": ["Swedish","Norwegian"],
@@ -592,7 +592,7 @@
 		     
 		"cities": ["Naples","Palermo","Teramo","Aquila","Chieti","Campobasso","Capua","Aveilino","Salerno","San Severo","Foggia","Bari","Lecce","Pontenza","Cosenza","Catanzaro","Reggio","Caltanissetta","Catania","Girgenti","Amalfi","Messina","Notò","Trapani"]
 	},
-	     {
+	{
                 "name": "United Kingdom",
 		"leaderName": "Victoria",
 		"adjective": ["British"],
@@ -617,7 +617,7 @@
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
 	},
 		//European City States
-		     {
+	{
                 "name": "Greece",
 		"leaderName": "Elftherios Venizelos",
 		"adjective": ["Greek"],
@@ -637,7 +637,7 @@
 		     
 		"cities": ["Athens","Thessaloniki","Heraklion","Patras","Adrianoupoli","Rhodes","Larissa","Volos","Ioannina","Chania","Kalamata","Smyrna","Alexandroupoli","Xanthi","Argos","Amaliada","Drama","Kardista","Tripoli","Ptolemaida","Kozani","Giannitsa","Chios","Pyrgos","Zante","Kavos","Malia","Sparta","Corfù","Konstantinupoli"]
 	},
-		     {
+	{
                 "name": "Luxembourg",
 		"leaderName": "Adolphe",
 		"adjective": ["Luxembourgish"],
@@ -657,7 +657,7 @@
 		     
 		"cities": ["Luxembourg"]
 	},
-		     {
+	{
                 "name": "Portugal",
 		"leaderName": "Carlos I",
 		"adjective": ["Portuguese"],
@@ -682,7 +682,7 @@
 		     
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Setúbal","Funchal","Viseu","Leiria","Évora","Aveiro","Guimarães","Ponta Delgada","Nova Lisboa","Castelo Branco","Santarém","Viana de Castelo","Bragança","Vila Real","Figueira da Foz","Olivença"]
 	},
-		     {
+	{
                 "name": "Serbia",
 		"leaderName": "Peter I",
 		"adjective": ["Serbian"],
@@ -970,10 +970,10 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-    "name": "Oldenburg",
+                "name": "Oldenburg",
 		"leaderName": "Augustus I",
 		"adjective": ["Civilian of Oldenburg"],
-    "cityStateType": "Maritime, Cultural",
+                "cityStateType": "Maritime, Cultural",
 		"startBias": ["Coast"],
 
 		"declaringWar": "Frase",
@@ -1044,7 +1044,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Modena","Ferrara"]
+		"cities": ["Modena"]
 	},
 	{
                 "name": "The Papal States",
