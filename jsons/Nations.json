@@ -199,51 +199,51 @@
 	},
 		     {
                 "name": "Peru-Bolivia",
-		"leaderName": "Leader Name",
+		"leaderName": "Andrés de Santa Cruz",
 		"adjective": ["Andean"],
-/*		"startBias": ["Hill"],
-		"preferredVictoryType": "Victory type",
+/*		"startBias": ["Hills"],
+		"preferredVictoryType": "Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "Today, I hereby declararte la guerra, cabrón. You're done. ¡¡¡Let's get it on, cabrón!!!",
+		"attacked": "¡Oye, cabrón! ¡¿You dare to declarame la guerra?! You are done, cabrón. We will get ready and take you off this earth!",
+		"afterPeace": "¡¡¡Celebremos la paz después de esta guerra agotadora!!! ¡Olé! (Let's celebrate the peace after this grueling war!!! Olé!)",
+		"defeated": "Alas, the order and unity I have brought to these lands will surely fade, and the successors of the Confederation will be left in chaos. I hope you're proud.",
+		"introduction": "Welcome to the great Peru-Bolivian Confederation! I am Marshal Andrés de Santa Cruz, its humble Supreme Protector, and protect I shall! If you recognise our independence, we shall have no quarrel.",
+		"neutralHello": "Greetings, leader! What can we do for you, cabrón?",
+		"hateHello": "¿Por qué estás aquí en mi presente? What do you want? I don't have time for you.",
+		"tradeRequest": "Let just say we want to comercio with you, do you agree with this?",
 */
 		"outerColor": [31, 89, 19],
 		"innerColor": [243, 131, 127],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Supreme Confederation",
+		"uniques": ["Internal Trade Routes eliminate Occupied Unhappiness and provide Gold equal to the amount of Food or Production sent out. Gain an additional Trade Route slot for each enemy Capital conquered."],
 		     
-		"cities": ["Lima","city","cities","city"]
+		"cities": ["Tacna","La Paz","Lima","Sucre","Arequipa","Cobija","Trujillo","Santa Cruz","Huancayo","Potosí","Cusco","Oruro","Iquitos","Ayacucho","Tarija","Piura","Arica","Puno","Trinidad","Chiclayo","Abancay","Montero","Chimbote","Ica","Llallagua","Pucallpa","Juliaca","Desaguadero"]
 	},
 		     {
                 "name": "The U.S.A",
-		"leaderName": "leader name",
-		"adjective": ["United Statian"], //XD
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"leaderName": "Abraham Lincoln",
+		"adjective": ["American"], 
+/*		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomacy, Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "Those who deny others freedom do not themselves deserve it.",
+		"attacked": "What you cannot win by words, you will not win with weapons.",
+		"afterPeace": "I am glad we could resolve our problems with peaceful measures.",
+		"defeated": "This is a defeat for all free men; of all free government. It is a terrible loss to all humanity.",
+		"introduction": "Greetings there, I am President Lincoln. I'll hope to call you a friend to the United States of America, and that together we live long and prosper.",
+		"neutralHello": "Greetings, leader. What can the United States of America do for you here?",
+		"hateHello": "A House divided against itself cannot stand. But now I must ask you, what can I do for you?",
+		"tradeRequest": "We want you to make a trade with us, because we got you a magnificent offer.",
 */				
 		"outerColor": [36,80,164],
 		"innerColor": [255,254,253],
 		     
-		"uniqueName": "Unique Name",
+		"uniqueName": "A House Divided did not Stand",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Washington","city","cities","city"]
+		"cities": ["Washington","New York","Philadelphia","Albany", "Baltimore","Boston","Cincinnati","St. Louis","Chicago","Louisville","Buffalo","Pittsburgh","Detroit","Milwaukee","Cleveland","Lowell","New Haven","Newark","Providence","Allegheny","Syracuse","Harrisburg","Wilmington","Manchester","Dayton","Indianapolis","Columbus","Worcester","Utica","Gettysburg","Sacramento"]
 	},
 	
 		//American City-States
@@ -267,7 +267,26 @@
 		     
 		"cities": ["Montevideo"]
 	},
-	
+	{
+		"name": "Yucatán",
+		"leaderName": "Santiago Mendez",
+		"adjective": ["Yucatecan"],
+		"cityStateType": "Maritime, Mercantile",
+		"startBias": ["None"],
+
+		"declaringWar": "We Yucatecans have the spirit of the Mayan warrioirs of the olden days, and now we will show it.",
+		"attacking": "War? So you say you are at war with the Republic of Yucatán? Well, let's see what you can do to our soldiers.",
+		"defeated": "Viva Yucatán! Our Republic shall never be forgotten!",
+		"introduction": "Mucho gusto, friend. I am Santiago Mendez, honored leader of the Republic of Yucatán. How do you do?",
+
+		"outerColor": [222, 245, 220],
+		"innerColor": [20, 255, 20],
+
+		"uniqueName": "Iman's Promise",
+		"uniques": ["Cities receive +1 Faith from worked Plantations and +5% Military Unit production per Plantation within working range. If available, spawn near a unique Henequén bonus resource."],
+
+		"cities": ["Mérida","Valladolid","Cancun","Campeche","Tulum","Izamal","Bacalar","Kanasín","Tizimín","Chetumal","Progreso","Tikal","Umán","Tekax","Hunucmá","Uxmal","Playa del Carmen","Ticul","Motun","Oxkutzcab","Peto","Cuzamá","Mahahual","Xpujil","Cozumel","Cobá","Cacaxtla","Celestún","Villahermosa","Tixkokob","Isla Mujeres","Kohunlich","Puerto Adventuras"]
+	},
 	//Africa
 	//African City-States
 	
@@ -707,10 +726,10 @@
 		"cities": ["Dessau","Köthen","Bernburg","Zerbst","Hoym","Ballenstadt","Halle","Wörlitz","Lindau","Roßlau","Staßfurt","Domburg","Großmülingen","Heddingen","Anhalt","Güntersbarge","Sandersleben","Coswig","Gemrode"]
 	},
 	{
-    "name": "Baden",
+                "name": "Baden",
 		"leaderName": "Charles Frederick",
 		"adjective": ["Civilian of Baden"],
-    "cityStateType": "Science",
+                "cityStateType": "Science",
 		"startBias": ["Hills"],
 
 		"declaringWar": "It seems war is inevitable. Oh well, let's see what Baden can or can't do and what your nation can or can't do.",
@@ -727,10 +746,10 @@
 		"cities": ["Karlsruhe","Offenburg","Baden","Mannheim","Heidelberg","Bruchsal","Durlach","Lörrach","Singen","Konstanz","Villingen","Lahr","Rastadt","Pforzheim","Ederbach","Walldürn","Neuhausen","Taubarbischofsheim","Neudeursaus","Adelsheim","Möhringen","Bretten","Balienburg"]
 	},
 	{
-    "name": "Braunschweig",
-    "leaderName": "Charles II",
+                "name": "Braunschweig",
+                "leaderName": "Charles II",
 		"adjective": ["Civilian of Braunschweig"],
-    "cityStateType": "Cultural",
+                "cityStateType": "Cultural",
 		"startBias": ["None"],
 
 		"declaringWar": "I think you should head back to where you have started because Braunschweig gonna crush you 'til you surrender.",
@@ -747,10 +766,10 @@
 		"cities": ["Brunswick","Wolfenbüttel","Helmstadt","Seesen","Holzminden","Blankenburg","Gandersheim","Calvörde","Braunlage","Thedinghausen"]
 	},
 	{
-    "name": "Bremen",
+                "name": "Bremen",
 		"leaderName": "Johann Smidt",
 		"adjective": ["Civilian of Bremen"],
-    "cityStateType": "Maritime, Militaristic",
+                "cityStateType": "Maritime, Militaristic",
 		"startBias": ["Coast"],
 
 		"declaringWar": "The Free Hanseatic City of Bremen had had enough of your shenanigans, get ready to be blown off.",
@@ -947,10 +966,10 @@
 		"cities": ["Oldenburg","Jade","Augusthausen","Schweiburg","Jaderburg","Wapelersiel","Kreuzmoor"]
 	},
 	{
-    "name": "Württemberg",
-    "leaderName": "Frederick I",
+                "name": "Württemberg",
+                "leaderName": "Frederick I",
 		"adjective": ["Swabian"],
-    "cityStateType": "Militaristic",
+                "cityStateType": "Militaristic",
 		"startBias": ["Hills"],
 
 		"declaringWar": "Due to your actions, Württemberg must act. You must be stopped and you should scare, because we have the Preußischer Geist on every soldiers of mine, how about you?",
@@ -1125,5 +1144,5 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital","city","cities","city"]
-	},*/
+	},
 	]
