@@ -370,7 +370,7 @@
 		"uniqueName": "One of the First Modern Germans",
 		"uniques": ["Gain 1 Worker every time a Factory is being built. Gain 1 Rifled Infantry when a factory is being built during wartime."],
 		     
-		"cities": ["Dessau","Köthen","Bernburg","Halle"]
+		"cities": ["Dessau","Köthen","Bernburg","Zerbst","Hoym","Ballenstadt","Halle","Wörlitz","Lindau","Roßlau","Staßfurt","Domburg","Großmülingen","Heddingen","Anhalt","Güntersbarge","Sandersleben","Coswig","Gemrode"]
 	},
 	{
                 "name": "Bavaria",
@@ -434,43 +434,43 @@
 	},
 	{
                 "name": "Braunschweig",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Charles II",
+		"adjective": ["Civilian of Braunschweig"],
+                "cityStateType": "Cultural",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "I think you should head back to where you have started because Braunschweig gonna crush you 'til you surrender.",
+		"attacked": "Oh, really? Then maybe I should call for those Schwarze Legion once more.",
+		"defeated": "Maybe I wasn't chosen to a king in this world, just like that fateful Opera Game.",
+		"introduction": "Greetings, leader. I, Charles II, is the duke of Braunschweig, the not-so-great leader on the eye of the people.",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [50,50,255],
+		"innerColor": [222,222,25],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Absolutist King in the world of Revolution",
+		"uniques": ["Recieve -1% Happiness every turn when at war. Can't take cities as puppets. Can't raze cities. Soldiers can't get the Heal Immediately promotion."],
 		     
-		"cities": ["Brunswick"]
+		"cities": ["Brunswick","Wolfenbüttel","Helmstadt","Seesen","Holzminden","Blankenburg","Gandersheim","Calvörde","Braunlage","Thedinghausen"]
 	},
 	{
                 "name": "Bremen",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Johann Smidt",
+		"adjective": ["Civilian of Bremen"],
+                "cityStateType": "Maritime, Militaristic",
+		"startBias": ["Coast"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "The Free Hanseatic City of Bremen had had enough of your shenanigans, get ready to be blown off.",
+		"attacked": "The Free Hanseatic City of Bremen will do anything to secure its freedom, and I must lead until my last breath.",
+		"defeated": "My people, my land, my city. All of what left is misery, dread, suffer, lost, sorrow, tears, bloodshed, fire, war and heartbroken people of Bremen.",
+		"introduction": "May I stated myself here? Alright, I am Johann Smidt, the Bürgermeister of the Free Hanseatic City of Bremen. I hope you don't mind looking at those trading boats.",
 				
-		"outerColor": [3,2,1],
-		"innerColor": [1,2,3],
+		"outerColor": [233,22,12],
+		"innerColor": [222,222,222],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Senator of Bremen",
+		"uniques": ["When adopt Rights of Man, all cities will have a Great People, University and receive a 12 turns Golden Age. When a city built a Port, a Great Admiral will be in that city. When adopting Enlightenment, the Gold and Happiness in the city will be double."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Bremen","Bremerhaven","Verden","Stadten"]
 	},
 	{
                 "name": "Frankfurt am Main",
@@ -570,7 +570,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Capital","city","cities","Glückstadt"]
 	},
 	{
                 "name": "Lippe-Detmold",
