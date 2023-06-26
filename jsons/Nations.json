@@ -331,6 +331,87 @@
 
 		"cities": ["Laredo","Monterrey","Saltillo","Reynosa","Guadalupe","Matamoros","Ciudad Victoria","Nuovo Santander","Apodaca","Tampico","Monclova","Jiménez","San Nicolás de los Garza","Topo do los Ayala","García","Hacienda San José de los González","Miramare","Villa Juárez","Mier","Guerrero","Camargo","Sabinas Hidalgo","Linares","Montemorelos","Parras de la Fuente","Nuestra Señora de los Dolores y Cuatro Ciénegas","Morelos","Alcantra","San Fernando","Victoria","San Patricio","Refugio","Seralvo","Nadadores","San José","Hojos","Magiscatzín","Río Bravo","Revilla","Llera","Anelo","La Punta","Escandón"],
 	},
+	{
+                "name": "Florida",
+		"leaderName": "Gregor McGregor",
+		"adjective": ["Floridian"],
+		"cityStateType": "Militaristic, Mercentile",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "I believe that we are in the crosswalks, I hope that you don't mess with my Floridians, and you just did. So, yeah, we are now at war, mate.",
+		"attacked": "The Republic of Florida will respond your threat with money and guns.",
+		"defeated": "It is no matter, I already have a feeling that I gonna lost this republic anyway. So, I am ready for my next adventure!",
+		"introduction": "My name is Gregor MacGregor, and you look like the perfect soldier who would join me with my ruling of Florida! Do you wish to fight by side and reap the rewards?",
+		
+		"outerColor": [230,230,230],
+		"innerColor": [22,227,36],
+		     
+		"uniqueName": "Either Hell or Amelia",
+		"uniques": ["During war, armies have no maintenance cost, and cities cannot stagnate or starve. During peace, luxury resources provide 50% more Happiness."],
+		     
+		"cities": ["Fernandina","Fort San Carlos","St. Augustine","Pensacola","Fernandina Beach","Jacksonville","St. Marks","Mobile","Baton Rouge","St. Francisville","Biloxi","Amelia Island","Tiger","San Marcos","Little Tiger","Martins Island","St. Marys","Fort Barrancas","St. Johns","Fort George","Fort Caroline","Fort San Francisco de Pupo","Fort Bute","Fort Charlotte"]
+	},
+	{
+                "name": "Texas",
+		"leaderName": "Samuel Houston",
+		"adjective": ["Texan"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grasslands"],
+		
+		"declaringWar": "Your improper and wild actions get on my nerves for too long... Maybe a whooping for all of you will be great, starting with you, you jackass nut.",
+		"attacked": "Oh yeah? Oh YEAH? OH YEAH?! How about you and your bunch of useless soldiers get out of Texas or be beaten by our Texan soldiers on all the ranches.",
+		"defeated": "You've made a horrible mistake, you fool! The world shall never forget the heroic last stand of Texas against your wicked forces! Remember the Alamo! Remember the Alamo! Remember the Alamo!!!",
+		"introduction": "Welcome, stranger, to the Texan Republic. I am Samuel Houston, though you may call me Sam. We are a sovereign nation, and be warned that we will fiercely fight to the death against all who disrespect that.",
+
+		"outerColor": [222,222,222],
+		"innerColor": [22,22,236],
+		     
+		"uniqueName": "Come and Take it",
+		"uniques": ["Melee, Gun, and Mounted units receive a scaling combat bonus when fighting near the Capital, to a maximum of 30% when fighting within the Capital itself. Forts yield +2 Culture."],
+		     
+		"cities": ["Austin","Houston","San Antonio","Dallas","El Paso","Corpus Christi","Gonzales","Laredo","Richardson","Harrisburg","Brownsville","Galveston","Waco","McAllen","Velasco","Carrollton","Columbia","Beaumont","Pasadena","Holford's Prairie","Bastrop","Hidalgo","Nacogdoches","Goliad","Presidío","Floresville","Point Isabel","Arlen","Port Worth"]
+	},
+	{
+                "name": "California",
+		"leaderName": "William Brown Ide",
+		"adjective": ["Californian"],
+		"cityStateType": "Mercantile, Scientific",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "The war is inevitable between us, and you make my nerva go nuts! We will show you that we do not weak and we will beat you up.",
+		"attacked": "California will never back down, even if no one else support it for freedom. For the freedom of California!",
+		"defeated": "The world is big and I want to have a good look at it before it gets dark and maybe the mountains are calling, and I must go.",
+		"introduction": "In every walk with nature one receives far more than he seeks. In your walk, you have reached beautiful California. What do you intend to do with your finding?",
+
+		"outerColor": [130,80,27],
+		"innerColor": [222,227,36],
+		     
+		"uniqueName": "Eureka!",
+		"uniques": ["During Golden Ages, all tiles that yield at least 1 Gold also yield +1 Science. Gain 1 additional Gold for every Resources near the Capital."],
+		     
+		"cities": ["Sacramento","San Diego","Los Angeles","San Francisco","Palm Springs","Monterey","Eureka","Lake Tahoe","Fresno","Oakland","Beverly Hills","Santa Barbara","Santa Monica","Irvine","San Bernardino","Santa Ana","Modesto","Santa Cruz","Fremont","Berkeley","Santa Clara","Pomona","Glendale","Fontana","Burbank","Redwood City","Victorville"]
+	},
+	{
+                "name": "Cuba",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	
 	//Africa
 	//African City-States
 	
