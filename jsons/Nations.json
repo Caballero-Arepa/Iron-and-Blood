@@ -311,6 +311,26 @@
 
 		"cities": ["Mérida","Valladolid","Cancun","Campeche","Tulum","Izamal","Bacalar","Kanasín","Tizimín","Chetumal","Progreso","Tikal","Umán","Tekax","Hunucmá","Uxmal","Playa del Carmen","Ticul","Motun","Oxkutzcab","Peto","Cuzamá","Mahahual","Xpujil","Cozumel","Cobá","Cacaxtla","Celestún","Villahermosa","Tixkokob","Isla Mujeres","Kohunlich","Puerto Adventuras"]
 	},
+	{
+                "name": "Rio Grande",
+		"leaderName": "Antonio Canales Rosillo",
+		"adjective": ["Civilian of Rio Grande"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "The Republic of Rio Grande wants to declare war on you because of your actions, Get ready to be blown off.",
+		"attacked": "Ha! It seems like you just want us to beg you for our lives. No, we will fight, and until we die, we will never be a man's slaves.",
+		"defeated": "Rio Grande is no more, we will be back, sooner or later, you will see.",
+		"introduction": "Salutations, I'm Antonio Canales Rosillo, the leader of the republic of Rio Grande, right next to Rio Grande river. I hope we could make peace with each other.",
+
+		"outerColor": [222,221,217],
+		"innerColor": [222,15,15],
+		     
+		"uniqueName": "Dios, Libetad y Convención",
+		"uniques": ["Units are trained with additional experience based on the number of Horse resources you have per city. During War, all friendly tiles with a river provide damage to enemy units on them or adjacent."],
+
+		"cities": ["Laredo","Monterrey","Saltillo","Reynosa","Guadalupe","Matamoros","Ciudad Victoria","Nuovo Santander","Apodaca","Tampico","Monclova","Jiménez","San Nicolás de los Garza","Topo do los Ayala","García","Hacienda San José de los González","Miramare","Villa Juárez","Mier","Guerrero","Camargo","Sabinas Hidalgo","Linares","Montemorelos","Parras de la Fuente","Nuestra Señora de los Dolores y Cuatro Ciénegas","Morelos","Alcantra","San Fernando","Victoria","San Patricio","Refugio","Seralvo","Nadadores","San José","Hojos","Magiscatzín","Río Bravo","Revilla","Llera","Anelo","La Punta","Escandón"],
+	},
 	//Africa
 	//African City-States
 	
