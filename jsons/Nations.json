@@ -273,23 +273,23 @@
 		//American City-States
 	{
                 "name": "Uruguay",
-		"leaderName": "Leader Name",
+		"leaderName": "José Batlle",
 		"adjective": ["Uruguayan"],
                 "cityStateType": "Mercantile",
-		"startBias": ["terrains"],
+		"startBias": ["River"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "I, the interim president of the Oriental Republic of Uruguay, hereby declare war on you for your unforgivable actions.",
+		"attacked": "Uruguay will never back down, even you destroyed our lands, but we will show you that we can punish you for your actions.",
+		"defeated": "What a shame. I'd have preferred it if you didn't do that.",
+		"introduction": "I bid you welcome to Uruguay. Perhaps you'd like to join us for an asado?",
 				
 		"outerColor": [20,64,145],
-		"innerColor": [0, 1, 2],
+		"innerColor": [175, 145, 2],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Defence of Joy",
+		"uniques": ["Half of your excess Happiness is provided as Production, divided equally between your cities. Specialists provide an additional +1 of their primary yield while the empire is Happy."],
 		     
-		"cities": ["Montevideo"]
+		"cities": ["Montevideo","Salto","Paysandu","Colonia del Sacramento","Ciudad de la Costa","Las Piedras","Rivera","Maldonaldo","Tacuarembo","Melo","Mercedes","Artigas","Minas","San José de Mayo","Durazno","Barros Blanco","Ciudad del Plata","San Carlos","Pando","Triente y Tres","Rocha","Fray Bentos","Trinidad","La Paz","Canelones","Carmelo","Dolores","Young","Santa Lucia","Progreso","Paso de Carrasco","Rio Blanco","Paso de los Toros","Dr. Francisco Soca"]
 	},
 	{
 		"name": "Yucatán",
@@ -393,23 +393,23 @@
 	},
 	{
                 "name": "Cuba",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"leaderName": "Carlos Manuel de Céspedes",
+		"adjective": ["Cuban"],
+		"cityStateType": "Cultural, Domination",
+		"startBias": ["Jungle","Coast"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "The revolution will never be dead! Soon you'll see new revolucionarios rise and recover Cuba's independence!",
+		"introduction": "Greetings! I'm Carlos Manuel de Céspedes, and you're standing in the beautiful Republic of Cuba, the land of revolutions. Make yourself comfortable while you're in here and hopefully you will join our cause for liberty and freedom.",
 
 		"outerColor": [130,121,87],
 		"innerColor": [222,227,236],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "La Demajagua",
+		"uniques": ["Increased Combat Strength on Plantations (+20%). Adopting a Social Policy grants Revolucionario Points. Upon adopting your first Ideological Tenet, receive 2 Revolucionarios."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["La Habana","Santiago de Cuba","Camagüey","Guantanamo","Pinar del Rio","Holguin","Cienfuegos","Santa Clara","Matanzas","Bavamo","Sancti Spiritus","Ciego de Avila","Las Tunas","Artemisa","Nueva Gerona","Cardenas","Baracoa","Palma Soriano","Varadero","Manzanilla","Colón","Contramaestro","Sandino","La Maya","Guanabacoa","Isla Juventus","Guines","Sagua La Grande","Trinidad","Flacetas","Nuevitas","Banes","San Luis","San José de las Lajas"]
 	},
 	
 	//Africa
