@@ -266,7 +266,7 @@
 				"quote": "quote",
 			},
 			{
-				"name": "Education Sistem",
+				"name": "Education System",
 				"row": 3,
 				"prerequisites": ["Archeology"],
 				"quote": "quote",
@@ -368,7 +368,7 @@
 				"quote": "quote",
 			},
 			{
-				"name": "Machineguns",
+				"name": "Machine Guns",
 				"row": 3,
 				"prerequisites": ["Cloride"],
 				"quote": "quote",
@@ -412,6 +412,13 @@
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
+			{
+				"name":"Internationalist Relations",
+				"row": 5,
+				"prerequisites": ["International Standard"],
+				"uniques": ["Can build League of Nations."],
+				"quotes": "",
+			},
 		]
 	},
 	{
@@ -424,7 +431,7 @@
 			{
 				"name": "The Future",
 				"row": 5,
-				"prerequisites": ["Cinematography", "Machineguns", "International Standard", "Radio", "Flight", "Advanced Hydrodinamics", "Magazines"],
+				"prerequisites": ["Cinematography", "Machine Guns", "Radio", "Flight", "Advanced Hydrodinamics", "Magazines","Internationalist Relations"],
 				"quote": "quote",
 				"uniques": ["Can be continually researched"]
 			},

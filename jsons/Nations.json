@@ -5,267 +5,411 @@
 	
 	
 	//America
-		     {
+	{
                 "name": "Argentina",
-		"leaderName": "Leader Name",
-		"adjective": ["Argentinian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"leaderName": "Eva Péron",
+		"adjective": ["Argentinian","Argentine"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
+		"declaringWar": "Argentina isn't wanted to do this, but you made it to do it. We're going to have a war with you!",
+		"attacked": "Why would you wanted to declare war on us?! Oh dear, Argentina will not be peaceful with you for a while...",
+		"afterPeace": "¡Alegría! ¡Alegría! ¡Alegría para toda la Argentina! Today marks the day where Argentina is free from war and conflict! I hope we could be like this forever.",
+		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
+		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
+		"neutralHello": "Greetings! What can Argentina do for you?",
+		"hateHello": "Oh dear, my people don't want you to be here. But, what can Argentina do for you?",
+		"tradeRequest": "Argentina wanted to trade with you! Would you accept this amazing deal from us Argentine?",
+
 		"outerColor": [32, 128, 147],
 		"innerColor": [245, 215, 105],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Pride of the People",
+		"uniques": ["+1 Food on Pastures. Upon researching Civil Service, receive a special citizen type in all your cities (The Descamisado), which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
 		     
-		"cities": ["Buenos Aires","city","cities","city"]
+		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Córdoba","Santa Fé","Rosario","Carmen de Patagones","Rio Negro","Tierra de Fuego"]
 	},
-		     {
+	{
                 "name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Science, Culture, Diplomacy",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
+		"declaringWar": "Your reign will be better under MY domain.",
+		"attacked": "I worry about all those who are affected by this conflict.",
+		"afterPeace": "May God bless Brazil forever! Brazil's power shines over all adversity!",
+		"defeated": "You destroyed everything of Brazil! This is why I prefer diplomacy to violence...",
+		"introduction": "I am Pedro II, Emperor of Brazil. I have little time for pleasantries, what brings you here?",
+		"neutralHello": "Greetings. What can Brazil do for you?",
+		"hateHello": "What do you want, you little disregard piece of disgrace?!",
+		"tradeRequest": "Should we, as two leaders meet together, prosper ourselves through commerce?",
+				
 		"outerColor": [28, 131, 36],
 		"innerColor": [236, 200, 83],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Patron of the Arts",
+		"uniques": ["Tourism output is +100% during their Golden Ages. Earn Great Artists, Musicians, and Writers 50% faster during their Golden Ages."],
 		     
-		"cities": ["Rio do Janeiro","city","cities","city"]
+		"cities": ["Rio do Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
-		     {
+	{
                 "name": "Central America",
-		"leaderName": "Leader Name",
+		"leaderName": "Francisco Morazán",
 		"adjective": ["Central American"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["None"],
+		"preferredVictoryType": "Science, Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
+		"declaringWar": "Centroamerica can't accept your actions no more. Prepare for war!",
+		"attacked": "War can't be a solution for every conflict, you know... Nonetheless, if you want war, we will be at war with each other.",
+		"afterPeace": "Hope that these grueling actions will never happen again.",
+		"defeated": "I do not desire death for I was an apostle of freedom!",
+		"introduction": "I welcome you to Centroamerica, I am her president, Francisco Morazán. We strive for progress and liberty and hope that you share these aspirations.",
+		"neutralHello": "Greetings, Centroamerica welcomes you. What can Central America do for you today?",
+		"hateHello": "Why are you here? Aren't you supposed to be in your country? What do you want from us here?",
+		"tradeRequest": "Trade with us, this deal is ideal and very beneficial for both of our nations. Consider it done, my friend.",
+
 		"outerColor": [119, 144, 170],
 		"innerColor": [255, 254, 253],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Alma de los Libres",
+		"uniques": ["+1 Culture from specialists, increasing to +2 in cities without a majority Religion. Great Generals may build the tile improvements of other Great People if you have completed the appropriate Social Policy tree."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Cuidad de Guatemala","San Salvador","Sonsonate","Managua","Tegucigalpa","San José","Comayagua","Antigua","San Pedro Sula","Villa Nueva","Mixco","La Trinidad","Soyapango","Santa Anna","Léon","San Miguel","La Ceiba","Choloma","Choluteca","Ojojona","Chimaltenango","La Union","Zacapa","San Pedro Perulapán","La Libertad","Cartago","Mataquescuintla"]
 	},
-		     {
+	{
                 "name": "Chile",
-		"leaderName": "Leader Name",
+		"leaderName": "Bernardo O'Higgins",
 		"adjective": ["Chilean"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural, Diplomacy",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
+		"declaringWar": "Lads! Live with honor, or die with glory! He who is brave, follow me!",
+		"attacked": "Chile isn't gonna surrender to you, get ready, lads, let get his nations failing to succeed!",
+		"afterPeace": "I rather choose peace than war, but if necessary, we might see each other on the battlefield once more.",
+		"defeated": "When this war started, I said to my men: Lads! Live with honor, or die with glory! He who is brave, follow me!... And my men followed me, and we shall die with glory!",
+		"introduction": "I'm Bernardo O'Higgins Riquelme, Supreme Director of Chile, and hero to its independence. Welcome to Chile, here's hoping you are a friend, and not a foe.",
+		"neutralHello": "Salutations! Can Chile help you here?",
+		"hateHello": "¡No, no! ¡Tu cara me hace sentir un poco infeliz! What do you want from us?!",
+		"tradeRequest": "Asking for trade isn't terrible, in fact, it's benifiting for someone. So, may I say the same for this deal right here?",
+
 		"outerColor": [239, 191, 108],
 		"innerColor": [201, 55, 50],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "By Reason or By Force",
+		"uniques": ["Coastal cities claim tiles 25% faster. Units gain a +20% Combat Bonus within Foreign borders. Friendly and Allied City-States generate Points towards Great Admirals, which receive the Medic promotion."],
 		     
-		"cities": ["Santiago","city","cities","city"]
+		"cities": ["Santiago de Chile","Concepción","Valparaiso","Le Serena","Valdivia","Castro","Talca","Capiapl","Iquique","Arica","Puerto Montt","Antofagasta","Punta Arenas","Temuco","Coyhaique","Calama","Ancud","Chillán","Coquimbo","San Felipe","Constitución","Hanga Roa","Puerto Aysen","Talcahuano","Los Angeles","Quillota","Osorno","San Antonio","Ovalle","Melipilla","Los Andes","Caldera","Curico","Linares","Llanquihue","Buin","San Fernando"]
 	},
-		     {
+	{
                 "name": "Gran Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Domination, Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
+		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
+		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+		"afterPeace": "Let's celebrate for the peace between us and our nation after the war, shall we dance for celebrating it as well?",
+		"defeated": "And so its come to this... the Gran Colombia, lies defeated. But the hopes for freedom will not be perishable!",
+		"introduction": "Greetings, I'm Simon Bolivar, El Libertador, founder of the Gran Colombia. Will you aid us in the path of our freedom?",
+		"neutralHello": "Saludos a usted, líder. Can Gran Columbia help you today?",
+		"hateHello": "¡¿Por qué estás aquí?! What do you want?!",
+		"tradeRequest": "Asking for trade is gonna prosper for someone, in this case, us. May I suggest you about this trade deal here?",
+
 		"outerColor": [255,172,20],
 		"innerColor": [36,80,164],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Independence of a Continent",
+		"uniques": ["Occupied cities start with a Courthouse. Liberating a Civilization or City-State starts a Golden Age. Great People may be upgraded to Libertadors, losing the ability to build Citadels."],
 		     
-		"cities": ["Bogotá","Caracas","Guayaquil","Panama"]
+		"cities": ["Bogotá","Caracas","Quito","Panamá","Santo Tomás","Magangue","Guayaquil","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
 	},
-		     {
+	{
                 "name": "Haiti",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"leaderName": "Toussaint L'ouverture",
+		"adjective": ["Haitian"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination, Religious",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
+		"declaringWar": "My Houngan tell me that you had greed and ambition to conquer us so we will conquer you just in case you did first.",
+		"attacked": "Ah c'est ça? Let's see how your armies fight with ours.",
+		"afterPeace": "Congrats for both of us reaching for peace and not war.",
+		"defeated": "You have brought slavery back to Haiti, but the Mawon will rise again, we always do, we always survive.",
+		"introduction": "I'm François Dominique Toussaint-Louverture, and I have led these fine people to freedom. I hope you can aid our revolution, or else.",
+		"neutralHello": "Greetings. What can Haiti do for you?",
+		"hateHello": "Why you bastard are coming here for? What do you want?!",
 		"tradeRequest": "Asking for trade",
-*/
+
 		"outerColor": [25, 25, 25],
 		"innerColor": [155, 82, 87],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Mother of all Revolutions",
+		"uniques": ["+1 Faith from Plantations. Enemy cities that follow your Religion are set as Occupied and grant you Golden Age Points. Adopting new Social Policies during Golden Ages requires less Culture."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Port-au-Prince","Cap-Haitien","Petion-ville","Carrefour","Port-de-Paix","Jacmel","Delmas","Gonaïves","Léogâne","Saint-Marc","Miragoâne","Fort-Liberté","Jérémie","Limbé","Petite Rivière de l'Artibonite","Port-Margot","Milot","Pilate","Grand-Goâve","Pétit-Goâve","Ouanaminthe","Saint-Michel-de-l'Atalaye","Mirebalais","Anse-à-Galets","Desdunes","Thomazeau","Lascahobas","Marmelade","Corail","Chantal","Thomassique","Saint-Louis-du-Sud","Bassin-Bleu","Kenscoff","Pignon","Thiotte"]
 	},
-		     {
+	{
                 "name": "Mexico",
-		"leaderName": "Leader Name",
+		"leaderName": "Benito Juárez",
 		"adjective": ["Mexican"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
+		"declaringWar": "Because of you and your actions, I personally think that war is imminent. And I think the time is perfect.",
+		"attacked": "I guess peace was never an option for you. México will take your words as a threat, get ready to be beaten by my Rurales.",
+		"afterPeace": "The war is over, and the conflict has ended. I hope we could make more peace than war.",
+		"defeated": "Our people are strong, and soon they will rise against you, for you didn't respect the rights of others in peace.",
+		"introduction": "Salutations, what brings you to Mexico? I am Benito Juárez and I hope you can respect our rights in peace.",
+		"neutralHello": "Salutations, what do you want from México?",
+		"hateHello": "My gratitude is not in your favor, but, what do you want from México?",
+		"tradeRequest": "México wants to trade with you, to prosper us all, do you like this deal?",
+				
 		"outerColor": [33, 95, 20],
 		"innerColor": [211, 149, 108],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Valiants of Chapultepec",
+		"uniques": ["Walls generate points towards Great Artists in the Capital and gain a free Great Work of Art slot. When this slot is filled, trained units in the city start with in additional +15 XP. Walls generate Great Artist points faster after adopting an Ideology."],
 		     
-		"cities": ["México","city","cities","city"]
+		"cities": ["México City","Guadalajara","Monterrey","Puebla","Veracruz","Torreón","Mérida","Los Angeles","Tijuana","San Diego","Nezahualcóyolt","Albuquerque","León","Morelia","Juárez","Cuernavaca","Acapulco","Toluca","Pachuca","Tuxtla","Oaxaca","Tlalnepantla","Cancún","Querétaro","Chimalhuacán","Santa Fe","Reynosa","Tlaquepaque"]
 	},
-		     {
+	{
                 "name": "Paraguay",
-		"leaderName": "Gaspar R. Francia",
+		"leaderName": "Gaspar Rodriguez de Francia",
 		"adjective": ["Paraguayan"],
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Culture, Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
+		"declaringWar": "Paraguay awaits you on the battlefield. Can you bring the army or the shame to the battlefield?",
+		"attacked": "War is normal for us Paraguayans, so it's no surprise that we are prepared, how about you?",
+		"afterPeace": "Peace is achieved, no more war, no more devastation. Let's get back to work.",
+		"defeated": "As Paraguay burns, there is only one man that I can blame. And that, my friend, is YOU!",
+		"introduction": "Welcome to the Republic of Paraguay, and be sure to assist us in our quest for consistent freedom among the people... or better yet, just leave.",
+		"neutralHello": "Salutations, what can Paraguay do for you?",
+		"hateHello": "Oh shrug! You are here to amuse me or what? What do you want?",
+		"tradeRequest": "We assured that we will trade with you, with this deal of us, we both will be benefiting from that.",
+
 		"outerColor": [175,177,162],
 		"innerColor": [181,0,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Mestizaje",
+		"uniques": ["Receive an eighth of the highest Tourism value exerted against the empire as Culture. Great Works from other Civilizations and Great Works of Music generate +1 Production or +1 Science."],
 		     
-		"cities": ["Asunción","city","cities","city"]
+		"cities": ["Asunción","Ciudad del Este","Encarnación","Pedro Juan Caballero","Coronel Oviedo","Caacupé","Villarica","Hernandarias","Areguá","Concepción","San Lorenzo","Lambaré","Capiatá","Nemby","Itaugua","Mariano Roque Alonso","Luque","Caaguazú","San Juan Bautista","San Pedro del Ycuamandiyú","Itá","San Antonio","Independencia","San Ignacio","San Estanislao","Minga Guazú","Repatriación","Vaquería"]
 	},
-		     {
+	{
                 "name": "Peru-Bolivia",
-		"leaderName": "Leader Name",
+		"leaderName": "Andrés de Santa Cruz",
 		"adjective": ["Andean"],
-/*		"startBias": ["Hill"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Hills"],
+		"preferredVictoryType": "Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/
+		"declaringWar": "Today, I hereby declararte la guerra, cabrón. You're done. ¡¡¡Let's get it on, cabrón!!!",
+		"attacked": "¡Oye, cabrón! ¡¿You dare to declarame la guerra?! You are done, cabrón. We will get ready and take you off this earth!",
+		"afterPeace": "¡¡¡Celebremos la paz después de esta guerra agotadora!!! ¡Olé! (Let's celebrate the peace after this grueling war!!! Olé!)",
+		"defeated": "Alas, the order and unity I have brought to these lands will surely fade, and the successors of the Confederation will be left in chaos. I hope you're proud.",
+		"introduction": "Welcome to the great Peru-Bolivian Confederation! I am Marshal Andrés de Santa Cruz, its humble Supreme Protector, and protect I shall! If you recognise our independence, we shall have no quarrel.",
+		"neutralHello": "Greetings, leader! What can we do for you, cabrón?",
+		"hateHello": "¿Por qué estás aquí en mi presente? What do you want? I don't have time for you.",
+		"tradeRequest": "Let just say we want to comercio with you, do you agree with this?",
+
 		"outerColor": [31, 89, 19],
 		"innerColor": [243, 131, 127],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Supreme Confederation",
+		"uniques": ["Internal Trade Routes eliminate Occupied Unhappiness and provide Gold equal to the amount of Food or Production sent out. Gain an additional Trade Route slot for each enemy Capital conquered."],
 		     
-		"cities": ["Lima","city","cities","city"]
+		"cities": ["Tacna","La Paz","Lima","Sucre","Arequipa","Cobija","Trujillo","Santa Cruz","Huancayo","Potosí","Cusco","Oruro","Iquitos","Ayacucho","Tarija","Piura","Arica","Puno","Trinidad","Chiclayo","Abancay","Montero","Chimbote","Ica","Llallagua","Pucallpa","Juliaca","Desaguadero"]
 	},
-		     {
-                "name": "The U.S.A",
-		"leaderName": "leader name",
-		"adjective": ["United Statian"], //XD
-/*		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+	{
+                "name": "The United States",
+		"leaderName": "Abraham Lincoln",
+		"adjective": ["American"], 
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomacy, Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
-*/				
+		"declaringWar": "Those who deny others freedom do not themselves deserve it.",
+		"attacked": "What you cannot win by words, you will not win with weapons.",
+		"afterPeace": "I am glad we could resolve our problems with peaceful measures.",
+		"defeated": "This is a defeat for all free men; of all free government. It is a terrible loss to all humanity.",
+		"introduction": "Greetings there, I am President Lincoln. I'll hope to call you a friend to the United States of America, and that together we live long and prosper.",
+		"neutralHello": "Greetings, leader. What can the United States of America do for you here?",
+		"hateHello": "A House divided against itself cannot stand. But now I must ask you, what can I do for you?",
+		"tradeRequest": "We want you to make a trade with us, because we got you a magnificent offer.",
+				
 		"outerColor": [36,80,164],
 		"innerColor": [255,254,253],
 		     
-		"uniqueName": "Unique Name",
+		"uniqueName": "A House Divided did not Stand",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Washington","city","cities","city"]
+		"cities": ["Washington","New York","Philadelphia","Albany", "Baltimore","Boston","Cincinnati","St. Louis","Chicago","Louisville","Buffalo","Pittsburgh","Detroit","Milwaukee","Cleveland","Lowell","New Haven","Newark","Providence","Allegheny","Syracuse","Harrisburg","Wilmington","Manchester","Dayton","Indianapolis","Columbus","Worcester","Utica","Gettysburg","Sacramento"]
+	},
+	{
+		"name": "The Confederate States",
+		"leaderName": "Jefferson Davis",
+		"adjective": ["Confederates"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "The Confederacy is in danger, and you are the danger. Get ready to be beaten, you son of a thorn in the eye.",
+		"attacked": "You and your nation are a thorn in the eye of the Confederacy, get ready for war.",
+		"afterPeace": "Be careful, this peace is quite not long, if you do that mistake again.",
+		"defeated": "If the Confederacy has fallen, there should be written on its tombstone: Died of a Theory.",
+		"introduction": "Welcome to the Confederate States of America. We would be honored if you pay respect to our people.",
+		"neutralHello": "Greetings, may I say you're a friend of the Confederacy? Anyway, what can I do for you?",
+		"hateHello": "Uhhhh, why you are here and what do you want? I have no time for wasting on you.",
+		"tradeRequest": "We are asking for trade, my friend, the Confederacy have something for you.",
+
+		"outerColor": [22,20,25],
+		"innerColor": [230,221,30],
+		     
+		"uniqueName": "Rebel Yell",
+		"uniques": ["Infantry units receive a random, unique promotion upon entering combat for the first time. For 3 turns after the outbreak of war, all infantry units may force enemies to retreat."],
+		     
+		"cities": ["Richmond","Montgomery","New Orleans","Atlanta","Mobile","Memphis","Savannah","Charleston","Nashville","Norfolk","Petersburg","Alexandria","Augusta","Columbus","Wilmington","Macon","Fredericksburg","Baton Rouge","Jacksonville","Lynchburg","Raleigh","Wheeling","Jackson","Natchez","San Antonio","Winchester","Austin","Pensacola","Knoxville","Tallahassee","El Paso","Chattanooga","Santa Fe","Staunton","Algiers","New Bern","Fayetteville","Dallas","Tucson","Vicksburg","Danville"]
 	},
 	
 		//American City-States
 	{
                 "name": "Uruguay",
-		"leaderName": "Leader Name",
+		"leaderName": "José Batlle",
 		"adjective": ["Uruguayan"],
                 "cityStateType": "Mercantile",
-//		"startBias": ["terrains"],
+		"startBias": ["River"],
+		
+		"declaringWar": "I, the interim president of the Oriental Republic of Uruguay, hereby declare war on you for your unforgivable actions.",
+		"attacked": "Uruguay will never back down, even you destroyed our lands, but we will show you that we can punish you for your actions.",
+		"defeated": "What a shame. I'd have preferred it if you didn't do that.",
+		"introduction": "I bid you welcome to Uruguay. Perhaps you'd like to join us for an asado?",
+				
+		"outerColor": [20,64,145],
+		"innerColor": [175, 145, 2],
+		     
+		"uniqueName": "Defence of Joy",
+		"uniques": ["Half of your excess Happiness is provided as Production, divided equally between your cities. Specialists provide an additional +1 of their primary yield while the empire is Happy."],
+		     
+		"cities": ["Montevideo","Salto","Paysandu","Colonia del Sacramento","Ciudad de la Costa","Las Piedras","Rivera","Maldonaldo","Tacuarembo","Melo","Mercedes","Artigas","Minas","San José de Mayo","Durazno","Barros Blanco","Ciudad del Plata","San Carlos","Pando","Triente y Tres","Rocha","Fray Bentos","Trinidad","La Paz","Canelones","Carmelo","Dolores","Young","Santa Lucia","Progreso","Paso de Carrasco","Rio Blanco","Paso de los Toros","Dr. Francisco Soca"]
+	},
+	{
+		"name": "Yucatán",
+		"leaderName": "Santiago Mendez",
+		"adjective": ["Yucatecan"],
+		"cityStateType": "Maritime, Mercantile",
+		"startBias": ["None"],
+
+		"declaringWar": "We Yucatecans have the spirit of the Mayan warrioirs of the olden days, and now we will show it.",
+		"attacking": "War? So you say you are at war with the Republic of Yucatán? Well, let's see what you can do to our soldiers.",
+		"defeated": "Viva Yucatán! Our Republic shall never be forgotten!",
+		"introduction": "Mucho gusto, friend. I am Santiago Mendez, honored leader of the Republic of Yucatán. How do you do?",
+
+		"outerColor": [222, 245, 220],
+		"innerColor": [20, 255, 20],
+
+		"uniqueName": "Iman's Promise",
+		"uniques": ["Cities receive +1 Faith from worked Plantations and +5% Military Unit production per Plantation within working range. If available, spawn near a unique Henequén bonus resource."],
+
+		"cities": ["Mérida","Valladolid","Cancun","Campeche","Tulum","Izamal","Bacalar","Kanasín","Tizimín","Chetumal","Progreso","Tikal","Umán","Tekax","Hunucmá","Uxmal","Playa del Carmen","Ticul","Motun","Oxkutzcab","Peto","Cuzamá","Mahahual","Xpujil","Cozumel","Cobá","Cacaxtla","Celestún","Villahermosa","Tixkokob","Isla Mujeres","Kohunlich","Puerto Adventuras"]
+	},
+	{
+                "name": "Rio Grande",
+		"leaderName": "Antonio Canales Rosillo",
+		"adjective": ["Civilian of Rio Grande"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "The Republic of Rio Grande wants to declare war on you because of your actions, Get ready to be blown off.",
+		"attacked": "Ha! It seems like you just want us to beg you for our lives. No, we will fight, and until we die, we will never be a man's slaves.",
+		"defeated": "Rio Grande is no more, we will be back, sooner or later, you will see.",
+		"introduction": "Salutations, I'm Antonio Canales Rosillo, the leader of the republic of Rio Grande, right next to Rio Grande river. I hope we could make peace with each other.",
+
+		"outerColor": [222,221,217],
+		"innerColor": [222,15,15],
+		     
+		"uniqueName": "Dios, Libetad y Convención",
+		"uniques": ["Units are trained with additional experience based on the number of Horse resources you have per city. During War, all friendly tiles with a river provide damage to enemy units on them or adjacent."],
+
+		"cities": ["Laredo","Monterrey","Saltillo","Reynosa","Guadalupe","Matamoros","Ciudad Victoria","Nuovo Santander","Apodaca","Tampico","Monclova","Jiménez","San Nicolás de los Garza","Topo do los Ayala","García","Hacienda San José de los González","Miramare","Villa Juárez","Mier","Guerrero","Camargo","Sabinas Hidalgo","Linares","Montemorelos","Parras de la Fuente","Nuestra Señora de los Dolores y Cuatro Ciénegas","Morelos","Alcantra","San Fernando","Victoria","San Patricio","Refugio","Seralvo","Nadadores","San José","Hojos","Magiscatzín","Río Bravo","Revilla","Llera","Anelo","La Punta","Escandón"],
+	},
+	{
+                "name": "Florida",
+		"leaderName": "Gregor McGregor",
+		"adjective": ["Floridian"],
+		"cityStateType": "Militaristic, Mercentile",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "I believe that we are in the crosswalks, I hope that you don't mess with my Floridians, and you just did. So, yeah, we are now at war, mate.",
+		"attacked": "The Republic of Florida will respond your threat with money and guns.",
+		"defeated": "It is no matter, I already have a feeling that I gonna lost this republic anyway. So, I am ready for my next adventure!",
+		"introduction": "My name is Gregor MacGregor, and you look like the perfect soldier who would join me with my ruling of Florida! Do you wish to fight by side and reap the rewards?",
+		
+		"outerColor": [230,230,230],
+		"innerColor": [22,227,36],
+		     
+		"uniqueName": "Either Hell or Amelia",
+		"uniques": ["During war, armies have no maintenance cost, and cities cannot stagnate or starve. During peace, luxury resources provide 50% more Happiness."],
+		     
+		"cities": ["Fernandina","Fort San Carlos","St. Augustine","Pensacola","Fernandina Beach","Jacksonville","St. Marks","Mobile","Baton Rouge","St. Francisville","Biloxi","Amelia Island","Tiger","San Marcos","Little Tiger","Martins Island","St. Marys","Fort Barrancas","St. Johns","Fort George","Fort Caroline","Fort San Francisco de Pupo","Fort Bute","Fort Charlotte"]
+	},
+	{
+                "name": "Texas",
+		"leaderName": "Samuel Houston",
+		"adjective": ["Texan"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grasslands"],
+		
+		"declaringWar": "Your improper and wild actions get on my nerves for too long... Maybe a whooping for all of you will be great, starting with you, you jackass nut.",
+		"attacked": "Oh yeah? Oh YEAH? OH YEAH?! How about you and your bunch of useless soldiers get out of Texas or be beaten by our Texan soldiers on all the ranches.",
+		"defeated": "You've made a horrible mistake, you fool! The world shall never forget the heroic last stand of Texas against your wicked forces! Remember the Alamo! Remember the Alamo! Remember the Alamo!!!",
+		"introduction": "Welcome, stranger, to the Texan Republic. I am Samuel Houston, though you may call me Sam. We are a sovereign nation, and be warned that we will fiercely fight to the death against all who disrespect that.",
+
+		"outerColor": [222,222,222],
+		"innerColor": [22,22,236],
+		     
+		"uniqueName": "Come and Take it",
+		"uniques": ["Melee, Gun, and Mounted units receive a scaling combat bonus when fighting near the Capital, to a maximum of 30% when fighting within the Capital itself. Forts yield +2 Culture."],
+		     
+		"cities": ["Austin","Houston","San Antonio","Dallas","El Paso","Corpus Christi","Gonzales","Laredo","Richardson","Harrisburg","Brownsville","Galveston","Waco","McAllen","Velasco","Carrollton","Columbia","Beaumont","Pasadena","Holford's Prairie","Bastrop","Hidalgo","Nacogdoches","Goliad","Presidío","Floresville","Point Isabel","Arlen","Port Worth"]
+	},
+	{
+                "name": "California",
+		"leaderName": "William Brown Ide",
+		"adjective": ["Californian"],
+		"cityStateType": "Mercantile, Scientific",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "The war is inevitable between us, and you make my nerva go nuts! We will show you that we do not weak and we will beat you up.",
+		"attacked": "California will never back down, even if no one else support it for freedom. For the freedom of California!",
+		"defeated": "The world is big and I want to have a good look at it before it gets dark and maybe the mountains are calling, and I must go.",
+		"introduction": "In every walk with nature one receives far more than he seeks. In your walk, you have reached beautiful California. What do you intend to do with your finding?",
+
+		"outerColor": [130,80,27],
+		"innerColor": [222,227,36],
+		     
+		"uniqueName": "Eureka!",
+		"uniques": ["During Golden Ages, all tiles that yield at least 1 Gold also yield +1 Science. Gain 1 additional Gold for every Resources near the Capital."],
+		     
+		"cities": ["Sacramento","San Diego","Los Angeles","San Francisco","Palm Springs","Monterey","Eureka","Lake Tahoe","Fresno","Oakland","Beverly Hills","Santa Barbara","Santa Monica","Irvine","San Bernardino","Santa Ana","Modesto","Santa Cruz","Fremont","Berkeley","Santa Clara","Pomona","Glendale","Fontana","Burbank","Redwood City","Victorville"]
+	},
+	{
+                "name": "Cuba",
+		"leaderName": "Carlos Manuel de Céspedes",
+		"adjective": ["Cuban"],
+		"cityStateType": "Cultural, Domination",
+		"startBias": ["Jungle","Coast"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-				
-		"outerColor": [20,64,145],
-		"innerColor": [0, 1, 2],
+		"defeated": "The revolution will never be dead! Soon you'll see new revolucionarios rise and recover Cuba's independence!",
+		"introduction": "Greetings! I'm Carlos Manuel de Céspedes, and you're standing in the beautiful Republic of Cuba, the land of revolutions. Make yourself comfortable while you're in here and hopefully you will join our cause for liberty and freedom.",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "La Demajagua",
+		"uniques": ["Increased Combat Strength on Plantations (+20%). Adopting a Social Policy grants Revolucionario Points. Upon adopting your first Ideological Tenet, receive 2 Revolucionarios."],
 		     
-		"cities": ["Montevideo"]
+		"cities": ["La Habana","Santiago de Cuba","Camagüey","Guantanamo","Pinar del Rio","Holguin","Cienfuegos","Santa Clara","Matanzas","Bavamo","Sancti Spiritus","Ciego de Avila","Las Tunas","Artemisa","Nueva Gerona","Cardenas","Baracoa","Palma Soriano","Varadero","Manzanilla","Colón","Contramaestro","Sandino","La Maya","Guanabacoa","Isla Juventus","Guines","Sagua La Grande","Trinidad","Flacetas","Nuevitas","Banes","San Luis","San José de las Lajas"]
 	},
 	
 	//Africa
@@ -275,7 +419,7 @@
 		//Asian City-States
 		
 	//Europe
-		     {
+	{
                 "name": "Austria",
 		"leaderName": "Francis II",
 		"adjective": ["Austrian"],
@@ -318,7 +462,7 @@
 		     
 		"cities": ["Munich","Regensburg","Ingolstadt","Nuremberg","Straubing","Augsburg","Landshut","Freising","Ansbach","Bayreuth","Würzburg","Erlangen","Bamberg","Friedberg","Altotting","Amberg","Kempten","Muhldorf","Erding","Speyer","Kaiserslautern","Landau","Dingolfing","Frankenthal","Weilheim","Zweibrucken","Eichstatt","Pfarrkirchen","Kelheim","Mainburg"]
 	},
-		     {
+        {
                 "name": "Denmark",
 		"leaderName": "Frederick VII",
 		"adjective": ["Danish"],
@@ -343,7 +487,7 @@
 		     
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Christiania","Jelling","Truso","Bergen","Fearoerne","Reykjavik","Trondheim","Godthåb","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsø","Vejle","Køge","Sandnes","Holstebro","Slagelse","Drammen","Hillerød","Sønderborg","Skien","Svendborg","Holbæk","Hjørring","Fladstrand","Haderslev","Ringsted","Skive"]
 	},
-		     {
+	{
                 "name": "France",
 		"leaderName": "Napoleon III",
 		"adjective": ["French"],
@@ -367,7 +511,7 @@
 		     
 		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
 	},
-		     {
+	{
                 "name": "The Ottomans",
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
@@ -391,7 +535,7 @@
 		     
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakir","Izmir","Kayseri","Malatya","Marsin","Antalya","Zonguldak","Denizli","Oidu","Mugla","Eskisehir","Inebolu","Sinop","Adana","Tarsus","Artuin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyon","Bitlis","Damascus","Baghdad","Basra","Tripoli","Beirut","Homs","Mosul"]
 	},
-		     {
+	{
                 "name": "Prussia",
 		"leaderName": "Otto von Bismark",
 		"adjective": ["Prussian"],
@@ -415,7 +559,7 @@
 		     
 		"cities": ["Berlin","Konigsberg","Potsdam","Magdeburg","Frankfurt","Danzig","Stettin","Elbing","Allenstein","Marienburg","Thorn","Posen","Breslau","Marienwerder","Kolberg","Kustrin","Essen","Kulm","Koblenz","Memel","Heilsberg","Brieg","Graudenz","Luckau","Tilsit","Braunsburg","Landsburg","Cottbus","Hannover","Charlottenburg","Cleves","Cologne","Sigmaringen","Saarbrucken","Preussich-Eylau"]
 	},
-		     {
+	{
                 "name": "Russia",
 		"leaderName": "Alexander I",
 		"adjective": ["Russian"],
@@ -439,7 +583,7 @@
 		     
 		"cities": ["St. Petersburg","Moscow","Kiev","Novgorod","Kharkov","Kazan","Simferopol","Smolensk","Kaluga","Minsk","Vitebsk","Borodino","Maloyaroslavets","Borisov","Fili","Vilno","Riga","Revel","Helsingfors","Belostok","Warsaw","Yekaterinoslav","Tula","Nizhniy Novgorod","Rostov-on-Don","Stavropol","Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Kharodar-on-Amur","Magadan","Vladivostok","Chukotka","Chadan","Kamchatka","Petropavlovsk","Murmansk"]
 	},
-		     {
+	{
                 "name": "Sardinia-Piedmont"
 		"leaderName": "Victor Emmanuel II",
 		"adjective": ["Sardinian","Piemonte","Sardinia-Piedmontan"],
@@ -482,7 +626,7 @@
 		     
 		"cities": ["Dresden","Leipzig","Wittenberg","Plauen","Freiburg","Chemnitz","Meissen","Zwickau","Naumburg","Zittau","Querturt","Wurzen","Colditz","Bischofswerda","Bautzen","Grossenhain","Merseburg","Weissenfels","Waldheim","Borna","Grimma","Guben","Gorlitz","Gotha","Coburg","Weimar","Jena","Altenburg","Hildburghausen","Hubertusburg","Riesa","Kamenz","Altrandstadt","Mittweida","Frankenberg","Dobein","Oschatz","Rossbach"]
 	},
-		     {
+	{
                 "name": "Spain",
 		"leaderName": "Ferdinand VII",
 		"adjective": ["Spanish"],
@@ -506,7 +650,7 @@
 		     
 		"cities": ["Madrid","Seville","Barcelona","Córdoba","Toledo","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vittoria","Oviedo","Jaen","Logroño","Valladolid","Teruel","Almeria","Léon","Zamora","Mida","Lugo","Alicante","Cádiz","Elche","Alcorcón","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao","San Sebastián","Granada","Mérida","Huelva","Palma de Mallorca","Santa Cruz de Tenerife","Asturias"]
 	},
-		     {
+	{
                 "name": "Sweden-Norway",
 		"leaderName": "Oscar II",
 		"adjective": ["Swedish","Norwegian"],
@@ -549,7 +693,7 @@
 		     
 		"cities": ["Naples","Palermo","Teramo","Aquila","Chieti","Campobasso","Capua","Aveilino","Salerno","San Severo","Foggia","Bari","Lecce","Pontenza","Cosenza","Catanzaro","Reggio","Caltanissetta","Catania","Girgenti","Amalfi","Messina","Notò","Trapani"]
 	},
-	     {
+	{
                 "name": "United Kingdom",
 		"leaderName": "Victoria",
 		"adjective": ["British"],
@@ -574,7 +718,7 @@
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
 	},
 		//European City States
-		     {
+	{
                 "name": "Greece",
 		"leaderName": "Elftherios Venizelos",
 		"adjective": ["Greek"],
@@ -594,7 +738,7 @@
 		     
 		"cities": ["Athens","Thessaloniki","Heraklion","Patras","Adrianoupoli","Rhodes","Larissa","Volos","Ioannina","Chania","Kalamata","Smyrna","Alexandroupoli","Xanthi","Argos","Amaliada","Drama","Kardista","Tripoli","Ptolemaida","Kozani","Giannitsa","Chios","Pyrgos","Zante","Kavos","Malia","Sparta","Corfù","Konstantinupoli"]
 	},
-		     {
+	{
                 "name": "Luxembourg",
 		"leaderName": "Adolphe",
 		"adjective": ["Luxembourgish"],
@@ -614,7 +758,7 @@
 		     
 		"cities": ["Luxembourg"]
 	},
-		     {
+	{
                 "name": "Portugal",
 		"leaderName": "Carlos I",
 		"adjective": ["Portuguese"],
@@ -639,7 +783,7 @@
 		     
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Setúbal","Funchal","Viseu","Leiria","Évora","Aveiro","Guimarães","Ponta Delgada","Nova Lisboa","Castelo Branco","Santarém","Viana de Castelo","Bragança","Vila Real","Figueira da Foz","Olivença"]
 	},
-		     {
+	{
                 "name": "Serbia",
 		"leaderName": "Peter I",
 		"adjective": ["Serbian"],
@@ -707,10 +851,10 @@
 		"cities": ["Dessau","Köthen","Bernburg","Zerbst","Hoym","Ballenstadt","Halle","Wörlitz","Lindau","Roßlau","Staßfurt","Domburg","Großmülingen","Heddingen","Anhalt","Güntersbarge","Sandersleben","Coswig","Gemrode"]
 	},
 	{
-    "name": "Baden",
+                "name": "Baden",
 		"leaderName": "Charles Frederick",
 		"adjective": ["Civilian of Baden"],
-    "cityStateType": "Science",
+                "cityStateType": "Science",
 		"startBias": ["Hills"],
 
 		"declaringWar": "It seems war is inevitable. Oh well, let's see what Baden can or can't do and what your nation can or can't do.",
@@ -727,10 +871,10 @@
 		"cities": ["Karlsruhe","Offenburg","Baden","Mannheim","Heidelberg","Bruchsal","Durlach","Lörrach","Singen","Konstanz","Villingen","Lahr","Rastadt","Pforzheim","Ederbach","Walldürn","Neuhausen","Taubarbischofsheim","Neudeursaus","Adelsheim","Möhringen","Bretten","Balienburg"]
 	},
 	{
-    "name": "Braunschweig",
-    "leaderName": "Charles II",
+                "name": "Braunschweig",
+                "leaderName": "Charles II",
 		"adjective": ["Civilian of Braunschweig"],
-    "cityStateType": "Cultural",
+                "cityStateType": "Cultural",
 		"startBias": ["None"],
 
 		"declaringWar": "I think you should head back to where you have started because Braunschweig gonna crush you 'til you surrender.",
@@ -747,10 +891,10 @@
 		"cities": ["Brunswick","Wolfenbüttel","Helmstadt","Seesen","Holzminden","Blankenburg","Gandersheim","Calvörde","Braunlage","Thedinghausen"]
 	},
 	{
-    "name": "Bremen",
+                "name": "Bremen",
 		"leaderName": "Johann Smidt",
 		"adjective": ["Civilian of Bremen"],
-    "cityStateType": "Maritime, Militaristic",
+                "cityStateType": "Maritime, Militaristic",
 		"startBias": ["Coast"],
 
 		"declaringWar": "The Free Hanseatic City of Bremen had had enough of your shenanigans, get ready to be blown off.",
@@ -927,10 +1071,10 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-    "name": "Oldenburg",
+                "name": "Oldenburg",
 		"leaderName": "Augustus I",
 		"adjective": ["Civilian of Oldenburg"],
-    "cityStateType": "Maritime, Cultural",
+                "cityStateType": "Maritime, Cultural",
 		"startBias": ["Coast"],
 
 		"declaringWar": "Frase",
@@ -947,10 +1091,10 @@
 		"cities": ["Oldenburg","Jade","Augusthausen","Schweiburg","Jaderburg","Wapelersiel","Kreuzmoor"]
 	},
 	{
-    "name": "Württemberg",
-    "leaderName": "Frederick I",
+                "name": "Württemberg",
+                "leaderName": "Frederick I",
 		"adjective": ["Swabian"],
-    "cityStateType": "Militaristic",
+                "cityStateType": "Militaristic",
 		"startBias": ["Hills"],
 
 		"declaringWar": "Due to your actions, Württemberg must act. You must be stopped and you should scare, because we have the Preußischer Geist on every soldiers of mine, how about you?",
@@ -1001,7 +1145,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Modena","Ferrara"]
+		"cities": ["Modena"]
 	},
 	{
                 "name": "The Papal States",
@@ -1125,5 +1269,5 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital","city","cities","city"]
-	},*/
+	},
 	]
