@@ -413,6 +413,54 @@
 	},
 	
 	//Africa
+	{
+                "name": "The Boer Republics",
+		"leaderName": "Paul Krueger",
+		"adjective": ["Boer"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "I feel this peace is a hoax, a fake peace, a scam, a disguise to your true plan, isn't it? That's why we declare war on you. Prepare for war.",
+		"attacked": "I knew it!!! You just want to colonize us, and this is your true plan, isn't it? Let see if you're cunning or dumbfounded.",
+		"afterPeace": "I hope you after this, will think twice before attacking us Boers.",
+		"defeated": "You may destroy our homes, pillage our lands, and take our lives, but the burning spirit of the Boer shall never be extinguished!",
+		"introduction": "Welcome to the land of the Boers, the most fertile and sacred in all the world! Be warned, this land is ours alone, and we will tolerate no imperialist aggression.",
+		"neutralHello": "Greetings. What can us Boers help you today?",
+		"hateHello": "You colonizer, what do you want?!",
+		"tradeRequest": "I, as the president of the Orenje Free State and the Transvaal Republic, ask you to trade with us.",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "The Great Trek",
+		"uniques": ["+1 Movement for Workers, Settlers, and Great People, and Settlers may withdraw when attacked by a Melee unit . +25% Defense to any unit stationed on a Farm."],
+		     
+		"cities": ["Pretoria","Johannesburg","Bloemfontein","Pietersburg","Boksburg","Pietermaritzburg","Klorksdorp","Benoni","Ermelo","Potchefstroom","Kroonstad","Krugersdorp","Rustenburg","Middelburg","Wolfmaransstad","Harrismith","Ficksburg","Vereeniging","Heidelberg","Bethal","Standerton","Nylstroom","Vryburg","Bethlehem","Hartingsburg","Klein Vrystaat","Messina","Virginia","Bloemhof","Lichtenburg"]
+	},
+	{
+                "name": "Ethiopia",
+		"leaderName": "Menelik II",
+		"adjective": ["Ethiopian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Religion, Culture, Domination",
+		
+		"declaringWar": "Frase",
+		"attacked": "",
+		"afterPeace": "Let's celebrate for our peace with honey wine, and a spirit of joy and laughter.",
+		"defeated": "By the spirit of Adwa, you have defeated me. Here, take my hat - it's perfect quality!",
+		"introduction": "Foreigner, you stand before the Emperor Menelik II of the Solomonic dynasty of Ethiopia, independent now and forever. You are welcome here of course, but first you must share with me the history of your own nation.",
+		"neutralHello": "Greetings, foreigner. What can Ethiopia help you today?",
+		"hateHello": "Why are you here?! What purpose do you come to my palace for?!",
+		"tradeRequest": "Asking for trade",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Spirit of Adwa",
+		"uniques": ["+20% Combat Strength vs units belonging to civilizations with more cities than you."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//African City-States
 	
 	//Asia
