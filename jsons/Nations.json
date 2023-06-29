@@ -461,6 +461,30 @@
 		     
 		"cities": ["Addis Alam","Addis Ababa","Adwa","Harar","Gondar","Dessie","Adama","Debre Berhan","Makdala","Lalibela","Mek'ele","Adrigrat","Ankober","Awasa","Buno Bedele","Debarq","Dobre Tabor","Alamata","Asella","Jijinga","Jimma","Bahir Dar","Metemma","Asaita","Hosaena","Dire Dawa","Arboye","Welwel","Weldiya","Addis Zemen","Nekemte","Shilavo","Maji","Dabat","Axum","Shire","Awash","Kombocha","Bonga","Gambela"]
 	},
+	{
+                "name": "Morocco",
+		"leaderName": "Hassan I",
+		"adjective": ["Moroccan"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "The gain from the war, what will you get out of it?",
+		"attacked": "Shame on you, using violence which doesn't solve anything.",
+		"afterPeace": "This conflict has come to an end.",
+		"defeated": "The gain is having a clean system from corruption.",
+		"introduction": "I am the Sultan of Morocco, Hassan I, in the name of my people I welcome you!",
+		"neutralHello": "Greetings!",
+		"hateHello": "What are you doing here?!",
+		"tradeRequest": "I came hopeful that we can reach an agreement.",
+
+		"outerColor": [2,227,2],
+		"innerColor": [221,221,25],
+		     
+		"uniqueName": "Ruby of the Farthest West",
+		"uniques":["Defensive buildings increase Production towards Wonders while at peace and towards units during war. +2 Food in the Capital for each imported Luxury resource."],
+		     
+		"cities": ["Meknes","Marrakech","Fes","Rabat","Salé","Tangier","Agadir","Tetouan","Taroudant","Mogador","Tuat","Sijilmassa","Oujda","Timbuktu","Gao","Djenne","Kenitra","Tagilalt","Ouarzazate","Esseouira","Taza","Elksar Elkabir","Azamor","Safi","Tagmadart","Debdou","Iligh","Dila","Khemisset"]
+	},
 	//African City-States
 	
 	//Asia
