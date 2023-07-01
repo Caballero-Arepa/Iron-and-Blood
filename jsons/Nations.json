@@ -485,6 +485,30 @@
 		     
 		"cities": ["Meknes","Marrakech","Fes","Rabat","Salé","Tangier","Agadir","Tetouan","Taroudant","Mogador","Tuat","Sijilmassa","Oujda","Timbuktu","Gao","Djenne","Kenitra","Tagilalt","Ouarzazate","Esseouira","Taza","Elksar Elkabir","Azamor","Safi","Tagmadart","Debdou","Iligh","Dila","Khemisset"]
 	},
+	{
+                "name": "Template",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//African City-States
 	
 	//Asia
@@ -1298,7 +1322,7 @@
 	}
 	
 /*	Templates
-		     {
+	{
                 "name": "Template",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
