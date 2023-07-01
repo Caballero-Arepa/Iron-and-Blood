@@ -486,28 +486,28 @@
 		"cities": ["Meknes","Marrakech","Fes","Rabat","Salé","Tangier","Agadir","Tetouan","Taroudant","Mogador","Tuat","Sijilmassa","Oujda","Timbuktu","Gao","Djenne","Kenitra","Tagilalt","Ouarzazate","Esseouira","Taza","Elksar Elkabir","Azamor","Safi","Tagmadart","Debdou","Iligh","Dila","Khemisset"]
 	},
 	{
-                "name": "Template",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+                "name": "Kingdom of Zulu",
+		"leaderName": "Shaka kaSenzangakhona",
+		"adjective": ["Zulu"],
+		"startBias": ["Avoid Jungle"],
+		"preferredVictoryType": "Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "None did I lose once, even you, I say, actually have some nerve right there! Prepare for war!",
+		"attacked": "You do know the consequences, but your greed wins over you, now the days mark your end. Prepare for war!",
+		"afterPeace": "I hope you don't do it again.",
+		"defeated": "My warriors, we have lost the battle, we have lost it forever.",
+		"introduction": "I'm Shaka of Zulu. Don't try to move, warrior, or I'll destroy you.",
+		"neutralHello": "Hail your Majesty!",
+		"hateHello": "You say? What are you doing here?",
+		"tradeRequest": "We want to trade with you, so approve the closure deal.",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [255,255,255],
+		"innerColor": [10,12,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Fight with Honor",
+		"uniques": ["Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Ulundi","Umgungundiovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela","KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Ezigwagweni","eMangweni","Isiphezi","Masotsheni","Mtuzini","Nyakamubi","Dumazulu","Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela","Mthatha","Maseru","Lobamba","Qunu"]
 	},
 	//African City-States
 	
