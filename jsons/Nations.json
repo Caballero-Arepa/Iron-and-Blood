@@ -413,6 +413,102 @@
 	},
 	
 	//Africa
+	{
+                "name": "The Boer Republics",
+		"leaderName": "Paul Krueger",
+		"adjective": ["Boer"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "I feel this peace is a hoax, a fake peace, a scam, a disguise to your true plan, isn't it? That's why we declare war on you. Prepare for war.",
+		"attacked": "I knew it!!! You just want to colonize us, and this is your true plan, isn't it? Let see if you're cunning or dumbfounded.",
+		"afterPeace": "I hope you after this, will think twice before attacking us Boers.",
+		"defeated": "You may destroy our homes, pillage our lands, and take our lives, but the burning spirit of the Boer shall never be extinguished!",
+		"introduction": "Welcome to the land of the Boers, the most fertile and sacred in all the world! Be warned, this land is ours alone, and we will tolerate no imperialist aggression.",
+		"neutralHello": "Greetings. What can us Boers help you today?",
+		"hateHello": "You colonizer, what do you want?!",
+		"tradeRequest": "I, as the president of the Orenje Free State and the Transvaal Republic, ask you to trade with us.",
+
+		"outerColor": [222,100,10],
+		"innerColor": [12,12,245],
+		     
+		"uniqueName": "The Great Trek",
+		"uniques": ["+1 Movement for Workers, Settlers, and Great People, and Settlers may withdraw when attacked by a Melee unit . +25% Defense to any unit stationed on a Farm."],
+		     
+		"cities": ["Pretoria","Johannesburg","Bloemfontein","Pietersburg","Boksburg","Pietermaritzburg","Klorksdorp","Benoni","Ermelo","Potchefstroom","Kroonstad","Krugersdorp","Rustenburg","Middelburg","Wolfmaransstad","Harrismith","Ficksburg","Vereeniging","Heidelberg","Bethal","Standerton","Nylstroom","Vryburg","Bethlehem","Hartingsburg","Klein Vrystaat","Messina","Virginia","Bloemhof","Lichtenburg"]
+	},
+	{
+                "name": "Ethiopia",
+		"leaderName": "Menelik II",
+		"adjective": ["Ethiopian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Religion, Culture, Domination",
+		
+		"declaringWar": "Your actions insult the people of Ethiopia, and for that you must pay a heavy price.",
+		"attacked": "Do you not know that the Lion of Judah has always conquered? Well, you will learn soon enough.",
+		"afterPeace": "Let's celebrate for our peace with honey wine, and a spirit of joy and laughter.",
+		"defeated": "By the spirit of Adwa, you have defeated me. Here, take my hat - it's perfect quality!",
+		"introduction": "Foreigner, you stand before the Emperor Menelik II of the Solomonic dynasty of Ethiopia, independent now and forever. You are welcome here of course, but first you must share with me the history of your own nation.",
+		"neutralHello": "Greetings, foreigner. What can Ethiopia help you today?",
+		"hateHello": "Why are you here?! What purpose do you come to my palace for?!",
+		"tradeRequest": "We like to trade with you today, foreigner, and we have offered this deal here for you.",
+
+		"outerColor": [120,255,120],
+		"innerColor": [255,1,7],
+		     
+		"uniqueName": "Spirit of Adwa",
+		"uniques": ["+20% Combat Strength vs units belonging to civilizations with more cities than you."],
+		     
+		"cities": ["Addis Alam","Addis Ababa","Adwa","Harar","Gondar","Dessie","Adama","Debre Berhan","Makdala","Lalibela","Mek'ele","Adrigrat","Ankober","Awasa","Buno Bedele","Debarq","Dobre Tabor","Alamata","Asella","Jijinga","Jimma","Bahir Dar","Metemma","Asaita","Hosaena","Dire Dawa","Arboye","Welwel","Weldiya","Addis Zemen","Nekemte","Shilavo","Maji","Dabat","Axum","Shire","Awash","Kombocha","Bonga","Gambela"]
+	},
+	{
+                "name": "Morocco",
+		"leaderName": "Hassan I",
+		"adjective": ["Moroccan"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "The gain from the war, what will you get out of it?",
+		"attacked": "Shame on you, using violence which doesn't solve anything.",
+		"afterPeace": "This conflict has come to an end.",
+		"defeated": "The gain is having a clean system from corruption.",
+		"introduction": "I am the Sultan of Morocco, Hassan I, in the name of my people I welcome you!",
+		"neutralHello": "Greetings!",
+		"hateHello": "What are you doing here?!",
+		"tradeRequest": "I came hopeful that we can reach an agreement.",
+
+		"outerColor": [2,227,2],
+		"innerColor": [221,221,25],
+		     
+		"uniqueName": "Ruby of the Farthest West",
+		"uniques":["Defensive buildings increase Production towards Wonders while at peace and towards units during war. +2 Food in the Capital for each imported Luxury resource."],
+		     
+		"cities": ["Meknes","Marrakech","Fes","Rabat","Salé","Tangier","Agadir","Tetouan","Taroudant","Mogador","Tuat","Sijilmassa","Oujda","Timbuktu","Gao","Djenne","Kenitra","Tagilalt","Ouarzazate","Esseouira","Taza","Elksar Elkabir","Azamor","Safi","Tagmadart","Debdou","Iligh","Dila","Khemisset"]
+	},
+	{
+                "name": "Kingdom of Zulu",
+		"leaderName": "Shaka kaSenzangakhona",
+		"adjective": ["Zulu"],
+		"startBias": ["Avoid Jungle"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "None did I lose once, even you, I say, actually have some nerve right there! Prepare for war!",
+		"attacked": "You do know the consequences, but your greed wins over you, now the days mark your end. Prepare for war!",
+		"afterPeace": "I hope you don't do it again.",
+		"defeated": "My warriors, we have lost the battle, we have lost it forever.",
+		"introduction": "I'm Shaka of Zulu. Don't try to move, warrior, or I'll destroy you.",
+		"neutralHello": "Hail your Majesty!",
+		"hateHello": "You say? What are you doing here?",
+		"tradeRequest": "We want to trade with you, so approve the closure deal.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [10,12,0],
+		     
+		"uniqueName": "Fight with Honor",
+		"uniques": ["Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion."],
+		     
+		"cities": ["Ulundi","Umgungundiovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela","KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Ezigwagweni","eMangweni","Isiphezi","Masotsheni","Mtuzini","Nyakamubi","Dumazulu","Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela","Mthatha","Maseru","Lobamba","Qunu"]
+	},
 	//African City-States
 	
 	//Asia
@@ -1226,7 +1322,7 @@
 	}
 	
 /*	Templates
-		     {
+	{
                 "name": "Template",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
