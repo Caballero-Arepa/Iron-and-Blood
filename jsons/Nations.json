@@ -530,6 +530,26 @@
 		     
 		"cities": ["Cairo","Alexandria","Giza","Asyut","Lisht","Tell al-Fara'in","Desouk","Edfu","Tell al-Ruba","El-Ashmunein","Tell Basta","Minya","Akhmin","Luxor","El Kab","Armant","Balat","El-Lahun","Dahsur","Damanhur","Beni Suef","Tihna al-Gabal","Qift","Naqada","Suez"]
 	},
+	{
+                "name": "Akarland (Ashanti)",
+		"leaderName": "Prempeh I",
+		"adjective": ["Ashanteman"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "You and your men are here for nothing but plunder us Ashantemen, we will fight back until our last breath.",
+		"attacked": "I hope you don't declare war on us but if you want war, I will give you war.",
+		"defeated": "My warriors were outnumbered, yet they fought with spirit and heart. Beware of what you have set in motion.",
+		"introduction": "Welcome to the court of Akanland. Our kingdom is one of the fiercest and finest to grace this world.",
+
+		"outerColor": [230,221,7],
+		"innerColor": [255,22,23],
+		     
+		"uniqueName": "The Throne of Gold",
+		"uniques": ["Gain Throne of Gold Points whenever a city is conquered, a city is converted to your Religion, or when a Great Person is expended. Throne of Gold points can be used to recruit units."],
+		     
+		"cities": ["Kumasi","Denkyira","Konongo","Mampong","Ejura","Atebubu","Yeji","Winneba","Accra","Buna","Bole","Mango","Kong","Little Popo","Bekwai","Obuasi","Akrofuom","Ajumakassi","Takyiman","Kpembe","Daboya","Yendi","Banda","Wankye","Nsoko","Atakpame","Sukura","Wiawusu","Wa","Bassu","Abetiti","Kufuri","Jabin","Agogo","Dumassi","Kumi","Mansisu","Berekum","Kintampo"]
+	},
 	//Asia
 		//Asian City-States
 		
