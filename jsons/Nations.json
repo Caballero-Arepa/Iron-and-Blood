@@ -510,7 +510,26 @@
 		"cities": ["Ulundi","Umgungundiovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela","KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Ezigwagweni","eMangweni","Isiphezi","Masotsheni","Mtuzini","Nyakamubi","Dumazulu","Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela","Mthatha","Maseru","Lobamba","Qunu"]
 	},
 	//African City-States
-	
+	{
+                "name": "Egypt",
+		"leaderName": "Muhammad Ali Pasha",
+		"adjective": ["Egyptian"],
+		"cityStateType": "Militaristic, Mercentile",
+		"startBias": ["Desert, River"],
+		
+		"declaringWar": "Your greed is immeasurable, may Allah destroys everything of your under my hand.",
+		"attacked": "It seems like you feel Egypt is weak, but I fan assure you that we are not, prepare for war!",
+		"defeated": "Everything that I have built for Egypt have failed, may your rule on Egyptian lands will be better than mine.",
+		"introduction": "May Allah bless you on the way to Egypt, I'm Muhammad Ali Pasha, the Khedive and Sultan of Egypt.",
+
+		"outerColor": [13,222,8],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "The Khedivate's Legacy",
+		"uniques": ["Trade Route Gold bonus from Caravansaries and Harbors doubled. All Cavalry units gets the Ali Pasha promotion."],
+		     
+		"cities": ["Cairo","Alexandria","Giza","Asyut","Lisht","Tell al-Fara'in","Desouk","Edfu","Tell al-Ruba","El-Ashmunein","Tell Basta","Minya","Akhmin","Luxor","El Kab","Armant","Balat","El-Lahun","Dahsur","Damanhur","Beni Suef","Tihna al-Gabal","Qift","Naqada","Suez"]
+	},
 	//Asia
 		//Asian City-States
 		
