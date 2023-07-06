@@ -550,6 +550,66 @@
 		     
 		"cities": ["Kumasi","Denkyira","Konongo","Mampong","Ejura","Atebubu","Yeji","Winneba","Accra","Buna","Bole","Mango","Kong","Little Popo","Bekwai","Obuasi","Akrofuom","Ajumakassi","Takyiman","Kpembe","Daboya","Yendi","Banda","Wankye","Nsoko","Atakpame","Sukura","Wiawusu","Wa","Bassu","Abetiti","Kufuri","Jabin","Agogo","Dumassi","Kumi","Mansisu","Berekum","Kintampo"]
 	},
+	{
+                "name": "Kongo",
+		"leaderName": "Henrique II",
+		"adjective": ["KiKongo"],
+		"cityStateType": "Cultural, Religious",
+		"startBias": ["Jungle"],
+		
+		"declaringWar": "Prepare for war, we are ready for anything that could happen, may God have mercy on you, because I do not.",
+		"attacked": "Your gratitude to the Kongo is nothing than a lie, prepare, because we are prepared before you said that.",
+		"defeated": "Foreign devil! It was you who lied and broke our treaties! You who sold my people! You do not deserve to own this great land!",
+		"introduction": "Welcome to my lands, great ruler! I am Henrique II, the ruler of the Kingdom of Kongo.Come, let us form an alliance against any that may threaten our shores.",
+
+		"outerColor": [233,11,7],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Apostle of the Kongo",
+		"uniques": ["Receive a copy of any foreign Missionary that begins within your borders. All Missionaries have +2 Movement within your borders and boost nearby city Production based on Faith when expended."],
+		     
+		"cities": ["Mbanza Kongo","Mbumbi","Mbamba","Mbanza Nsundi","Mbwila","Mpinda","Kwila","Mbanza Mbata","Kinshasa","Kwango","Mbuji-Mayi","Mbanza Mpungu","Bakavu","Sanga","Katango","Mbanza Wembo","Mbamba Lovata","Nkondo","Lemba-Bula","Kibangu","Manga","Mbanza Mpemba","Zombo","Banza","Umpaka","Matadi","Mbandaka","Lubumbashi","Mbanza Soyo","Kalemie","Kindu","Kikwit"]
+	},
+	{
+                "name": "Borno",
+		"leaderName": "Rabih az-Zubayr",
+		"adjective": ["Civilian of Borno"],
+		"cityStateType": "Militaristic, Religious",
+		"startBias": ["Desert, Lake"],
+		
+		"declaringWar": "You acted like I am a ghost, isn't it? Well, I will show you what a 'ghost' can do to you!!!",
+		"attacked": "You do what?! Declare war? On ME?!?!?! I WILL SHOW YOU, YOU FOREIGNERS!!! I WILL SHOW YOU!!!",
+		"defeated": "You treacherous conqueror! How dare you defy the power of Allah! Don't be so happy, because I will come back from the grave!",
+		"introduction": "May Allah bless you for you here to meet me. I'm Rabih al-Zubayr, or the French called me, Rabah. Let's see what we can do.",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "The Warlord of Lake Chad",
+		"uniques": ["All land units get +5% bonus while attacking vs any land units, except Sword units which have 10% bonus while attacking vs all land units. All Palace and Mosque gets +10 Faith every 15 turns."],
+		     
+		"cities": ["Dikwa","Ngazargamu","Kukawa","Abadam","Chibok","Gubio","Guzamala","Njimi","Jere","Kaga","Konduga","Mafa","Magumeri","Maiduguri","Marte","Mobbar","Monguno","Nganzai","Amsaka","Kerri Kerri","Marghi","Zinder","Matsena","Bedde","Kotoko","Logone","Muniyo","Mandara","Bagirmi"]
+	},
+	{
+                "name": "Liberia",
+		"leaderName": "Joseph Jenkins Roberts",
+		"adjective": ["Liberian"],
+		"cityStateType": "Mercentile",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "We don't want to make any conflict between us, but the tension is too much. I must declare war on you.",
+		"attacked": "Well, we want peace but if you want to, we will accept. We will ready for any attack you made.",
+		"defeated": "I hope you realize what you've done. You've taken away our freedom, which we've sought to protect for all of our years... I hope that whatever you desire is worth taking away a simple right.",
+		"introduction": "Hello, my name is Joseph Jenkins Roberts, and I am the president of this new nation of Liberia! I hope that we can coexist freely together.",
+
+		"outerColor": [30,21,255],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "American Free Slaves' Society",
+		"uniques": ["Expending Great People or Civilian Units next to settlers gives the city they settle bonuses based on the type of civilian. For each cities, 5% of your unit and building maintenance cost is covered."],
+		     
+		"cities": ["Monrovia","Bassa Cove","Greenville","Harper","Caldwell","Millsburg","New Georgia","Marshall","Bexley","Edina","Crozierville","Careysburg","Clay-Ashland","Perseverance","Cape Mesurado","Cape Palmas","Louisiana","Cestos","Trade Town","Cape Mount","Garraway","Settra Kroo","Grand Sesters","King Williams Town","Baffou","Grand Bootoo","Zapi","Nitton","Baddoo","St.Paul","Nefoo","Sinou","St. John","Wela","Tembo","Butu","Culloh","Rock Cess","Katu","Virginia","Baddu","Hening","Tebo","Grand Taba","Bereby"]
+	},
 	//Asia
 		//Asian City-States
 		
