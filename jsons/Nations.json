@@ -643,11 +643,16 @@
 		"leaderName": "Ludwig II",
 		"adjective": ["Bavarian"],
 		"startBias": ["Hills"],
+		"preferredVictoryType":"Cultural, Scientific",
 		
 		"declaringWar": "Have at you, then! We shall write new legends of this day!",
 		"attacked": "Villain! You are as despicable as that Count Telramund! As that Fafnir!",
 		"defeated": "I shall now retreat to one of my great sanctums for good.",
+		"afterPeace": "You know well how to treasure the forests and lakes of your homeland when I came across when we are at war. I'm impressed for your dedication to arts, sciences and military power. I hope there's no war between us.",
 		"introduction": "Ahem. I am Ludwig II, King of Bavaria. I assure you, you sleep not. You have stumbled upon a dream, yes - no, a fantasy; a paradise unrivalled on all the earth - but it is a fantasy of mine into which you step. My dream in which I hope you'll stay a while.",
+		"neutralHello":"Hallo, Anführer. Willkommen in Bayern. What can Bayern do for you?",
+		"hateHello":"Hei, warum zum Teufel machst du dich vor meinem Gericht? Möchten Sie mithelfen? Oh poor you. But sure, what do you want?",
+		"tradeRequest":"Es scheint, dass Bayern mit Ihrer Nation Handel treiben muss, Anführer. Do you see fairness on this deal?",
 				
 		"outerColor": [34, 138, 158],
 		"innerColor": [230, 234, 240],
@@ -661,7 +666,6 @@
                 "name": "Denmark",
 		"leaderName": "Frederick VII",
 		"adjective": ["Danish"],
-		"cityStateType": "Cultural",
 		"startBias": ["None"],
 		"preferredVictoryType": "Culture, Science",
 		
@@ -804,14 +808,19 @@
 	},
 	{
                 "name": "Saxony",
-		"leaderName": "Frederick Augustus I",
+		"leaderName": "Frederick Augustus Albert Wettin (King Albert)",
 		"adjective": ["Saxon"],
 		"startBias": ["None"],
+		"preferredVictoryType":"Cultural, Domination",
 		
 		"declaringWar": "Saxony could be an ally of yours, but your idiotic actions let me think that you shall perish from this world. Good luck.",
 		"attacked": "Saxony is not happy because of your declaration of war towards us. We will show you that we are stronger than you ever think. May God is in your side.",
 		"defeated": "Treat my great palaces well, and I shall hold no ill-will against your victory here, today.",
-		"introduction": "Greetings and welcome, I am Frederick Augustus I of Saxony. I beckon you to join me in tour of my magnificant palaces.",
+		"afterPeace": "Saxony and you are at peace! Don't you dare to go against Saxony ever again!",
+		"introduction": "Greetings and welcome, I am König Albert of Sachsen. I beckon you to join me in tour of my magnificant palaces.",
+		"neutralHello": "Sachsen welcomes you with open hands. What can we do for you while in Sachsen?",
+		"hateHello": "Wir Sachsen wollen dich auf keinen Fall in Sachsen sehen! What do you want?!",
+		"tradeRequest": "Es scheint, als sei der Handel unvermeidlich. Wir Sachsen haben Ihnen ein Angebot gemacht. Do you agree with us here or not?",
 				
 		"outerColor": [36,36,36],
 		"innerColor": [48,137,30],
@@ -874,11 +883,16 @@
 		"leaderName": "Ferdinand I",
 		"adjective": ["Neapolitan","Sicilian"],
 		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination, Scientific",
 		
 		"declaringWar": "I can't tolerate all of your shenanigans no more, get ready for war!",
 		"attacked": "Oh really? How about you read a book before, because I do, you don't, and my army is ready, and yours don't. Buona fortuna, coglione.",
+		"afterPeace": "Bene! Bene! Tutto bene! We will host a celebration for peace in Naples soon, wanna come?",
 		"defeated": "Swiftly my allies shall come to my aid, and before supper has cooled I shall have been restored to the Bourbon throne.",
 		"introduction": "Come, come. I haven't got all day. I am Ferdinand I of the Two Sicilies. Now, introduce yourself.",
+		"neutralHello": "Buongiorno! Vedi che il sole splende laggiù? Ah, some beautiful thing to look at. Oh, what can we do for you here?",
+		"hateHello": "Oh guarda! Anche il cielo non ti favorisce quando vieni qui! It's cloudly everywhere! I'm not going standing here to look at the dull sky and a dull mind in here anyway. What do you want?",
+		"tradeRequest": "Le Due Sicilie vogliono commerciare con te! We offer you this and you check and you accept it or not, it's yours to decide.",
 				
 		"outerColor": [129, 36, 164],
 		"innerColor": [165,225,130],
@@ -1107,9 +1121,9 @@
 	},
 	{
                 "name": "Frankfurt am Main",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
+		"leaderName": "Johannes von Miquel",
+		"adjective": ["Franconian"],
+                "cityStateType": "Mercentile",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -1120,8 +1134,8 @@
 		"outerColor": [126, 127, 131],
 		"innerColor": [255,268,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Oberbürgermeister",
+		"uniques": ["Recieve a free Oberbürgermeister when you discovered "],
 		     
 		"cities": ["Frankfurt am Main"]
 	},
