@@ -1124,64 +1124,64 @@
 		"leaderName": "Johannes von Miquel",
 		"adjective": ["Franconian"],
                 "cityStateType": "Mercentile",
-		"startBias": ["terrains"],
+		"startBias": ["Forest"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "You treat us as a step to your cruel empire. We will make sure you will fall down like every empire ever!",
+		"attacked": "You liar! I trust you and you destroyed my trusting. Now prepare for war! Prepare for it!",
+		"defeated": "Frankfurt am Main is no more. All I have left is my own life. Please take care of Frankfurt am Main while I find my place in this world again.",
+		"introduction": "Welcome to Frankfurt am Main, I'm its Oberbürgermeister, Johannes von Miquel. Hope we could work together as friend.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [255,268,0],
 		     
-		"uniqueName": "Oberbürgermeister",
-		"uniques": ["Recieve a free Oberbürgermeister when you discovered "],
+		"uniqueName": "Oberbürgermeister of French Origin",
+		"uniques": ["Recieve a free Oberbürgermeister when you discovered Idealism. Receive +5 Gold whenever your units promoted."],
 		     
-		"cities": ["Frankfurt am Main"]
+		"cities": ["Frankfurt am Main","Bornheim","Hohemark","Niedererlenbach","Bonames","Niederursel","Dortelweil"]
 	},
 	{
                 "name": "Hamburg",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+		"leaderName": "Amandus Augustus Abendroth",
+		"adjective": ["Hamburger"],
+                "cityStateType": "Mercentile, Maritime",
+		"startBias": ["River"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "I don't that this is a fair fight, but, if I must to, I must to. Today, you and I are enemy, not neutral nor friend nor ally.",
+		"attacked": "You just want to bully us and others just to show that you are a empire? Nuh uh, if you could vanquish us, then I can vanquish you.",
+		"defeated": "Hamburg is yours, for now, for I must take back from your hands soon after you are long gone.",
+		"introduction": "Wilkommen, wilkommen. Welcomed to Hamburg, I'm Amandus Augustus Abendroth, the mayor of Hamburg. Nice to meet you there.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [255, 185, 51],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Bouches-de-l'Elbe",
+		"uniques": ["When a unit of yours dies, recieve +10 gold. When you are ally or friend of France, France recieves a free Great Merchant and you recieve +10 Gold every 25 turns."],
 		     
-		"cities": ["Hamburg","city","cities","city"]
+		"cities": ["Hamburg","St. Georg","Altona","Neuhof","Barmbeck","Eilbeck","Hamm","Harvesterhude","Hamburger Burg","Ottensen","Langenfelde","Eppendorf","Eimsbüttle","Winterhude","Borgfeld","Vettle","Peute","Neueugamm","Hamstadt","Volkstadt","Bargteheide","Moorberg","Bergedorf","Moorfleth"]
 	},
 	{
-                "name": "Hannover",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-                "startBias": ["terrains"],
+                "name": "Hanover",
+		"leaderName": "Ernest Augustus",
+		"adjective": ["Civilian of Hanover"],
+                "cityStateType": "Scientific, Cultural",
+                "startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Oh lord, you will see the wrath of Hanover and United Kingdom, you will see.",
+		"attacked": "Oh really, United Kingdom will comes for my aid and finishes you up, you dumb dumb.",
+		"defeated": "Hanover is lost, but beware, I will make sure that the United Kingdom will comes to my aid.",
+		"introduction": "Welcome to the realm of Hanover, I'm Ernest Augustus, King of Hanover, Duke of Cumberland and Tevoitdale. It's nice to see you around.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [1,2,3],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Duke of Cumberland and Tevoitdale",
+		"uniques": ["When you are a friend or an ally of United Kingdom, United Kingdom recieve +10% Culture and Science, you recieve a Great Writer. When at war, all Infantry units will recieve the Guelphic Legion promotion. At the start of the game, United Kingdom is already Hanover's friend."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Hannover","Göttingen","Osnabrück","Wilhelmshaven","Harburg","Heligoland"]
 	},
 	{
                 "name": "Hesse-Darmstadt",
-		"leaderName": "Loius I",
+		"leaderName": "Louis I",
 		"adjective": ["Civilian of Hesse-Darmstadt"],
                 "cityStateType": "Militaristic",
 		"startBias": ["Forest"],
@@ -1200,44 +1200,44 @@
 		"cities": ["Darmstadt","Giessen","Mainz"]
 	},
 	{
-                "name": "Holstein",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+                "name": "Schleswig-Holstein",
+		"leaderName": "Frederick VIII",
+		"adjective": ["Civilian of Holstein"],
+                "cityStateType": "Mercantile",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Åh nej, det gør du ikke! I see that you are treat us like nothing but a puppet, we will show you! I will call Denmark down to stop doing that to us.",
+		"attacked": "Åh, javel. Du er håbløs. At least I got Denmark on my side.",
+		"defeated": "Danmark vil helt sikkert slå dig for altid, når du gør det mod os. Prepare to be beaten, leader! Prepare!",
+		"introduction": "Velkommen til Holsten. I'm Frederick III, of the house of Holstein-Sonderburg-Augustenburg. Hope you will befriend the king of Denmark as well.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [112, 180, 195],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Schleswig-Holstein-Sonderburg-Augustenborg",
+		"uniques": ["When you a friend or an ally of Denmark, Denmark and you recieve +10 Gold and Culture. At the start of the game, Denmark is already Holstein's friend."],
 		     
-		"cities": ["Holstein","Schwelzin city","Glückstadt"]
+		"cities": ["Holstein","Schleswig","Kiel","Glückstadt","Altona","Rendsburg","Segeberg","Heilligenhafen","Oldenburg in Holstein","Plön","Flensburg","Scikon","Fóhr","Röm","Fermann","Pelhrorn","Hüsem","Tondern","Apenrade","Hadersleben","Kolding","Eckënforde"]
 	},
 	{
-                "name": "Lippe-Detmold",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+                "name": "Lippe",
+		"leaderName": "Woldemar",
+		"adjective": ["Civilian of Lippe"],
+                "cityStateType": "Militaristic, Cultural",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
+		"declaringWar": "Oh, really, so you think you can take down Lippe, not this time, you shall see.",
 		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "Nein! Datmold, Lipperode, it's gone! All because of you! Du wirst Lippe nie wieder betreten, wenn ich dich wiedersehe.",
+		"introduction": "Oh, schön, dich dort zu treffen. I'm Prince Woldemar, hope you could enjoy yourself in Lippe.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [152, 0, 0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Principality of War and Peace",
+		"uniques": ["When at peace, recieve +10 Culture for every cities that having a Palace. When at war, every Infantry units recieve the Lippe Guard promotion."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Detmold","Lipperode","Schötmar","Lage","Horn-Bad Meinburg","Hohenhausen","Oerlinghausen","Schwalenburg","Varenholz","Sternburg","Schieder","Blomberg","Barntrup","Lemgo","Salzuflen"]
 	},
 	{
                 "name": "Lübeck",
