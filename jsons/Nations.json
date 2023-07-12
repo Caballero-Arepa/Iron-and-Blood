@@ -1316,10 +1316,10 @@
                 "cityStateType": "Cultural",
 		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "You actions make me think twice about you. I think a conflict between us will settle the issue.",
+		"attacked": "I feel like you're two-faced. I don't trust you anymore. If you want to then we'll give you.",
+		"defeated": "Well, if you kill me, at least don't drag Lucca into this. I beg of you.",
+		"introduction": "Welcome to Lucca, I am Maria Luisa, duchess of Lucca, and a infanta of Spain. Hope you can understand that.",
 				
 		"outerColor": [70, 114, 60],
 		"innerColor": [222,222,222],
@@ -1336,10 +1336,10 @@
                 "cityStateType": "Militaristic",
 		"startBias": ["Hills"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Modena and Reggio is disgusted of what you did. Get ready for war yet? Because I have!",
+		"attacked": "Oh, ho paura di te! Oh no! is what you would say after I beat you to let you know that you're took a wrong step way too far!",
+		"defeated": "Don't you think you won, because I, Francis IV, will come back to Modena when you're dead.",
+		"introduction": "Modena and Reggio commends you, I am Francis IV, the one who ruled Modena and Reggio as its monarch. Hopefully, you don't disappoint me along the path of time.",
 				
 		"outerColor": [70, 114, 60],
 		"innerColor": [0,0,255],
@@ -1375,15 +1375,15 @@
 		"leaderName": "Charles II",
 		"adjective": ["Farnese","Etrurian"],
                 "cityStateType": "Cultural, Militaristic",
-		"startBias": ["terrains"],
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "I hereby declare war on you because your unspeakable and cruel actions. Prepare for war, leader. Prepare for it!",
+		"attacked": "What?! Pensi di poter fare meglio del Parma, vero? Maybe a lesson would be better for you.",
+		"defeated": "Parma is destroyed by you and your kind, maybe I should never lose a momentum and then, I would never lose Parma... to you.",
+		"introduction": "Welcome to Parma, I am Charles II, the Duke of Parma and the King of Etruria, happy to see you here.",
 				
 		"outerColor": [70, 114, 60],
-		"innerColor": [255,255,255],
+		"innerColor": [250,250,25],
 		     
 		"uniqueName": "The Duke of Parma, the King of Etruria",
 		"uniques": ["Every city of Parma will receive a free Walls and Palace when a city is settled."],
@@ -1394,21 +1394,21 @@
                 "name": "Tuscany",
 		"leaderName": "Leopold II",
 		"adjective": ["Tuscan"],
-                "cityStateType": "Cultural",
+                "cityStateType": "Cultural, Militaristic",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Tuscany will surely fight you with honor, come at me, leader, let's have a fight.",
+		"attacked": "Soon, you and I will gonna see each other on the battlefield, and since you declare war on Tuscany, that is a certainty.",
+		"defeated": "Tuscany is gone, but we soon meet again in another time.",
+		"introduction": "Welcome to the land of Grand Duchy of Tuscany, I'm its ruler, Leopold II, hope we can be friend or ally of each other.",
 				
 		"outerColor": [70, 114, 60],
-		"innerColor": [255,255,255],
+		"innerColor": [255,0,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "House of Habsburg-Lorraine",
+		"uniques": ["When Austria is a Friend or an Ally of Tuscany, Austria and Tuscany recieve a free Great General in every 25 turns."],
 		     
-		"cities": ["Florence","city","cities","city"]
+		"cities": ["Florence","Siena","San Gimignano","Montepulciano","Pienza","Arezzo","Monteriggioni","Pitigliano","Montalcino","Livorno","Certaldo","Anghiari","Grosseto","Prato","Suvereto","Greve in Chianti","Montecatini Terme","Forte dei Marmi","Castiglione della Pescaia","Collodi","Radda in Chianti","Empoli","Casale Marittimo","Fosdinovo","Buonconvento","Scandicci","Follonica","Saturnia","Vinci","San Miniato","Sorano","Pietrasanta","Orbetello","Cetona"]
 	},
 	
 	//Oceania
