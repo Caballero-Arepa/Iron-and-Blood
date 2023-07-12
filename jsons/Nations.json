@@ -270,7 +270,7 @@
 		"cities": ["Richmond","Montgomery","New Orleans","Atlanta","Mobile","Memphis","Savannah","Charleston","Nashville","Norfolk","Petersburg","Alexandria","Augusta","Columbus","Wilmington","Macon","Fredericksburg","Baton Rouge","Jacksonville","Lynchburg","Raleigh","Wheeling","Jackson","Natchez","San Antonio","Winchester","Austin","Pensacola","Knoxville","Tallahassee","El Paso","Chattanooga","Santa Fe","Staunton","Algiers","New Bern","Fayetteville","Dallas","Tucson","Vicksburg","Danville"]
 	},
 	
-		//American City-States
+	//American City-States
 	{
                 "name": "Uruguay",
 		"leaderName": "José Batlle",
@@ -611,7 +611,7 @@
 		"cities": ["Monrovia","Bassa Cove","Greenville","Harper","Caldwell","Millsburg","New Georgia","Marshall","Bexley","Edina","Crozierville","Careysburg","Clay-Ashland","Perseverance","Cape Mesurado","Cape Palmas","Louisiana","Cestos","Trade Town","Cape Mount","Garraway","Settra Kroo","Grand Sesters","King Williams Town","Baffou","Grand Bootoo","Zapi","Nitton","Baddoo","St.Paul","Nefoo","Sinou","St. John","Wela","Tembo","Butu","Culloh","Rock Cess","Katu","Virginia","Baddu","Hening","Tebo","Grand Taba","Bereby"]
 	},
 	//Asia
-		//Asian City-States
+	//Asian City-States
 		
 	//Europe
 	{
@@ -926,7 +926,7 @@
 		     
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
 	},
-		//European City States
+	//European City States
 	{
                 "name": "Greece",
 		"leaderName": "Elftherios Venizelos",
@@ -954,7 +954,7 @@
                 "cityStateType": "Cultural",
 		"startBias": ["None"],
 
-		"declaringWar": "Wat?! Ik hoop dat je een verdomde muur raakt en erin blijft steken! (What?! I hope you hit a god-damned wall and stuck into it.",
+		"declaringWar": "Wat?! Ik hoop dat je een verdomde muur raakt en erin blijft steken! (What?! I hope you hit a god-damned wall and stuck into it.)",
 		"attacked": "The Luxembourgish will find and destroy your things and I assured that! Get ready to be crushed.",
 		"defeated": "May God be on my side, my people can't suffer from you but please take care of them with love, I must congrat to your victory.",
 		"introduction": "Greetings, leader. It seems you are here for a purpose, didn't you?",
@@ -1015,8 +1015,7 @@
 		"uniqueName": "July Crisis",
 		"uniques": ["Recieve increased Production towards Military Units and Buildings for each active Defensive Pact and Declaration of Friendship when not at War. Cities start with +25 Hitpoints."],
 		     
-		"cities": ["Belgrade","Monastir","Skopje","Nish","Veles","Pristina","Prilep","Kregunevac","Obrid","Leskovac","Tetovo","Pozarevac","Sabac","Mitrovica","Vranje","Pirot","Novi Pazar","Kraljevo",
-               "Uzice","Waljevo","Smederovo","Prizren","Stip","Cacak","Kikinda","Novi Sad","Krusevac","Zajecar"]
+		"cities": ["Belgrade","Monastir","Skopje","Nish","Veles","Pristina","Prilep","Kregunevac","Obrid","Leskovac","Tetovo","Pozarevac","Sabac","Mitrovica","Vranje","Pirot","Novi Pazar","Kraljevo","Uzice","Waljevo","Smederovo","Prizren","Stip","Cacak","Kikinda","Novi Sad","Krusevac","Zajecar"]
 	},
 	{
                 "name": "Switzerland",
@@ -1038,7 +1037,7 @@
 		     
 		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
 	},
-			//German CS
+	//German CS
 	{
                 "name": "Anhalt",
 		"leaderName": "Leopold IV",
@@ -1241,43 +1240,43 @@
 	},
 	{
                 "name": "Lübeck",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+		"leaderName": "Johann Hermann Heeren",
+		"adjective": ["Civilian of Lübeck"],
+                "cityStateType": "Mercentile, Maritime",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Du Böser! Du Grausamer! You took Lübeck as if it was leaderless, so let's see how you fight against my army.",
+		"attacked": "Oh hoh hoh! Ich verstehe! So you, here, think Lübeck will scared, but no, you will be screwed if the Bürgerschaft ever happened!",
+		"defeated": "Nein... All is lost, but don't you dare say you're victorious, because someone I will be back, back to Lübeck.",
+		"introduction": "I am the Bürgermeister of Lübeck, Hermann Heeren. You shall see the pennant of the Hansa everywhere.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [131, 28, 115],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Center of Hansetic League",
+		"uniques": ["When at peace, can call for a Bürgerschaft, with Lübeck, Hamberg, and Bremen (all must anticipates), cast a vote to declare war, raise import tax, or decides to be a friend with other nations. Bürgerschaft can be called for every 50 turns."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Lübeck","Krummesse","Moisling","Schlutup","Niendorf","Blankensee","Travemünde","Malkendorf","Dissau","Krumbek","Pöppendorf","Schattin","Utecht","Sierskrade","Behlendorf","Nusse","Tramm","Groß Schretstaken"]
 	},
 	{
                 "name": "Mecklenburg",
-		"leaderName": "Charlotte",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+		"leaderName": "Frederick William",
+		"adjective": ["Civilian of Mecklenburg"],
+                "cityStateType": "Scientific, Militaristic",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Du böser kleiner Kerl! You think you're better than Mecklenburg, isn't it, then let me show you!",
+		"attacked": "Ah,... Es scheint, als ob du hier herumalbern willst! Let's see how you can 'mess around' for how long...",
+		"defeated": "It seems defeat is inevitable, but soon enough, Mecklenburg-Strelitz will be back for sure.",
+		"introduction": "Greetings, I'm Frederick William of Grand Duchy of Mecklenburg. Hope we could cooperate with each other in peace.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [109, 30, 139],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Grand Cross of the Wendish Crown",
+		"uniques": ["Receive a Great Scientist when at peace and a Great General when at war in every 120 turns."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Strelitz","Schwerin","Rostock","Schönberg","Ratzeburg","Mannhagen","Horst","Walksfelde","Güstrow","Parchim","Waren","Neustrelitz","Neubrandenburg","Friedland","Stargard","Feldburg","Ahrensburg","Mirow","Buschhof","Gaarz","Penzlin","Malchin","Rossow","Schönburg","Brunow","Dembeck"]
 	},
 	{
                 "name": "Oldenburg",
@@ -1289,7 +1288,7 @@
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
-		"introduction": "Speech?",
+		"introduction": "Welcome to Oldenburg, my friend.",
 
 		"outerColor": [126, 127, 131],
 		"innerColor": [84, 67, 26],
@@ -1319,7 +1318,7 @@
 
 		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
 	},
-			//Italian CS
+	//Italian CS
 	{
                 "name": "Lucca",
 		"adjective": ["Civilian"],
@@ -1336,7 +1335,7 @@
 		     
 		"cities": ["Lucca"]
 	},
-	           {
+	{
                 "name": "Modena and Reggio",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
@@ -1381,8 +1380,8 @@
                 "name": "Parma",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
-               "cityStateType": "Cultural",
-//		"startBias": ["terrains"],
+                "cityStateType": "Cultural",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -1402,7 +1401,7 @@
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
                 "cityStateType": "Cultural",
-//		"startBias": ["terrains"],
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -1424,7 +1423,7 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
+		"innerColor": [0,0,0]
 	},
 	//Barbarian
 	{
@@ -1432,9 +1431,9 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [185, 12, 12],
 		"uniques": ["Can only heal by pillaging"]
-	}
+	},
 	
-/*	Templates
+	Templates
 	{
                 "name": "Template",
 		"leaderName": "Leader Name",
