@@ -1186,7 +1186,7 @@
 		"uniqueName": "The Zivilgesetzbuch",
 		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
 		     
-		"cities": ["Darmstadt","Giessen","Mainz"]
+		"cities": ["Darmstadt","Giessen","Mainz","Bingen","Alzey","Worms","Erbach","Offenbach","Groß-Gerau","Heppenheim","Kassel","Lauterbach","Alsfeld","Büdingen","Nauheim","Geinhausen","Schlüchtern","Fulda","Hersfeld","Ziegenhain","Witzenhausen","Eschwege","Fritzlar","Melsungen","Biedenkopf","Marburg","Frankenburg","Homberg","Fritzlar","Hofgeismar"]
 	},
 	{
                 "name": "Schleswig-Holstein",
