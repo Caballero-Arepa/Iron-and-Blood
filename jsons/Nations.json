@@ -1,6 +1,6 @@
 [
-	//These are the nations. Organized first by Continent, then Major Nations first, then Minor nation, all in alphabetical order
-	// Yes, minor nations also do get Unique Abilites and dialoges. They also follow a color code, depending on their association
+	//These are the nations. Organized first by Continent, then Major Nations first, then Minor nation, all in alphabetical order.
+	// Yes, minor nations also do get Unique Abilites and dialogues. They also follow a color code, depending on their association are.
 	// German CS have Grey background, or Italian CS have Green Background, etc, for gameplay purposes.
 	
 	
@@ -973,16 +973,11 @@
 		"adjective": ["Portuguese"],
 		"cityStateType": "Militaristic",
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Culture, Religion",
 		
 		"declaringWar": "Oh! Que Deus esteja ao meu lado...Let's see who got better ships.",
 		"attacked": "Oh really, let's set sail and see who's nation got better seamanship.",
-		"afterPeace": "Que possamos viver em alegria e paz e não em guerra! (May we live in joy and peace not war!)",
 		"defeated": "Let me retire to a life at sea. It's all I've ever wished.",
 		"introduction": "Welcome, welcome. I am Carlos I, king of Portugal. Tell me, do you share in the fondness I have for the sea?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
 				
 		"outerColor": [36,80,164],
 		"innerColor": [214,218,225],
@@ -998,16 +993,11 @@
 		"adjective": ["Serbian"],
 		"cityStateType": "Militaristic",
 		"startBias": ["Hills"],
-		"preferredVictoryType": "Religion, Domination",
 		
 		"declaringWar": "Serbia will call its soldier to beat you up. Are you prepared for the Dobrovoljac yet?",
 		"attacked": "Нека се Бог боји твоје земље док на твојој земљи више не буде зеленила! (May God dread your land until there's no greens on your lands no more!",
-		"afterPeace": "Хајде да прославимо! Прославимо овај мир заједно! (Let's celebrate! Let's celebrate for the peace!)",
 		"defeated": "Your actions have brought the world to the brink of destruction. You may have beaten us, but do not think you have won.",
 		"introduction": "Welcome to Serbia - tell me, may we consider you a friend, or a foe?",
-		"neutralHello": "Greetings. Serbia will hear your demands so say it.",
-		"hateHello": "We Serbs don't serve or meet the foes, but I must ask you, what can Serbia do for you?",
-		"tradeRequest": "We will need you some favor, do you mind trading with us? It might benefit you and me, you know.",
 				
 		"outerColor": [255,222,222],
 		"innerColor": [118,22,22],
@@ -1285,10 +1275,10 @@
                 "cityStateType": "Maritime, Cultural",
 		"startBias": ["Coast"],
 
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Welcome to Oldenburg, my friend.",
+		"declaringWar": "What we want is peace but for you, it will never happening. Prepare for war!",
+		"attacked": "We will see that who is stronger then. Prepare for war, lads!",
+		"defeated": "The journey of Oldenburg will go on, but not in my ruling, but in yours.",
+		"introduction": "Welcome to Oldenburg, my friend. May I take you to see the beauty of Weser and Jade rivers?",
 
 		"outerColor": [126, 127, 131],
 		"innerColor": [84, 67, 26],
@@ -1321,9 +1311,10 @@
 	//Italian CS
 	{
                 "name": "Lucca",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+		"leaderName":"Maria Luisa"
+		"adjective": ["Lucchesi"],
+                "cityStateType": "Cultural",
+		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -1331,16 +1322,19 @@
 		"introduction": "Speech?",
 				
 		"outerColor": [70, 114, 60],
-		"innerColor": [1,2,3],
+		"innerColor": [222,222,222],
+
+		"uniqueName":"Infanta of Spain, Bourbonais Roots",
+		"uniques":["Gain +5% Culture when at peace and/or a friend or an ally of Spain and/or France."],
 		     
-		"cities": ["Lucca"]
+		"cities": ["Lucca","Viareggio","Piacenza","Castelnuovo di Garfagnana","Barga","Carrara","Pisa","Pistoia","Valdarno"]
 	},
 	{
                 "name": "Modena and Reggio",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Ilustrated",
-		"startBias": ["terrains"],
+		"leaderName": "Francis IV",
+		"adjective": ["Modenese","Reggiani"],
+                "cityStateType": "Militaristic",
+		"startBias": ["Hills"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -1348,12 +1342,12 @@
 		"introduction": "Speech?",
 				
 		"outerColor": [70, 114, 60],
-		"innerColor": [1,2,3],
+		"innerColor": [0,0,255],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Duchy of the House of Austriache-Este",
+		"uniques": ["When Austria is a friend or an ally of Modena and Reggio, you recieve any two Infantry units in every 50 turns."],
 		     
-		"cities": ["Modena"]
+		"cities": ["Modena","Reggio","Guastalla","Frignano","Garfagnana","Lunigiana","Massa","Carrara","Mirandola"]
 	},
 	{
                 "name": "The Papal States",
@@ -1378,9 +1372,9 @@
 	},
 	{
                 "name": "Parma",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-                "cityStateType": "Cultural",
+		"leaderName": "Charles II",
+		"adjective": ["Farnese","Etrurian"],
+                "cityStateType": "Cultural, Militaristic",
 		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
@@ -1391,17 +1385,17 @@
 		"outerColor": [70, 114, 60],
 		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Duke of Parma, the King of Etruria",
+		"uniques": ["Every city of Parma will receive a free Walls and Palace when a city is settled."],
 		     
-		"cities": ["Parma"]
+		"cities": ["Parma","Piacenza","Sarmato","San Pietro in Cerro","Paderna","Rivalta","Agazzano","Bobbio","Castell'Arquato","Vigoleno","Gropparello","Polesine Parmense","Roccabianca","Soragna","San Secondo","Fontanellato","Scipione","Compiano","Bardi","Sala Baganza","Montechiarugolo","Torrechiara","Varano De'Melegari","Colorno","Portremoli"]
 	},
 	{
                 "name": "Tuscany",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
+		"leaderName": "Leopold II",
+		"adjective": ["Tuscan"],
                 "cityStateType": "Cultural",
-		"startBias": ["terrains"],
+		"startBias": ["Plains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -1414,7 +1408,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Florence","city","cities","city"]
 	},
 	
 	//Oceania
