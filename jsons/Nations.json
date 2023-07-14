@@ -411,7 +411,26 @@
 		     
 		"cities": ["La Habana","Santiago de Cuba","Camagüey","Guantanamo","Pinar del Rio","Holguin","Cienfuegos","Santa Clara","Matanzas","Bavamo","Sancti Spiritus","Ciego de Avila","Las Tunas","Artemisa","Nueva Gerona","Cardenas","Baracoa","Palma Soriano","Varadero","Manzanilla","Colón","Contramaestro","Sandino","La Maya","Guanabacoa","Isla Juventus","Guines","Sagua La Grande","Trinidad","Flacetas","Nuevitas","Banes","San Luis","San José de las Lajas"]
 	},
-	
+	{
+                "name": "Deseret",
+		"leaderName": "Brigham Young",
+		"adjective": ["Civilian of Deseret"],
+		"cityStateType": "Cultural, Religious",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "Deseret will spread love and peace across the world, but you just want cause trouble into this world. Prepare for war, leader!",
+		"attacked": "If you want to have a war with Deseret, then fine, we will. Make sure you remember those words. You might regret it in the future.",
+		"defeated": "I do believe that you will carry on the good government of righteous society. Take care.",
+		"introduction": "Hello, friend. I am Brigham Young, governor of this here Deseret. So let me sit you down and I can tell you about the gospel of Joseph Smith.",
+
+		"outerColor": [250,250,245],
+		"innerColor": [250,250,25],
+		     
+		"uniqueName": "The Mormon Exodus",
+		"uniques": ["Settlers can spread religion and have doubled movement in Desert and Plains. Non-Capital cities in these terrains begin with local bonus resources improved."],
+		     
+		"cities": ["Salt Lake City","Bountiful","Ogden","Provo","West Jordan","Orem","Taylorsville","Layton","Logan","St. George","Sandy","Lehi","Murray","Manti","Draper","Roy","Pleasant Grove","Cottonwood Heights","Kaysville","Holladay","Clearfield","Herriman","Payson","Farmington","Lindon","Smithfield","Grantsville","Pleasant View","Mapleton","Hyrum","Ephraim","Enoch","Harrisville","Fruit Heights","Wellsville"]
+	},
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -691,8 +710,8 @@
 		"preferredVictoryType": "Domination, Culture, Science",
 		
 		"declaringWar": "Today, I'm at the limit! Your actions made me unspeakable, unable to tell how bad the consequences are! Prepare for war!",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"attacked": "You shall be seen by now that, you have made a mistake! If you want to see us on the battlefield then fine, we will.",
+		"afterPeace": "Japan respects any peace that is proposed, we don't want war but peace.",
 		"defeated": "It is only I that does this nation great dishonour. I am a servant to my defeat, but I beg you kindness upon my oppressed people.",
 		"introduction": "You are welcome in the lands of Japan, but you must pledge your honesty and your honour to my name before I would speak with you.",
 		"neutralHello": "Ohayogozaishimasu, leader! What do you have in mind?",
@@ -705,7 +724,7 @@
 		"uniqueName": "Imperial Reverence",
 		"uniques": ["+20% Culture and Production during Golden Ages. Military Units trained in a Golden Age begin with 15 more XP."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Tokyo","Osaka","Kyoto","Nagoya","Kanazawa","Hiroshima","Yokohama","Wakayama","Sendai","Tokushima","Hagi","Shuri","Toyama","Kumamoto","Fukuoka","Kobe","Fukui","Kochi","Sakai","Akita","Matsue","Niigata","Takamatsu","Okayama","Shizuoka","Nagasaki","Hakodate","Kagoshima","Akamazeki","Amagasaki","Otaru","Kawasaki","Yokosuka","Sapporo","Sasebo","Kokura","Miyahara","Yahata"]
 	},
 	//Asian City-States
 		
@@ -1023,6 +1042,26 @@
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
 	},
 	//European City States
+	{
+                "name": "Monaco",
+		"leaderName": "Albert I",
+		"adjective": ["Monégasque"],
+		"cityStateType": "Mercentile",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "Monaco is afraid that your actions is not good for Monaco, so I, Prince of Monaco, hereby declare war on you.",
+		"attacked": "Monaco is afraid of being conquered due to its size but, no matter, Monaco will fight back until its last breath.",
+		"defeated": "It is a troubling world when the likes of Monaco cannot live in peace.",
+		"introduction": "Welcome to the Prince's Palace. I am Albert I, Prince of Monaco. I hope you will stay and enjoy the freedoms that Monaco has to offer.",
+
+		"outerColor": [250,245,245],
+		"innerColor": [250,45,45],
+		     
+		"uniqueName": "Wealth of the Grimaldis",
+		"uniques": ["Capital yields +2 Tourism per Gold Building that is present in all cities. Excess Happiness converts a percentage of Tourism into Gold."],
+		     
+		"cities": ["Monacoville","Monte Carlo","La Condamine","Larvotto","Fontveille","Saint Michel","Moneghetti","La Colle","Les Révoires","La Rousse","Port Hercule","Saint Roman","Les Salines","Les Plages","L'Hermitage","Port de Fontveille","Terre-Plein du Larvotto","Quatier du Port","Carriéres-Malbousquet","Le Portier"]
+	},
 	{
                 "name": "Greece",
 		"leaderName": "Elftherios Venizelos",
