@@ -611,6 +611,102 @@
 		"cities": ["Monrovia","Bassa Cove","Greenville","Harper","Caldwell","Millsburg","New Georgia","Marshall","Bexley","Edina","Crozierville","Careysburg","Clay-Ashland","Perseverance","Cape Mesurado","Cape Palmas","Louisiana","Cestos","Trade Town","Cape Mount","Garraway","Settra Kroo","Grand Sesters","King Williams Town","Baffou","Grand Bootoo","Zapi","Nitton","Baddoo","St.Paul","Nefoo","Sinou","St. John","Wela","Tembo","Butu","Culloh","Rock Cess","Katu","Virginia","Baddu","Hening","Tebo","Grand Taba","Bereby"]
 	},
 	//Asia
+	{
+                "name": "Great Qing",
+		"leaderName": "Empress Cixi",
+		"adjective": ["Manchu"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Domination",
+		
+		"declaringWar": "You shall think twice about your actions before you do it, and it seems like you're not. Get out of my court!",
+		"attacked": "Oh? So you think you could beat the dragon of the East?! Try, and let's see you could beat it.",
+		"afterPeace": "Remember this, Qing is following the flow of the mandate, you shall pleased it rather than go against it.",
+		"defeated": "I have lived an incomparable life. Treat my heir with compassion and my people with dignity.",
+		"introduction": "Welcome to the imperial court. I trust you understand the proper protocol? Then why do you just stand there...?",
+		"neutralHello": "Greetings, leader. Is there an important thing that you want to say in the court of Qing?",
+		"hateHello": "You! Why are you here?! What do you want from us?!",
+		"tradeRequest": "We politely ask you to trade with us, would you mind trading with us as well?",
+
+		"outerColor": [255,254,2],
+		"innerColor": [13,12,255],
+		     
+		"uniqueName": "Self-strengthing Reforms",
+		"uniques": ["Combat Units yield Culture when promoted and are upgraded for free as new Social Policies and Branches are adopted."],
+		     
+		"cities": ["Beijing","Jehol","Mukden","Jilin","Boli","Hailanpao","Qiqihar","Chengde","Khüree","Kalgan","Hohhot","Baoding","Taiyuan","Uilastai","Jinan","Kaifeng","Shanghai","Weihai","Jiangning","Anqing","Xi'an","Chengdu","Lanzhou","Xining","Hangzhou","Fuzhou","Nanjing","Nanchang","Wuchang","Guangzhou","Changsha","Guilin","Qinzhou","Kunming","Guiyang","Chongqing","Duhai","Ili","Kobdo","Lhasa"]
+	},
+	{
+                "name": "Japan (Shogunate)",
+		"leaderName": "Tokugawa Yoshinobu",
+		"adjective": ["Japanese"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Domination",
+		
+		"declaringWar": "Edo can't ignore your actions no more, prepare for war. My soldiers will beat anyone who oppose us Japanese.",
+		"attacked": "Dakaranani? We just live in peace but you want war, isn't it. Then let it happens, and see who is victorious, who is lost and without dignity, die of despair.",
+		"afterPeace": "That's good. I am pleased that we could live in peace once more. Good job.",
+		"defeated": "It was a grave mistake to have ever approached the battlefield, especially with one as fierce as yourself. I'm not one to die right now, however. I accept my defeat.",
+		"introduction": "The noble Tokugawa bows to their foreign visitors. My name is Tokugawa Yoshinobu, and you should find that we've plenty to learn from each other.",
+		"neutralHello": "Greetings, leader. What words do you have in mind?",
+		"hateHello": "Oh, it's you. What do you want? You want something from us? Say it.",
+		"tradeRequest": "Let me ask you, can we make a trade deal with you, we want to have this from you and we will exchange this for that.",
+
+		"outerColor": [234,234,234],
+		"innerColor": [0,0,0],
+		     
+		"uniqueName": "Drawing the Last Sword",
+		"uniques": ["Buildings that provide Unit Production provide Experience. Units earn Science upon Promotion."],
+		     
+		"cities": ["Edo","Hakodate","Aizuwakamatsu","Osaka","Nagasaki","Yokohama","Shimoda","Kagoshima","Wakayama","Kanazawa","Nagoya","Niigata","Mito","Sendai","Fukuoka","Koshu","Nagaoka","Toba","Kumamoto","Matsumae","Saga","Hyogo","Shiroishi","Sapporo","Tsu","Odawara","Hikone","Akita","Morioka","Koriyama"]
+	},
+	{
+                "name": "Satsuma",
+		"leaderName": "Saigo Takamori",
+		"adjective": ["Citizen of Satsuma"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination, Science",
+		
+		"declaringWar": "Satsuma can't keep you from any bad no more. Let's have a fight to teach you a lesson.",
+		"attacked": "Oh hoh hoh, you now show your true face, isn't it? Now it's time for me to beat you up until you surrender.",
+		"afterPeace": "Keep having good impression on everyone will be better for you here. And I gotta admit, your soldiers are strong.",
+		"defeated": "Ah, it looks as if our dreams are at an end. Please, leave me in peace so I can do what is honourable. Oh, and take this citrus tree, so you will always remember our country and our culture even after I am gone.",
+		"introduction": "Greetings from far Satsuma! I am but a warrior, but I hope to foster good relations with foreign powers such as yourself.",
+		"neutralHello": "Oh hoh hoh! Welcome, leader. What's in your mind?",
+		"hateHello": "It seems you do not understand the rules but fine, what do you want?",
+		"tradeRequest": "Satsuma ask you to trade with us, we want such things and we want exchange that with what we have here.",
+
+		"outerColor": [2,255,2],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "War of the Southwest",
+		"uniques": ["Units gain +10% Combat Strength for every adjacent enemy above two. Damaged units adjacent to at least two enemies can Commit Seppuku, killing the unit and yielding a burst of Culture from each adjacent enemy."],
+		     
+		"cities": ["Kagoshima","Miyakonojo","Ibusuki","Izaku","Chiran","Shibushi","Kimotsuki-Takayama","Satsumasendai","Bonotsu","Izumi","Kajiki","Kaseda","Tarumizu","Hishikari","Aya","Kakuto","Kanoya","Nichinoomote","Miyanoura","Sato","Kokubu","Kushikino","Ijuin","Kobayashi","Aira","Nejime","Ishiki","Okuchi","Mimata","Kurino"]
+	},
+	{
+                "name": "Japan (Empire)",
+		"leaderName": "Emperor Meiji",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination, Culture, Science",
+		
+		"declaringWar": "Today, I'm at the limit! Your actions made me unspeakable, unable to tell how bad the consequences are! Prepare for war!",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "It is only I that does this nation great dishonour. I am a servant to my defeat, but I beg you kindness upon my oppressed people.",
+		"introduction": "You are welcome in the lands of Japan, but you must pledge your honesty and your honour to my name before I would speak with you.",
+		"neutralHello": "Ohayogozaishimasu, leader! What do you have in mind?",
+		"hateHello": "Why are you still in the Japanese court?! What do you want exactly?!",
+		"tradeRequest": "It is today that Japan and you are making a trade deal, with Japan gains this in exchange with that.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [235,0,0],
+		     
+		"uniqueName": "Imperial Reverence",
+		"uniques": ["+20% Culture and Production during Golden Ages. Military Units trained in a Golden Age begin with 15 more XP."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//Asian City-States
 		
 	//Europe
