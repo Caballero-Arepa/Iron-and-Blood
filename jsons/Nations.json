@@ -465,12 +465,72 @@
 		"introduction": "Tous, my fellow traveller. I am Pretty Nose of the Arapaho, and I would see that you do no harm while in my lands.",
 
 		"outerColor": [255,120,0],
-		"innerColor": [222,227,236],
+		"innerColor": [255,227,236],
 		     
 		"uniqueName": "People of the Blue Sky",
 		"uniques": ["Gain a free mounted unit each time you complete a Trade Route. Cities settled on a strategic resource create the relevant improvement and get a free Trade Route slot."],
 		     
 		"cities": ["Wootei-niicie","Nii-cii-nec-iini'","Nook-oowu'","Konouutosei","Heet-niiseekuu'","Nonookuneeseeii'","Ceneit-eetee'","Tecenoo","Heet-hockoootee-t","Xonouu'oo'","Biito'owu'","Wox Noho'kuhnee-t","Noowóo-ííteen","Heet-ko'einoo'","Hóo'uu Níit-ko'ús-i'i","Hinenitee Toh-nooxeih-t","Toh-okooxeee-ni'","Níit-kotóus-í'i","Heneeceen-okoy","Nihoon-oobe'","Beexookein-okoy","Notkonii-booo","Ni'ec-i' Toh-booeti-","KTih-noo'oeenootee' Ni'ec-i","'Neniikote'eit Neh'eih-t","Wox-eihtoo","Hisei Tih-nooee-t","Ti'iihiinen Tih-neh'eee-t","Beniis-otoyoo'","Hiwoxuu Hiniioon"]
+	},
+	{
+                "name": "The Shawnee",
+		"leaderName": "Tecumseh",
+		"adjective": ["Shawnee"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Welcome, traveler. I am Tecumseh, chief of the Shawnee. I always give a word or a sign of salute when meeting or passing a friend of mine, even a stranger, when in a lonely place, I will show respect to all people and grovel to none.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Tecumseh's War",
+		"uniques": ["When Shawnee is at war with any Civilization or City-State, its border do not expand and its City with 3 Citizens or lower do not grow."],
+		     
+		"cities": ["Prophetstown","Pelxtan","Chalacasa","Chalakagay","Chalahgawtha","Tippecanoe","Shawnee City","Eskippakithiki","Sonnionto","Shawneetown","Fort Ancient","Sunwatch Village","Kemp","Hine","Baldwin","Stokes","Baum","Practorville","Feurt","Fox Farm","Buckner","Hardin Village","Hahns Field"]
+	},
+	{
+                "name": "Muskogee",
+		"leaderName": "William Augustus Bowles",
+		"adjective": ["Muskogee"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Your actions are telling me that you're not trustworthy. May we have a war between us, rather stay in a peace that is going nowhere.",
+		"attacked": "If you want to enjoy war so much, then there's no reason to just sit and die. Let's meet at the battlefield to see who's the winner.",
+		"defeated": "I can no longer stand this. Take me as your prisoner, but spare my people!",
+		"introduction": "Hello there! I'm William Bowles, Director-General of the State of Muskogee. We're committed to peace and freedom for all those that seek it.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [236,227,236],
+		     
+		"uniqueName": "Estajoca",
+		"uniques": ["During a Peace Treaty, resting Influence with Civilizations is increased by 20. Trade Routes to Civilizations provide Great General Points, and Units near the Civilizations will passively gain XP."],
+		     
+		"cities": ["Miccosukee","Tallahassee","Fowltown","Tallapoosa","Pensacola","Ochlockonee","Hitichiti","Tuckabatchee","Wakulla","Chattahoochee","Waukeenah","Coushatta","Apalachicola","Wetumpka","Cusseta","Muklassa","Stoinhatchee","Chehaw","Eufaula","Ocheesee","Wacissa","Apalachee","Okchai","Ocmulgee","Sawokli","Wewahitchka","Okfuskee","Yamasee","Tamali"]
+	},
+	{
+                "name": "Comanchería",
+		"leaderName": "Puhihwitsikwasu (Iron Jacket)",
+		"adjective": ["Comanche"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Avoid Tundra and Jungle"],
+		
+		"declaringWar": "I have warned you, but you don't listen. Maybe a lesson will be enough for you, you stubborn one. You deserved to be beaten. Prepare for war!",
+		"attacked": "If you don't want peace, it's fine by me. You deserve to be killed by us Comanches. Your words are nothing but nonsense. Prepare to die!",
+		"defeated": "Impossible. I was supposed to be invincible!",
+		"introduction": "I'm Puhihwitsikwasu, chieftain of the Quahadi Comanche. I'll give you one warning: stay off the Comanchería; it's our rightful land.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [245,227,227],
+		     
+		"uniqueName": "Comanche Moon",
+		"uniques": ["Razing cities grant Gold per turn, and Faith to nearby cities if at peace with the original owner. Horse units can enter foreign territory, and pillage while at peace in foreign territory at the cost of Faith."],
+		     
+		"cities": ["Quahadi","Penateka","Yamnparika","Jupe","Kotsoteka","Nokoni","Kwahihuu Ki","Pahnaixte","Hupanuu","Tenawa","Teyuwit","Pikaatemu","Saria Tuhka","Itehtah'o","Ohnonuu","Pahuraix","Pohoi","Tutsanoo Yehku","Wianuu","Tanimuu","Titchahkaynah","Suhmuhtuhka","Pibianigwai","Motso Tu","Wa'wai"]
 	},
 	//Africa
 	{
