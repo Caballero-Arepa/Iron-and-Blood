@@ -1,7 +1,7 @@
 [
 	//These are the nations. Organized first by Continent, then Major Nations first, then Minor nation, all in alphabetical order.
 	// Yes, minor nations also do get Unique Abilites and dialogues. They also follow a color code, depending on their association are.
-	// German CS have Grey background, or Italian CS have Green Background, etc, for gameplay purposes.
+	// German CS have Grey background, or Italian CS have Green Background, American Tribal CS have Orange background, etc., for gameplay purposes.
 	
 	
 	//America
@@ -430,6 +430,47 @@
 		"uniques": ["Settlers can spread religion and have doubled movement in Desert and Plains. Non-Capital cities in these terrains begin with local bonus resources improved."],
 		     
 		"cities": ["Salt Lake City","Bountiful","Ogden","Provo","West Jordan","Orem","Taylorsville","Layton","Logan","St. George","Sandy","Lehi","Murray","Manti","Draper","Roy","Pleasant Grove","Cottonwood Heights","Kaysville","Holladay","Clearfield","Herriman","Payson","Farmington","Lindon","Smithfield","Grantsville","Pleasant View","Mapleton","Hyrum","Ephraim","Enoch","Harrisville","Fruit Heights","Wellsville"]
+	},
+	//American Tribal CS
+	{
+                "name": "The Sioux",
+		"leaderName": "Sitting Bull",
+		"adjective": ["Sioux"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "You think we will let you free without a punishment? Prepare for war, because your actions in other places have reached my ear. Let's fight!",
+		"attacked": "Oh really, then show us then. Show us that you are capable of fighting with us people.",
+		"defeated": "This nation is like a spring freshet; it overruns its banks and destroys all who are in its path.",
+		"introduction": "Each man is good in the sight of the Great Spirit. I am here by the will of the Great Spirit, and by his will I am Chief.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [222,222,120],
+		     
+		"uniqueName": "Great Buffalo Hunt",
+		"uniques": ["Starting with your second City, settling near Plains Tiles will spawn a Bison Resource. Bison in Sioux territory may not be improved, but instead provide a large base yield (increased at Chivalry) and periodically roam the map."],
+		     
+		"cities": ["Hunkpapa","Mdewakantonwan","Yankton","Oglala","Sisseton","Wahpekute","Sihasapa","Wahpetonwan","Itazincho","Sichangu","Yanktonai","Oohenupa","Hohs","Kivaksa","Mawahota","Oyuhpe","Unkpatina","Wazhazha","Wakpokinyan","Payabaya","Glaglanecha","Shikshichela","Wamnugaoin","Tiyopaoshanunpa","Tatankachesli","Wanhinwega","Shinalutaoin","Itesica","Shunkayuteshni","Mazpegnaka","Tapisleca","Bakihon","Sanona","Little Bighorn"]
+	},
+	{
+                "name": "The Arapaho",
+		"leaderName": "Pretty Nose",
+		"adjective": ["Arapaho"],
+		"cityStateType": "Militaristic, Mercentile",
+		"startBias": ["None"],
+		
+		"declaringWar": "We don't accept you as a traveller anymore, but as the evil on this earth. Our soldiers will meet you on the battlefield.",
+		"attacked": "Frase",
+		"defeated": "Every battle cannot be won. Howouunoni. Have mercy on me. Have mercy on my people. Because beware, we are still strong in defeat.",
+		"introduction": "Tous, my fellow traveller. I am Pretty Nose of the Arapaho, and I would see that you do no harm while in my lands.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "People of the Blue Sky",
+		"uniques": ["Gain a free mounted unit each time you complete a Trade Route. Cities settled on a strategic resource create the relevant improvement and get a free Trade Route slot."],
+		     
+		"cities": ["Capital","city","cities","city"]
 	},
 	//Africa
 	{
