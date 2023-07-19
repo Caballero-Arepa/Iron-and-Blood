@@ -269,7 +269,6 @@
 		     
 		"cities": ["Richmond","Montgomery","New Orleans","Atlanta","Mobile","Memphis","Savannah","Charleston","Nashville","Norfolk","Petersburg","Alexandria","Augusta","Columbus","Wilmington","Macon","Fredericksburg","Baton Rouge","Jacksonville","Lynchburg","Raleigh","Wheeling","Jackson","Natchez","San Antonio","Winchester","Austin","Pensacola","Knoxville","Tallahassee","El Paso","Chattanooga","Santa Fe","Staunton","Algiers","New Bern","Fayetteville","Dallas","Tucson","Vicksburg","Danville"]
 	},
-	
 	//American City-States
 	{
                 "name": "Uruguay",
@@ -430,6 +429,26 @@
 		"uniques": ["Settlers can spread religion and have doubled movement in Desert and Plains. Non-Capital cities in these terrains begin with local bonus resources improved."],
 		     
 		"cities": ["Salt Lake City","Bountiful","Ogden","Provo","West Jordan","Orem","Taylorsville","Layton","Logan","St. George","Sandy","Lehi","Murray","Manti","Draper","Roy","Pleasant Grove","Cottonwood Heights","Kaysville","Holladay","Clearfield","Herriman","Payson","Farmington","Lindon","Smithfield","Grantsville","Pleasant View","Mapleton","Hyrum","Ephraim","Enoch","Harrisville","Fruit Heights","Wellsville"]
+	},
+	{
+                "name": "Sonora",
+		"leaderName": "William Walker",
+		"adjective": ["Sonoran"],
+		"cityStateType": "Mercentile",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "You may dare to go against Sonora, but I believe we are at crossroads. Prepare for war!",
+		"attacked": "You truly a dumb person at service! Let's have you learned some lessons after this.",
+		"defeated": "I have carved my name into history. That, you can never undo.",
+		"introduction": "Welcome to Sonora! I'm William Walker. Some folk have taken to calling me 'The Grey-Eyed Man of Destiny', but please - call me Will.",
+
+		"outerColor": [255,250,250],
+		"innerColor": [255,22,22],
+		     
+		"uniqueName": "The Grey-Eyed Man of Destiny",
+		"uniques": ["50% Combat Strength bonus if within 2 tiles of a Frontier Town."],
+		     
+		"cities": ["La Paz","Cabo San Lucas","Ensenada","Mulegé"]
 	},
 	//American Tribal CS
 	{
@@ -828,7 +847,46 @@
 		"cities": ["Tokyo","Osaka","Kyoto","Nagoya","Kanazawa","Hiroshima","Yokohama","Wakayama","Sendai","Tokushima","Hagi","Shuri","Toyama","Kumamoto","Fukuoka","Kobe","Fukui","Kochi","Sakai","Akita","Matsue","Niigata","Takamatsu","Okayama","Shizuoka","Nagasaki","Hakodate","Kagoshima","Akamazeki","Amagasaki","Otaru","Kawasaki","Yokosuka","Sapporo","Sasebo","Kokura","Miyahara","Yahata"]
 	},
 	//Asian City-States
+	{
+                "name": "Ezo",
+		"leaderName": "Enomoto Takeaki",
+		"adjective": ["Citizen of Ezo"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coastal"],
 		
+		"declaringWar": "The Republic can't be along with you no more, I, Enomoto Takeaki, will make you an enemy to the Republic!",
+		"attacked": "Hoh hoh! How pity you are! The Republic will surely find what you can't capable of, sooner or later.",
+		"defeated": "Of course, I'll concede defeat. The Republic is no more, but I believe freedom will one day return to this land.",
+		"introduction": "Welcome to the new Republic. I am Enomoto Takeaki, elected president of this land. We're working hard to prepare our nation's defences.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [2,22,236],
+		     
+		"uniqueName": "The Last Samurai",
+		"uniques": ["When the Capital is founded, a Citadel is automatically built on an adjacent tile. Starting in the Napoleonic Era, Melee and Gunpowder units generate additional Great General points upon kills."],
+		     
+		"cities": ["Hakodate","Sapporo","Asahikawa","Kushiro","Tomakomai","Obohiro","Otaru","Kitami","Ebetsu","Chitose","Muroran","Iwamizawa","Eniwa","Kitahiroshima","Ishikari","Noboribetsu","Hokuto","Otofuke","Takikawa","Abashiri","Wakkanai","Date","Nayoro","Nanae","Nemuro","Makibetsu","Nakashibotsu","Shinhidaka","Mombestu","Bibai","Furano","Rumoi","Fukagawa","Engaru","Bihoro"]
+	},
+	{
+                "name": "City-State",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//Europe
 	{
                 "name": "Austria",
@@ -1263,6 +1321,26 @@
 		     
 		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
 	},
+	{
+                "name": "Septinpular Republic",
+		"leaderName": "Antonios Komoutos",
+		"adjective": ["Ionian"],
+		"cityStateType": "Mercentile, Maritime",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "We will show you what we are capable off! Ας σαλπάρουμε, παιδιά! Ας είμαστε έτοιμοι για τον πόλεμο εναντίον αυτού του εχθρού μας, παιδιά!",
+		"attacked": "You think we're weak just because we're small islanders, didn't you? Επιτρέψτε μου να σας δείξω ότι δεν είμαστε τόσο αδύναμοι όσο νομίζατε!",
+		"defeated": "If this is what it takes for the return of peace, so be it.",
+		"introduction": "Welcome to the Septinsular Republic. I am Antonios Komoutos, Prince and President of these islands.",
+
+		"outerColor": [22,11,255],
+		"innerColor": [222,222,0],
+		     
+		"uniqueName": "Frankokrotia",
+		"uniques": ["Cities have extra Naval Trade Route range based on the number of adjacent water tiles. Foreign Trade Units passing through your territory grant Food to Cities below 10 Population, and Culture thereafter."],
+		     
+		"cities": ["Corfù","Argostoli","Kythira","Zakynthos","Lefkada","Vathy","Gaios","Kavos","Lixouri","Potamos","Roda","Katastari","Lygia","Gouvia","Stavros","Lakka","Sidari","Sami","Agia Pelagia","Vanato","Nikiana","Marmaka","Lagos","Arillas","Fiskardo","Anon Livadi","Machairado","Apoipaina","Exogi","Ozias"]
+	},
 	//German CS
 	{
                 "name": "Anhalt",
@@ -1662,8 +1740,7 @@
 		"innerColor": [185, 12, 12],
 		"uniques": ["Can only heal by pillaging"]
 	},
-	
-	Templates
+	//Templates
 	{
                 "name": "Template",
 		"leaderName": "Leader Name",
