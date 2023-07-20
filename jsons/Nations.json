@@ -434,7 +434,7 @@
                 "name": "Sonora",
 		"leaderName": "William Walker",
 		"adjective": ["Sonoran"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Cultural",
 		"startBias": ["Desert"],
 		
 		"declaringWar": "You may dare to go against Sonora, but I believe we are at crossroads. Prepare for war!",
@@ -448,7 +448,7 @@
 		"uniqueName": "The Grey-Eyed Man of Destiny",
 		"uniques": ["50% Combat Strength bonus if within 2 tiles of a Frontier Town."],
 		     
-		"cities": ["La Paz","Cabo San Lucas","Ensenada","Mulegé"]
+		"cities": ["La Paz","Cabo San Lucas","Ensenada","Mulegé","Loreto","Tijuana","Mexicali","Comondú","Tecate","Playas de Rosarito","Hermosillo","Cajeme","Nogales","San Luis Rio Colorado","Navojoa","Caborca","Agua Prieta","Huatabampo","Etchojoa","Puerto Peñasco","Empalme","Cananea","Magdalena","Álamos","Atil","Bácum","Plutarco Elías Calles","Santa Ana","San Ignacio Río Muerte","Nacozari de Garcia","Altar","Pitiquito","San Miguel de Horcasitas","Ures","Fronteras","Nacozari","Cumpas","Yécora","Sahuaripa","Benjamín Hill","Moctezuma","Baviácora","Quiriego","Aconchi","Arizpe","La Colorada","Nácori Chico","Santa Cruz","Banámichi","Trincheras","Sáric","Vila Hidalgo","San Pedro de la Cueva","Bavispe","Rayón"]
 	},
 	//American Tribal CS
 	{
@@ -868,11 +868,11 @@
 		"cities": ["Hakodate","Sapporo","Asahikawa","Kushiro","Tomakomai","Obohiro","Otaru","Kitami","Ebetsu","Chitose","Muroran","Iwamizawa","Eniwa","Kitahiroshima","Ishikari","Noboribetsu","Hokuto","Otofuke","Takikawa","Abashiri","Wakkanai","Date","Nayoro","Nanae","Nemuro","Makibetsu","Nakashibotsu","Shinhidaka","Mombestu","Bibai","Furano","Rumoi","Fukagawa","Engaru","Bihoro"]
 	},
 	{
-                "name": "City-State",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+                "name": "Taiping",
+		"leaderName": "Hong Xiuquan",
+		"adjective": ["Civilian of Taiping"],
+		"cityStateType": "Religious",
+		"startBias": ["River"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -882,10 +882,30 @@
 		"outerColor": [130,121,87],
 		"innerColor": [222,227,236],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Brother of Christ",
+		"uniques": ["Upon capturing a City, earn a boost of Faith and a restore a portion of the City's HP for each pillaged tile within working distance. Puppet Cities produce +25% Religious Pressure while following your Religion."],
 		     
 		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lanfang",
+		"leaderName": "Luo Fangbo",
+		"adjective": ["Civilian of Lanfang"],
+		"cityStateType": "Mercentile, Maritime",
+		"startBias": ["Jungle"],
+		
+		"declaringWar": "Your actions are unacceptable! You acts cruel upon us long enough! Prepare for war!",
+		"attacked": "Unbelievable! You think you can best us, we'll show you what we are capable of.",
+		"defeated": "Ours will not be the last republic. Another will bear the sword of freedom in defiance of you.",
+		"introduction": "A pleasure to meet you. I'm President Luo Fangbo, and I speak for the people of the Lanfang Republic. Oh, are you interested in our system of government?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Kongsi Federation",
+		"uniques": ["For every City actively working 3 Mines or Quarries in your Empire, unlock a random Social Policy tree. Once all Social Policy trees have been unlocked, this bonus will provide a random Freedom Tenet."],
+		     
+		"cities": ["Dong Wan Li","Pontianak","Sungai Raya","Ketapang","Sanggau","Sintang","Ngabang","Mempawah","Putussibau","Bengkayang","Singkawang","Sekadau","Nanga Pinoh","Sukadana","Pahuman","Sungaipinyuh","Jungkat","Rasau","Sungaiduri","Pemalo","Darit","Sidas","Sosok","Serimbu","Endia","Ledo","Pemangkat","Momong","Haur","Liku"]
 	},
 	//Europe
 	{
