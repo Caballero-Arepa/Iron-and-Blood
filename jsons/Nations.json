@@ -846,6 +846,54 @@
 		     
 		"cities": ["Tokyo","Osaka","Kyoto","Nagoya","Kanazawa","Hiroshima","Yokohama","Wakayama","Sendai","Tokushima","Hagi","Shuri","Toyama","Kumamoto","Fukuoka","Kobe","Fukui","Kochi","Sakai","Akita","Matsue","Niigata","Takamatsu","Okayama","Shizuoka","Nagasaki","Hakodate","Kagoshima","Akamazeki","Amagasaki","Otaru","Kawasaki","Yokosuka","Sapporo","Sasebo","Kokura","Miyahara","Yahata"]
 	},
+	{
+                "name": "Korea",
+		"leaderName": "Gojong (Yi Myeongbok)",
+		"adjective": ["Korean"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Domination",
+		
+		"declaringWar": "Our ministers decided that your nation is counted. Be sure to ready before it hits the fan.",
+		"attacked": "It is that today, marks a big event in our history, as now we will fight and we will fight until our last breathes.",
+		"afterPeace": "Delightful! It's no wonder that we have been fighting each other for a long time. Now, we open our hands in the era of peace and shake our hands as we now live in peace.",
+		"defeated": "How is it that this day has come to pass? I have given everything in my power and more to prevent its coming. Was it still not enough?",
+		"introduction": "Korea welcomes you, foreign leader, as do I, Gojong, her emperor. I pray that relations between our empires may be cordial, if not harmonious.",
+		"neutralHello": "Salutations, leader. Korea is opened its hand for you. What can we do for you here?",
+		"hateHello": "Who care about you in here? What do you wish for? Tell me about it.",
+		"tradeRequest": "We have delicated our deal here with fairness. May you accept it, as it was adjusted by a number of my ministers.",
+
+		"outerColor": [250,250,250],
+		"innerColor": [20,20,250],
+		     
+		"uniqueName": "Enlightenment of the Land",
+		"uniques": ["Specialists yield +1 Production for every five external Trade Routes in the empire. Exchanging embassies or Open Borders with other Civilizations yields Science for both parties."],
+		     
+		"cities": ["Hanseong","Pyongyang","Busan","Daegu","Jeonju","Jinju","Sangju","Taejo","Hamheung","Gongju","Gangneung","Chongjin","Kyongsong","Hwangju","Solme","Seorabeol","Hanyang","Jeollado","Anju","Hoseo","Tamna","Jemulpa","Busosanseong","Samseonghyeol","Gangnam","Sariwon","Sejong"]
+	},
+	{
+                "name": "The Philippines",
+		"leaderName": "Emilio Aguinaldo",
+		"adjective": ["Filipino"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "You think you can win over us, and also think that we are weak, are you? If you think so, then show me what do you have to fight us.",
+		"attacked": "It is seems that you are favor of war rather than peace. A lesson or maybe two or three will be enough for you. Get ready. Your words today might be a lie tomorrow.",
+		"afterPeace": "Finally, peace is achieved. I hope you take your note that we are not easily beaten.",
+		"defeated": "Your conquest of this land will go down as a great treachery in the history of the world. Of this, I am sure.",
+		"introduction": "I am Emilio Aguinaldo, supreme commander of the Philippine armies and president of the Philippine people. You honor us with your visit.",
+		"neutralHello": "Greetings. What can I do for you today?",
+		"hateHello": "Oh, it seems you want to meet me. What purpose do you come for me for?",
+		"tradeRequest": "I think we trade with you is a great choice so, the deal is set, and it's now your choice.",
+
+		"outerColor": [245,245,150],
+		"innerColor": [255,130,130],
+		     
+		"uniqueName": "Undimmed by Tyrant's Might",
+		"uniques": ["At the outbreak of war with a major civilization, receive CultureIcon.png Culture for each enemy city in excess of yours.","Infantry Units starting in your borders may force defenders to retreat."],
+		     
+		"cities": ["Malolos","Cavite El Viejo","San Jose del Monte","Pasig","Angeles","Pateros","Tagig","Kalookan","Cabanatuan","San Pedro de Makati","Mandaluyong","San Francisco de Malabon","Noveleta","Imus","Mariquina","Antipolo","Bacoor","Montalban","Las Pinas","Naik","Tejeros","Maragondon","Biak-na-Bato","Capiz","Jaro","Guagua","Tarlac","San Fernando","Angono","Calamba","Bocaue","Baler","Bacolor","Kakarong","Cebu","Nueva Caceres","Carcar","Nueva Vergara","Bayombong","Palanan","Butuan","Manila"]
+	},
 	//Asian City-States
 	{
                 "name": "Ezo",
@@ -906,6 +954,26 @@
 		"uniques": ["For every City actively working 3 Mines or Quarries in your Empire, unlock a random Social Policy tree. Once all Social Policy trees have been unlocked, this bonus will provide a random Freedom Tenet."],
 		     
 		"cities": ["Dong Wan Li","Pontianak","Sungai Raya","Ketapang","Sanggau","Sintang","Ngabang","Mempawah","Putussibau","Bengkayang","Singkawang","Sekadau","Nanga Pinoh","Sukadana","Pahuman","Sungaipinyuh","Jungkat","Rasau","Sungaiduri","Pemalo","Darit","Sidas","Sosok","Serimbu","Endia","Ledo","Pemangkat","Momong","Haur","Liku"]
+	},
+	{
+                "name": "Yettishar (Kashgaria)",
+		"leaderName": "Yaqub Beg",
+		"adjective": ["Dungan"],
+		"cityStateType": "Religious, Militaristic",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "May Allah put you and puts you under the grains of sand in the Gobi desert. Prepare to be beaten!",
+		"attacked": "Give me your best, because Allah is on my side. What about you?",
+		"defeated": "You have defeated me, but if you think faithful are defeated you are a fool. The banner of Shari'a will be the death of you!",
+		"introduction": "A messenger, then! This isn't the best time to be passing each other letters, I'm afraid. My enemies won't slaughter themselves.",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Jihad by Way of Gunpower",
+		"uniques": ["Cities gain a +1% Land Unit Production bonus for every follower of your Majority Religion in the Capital. Whilst at war, gain a Great General in one of your cities for every enemy city converted to your religion."],
+		     
+		"cities": ["Capital","city","cities","city"]
 	},
 	//Europe
 	{
