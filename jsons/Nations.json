@@ -1005,6 +1005,30 @@
 		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
 	},
 	{
+                "name": "Germany",
+		"leaderName": "Wilhelm II",
+		"adjective": ["German"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "You, do you think you are superior than Deutschland?! I will show you what are we Germans capable of!",
+		"attacked": "No threat could ever harm Deutschland! I will show you that you are screwed! Get prepared, you bastard!",
+		"afterPeace": "It seems you are agreed to make peace, I will watch an eye on you, for I know that you want to trick me.",
+		"defeated": "This is an absurd! I am superior to you! My army is superior, and my navy too! You cheated! I don't know how but I'm sure you did!",
+		"introduction": "Oh? Who are you? Who? From where? Uhh no, never heard of. I am Wilhelm II, and I'm sure you heard of me, the emperor of Germany!",
+		"neutralHello": "Greetings, leader. What can Deutschland do for you?",
+		"hateHello": "Oh, it's you... What are you doing here? What for?",
+		"tradeRequest": "The German Empire is now asking you to make trade, hoping you could understand what we meant and cooperate with us here.",
+
+		"outerColor": [255,0,5],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Total War",
+		"uniques": ["Units move faster for ten turns after declaring war. Gain more Production for each player at war with Germany, and each city producing Military Units or Gold contributes to War Effort."],
+		     
+		"cities": ["Berlin","Königsberg","Hamburg","Breslau","Munich","Frankfurt","Cologne","Danzig","Strassburg","Stettin","Essen","Posen","Dortmund","Kattowitz","Stuttgart","Magdeburg","Düsseldorf","Hannover","Bremen","Metz","Duisburg","Mainz","Leipzig","Kiel","Dresden","Schwerin","Bonn","Bochum","Bielefeld","Karlsruhe"]
+	},
+	{
                 "name": "The Ottomans",
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
@@ -1485,22 +1509,22 @@
 	{
                 "name": "Hanover",
 		"leaderName": "Ernest Augustus",
-		"adjective": ["Civilian of Hanover"],
+		"adjective": ["Hanoverian"],
                 "cityStateType": "Scientific, Cultural",
                 "startBias": ["None"],
 		
-		"declaringWar": "Oh lord, you will see the wrath of Hanover and United Kingdom, you will see.",
-		"attacked": "Oh really, United Kingdom will comes for my aid and finishes you up, you dumb dumb.",
-		"defeated": "Hanover is lost, but beware, I will make sure that the United Kingdom will comes to my aid.",
-		"introduction": "Welcome to the realm of Hanover, I'm Ernest Augustus, King of Hanover, Duke of Cumberland and Tevoitdale. It's nice to see you around.",
+		"declaringWar": "Oh lord, you will see the wrath of Hanover, you will see.",
+		"attacked": "Oh really, we will show what are we can do to go against you.",
+		"defeated": "I was not fit for this throne. I was made for greater things. This loss here, today, is proof of that.",
+		"introduction": "Hail. I am Ernest Augustus, king of Hanover. Speak quickly in my presence, for I have other matters to which to attend. Other, more important matters.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [1,2,3],
 		     
-		"uniqueName": "Duke of Cumberland and Tevoitdale",
-		"uniques": ["When you are a friend or an ally of United Kingdom, United Kingdom recieve +10% Culture and Science, you recieve a Great Writer. When at war, all Infantry units will recieve the Guelphic Legion promotion. At the start of the game, United Kingdom is already Hanover's friend."],
+		"uniqueName": "Royal Crossways",
+		"uniques": ["50% of Capital Production yield modifiers are shared between all cities with a City Connection. 100% of this Production modifier is shared when that Connection is via Railroad.", "When at war, all Infantry units will recieve the Guelphic Legion promotion. At the start of the game, United Kingdom is already Hanover's friend."],
 		     
-		"cities": ["Hannover","Göttingen","Osnabrück","Wilhelmshaven","Harburg","Heligoland"]
+		"cities": ["Hannover","Göttingen","Osnabrück","Wilhelmshaven","Harburg","Lüneburg","Emden","Hildesheim","Celle","Clausthal","Goslar","Einbeck","Hamelin","Stade","Meppen","Zellerfeld","Lingen","Verden an der Aller","Aurich","Vienenburg","Wolfsburg","Salzgitter","Nienburg","Neustadt","Wennigsen","Langenhagen","Wunstorf","Nordhorn","Gardsen","Uetze"]
 	},
 	{
                 "name": "Hesse-Darmstadt",
@@ -1538,7 +1562,7 @@
 		"innerColor": [112, 180, 195],
 		     
 		"uniqueName": "Schleswig-Holstein-Sonderburg-Augustenborg",
-		"uniques": ["When you a friend or an ally of Denmark, Denmark and you recieve +10 Gold and Culture. At the start of the game, Denmark is already Holstein's friend."],
+		"uniques": ["Specialists produce no additional unhappiness. For every two trade routes entering or exiting a Schleswig-Holstein city all specialists gain +1 to their primary yield.","At the start of the game, Denmark is already Holstein's friend."],
 		     
 		"cities": ["Holstein","Schleswig","Kiel","Glückstadt","Altona","Rendsburg","Segeberg","Heilligenhafen","Oldenburg in Holstein","Plön","Flensburg","Scikon","Fóhr","Röm","Fermann","Pelhrorn","Hüsem","Tondern","Apenrade","Hadersleben","Kolding","Eckënforde"]
 	},
@@ -1641,6 +1665,26 @@
 		"uniques": ["When at war, all units will have 25% bonus in attack effectiveness and defense effectiveness. All infantry units will gain the Royal Württemberg promotion when discovered Bold Action Rifles"],
 
 		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
+	},
+	{
+                "name": "Westphalia",
+		"leaderName": "Jerome I (Jérôme Girolamo Napoléon Bonaparte)",
+		"adjective": ["Westphalian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+		
+		"declaringWar": "You think you can do that without being noticed, huh? Well, prepare for war, because I believe that you must die before I am.",
+		"attacked": "Unbelievable! I can't believe that you make me disgusted with your declaration. I will fight and I say I will.",
+		"defeated": "There's something that I will never get it back, but soon I will regained it.",
+		"introduction": "Welcome to Westphalia, I, Jerome I, will be pleased to talk with you about important things.",
+
+		"outerColor": [0,15,255],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "The Napoleonic Dynasty",
+		"uniques": ["Recieve +5 Gold for every enemy kills by your soldiers. Recieve a free Great General when you are a friend with France, and receive a free Great People of Choice when reached Napoleonic Era."],
+		     
+		"cities": ["Kassel","Marburg","Magdeburg","Brearschweig","Osnabrück","Meppen","Waldeck","Sondershruck","Dessau","Stade","Lunenburg","Seesen","Rietburg","Stolberg","Wernigerode","Dietz","Nidda","Ziegenhain","Katzenelnbogen","Diepholz","Lauterburg"],
 	},
 	//Italian CS
 	{
