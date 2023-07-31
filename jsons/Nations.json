@@ -551,6 +551,66 @@
 		     
 		"cities": ["Quahadi","Penateka","Yamnparika","Jupe","Kotsoteka","Nokoni","Kwahihuu Ki","Pahnaixte","Hupanuu","Tenawa","Teyuwit","Pikaatemu","Saria Tuhka","Itehtah'o","Ohnonuu","Pahuraix","Pohoi","Tutsanoo Yehku","Wianuu","Tanimuu","Titchahkaynah","Suhmuhtuhka","Pibianigwai","Motso Tu","Wa'wai"]
 	},
+	{
+                "name": "Choctaw",
+		"leaderName": "Pushmataha",
+		"adjective": ["Choctaw"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [255,100,100],
+		     
+		"uniqueName": "The Indian General",
+		"uniques": ["When at war, recieve +25% attack effectiveness for every Infantry units and +25% defensiveness when the Infantry units is in defense."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Chickasaw",
+		"leaderName": "Tishomingo",
+		"adjective": ["Chickasaw"],
+		"cityStateType": "Mercentile, Cultural",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [255,22,26],
+		     
+		"uniqueName": "Speaker for the Leaders",
+		"uniques": ["Gifts will be +25% Influence for -25% Gold. When make a Trade Mission with a Civilization, recieve a free Great Person of choice."],
+		     
+		"cities": ["Tishomigo","city","cities","city"]
+	},
+	{
+                "name": "The Yaqui",
+		"leaderName": "Cajemé (José María Bonifacio Leyva Pérez)",
+		"adjective": ["Yaqui"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "Don't you dare laugh! Your actions are considered unfavourable. Let's fight until one side wins.",
+		"attacked": "You imbecile! We don't do anything for you to declare war on us! You are deserved to die! Come to me if you want fight me!",
+		"defeated": "I may be defeated, but my spirit can never be taken, and my people will never stop fighting.",
+		"introduction": "Lios em chania. Greetings. I am Cajemé of the Yaqui, and I will never stop fighting for my people.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [22,22,236],
+		     
+		"uniqueName": "The Easter People",
+		"uniques": ["Receive 4 maintenance-free units upon adopting a religion in your Capital. Cities of your main religion yield Faith upon training a unit while at war."],
+		     
+		"cities": ["Torim","Beene","Wibism","Rahum","Potan","Vicam","Bacum","Ko'okoim","Bataconsica","Torokoba","Copas","Pitahaya","Nogalitos","Totoi-ta-kuse'epo","Otam Kawi","Vakatetteve Kawi","Guadalupe","Guaymas","New Pascua","Pueblo Yaqui","Capetamaya","El Añil"]
+	},
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -749,6 +809,26 @@
 		     
 		"cities": ["Monrovia","Bassa Cove","Greenville","Harper","Caldwell","Millsburg","New Georgia","Marshall","Bexley","Edina","Crozierville","Careysburg","Clay-Ashland","Perseverance","Cape Mesurado","Cape Palmas","Louisiana","Cestos","Trade Town","Cape Mount","Garraway","Settra Kroo","Grand Sesters","King Williams Town","Baffou","Grand Bootoo","Zapi","Nitton","Baddoo","St.Paul","Nefoo","Sinou","St. John","Wela","Tembo","Butu","Culloh","Rock Cess","Katu","Virginia","Baddu","Hening","Tebo","Grand Taba","Bereby"]
 	},
+	{
+                "name": "Cyrenaica",
+		"leaderName": "Omar al-Mukhtar",
+		"adjective": ["Cyrenaic"],
+		"cityStateType": "Religious, Militaristic",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "The Lion of the Desert",
+		"uniques": ["When at war, all unit got the Matari promotion. When at war, +50% Production when building Infantry units."],
+		     
+		"cities": ["Benghazi","Tolmeita","Soussa","Derna","Bomba","Tobruk","Awjila","Jaghbub"]
+	},
 	//Asia
 	{
                 "name": "Great Qing",
@@ -893,6 +973,30 @@
 		"uniques": ["At the outbreak of war with a major civilization, receive CultureIcon.png Culture for each enemy city in excess of yours.","Infantry Units starting in your borders may force defenders to retreat."],
 		     
 		"cities": ["Malolos","Cavite El Viejo","San Jose del Monte","Pasig","Angeles","Pateros","Tagig","Kalookan","Cabanatuan","San Pedro de Makati","Mandaluyong","San Francisco de Malabon","Noveleta","Imus","Mariquina","Antipolo","Bacoor","Montalban","Las Pinas","Naik","Tejeros","Maragondon","Biak-na-Bato","Capiz","Jaro","Guagua","Tarlac","San Fernando","Angono","Calamba","Bocaue","Baler","Bacolor","Kakarong","Cebu","Nueva Caceres","Carcar","Nueva Vergara","Bayombong","Palanan","Butuan","Manila"]
+	},
+	{
+                "name": "Sarawak",
+		"leaderName": "James Brooke",
+		"adjective": ["Sarawakian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomacy",
+		
+		"declaringWar": "It seems war is inevitable, may luck is on your side. I don't want war but... I don't want see you again.",
+		"attacked": "Seems it can't be negotiable at all. Well, I hope peace will coming soon.",
+		"afterPeace": "Peace is achieved, let us be friend and not be enemy.",
+		"defeated": "So be it...",
+		"introduction": "Greetings traveller, welcome to Sarawak. I wish you a pleasant stay. Perhaps we can talk terms of business...",
+		"neutralHello": "Greetings, traveller. What do you want in Sarawak?",
+		"hateHello": "Well, what do you want? If you finished talking, then we negotiate.",
+		"tradeRequest": "I think this is negotiable, do you also think like me?",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
 	},
 	//Asian City-States
 	{
