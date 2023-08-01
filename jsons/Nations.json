@@ -589,7 +589,7 @@
 		"uniqueName": "Speaker for the Leaders",
 		"uniques": ["Gifts will be +25% Influence for -25% Gold. When make a Trade Mission with a Civilization, recieve a free Great Person of choice."],
 		     
-		"cities": ["Tishomigo","city","cities","city"]
+		"cities": ["Tishomigo"]
 	},
 	{
                 "name": "The Yaqui",
@@ -610,6 +610,26 @@
 		"uniques": ["Receive 4 maintenance-free units upon adopting a religion in your Capital. Cities of your main religion yield Faith upon training a unit while at war."],
 		     
 		"cities": ["Torim","Beene","Wibism","Rahum","Potan","Vicam","Bacum","Ko'okoim","Bataconsica","Torokoba","Copas","Pitahaya","Nogalitos","Totoi-ta-kuse'epo","Otam Kawi","Vakatetteve Kawi","Guadalupe","Guaymas","New Pascua","Pueblo Yaqui","Capetamaya","El Añil"]
+	},
+	{
+                "name": "Seminole",
+		"leaderName": "Micanopy",
+		"adjective": ["Seminole"],
+		"cityStateType": "Cultural, Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Sint-chakkee",
+		"uniques": ["When at war, units will ignores terrain cost and can have a movement of 5 when in Seminole's or in an ally territories."],
+		     
+		"cities": ["Cuscowilla"]
 	},
 	//Africa
 	{
@@ -990,13 +1010,13 @@
 		"hateHello": "Well, what do you want? If you finished talking, then we negotiate.",
 		"tradeRequest": "I think this is negotiable, do you also think like me?",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [255,222,233],
+		"innerColor": [230,230,85],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The White Rajahs",
+		"uniques": ["Defeating hostile units in or near City State land always grants Influence and provides Culture towards border expansion. City State relationships increase construction speed (Max 25%)."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Kuching","Lundu","Bauh","Simanggang","Limbang","Lingga","Rembas","Semunjuan","Serikei","Paku","Sibu","Muka","Igan","Kanowit","Bintulu","Kapit","Belaga","Long Akar","Truscan","Quop","Banting","Saratok","Betong","Sadong","Siniawan","Kabong","Rejang","Talang Talang","Nanga Belok","Lubok Antu","Song"]
 	},
 	//Asian City-States
 	{
@@ -1556,6 +1576,26 @@
 		"uniques": ["Cities have extra Naval Trade Route range based on the number of adjacent water tiles. Foreign Trade Units passing through your territory grant Food to Cities below 10 Population, and Culture thereafter."],
 		     
 		"cities": ["Corfù","Argostoli","Kythira","Zakynthos","Lefkada","Vathy","Gaios","Kavos","Lixouri","Potamos","Roda","Katastari","Lygia","Gouvia","Stavros","Lakka","Sidari","Sami","Agia Pelagia","Vanato","Nikiana","Marmaka","Lagos","Arillas","Fiskardo","Anon Livadi","Machairado","Apoipaina","Exogi","Ozias"]
+	},
+	{
+                "name": "Montenegro",
+		"leaderName": "Nikola I",
+		"adjective": ["Montenegrin"],
+		"cityStateType": "Militaristic, Religious, Cultural",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Onamo, 'namo!",
+		"uniques": ["Recieve a free Cultural or Faith building of choice when at peace. Recieve Rifled Infantry when at war and have discovered Rifles."],
+		     
+		"cities": ["Podgorica","city","cities","city"]
 	},
 	//German CS
 	{
