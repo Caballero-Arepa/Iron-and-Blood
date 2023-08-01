@@ -504,7 +504,7 @@
 		"introduction": "Welcome, traveler. I am Tecumseh, chief of the Shawnee. I always give a word or a sign of salute when meeting or passing a friend of mine, even a stranger, when in a lonely place, I will show respect to all people and grovel to none.",
 
 		"outerColor": [255,120,0],
-		"innerColor": [222,227,236],
+		"innerColor": [227,227,227],
 		     
 		"uniqueName": "Tecumseh's War",
 		"uniques": ["When Shawnee is at war with any Civilization or City-State, its border do not expand and its City with 3 Citizens or lower do not grow."],
@@ -623,13 +623,33 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [250,120,0],
+		"innerColor": [222,227,222],
 		     
 		"uniqueName": "Sint-chakkee",
 		"uniques": ["When at war, units will ignores terrain cost and can have a movement of 5 when in Seminole's or in an ally territories."],
 		     
 		"cities": ["Cuscowilla"]
+	},
+	{
+                "name": "Apache",
+		"leaderName": "Geronimo",
+		"adjective": ["Apache"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Kas-Ki-Yeh"]
 	},
 	//Africa
 	{
@@ -848,6 +868,26 @@
 		"uniques": ["When at war, all unit got the Matari promotion. When at war, +50% Production when building Infantry units."],
 		     
 		"cities": ["Benghazi","Tolmeita","Soussa","Derna","Bomba","Tobruk","Awjila","Jaghbub"]
+	},
+	{
+                "name": "Lesotho",
+		"leaderName": "Moshoeshoe I",
+		"adjective": ["Sotho"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Your actions have a ton of consequences. I will cleanse it for you when you're gone from this earth.",
+		"attacked": "You are nothing but words have minds. Prepare, because you might beg me when you lost.",
+		"defeated": "You have defeated me, and I must now begin the walk along the white road. My people however will survive me, and will people the mountains long after you and your stain have been cleansed from it - and no, you can’t have my hat.",
+		"introduction": "Kena ka Kgotso stranger! I am Moshoeshoe, the dapper razer king who fortified these hills. If you have weapons, words, or tools to trade you are welcome in my court.",
+
+		"outerColor": [254,254,254],
+		"innerColor": [10,10,10],
+		     
+		"uniqueName": "Atop the Mountain of the Night",
+		"uniques": ["Declarations of Friendship provide additional building production in the Capital, and Science generation across the empire when signed with more advanced civilisations."],
+		     
+		"cities": ["Thaba Bosiu","Morija","Buthe-Buthe","Teyateyaneng","Hlotse","Maseru","Mafeteng","Mohale's Hoek","Maputsoe","Mokhotlong","Qacha's Nek","Quthing","Thaba-Tseka","Libono","Matsieng","Marakabei","Semonkong","Peka","Tlokoeng","Pitseng","Mapoteng","Sehonghong","Sehlabathebe","Mount Moorosi","Oxbow","Molimo Nthuse","Moyeni"]
 	},
 	//Asia
 	{
