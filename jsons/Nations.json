@@ -458,16 +458,16 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Curse you! You are crossed the line, prepapre to lose all your chance to recover!",
+		"attacked": "That's it! No more negotiating, you must be killed. Soldiers, prepare to beat those punies.",
+		"defeated": "All I done is nothing to save my nation. But you, prepare to get punished by the Old Wind.",
+		"introduction": "Ah, greetings. I am Geronimo, hope you will make peace with us Apache.",
 
 		"outerColor": [250,120,0],
-		"innerColor": [222,227,236],
+		"innerColor": [222,255,23],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Geronimo!!!",
+		"uniques": ["All units will have Geronimo promotion.","All calvary units will have +10% attack bonus."],
 		     
 		"cities": ["Kas-Ki-Yeh"]
 	},
@@ -521,7 +521,7 @@
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
-		"introduction": "Speech?",
+		"introduction": "I am Tishomingo, leader of the Chickasaw. You should be careful to announcing war on us.",
 
 		"outerColor": [250,120,0],
 		"innerColor": [255,22,26],
