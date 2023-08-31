@@ -1,7 +1,7 @@
 [
 	//These are the nations. Organized first by Continent, then Major Nations first, then Minor nation, all in alphabetical order.
 	// Yes, minor nations also do get Unique Abilites and dialogues. They also follow a color code, depending on their association are.
-	// German CS have Grey background, or Italian CS have Green Background, etc, for gameplay purposes.
+	// German CS have Grey background, or Italian CS have Green Background, American Tribal CS have Orange background, etc., for gameplay purposes.
 	
 	
 	//America
@@ -269,7 +269,6 @@
 		     
 		"cities": ["Richmond","Montgomery","New Orleans","Atlanta","Mobile","Memphis","Savannah","Charleston","Nashville","Norfolk","Petersburg","Alexandria","Augusta","Columbus","Wilmington","Macon","Fredericksburg","Baton Rouge","Jacksonville","Lynchburg","Raleigh","Wheeling","Jackson","Natchez","San Antonio","Winchester","Austin","Pensacola","Knoxville","Tallahassee","El Paso","Chattanooga","Santa Fe","Staunton","Algiers","New Bern","Fayetteville","Dallas","Tucson","Vicksburg","Danville"]
 	},
-	
 	//American City-States
 	{
                 "name": "Uruguay",
@@ -411,7 +410,247 @@
 		     
 		"cities": ["La Habana","Santiago de Cuba","Camagüey","Guantanamo","Pinar del Rio","Holguin","Cienfuegos","Santa Clara","Matanzas","Bavamo","Sancti Spiritus","Ciego de Avila","Las Tunas","Artemisa","Nueva Gerona","Cardenas","Baracoa","Palma Soriano","Varadero","Manzanilla","Colón","Contramaestro","Sandino","La Maya","Guanabacoa","Isla Juventus","Guines","Sagua La Grande","Trinidad","Flacetas","Nuevitas","Banes","San Luis","San José de las Lajas"]
 	},
-	
+	{
+                "name": "Deseret",
+		"leaderName": "Brigham Young",
+		"adjective": ["Civilian of Deseret"],
+		"cityStateType": "Cultural, Religious",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "Deseret will spread love and peace across the world, but you just want cause trouble into this world. Prepare for war, leader!",
+		"attacked": "If you want to have a war with Deseret, then fine, we will. Make sure you remember those words. You might regret it in the future.",
+		"defeated": "I do believe that you will carry on the good government of righteous society. Take care.",
+		"introduction": "Hello, friend. I am Brigham Young, governor of this here Deseret. So let me sit you down and I can tell you about the gospel of Joseph Smith.",
+
+		"outerColor": [250,250,245],
+		"innerColor": [250,250,25],
+		     
+		"uniqueName": "The Mormon Exodus",
+		"uniques": ["Settlers can spread religion and have doubled movement in Desert and Plains. Non-Capital cities in these terrains begin with local bonus resources improved."],
+		     
+		"cities": ["Salt Lake City","Bountiful","Ogden","Provo","West Jordan","Orem","Taylorsville","Layton","Logan","St. George","Sandy","Lehi","Murray","Manti","Draper","Roy","Pleasant Grove","Cottonwood Heights","Kaysville","Holladay","Clearfield","Herriman","Payson","Farmington","Lindon","Smithfield","Grantsville","Pleasant View","Mapleton","Hyrum","Ephraim","Enoch","Harrisville","Fruit Heights","Wellsville"]
+	},
+	{
+                "name": "Sonora",
+		"leaderName": "William Walker",
+		"adjective": ["Sonoran"],
+		"cityStateType": "Cultural",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "You may dare to go against Sonora, but I believe we are at crossroads. Prepare for war!",
+		"attacked": "You truly a dumb person at service! Let's have you learned some lessons after this.",
+		"defeated": "I have carved my name into history. That, you can never undo.",
+		"introduction": "Welcome to Sonora! I'm William Walker. Some folk have taken to calling me 'The Grey-Eyed Man of Destiny', but please - call me Will.",
+
+		"outerColor": [255,250,250],
+		"innerColor": [255,22,22],
+		     
+		"uniqueName": "The Grey-Eyed Man of Destiny",
+		"uniques": ["50% Combat Strength bonus if within 2 tiles of a Frontier Town."],
+		     
+		"cities": ["La Paz","Cabo San Lucas","Ensenada","Mulegé","Loreto","Tijuana","Mexicali","Comondú","Tecate","Playas de Rosarito","Hermosillo","Cajeme","Nogales","San Luis Rio Colorado","Navojoa","Caborca","Agua Prieta","Huatabampo","Etchojoa","Puerto Peñasco","Empalme","Cananea","Magdalena","Álamos","Atil","Bácum","Plutarco Elías Calles","Santa Ana","San Ignacio Río Muerte","Nacozari de Garcia","Altar","Pitiquito","San Miguel de Horcasitas","Ures","Fronteras","Nacozari","Cumpas","Yécora","Sahuaripa","Benjamín Hill","Moctezuma","Baviácora","Quiriego","Aconchi","Arizpe","La Colorada","Nácori Chico","Santa Cruz","Banámichi","Trincheras","Sáric","Vila Hidalgo","San Pedro de la Cueva","Bavispe","Rayón"]
+	},
+	//American Tribal CS
+	{
+                "name": "The Sioux",
+		"leaderName": "Sitting Bull",
+		"adjective": ["Sioux"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "You think we will let you free without a punishment? Prepare for war, because your actions in other places have reached my ear. Let's fight!",
+		"attacked": "Oh really, then show us then. Show us that you are capable of fighting with us people.",
+		"defeated": "This nation is like a spring freshet; it overruns its banks and destroys all who are in its path.",
+		"introduction": "Each man is good in the sight of the Great Spirit. I am here by the will of the Great Spirit, and by his will I am Chief.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [222,222,120],
+		     
+		"uniqueName": "Great Buffalo Hunt",
+		"uniques": ["Starting with your second City, settling near Plains Tiles will spawn a Bison Resource. Bison in Sioux territory may not be improved, but instead provide a large base yield (increased at Chivalry) and periodically roam the map."],
+		     
+		"cities": ["Hunkpapa","Mdewakantonwan","Yankton","Oglala","Sisseton","Wahpekute","Sihasapa","Wahpetonwan","Itazincho","Sichangu","Yanktonai","Oohenupa","Hohs","Kivaksa","Mawahota","Oyuhpe","Unkpatina","Wazhazha","Wakpokinyan","Payabaya","Glaglanecha","Shikshichela","Wamnugaoin","Tiyopaoshanunpa","Tatankachesli","Wanhinwega","Shinalutaoin","Itesica","Shunkayuteshni","Mazpegnaka","Tapisleca","Bakihon","Sanona","Little Bighorn"]
+	},
+	{
+                "name": "The Arapaho",
+		"leaderName": "Pretty Nose",
+		"adjective": ["Arapaho"],
+		"cityStateType": "Militaristic, Mercentile",
+		"startBias": ["None"],
+		
+		"declaringWar": "We don't accept you as a traveller anymore, but as the evil on this earth. Our soldiers will meet you on the battlefield.",
+		"attacked": "Frase",
+		"defeated": "Every battle cannot be won. Howouunoni. Have mercy on me. Have mercy on my people. Because beware, we are still strong in defeat.",
+		"introduction": "Tous, my fellow traveller. I am Pretty Nose of the Arapaho, and I would see that you do no harm while in my lands.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [255,227,236],
+		     
+		"uniqueName": "People of the Blue Sky",
+		"uniques": ["Gain a free mounted unit each time you complete a Trade Route. Cities settled on a strategic resource create the relevant improvement and get a free Trade Route slot."],
+		     
+		"cities": ["Wootei-niicie","Nii-cii-nec-iini'","Nook-oowu'","Konouutosei","Heet-niiseekuu'","Nonookuneeseeii'","Ceneit-eetee'","Tecenoo","Heet-hockoootee-t","Xonouu'oo'","Biito'owu'","Wox Noho'kuhnee-t","Noowóo-ííteen","Heet-ko'einoo'","Hóo'uu Níit-ko'ús-i'i","Hinenitee Toh-nooxeih-t","Toh-okooxeee-ni'","Níit-kotóus-í'i","Heneeceen-okoy","Nihoon-oobe'","Beexookein-okoy","Notkonii-booo","Ni'ec-i' Toh-booeti-","KTih-noo'oeenootee' Ni'ec-i","'Neniikote'eit Neh'eih-t","Wox-eihtoo","Hisei Tih-nooee-t","Ti'iihiinen Tih-neh'eee-t","Beniis-otoyoo'","Hiwoxuu Hiniioon"]
+	},
+	{
+                "name": "The Shawnee",
+		"leaderName": "Tecumseh",
+		"adjective": ["Shawnee"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Welcome, traveler. I am Tecumseh, chief of the Shawnee. I always give a word or a sign of salute when meeting or passing a friend of mine, even a stranger, when in a lonely place, I will show respect to all people and grovel to none.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [227,227,227],
+		     
+		"uniqueName": "Tecumseh's War",
+		"uniques": ["When Shawnee is at war with any Civilization or City-State, its border do not expand and its City with 3 Citizens or lower do not grow."],
+		     
+		"cities": ["Prophetstown","Pelxtan","Chalacasa","Chalakagay","Chalahgawtha","Tippecanoe","Shawnee City","Eskippakithiki","Sonnionto","Shawneetown","Fort Ancient","Sunwatch Village","Kemp","Hine","Baldwin","Stokes","Baum","Practorville","Feurt","Fox Farm","Buckner","Hardin Village","Hahns Field"]
+	},
+	{
+                "name": "Muskogee",
+		"leaderName": "William Augustus Bowles",
+		"adjective": ["Muskogee"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Your actions are telling me that you're not trustworthy. May we have a war between us, rather stay in a peace that is going nowhere.",
+		"attacked": "If you want to enjoy war so much, then there's no reason to just sit and die. Let's meet at the battlefield to see who's the winner.",
+		"defeated": "I can no longer stand this. Take me as your prisoner, but spare my people!",
+		"introduction": "Hello there! I'm William Bowles, Director-General of the State of Muskogee. We're committed to peace and freedom for all those that seek it.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [236,227,236],
+		     
+		"uniqueName": "Estajoca",
+		"uniques": ["During a Peace Treaty, resting Influence with Civilizations is increased by 20. Trade Routes to Civilizations provide Great General Points, and Units near the Civilizations will passively gain XP."],
+		     
+		"cities": ["Miccosukee","Tallahassee","Fowltown","Tallapoosa","Pensacola","Ochlockonee","Hitichiti","Tuckabatchee","Wakulla","Chattahoochee","Waukeenah","Coushatta","Apalachicola","Wetumpka","Cusseta","Muklassa","Stoinhatchee","Chehaw","Eufaula","Ocheesee","Wacissa","Apalachee","Okchai","Ocmulgee","Sawokli","Wewahitchka","Okfuskee","Yamasee","Tamali"]
+	},
+	{
+                "name": "Comanchería",
+		"leaderName": "Puhihwitsikwasu (Iron Jacket)",
+		"adjective": ["Comanche"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Avoid Tundra and Jungle"],
+		
+		"declaringWar": "I have warned you, but you don't listen. Maybe a lesson will be enough for you, you stubborn one. You deserved to be beaten. Prepare for war!",
+		"attacked": "If you don't want peace, it's fine by me. You deserve to be killed by us Comanches. Your words are nothing but nonsense. Prepare to die!",
+		"defeated": "Impossible. I was supposed to be invincible!",
+		"introduction": "I'm Puhihwitsikwasu, chieftain of the Quahadi Comanche. I'll give you one warning: stay off the Comanchería; it's our rightful land.",
+
+		"outerColor": [255,120,0],
+		"innerColor": [245,227,227],
+		     
+		"uniqueName": "Comanche Moon",
+		"uniques": ["Razing cities grant Gold per turn, and Faith to nearby cities if at peace with the original owner. Horse units can enter foreign territory, and pillage while at peace in foreign territory at the cost of Faith."],
+		     
+		"cities": ["Quahadi","Penateka","Yamnparika","Jupe","Kotsoteka","Nokoni","Kwahihuu Ki","Pahnaixte","Hupanuu","Tenawa","Teyuwit","Pikaatemu","Saria Tuhka","Itehtah'o","Ohnonuu","Pahuraix","Pohoi","Tutsanoo Yehku","Wianuu","Tanimuu","Titchahkaynah","Suhmuhtuhka","Pibianigwai","Motso Tu","Wa'wai"]
+	},
+	{
+                "name": "Choctaw",
+		"leaderName": "Pushmataha",
+		"adjective": ["Choctaw"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [255,100,100],
+		     
+		"uniqueName": "The Indian General",
+		"uniques": ["When at war, recieve +25% attack effectiveness for every Infantry units and +25% defensiveness when the Infantry units is in defense."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Chickasaw",
+		"leaderName": "Tishomingo",
+		"adjective": ["Chickasaw"],
+		"cityStateType": "Mercentile, Cultural",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [255,22,26],
+		     
+		"uniqueName": "Speaker for the Leaders",
+		"uniques": ["Gifts will be +25% Influence for -25% Gold. When make a Trade Mission with a Civilization, recieve a free Great Person of choice."],
+		     
+		"cities": ["Tishomigo"]
+	},
+	{
+                "name": "The Yaqui",
+		"leaderName": "Cajemé (José María Bonifacio Leyva Pérez)",
+		"adjective": ["Yaqui"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "Don't you dare laugh! Your actions are considered unfavourable. Let's fight until one side wins.",
+		"attacked": "You imbecile! We don't do anything for you to declare war on us! You are deserved to die! Come to me if you want fight me!",
+		"defeated": "I may be defeated, but my spirit can never be taken, and my people will never stop fighting.",
+		"introduction": "Lios em chania. Greetings. I am Cajemé of the Yaqui, and I will never stop fighting for my people.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [22,22,236],
+		     
+		"uniqueName": "The Easter People",
+		"uniques": ["Receive 4 maintenance-free units upon adopting a religion in your Capital. Cities of your main religion yield Faith upon training a unit while at war."],
+		     
+		"cities": ["Torim","Beene","Wibism","Rahum","Potan","Vicam","Bacum","Ko'okoim","Bataconsica","Torokoba","Copas","Pitahaya","Nogalitos","Totoi-ta-kuse'epo","Otam Kawi","Vakatetteve Kawi","Guadalupe","Guaymas","New Pascua","Pueblo Yaqui","Capetamaya","El Añil"]
+	},
+	{
+                "name": "Seminole",
+		"leaderName": "Micanopy",
+		"adjective": ["Seminole"],
+		"cityStateType": "Cultural, Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [222,227,222],
+		     
+		"uniqueName": "Sint-chakkee",
+		"uniques": ["When at war, units will ignores terrain cost and can have a movement of 5 when in Seminole's or in an ally territories."],
+		     
+		"cities": ["Cuscowilla"]
+	},
+	{
+                "name": "Apache",
+		"leaderName": "Geronimo",
+		"adjective": ["Apache"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Kas-Ki-Yeh"]
+	},
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -610,9 +849,296 @@
 		     
 		"cities": ["Monrovia","Bassa Cove","Greenville","Harper","Caldwell","Millsburg","New Georgia","Marshall","Bexley","Edina","Crozierville","Careysburg","Clay-Ashland","Perseverance","Cape Mesurado","Cape Palmas","Louisiana","Cestos","Trade Town","Cape Mount","Garraway","Settra Kroo","Grand Sesters","King Williams Town","Baffou","Grand Bootoo","Zapi","Nitton","Baddoo","St.Paul","Nefoo","Sinou","St. John","Wela","Tembo","Butu","Culloh","Rock Cess","Katu","Virginia","Baddu","Hening","Tebo","Grand Taba","Bereby"]
 	},
-	//Asia
-	//Asian City-States
+	{
+                "name": "Cyrenaica",
+		"leaderName": "Omar al-Mukhtar",
+		"adjective": ["Cyrenaic"],
+		"cityStateType": "Religious, Militaristic",
+		"startBias": ["Desert"],
 		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "The Lion of the Desert",
+		"uniques": ["When at war, all unit got the Matari promotion. When at war, +50% Production when building Infantry units."],
+		     
+		"cities": ["Benghazi","Tolmeita","Soussa","Derna","Bomba","Tobruk","Awjila","Jaghbub"]
+	},
+	{
+                "name": "Lesotho",
+		"leaderName": "Moshoeshoe I",
+		"adjective": ["Sotho"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Your actions have a ton of consequences. I will cleanse it for you when you're gone from this earth.",
+		"attacked": "You are nothing but words have minds. Prepare, because you might beg me when you lost.",
+		"defeated": "You have defeated me, and I must now begin the walk along the white road. My people however will survive me, and will people the mountains long after you and your stain have been cleansed from it - and no, you can’t have my hat.",
+		"introduction": "Kena ka Kgotso stranger! I am Moshoeshoe, the dapper razer king who fortified these hills. If you have weapons, words, or tools to trade you are welcome in my court.",
+
+		"outerColor": [254,254,254],
+		"innerColor": [10,10,10],
+		     
+		"uniqueName": "Atop the Mountain of the Night",
+		"uniques": ["Declarations of Friendship provide additional building production in the Capital, and Science generation across the empire when signed with more advanced civilisations."],
+		     
+		"cities": ["Thaba Bosiu","Morija","Buthe-Buthe","Teyateyaneng","Hlotse","Maseru","Mafeteng","Mohale's Hoek","Maputsoe","Mokhotlong","Qacha's Nek","Quthing","Thaba-Tseka","Libono","Matsieng","Marakabei","Semonkong","Peka","Tlokoeng","Pitseng","Mapoteng","Sehonghong","Sehlabathebe","Mount Moorosi","Oxbow","Molimo Nthuse","Moyeni"]
+	},
+	//Asia
+	{
+                "name": "Great Qing",
+		"leaderName": "Empress Cixi",
+		"adjective": ["Manchu"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Domination",
+		
+		"declaringWar": "You shall think twice about your actions before you do it, and it seems like you're not. Get out of my court!",
+		"attacked": "Oh? So you think you could beat the dragon of the East?! Try, and let's see you could beat it.",
+		"afterPeace": "Remember this, Qing is following the flow of the mandate, you shall pleased it rather than go against it.",
+		"defeated": "I have lived an incomparable life. Treat my heir with compassion and my people with dignity.",
+		"introduction": "Welcome to the imperial court. I trust you understand the proper protocol? Then why do you just stand there...?",
+		"neutralHello": "Greetings, leader. Is there an important thing that you want to say in the court of Qing?",
+		"hateHello": "You! Why are you here?! What do you want from us?!",
+		"tradeRequest": "We politely ask you to trade with us, would you mind trading with us as well?",
+
+		"outerColor": [255,254,2],
+		"innerColor": [13,12,255],
+		     
+		"uniqueName": "Self-strengthing Reforms",
+		"uniques": ["Combat Units yield Culture when promoted and are upgraded for free as new Social Policies and Branches are adopted."],
+		     
+		"cities": ["Beijing","Jehol","Mukden","Jilin","Boli","Hailanpao","Qiqihar","Chengde","Khüree","Kalgan","Hohhot","Baoding","Taiyuan","Uilastai","Jinan","Kaifeng","Shanghai","Weihai","Jiangning","Anqing","Xi'an","Chengdu","Lanzhou","Xining","Hangzhou","Fuzhou","Nanjing","Nanchang","Wuchang","Guangzhou","Changsha","Guilin","Qinzhou","Kunming","Guiyang","Chongqing","Duhai","Ili","Kobdo","Lhasa"]
+	},
+	{
+                "name": "Japan (Shogunate)",
+		"leaderName": "Tokugawa Yoshinobu",
+		"adjective": ["Japanese"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Domination",
+		
+		"declaringWar": "Edo can't ignore your actions no more, prepare for war. My soldiers will beat anyone who oppose us Japanese.",
+		"attacked": "Dakaranani? We just live in peace but you want war, isn't it. Then let it happens, and see who is victorious, who is lost and without dignity, die of despair.",
+		"afterPeace": "That's good. I am pleased that we could live in peace once more. Good job.",
+		"defeated": "It was a grave mistake to have ever approached the battlefield, especially with one as fierce as yourself. I'm not one to die right now, however. I accept my defeat.",
+		"introduction": "The noble Tokugawa bows to their foreign visitors. My name is Tokugawa Yoshinobu, and you should find that we've plenty to learn from each other.",
+		"neutralHello": "Greetings, leader. What words do you have in mind?",
+		"hateHello": "Oh, it's you. What do you want? You want something from us? Say it.",
+		"tradeRequest": "Let me ask you, can we make a trade deal with you, we want to have this from you and we will exchange this for that.",
+
+		"outerColor": [234,234,234],
+		"innerColor": [0,0,0],
+		     
+		"uniqueName": "Drawing the Last Sword",
+		"uniques": ["Buildings that provide Unit Production provide Experience. Units earn Science upon Promotion."],
+		     
+		"cities": ["Edo","Hakodate","Aizuwakamatsu","Osaka","Nagasaki","Yokohama","Shimoda","Kagoshima","Wakayama","Kanazawa","Nagoya","Niigata","Mito","Sendai","Fukuoka","Koshu","Nagaoka","Toba","Kumamoto","Matsumae","Saga","Hyogo","Shiroishi","Sapporo","Tsu","Odawara","Hikone","Akita","Morioka","Koriyama"]
+	},
+	{
+                "name": "Satsuma",
+		"leaderName": "Saigo Takamori",
+		"adjective": ["Citizen of Satsuma"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination, Science",
+		
+		"declaringWar": "Satsuma can't keep you from any bad no more. Let's have a fight to teach you a lesson.",
+		"attacked": "Oh hoh hoh, you now show your true face, isn't it? Now it's time for me to beat you up until you surrender.",
+		"afterPeace": "Keep having good impression on everyone will be better for you here. And I gotta admit, your soldiers are strong.",
+		"defeated": "Ah, it looks as if our dreams are at an end. Please, leave me in peace so I can do what is honourable. Oh, and take this citrus tree, so you will always remember our country and our culture even after I am gone.",
+		"introduction": "Greetings from far Satsuma! I am but a warrior, but I hope to foster good relations with foreign powers such as yourself.",
+		"neutralHello": "Oh hoh hoh! Welcome, leader. What's in your mind?",
+		"hateHello": "It seems you do not understand the rules but fine, what do you want?",
+		"tradeRequest": "Satsuma ask you to trade with us, we want such things and we want exchange that with what we have here.",
+
+		"outerColor": [2,255,2],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "War of the Southwest",
+		"uniques": ["Units gain +10% Combat Strength for every adjacent enemy above two. Damaged units adjacent to at least two enemies can Commit Seppuku, killing the unit and yielding a burst of Culture from each adjacent enemy."],
+		     
+		"cities": ["Kagoshima","Miyakonojo","Ibusuki","Izaku","Chiran","Shibushi","Kimotsuki-Takayama","Satsumasendai","Bonotsu","Izumi","Kajiki","Kaseda","Tarumizu","Hishikari","Aya","Kakuto","Kanoya","Nichinoomote","Miyanoura","Sato","Kokubu","Kushikino","Ijuin","Kobayashi","Aira","Nejime","Ishiki","Okuchi","Mimata","Kurino"]
+	},
+	{
+                "name": "Japan (Empire)",
+		"leaderName": "Emperor Meiji",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination, Culture, Science",
+		
+		"declaringWar": "Today, I'm at the limit! Your actions made me unspeakable, unable to tell how bad the consequences are! Prepare for war!",
+		"attacked": "You shall be seen by now that, you have made a mistake! If you want to see us on the battlefield then fine, we will.",
+		"afterPeace": "Japan respects any peace that is proposed, we don't want war but peace.",
+		"defeated": "It is only I that does this nation great dishonour. I am a servant to my defeat, but I beg you kindness upon my oppressed people.",
+		"introduction": "You are welcome in the lands of Japan, but you must pledge your honesty and your honour to my name before I would speak with you.",
+		"neutralHello": "Ohayogozaishimasu, leader! What do you have in mind?",
+		"hateHello": "Why are you still in the Japanese court?! What do you want exactly?!",
+		"tradeRequest": "It is today that Japan and you are making a trade deal, with Japan gains this in exchange with that.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [235,0,0],
+		     
+		"uniqueName": "Imperial Reverence",
+		"uniques": ["+20% Culture and Production during Golden Ages. Military Units trained in a Golden Age begin with 15 more XP."],
+		     
+		"cities": ["Tokyo","Osaka","Kyoto","Nagoya","Kanazawa","Hiroshima","Yokohama","Wakayama","Sendai","Tokushima","Hagi","Shuri","Toyama","Kumamoto","Fukuoka","Kobe","Fukui","Kochi","Sakai","Akita","Matsue","Niigata","Takamatsu","Okayama","Shizuoka","Nagasaki","Hakodate","Kagoshima","Akamazeki","Amagasaki","Otaru","Kawasaki","Yokosuka","Sapporo","Sasebo","Kokura","Miyahara","Yahata"]
+	},
+	{
+                "name": "Korea",
+		"leaderName": "Gojong (Yi Myeongbok)",
+		"adjective": ["Korean"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Culture, Domination",
+		
+		"declaringWar": "Our ministers decided that your nation is counted. Be sure to ready before it hits the fan.",
+		"attacked": "It is that today, marks a big event in our history, as now we will fight and we will fight until our last breathes.",
+		"afterPeace": "Delightful! It's no wonder that we have been fighting each other for a long time. Now, we open our hands in the era of peace and shake our hands as we now live in peace.",
+		"defeated": "How is it that this day has come to pass? I have given everything in my power and more to prevent its coming. Was it still not enough?",
+		"introduction": "Korea welcomes you, foreign leader, as do I, Gojong, her emperor. I pray that relations between our empires may be cordial, if not harmonious.",
+		"neutralHello": "Salutations, leader. Korea is opened its hand for you. What can we do for you here?",
+		"hateHello": "Who care about you in here? What do you wish for? Tell me about it.",
+		"tradeRequest": "We have delicated our deal here with fairness. May you accept it, as it was adjusted by a number of my ministers.",
+
+		"outerColor": [250,250,250],
+		"innerColor": [20,20,250],
+		     
+		"uniqueName": "Enlightenment of the Land",
+		"uniques": ["Specialists yield +1 Production for every five external Trade Routes in the empire. Exchanging embassies or Open Borders with other Civilizations yields Science for both parties."],
+		     
+		"cities": ["Hanseong","Pyongyang","Busan","Daegu","Jeonju","Jinju","Sangju","Taejo","Hamheung","Gongju","Gangneung","Chongjin","Kyongsong","Hwangju","Solme","Seorabeol","Hanyang","Jeollado","Anju","Hoseo","Tamna","Jemulpa","Busosanseong","Samseonghyeol","Gangnam","Sariwon","Sejong"]
+	},
+	{
+                "name": "The Philippines",
+		"leaderName": "Emilio Aguinaldo",
+		"adjective": ["Filipino"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "You think you can win over us, and also think that we are weak, are you? If you think so, then show me what do you have to fight us.",
+		"attacked": "It is seems that you are favor of war rather than peace. A lesson or maybe two or three will be enough for you. Get ready. Your words today might be a lie tomorrow.",
+		"afterPeace": "Finally, peace is achieved. I hope you take your note that we are not easily beaten.",
+		"defeated": "Your conquest of this land will go down as a great treachery in the history of the world. Of this, I am sure.",
+		"introduction": "I am Emilio Aguinaldo, supreme commander of the Philippine armies and president of the Philippine people. You honor us with your visit.",
+		"neutralHello": "Greetings. What can I do for you today?",
+		"hateHello": "Oh, it seems you want to meet me. What purpose do you come for me for?",
+		"tradeRequest": "I think we trade with you is a great choice so, the deal is set, and it's now your choice.",
+
+		"outerColor": [245,245,150],
+		"innerColor": [255,130,130],
+		     
+		"uniqueName": "Undimmed by Tyrant's Might",
+		"uniques": ["At the outbreak of war with a major civilization, receive CultureIcon.png Culture for each enemy city in excess of yours.","Infantry Units starting in your borders may force defenders to retreat."],
+		     
+		"cities": ["Malolos","Cavite El Viejo","San Jose del Monte","Pasig","Angeles","Pateros","Tagig","Kalookan","Cabanatuan","San Pedro de Makati","Mandaluyong","San Francisco de Malabon","Noveleta","Imus","Mariquina","Antipolo","Bacoor","Montalban","Las Pinas","Naik","Tejeros","Maragondon","Biak-na-Bato","Capiz","Jaro","Guagua","Tarlac","San Fernando","Angono","Calamba","Bocaue","Baler","Bacolor","Kakarong","Cebu","Nueva Caceres","Carcar","Nueva Vergara","Bayombong","Palanan","Butuan","Manila"]
+	},
+	{
+                "name": "Sarawak",
+		"leaderName": "James Brooke",
+		"adjective": ["Sarawakian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomacy",
+		
+		"declaringWar": "It seems war is inevitable, may luck is on your side. I don't want war but... I don't want see you again.",
+		"attacked": "Seems it can't be negotiable at all. Well, I hope peace will coming soon.",
+		"afterPeace": "Peace is achieved, let us be friend and not be enemy.",
+		"defeated": "So be it...",
+		"introduction": "Greetings traveller, welcome to Sarawak. I wish you a pleasant stay. Perhaps we can talk terms of business...",
+		"neutralHello": "Greetings, traveller. What do you want in Sarawak?",
+		"hateHello": "Well, what do you want? If you finished talking, then we negotiate.",
+		"tradeRequest": "I think this is negotiable, do you also think like me?",
+
+		"outerColor": [255,222,233],
+		"innerColor": [230,230,85],
+		     
+		"uniqueName": "The White Rajahs",
+		"uniques": ["Defeating hostile units in or near City State land always grants Influence and provides Culture towards border expansion. City State relationships increase construction speed (Max 25%)."],
+		     
+		"cities": ["Kuching","Lundu","Bauh","Simanggang","Limbang","Lingga","Rembas","Semunjuan","Serikei","Paku","Sibu","Muka","Igan","Kanowit","Bintulu","Kapit","Belaga","Long Akar","Truscan","Quop","Banting","Saratok","Betong","Sadong","Siniawan","Kabong","Rejang","Talang Talang","Nanga Belok","Lubok Antu","Song"]
+	},
+	//Asian City-States
+	{
+                "name": "Ezo",
+		"leaderName": "Enomoto Takeaki",
+		"adjective": ["Citizen of Ezo"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coastal"],
+		
+		"declaringWar": "The Republic can't be along with you no more, I, Enomoto Takeaki, will make you an enemy to the Republic!",
+		"attacked": "Hoh hoh! How pity you are! The Republic will surely find what you can't capable of, sooner or later.",
+		"defeated": "Of course, I'll concede defeat. The Republic is no more, but I believe freedom will one day return to this land.",
+		"introduction": "Welcome to the new Republic. I am Enomoto Takeaki, elected president of this land. We're working hard to prepare our nation's defences.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [2,22,236],
+		     
+		"uniqueName": "The Last Samurai",
+		"uniques": ["When the Capital is founded, a Citadel is automatically built on an adjacent tile. Starting in the Napoleonic Era, Melee and Gunpowder units generate additional Great General points upon kills."],
+		     
+		"cities": ["Hakodate","Sapporo","Asahikawa","Kushiro","Tomakomai","Obohiro","Otaru","Kitami","Ebetsu","Chitose","Muroran","Iwamizawa","Eniwa","Kitahiroshima","Ishikari","Noboribetsu","Hokuto","Otofuke","Takikawa","Abashiri","Wakkanai","Date","Nayoro","Nanae","Nemuro","Makibetsu","Nakashibotsu","Shinhidaka","Mombestu","Bibai","Furano","Rumoi","Fukagawa","Engaru","Bihoro"]
+	},
+	{
+                "name": "Taiping",
+		"leaderName": "Hong Xiuquan",
+		"adjective": ["Civilian of Taiping"],
+		"cityStateType": "Religious",
+		"startBias": ["River"],
+		
+		"declaringWar": "I see that you don't being blessed by the Heavenly Father, so how about you scram before the Heavenly Army come to kill you.",
+		"attacked": "Hah, the Heavenly Kingdom will never back down, but you only can run before we plunder you.",
+		"defeated": "And so the fate that befell the Elder Brother, befalls the younger. I go now to reunite with my Celestial Family.",
+		"introduction": "I am the Heavenly King, Hong Xiuquan. Know that ours is a divine mission, blessed with the authority of the Heavenly Father and Elder Brother.",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Brother of Christ",
+		"uniques": ["Upon capturing a City, earn a boost of Faith and a restore a portion of the City's HP for each pillaged tile within working distance. Puppet Cities produce +25% Religious Pressure while following your Religion."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Lanfang",
+		"leaderName": "Luo Fangbo",
+		"adjective": ["Civilian of Lanfang"],
+		"cityStateType": "Mercentile, Maritime",
+		"startBias": ["Jungle"],
+		
+		"declaringWar": "Your actions are unacceptable! You acts cruel upon us long enough! Prepare for war!",
+		"attacked": "Unbelievable! You think you can best us, we'll show you what we are capable of.",
+		"defeated": "Ours will not be the last republic. Another will bear the sword of freedom in defiance of you.",
+		"introduction": "A pleasure to meet you. I'm President Luo Fangbo, and I speak for the people of the Lanfang Republic. Oh, are you interested in our system of government?",
+
+		"outerColor": [255,255,25],
+		"innerColor": [0,0,0],
+		     
+		"uniqueName": "Kongsi Federation",
+		"uniques": ["For every City actively working 3 Mines or Quarries in your Empire, unlock a random Social Policy tree. Once all Social Policy trees have been unlocked, this bonus will provide a random Freedom Tenet."],
+		     
+		"cities": ["Dong Wan Li","Pontianak","Sungai Raya","Ketapang","Sanggau","Sintang","Ngabang","Mempawah","Putussibau","Bengkayang","Singkawang","Sekadau","Nanga Pinoh","Sukadana","Pahuman","Sungaipinyuh","Jungkat","Rasau","Sungaiduri","Pemalo","Darit","Sidas","Sosok","Serimbu","Endia","Ledo","Pemangkat","Momong","Haur","Liku"]
+	},
+	{
+                "name": "Yettishar (Kashgaria)",
+		"leaderName": "Yaqub Beg",
+		"adjective": ["Dungan"],
+		"cityStateType": "Religious, Militaristic",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "May Allah put you and puts you under the grains of sand in the Gobi desert. Prepare to be beaten!",
+		"attacked": "Give me your best, because Allah is on my side. What about you?",
+		"defeated": "You have defeated me, but if you think faithful are defeated you are a fool. The banner of Shari'a will be the death of you!",
+		"introduction": "A messenger, then! This isn't the best time to be passing each other letters, I'm afraid. My enemies won't slaughter themselves.",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Jihad by Way of Gunpower",
+		"uniques": ["Cities gain a +1% Land Unit Production bonus for every follower of your Majority Religion in the Capital. Whilst at war, gain a Great General in one of your cities for every enemy city converted to your religion."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//Europe
 	{
                 "name": "Austria",
@@ -709,6 +1235,30 @@
 		"uniques": ["Gain Golden Age points from adopting Policies and conquering enemy cities. During Golden Ages, improvements are built twice as fast, and the Capital's Culture and Production output increases by 50%."],
 		     
 		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
+	},
+	{
+                "name": "Germany",
+		"leaderName": "Wilhelm II",
+		"adjective": ["German"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "You, do you think you are superior than Deutschland?! I will show you what are we Germans capable of!",
+		"attacked": "No threat could ever harm Deutschland! I will show you that you are screwed! Get prepared, you bastard!",
+		"afterPeace": "It seems you are agreed to make peace, I will watch an eye on you, for I know that you want to trick me.",
+		"defeated": "This is an absurd! I am superior to you! My army is superior, and my navy too! You cheated! I don't know how but I'm sure you did!",
+		"introduction": "Oh? Who are you? Who? From where? Uhh no, never heard of. I am Wilhelm II, and I'm sure you heard of me, the emperor of Germany!",
+		"neutralHello": "Greetings, leader. What can Deutschland do for you?",
+		"hateHello": "Oh, it's you... What are you doing here? What for?",
+		"tradeRequest": "The German Empire is now asking you to make trade, hoping you could understand what we meant and cooperate with us here.",
+
+		"outerColor": [255,0,5],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Total War",
+		"uniques": ["Units move faster for ten turns after declaring war. Gain more Production for each player at war with Germany, and each city producing Military Units or Gold contributes to War Effort."],
+		     
+		"cities": ["Berlin","Königsberg","Hamburg","Breslau","Munich","Frankfurt","Cologne","Danzig","Strassburg","Stettin","Essen","Posen","Dortmund","Kattowitz","Stuttgart","Magdeburg","Düsseldorf","Hannover","Bremen","Metz","Duisburg","Mainz","Leipzig","Kiel","Dresden","Schwerin","Bonn","Bochum","Bielefeld","Karlsruhe"]
 	},
 	{
                 "name": "The Ottomans",
@@ -928,6 +1478,26 @@
 	},
 	//European City States
 	{
+                "name": "Monaco",
+		"leaderName": "Albert I",
+		"adjective": ["Monégasque"],
+		"cityStateType": "Mercentile",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "Monaco is afraid that your actions is not good for Monaco, so I, Prince of Monaco, hereby declare war on you.",
+		"attacked": "Monaco is afraid of being conquered due to its size but, no matter, Monaco will fight back until its last breath.",
+		"defeated": "It is a troubling world when the likes of Monaco cannot live in peace.",
+		"introduction": "Welcome to the Prince's Palace. I am Albert I, Prince of Monaco. I hope you will stay and enjoy the freedoms that Monaco has to offer.",
+
+		"outerColor": [250,245,245],
+		"innerColor": [250,45,45],
+		     
+		"uniqueName": "Wealth of the Grimaldis",
+		"uniques": ["Capital yields +2 Tourism per Gold Building that is present in all cities. Excess Happiness converts a percentage of Tourism into Gold."],
+		     
+		"cities": ["Monacoville","Monte Carlo","La Condamine","Larvotto","Fontveille","Saint Michel","Moneghetti","La Colle","Les Révoires","La Rousse","Port Hercule","Saint Roman","Les Salines","Les Plages","L'Hermitage","Port de Fontveille","Terre-Plein du Larvotto","Quatier du Port","Carriéres-Malbousquet","Le Portier"]
+	},
+	{
                 "name": "Greece",
 		"leaderName": "Elftherios Venizelos",
 		"adjective": ["Greek"],
@@ -1026,6 +1596,46 @@
 		"uniques": ["Doubled Great General rate in own borders. Forts and Citadels generate Great Engineer Points during peace and heal adjacent Units during war."],
 		     
 		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
+	},
+	{
+                "name": "Septinpular Republic",
+		"leaderName": "Antonios Komoutos",
+		"adjective": ["Ionian"],
+		"cityStateType": "Mercentile, Maritime",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "We will show you what we are capable off! Ας σαλπάρουμε, παιδιά! Ας είμαστε έτοιμοι για τον πόλεμο εναντίον αυτού του εχθρού μας, παιδιά!",
+		"attacked": "You think we're weak just because we're small islanders, didn't you? Επιτρέψτε μου να σας δείξω ότι δεν είμαστε τόσο αδύναμοι όσο νομίζατε!",
+		"defeated": "If this is what it takes for the return of peace, so be it.",
+		"introduction": "Welcome to the Septinsular Republic. I am Antonios Komoutos, Prince and President of these islands.",
+
+		"outerColor": [22,11,255],
+		"innerColor": [222,222,0],
+		     
+		"uniqueName": "Frankokrotia",
+		"uniques": ["Cities have extra Naval Trade Route range based on the number of adjacent water tiles. Foreign Trade Units passing through your territory grant Food to Cities below 10 Population, and Culture thereafter."],
+		     
+		"cities": ["Corfù","Argostoli","Kythira","Zakynthos","Lefkada","Vathy","Gaios","Kavos","Lixouri","Potamos","Roda","Katastari","Lygia","Gouvia","Stavros","Lakka","Sidari","Sami","Agia Pelagia","Vanato","Nikiana","Marmaka","Lagos","Arillas","Fiskardo","Anon Livadi","Machairado","Apoipaina","Exogi","Ozias"]
+	},
+	{
+                "name": "Montenegro",
+		"leaderName": "Nikola I",
+		"adjective": ["Montenegrin"],
+		"cityStateType": "Militaristic, Religious, Cultural",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Onamo, 'namo!",
+		"uniques": ["Recieve a free Cultural or Faith building of choice when at peace. Recieve Rifled Infantry when at war and have discovered Rifles."],
+		     
+		"cities": ["Podgorica","city","cities","city"]
 	},
 	//German CS
 	{
@@ -1151,22 +1761,22 @@
 	{
                 "name": "Hanover",
 		"leaderName": "Ernest Augustus",
-		"adjective": ["Civilian of Hanover"],
+		"adjective": ["Hanoverian"],
                 "cityStateType": "Scientific, Cultural",
                 "startBias": ["None"],
 		
-		"declaringWar": "Oh lord, you will see the wrath of Hanover and United Kingdom, you will see.",
-		"attacked": "Oh really, United Kingdom will comes for my aid and finishes you up, you dumb dumb.",
-		"defeated": "Hanover is lost, but beware, I will make sure that the United Kingdom will comes to my aid.",
-		"introduction": "Welcome to the realm of Hanover, I'm Ernest Augustus, King of Hanover, Duke of Cumberland and Tevoitdale. It's nice to see you around.",
+		"declaringWar": "Oh lord, you will see the wrath of Hanover, you will see.",
+		"attacked": "Oh really, we will show what are we can do to go against you.",
+		"defeated": "I was not fit for this throne. I was made for greater things. This loss here, today, is proof of that.",
+		"introduction": "Hail. I am Ernest Augustus, king of Hanover. Speak quickly in my presence, for I have other matters to which to attend. Other, more important matters.",
 				
 		"outerColor": [126, 127, 131],
 		"innerColor": [1,2,3],
 		     
-		"uniqueName": "Duke of Cumberland and Tevoitdale",
-		"uniques": ["When you are a friend or an ally of United Kingdom, United Kingdom recieve +10% Culture and Science, you recieve a Great Writer. When at war, all Infantry units will recieve the Guelphic Legion promotion. At the start of the game, United Kingdom is already Hanover's friend."],
+		"uniqueName": "Royal Crossways",
+		"uniques": ["50% of Capital Production yield modifiers are shared between all cities with a City Connection. 100% of this Production modifier is shared when that Connection is via Railroad.", "When at war, all Infantry units will recieve the Guelphic Legion promotion. At the start of the game, United Kingdom is already Hanover's friend."],
 		     
-		"cities": ["Hannover","Göttingen","Osnabrück","Wilhelmshaven","Harburg","Heligoland"]
+		"cities": ["Hannover","Göttingen","Osnabrück","Wilhelmshaven","Harburg","Lüneburg","Emden","Hildesheim","Celle","Clausthal","Goslar","Einbeck","Hamelin","Stade","Meppen","Zellerfeld","Lingen","Verden an der Aller","Aurich","Vienenburg","Wolfsburg","Salzgitter","Nienburg","Neustadt","Wennigsen","Langenhagen","Wunstorf","Nordhorn","Gardsen","Uetze"]
 	},
 	{
                 "name": "Hesse-Darmstadt",
@@ -1204,7 +1814,7 @@
 		"innerColor": [112, 180, 195],
 		     
 		"uniqueName": "Schleswig-Holstein-Sonderburg-Augustenborg",
-		"uniques": ["When you a friend or an ally of Denmark, Denmark and you recieve +10 Gold and Culture. At the start of the game, Denmark is already Holstein's friend."],
+		"uniques": ["Specialists produce no additional unhappiness. For every two trade routes entering or exiting a Schleswig-Holstein city all specialists gain +1 to their primary yield.","At the start of the game, Denmark is already Holstein's friend."],
 		     
 		"cities": ["Holstein","Schleswig","Kiel","Glückstadt","Altona","Rendsburg","Segeberg","Heilligenhafen","Oldenburg in Holstein","Plön","Flensburg","Scikon","Fóhr","Röm","Fermann","Pelhrorn","Hüsem","Tondern","Apenrade","Hadersleben","Kolding","Eckënforde"]
 	},
@@ -1307,6 +1917,26 @@
 		"uniques": ["When at war, all units will have 25% bonus in attack effectiveness and defense effectiveness. All infantry units will gain the Royal Württemberg promotion when discovered Bold Action Rifles"],
 
 		"cities": ["Stuttgart","Heilbronn","Reutlingen","Ulm","Württemberg","Hall","Aalen","Heidenheim","Esslingen","Göppingen","Ludwigsburg","Tübingen","Freudenstadt","Rottweil","Friedrichshafen","Ravensburg","Biberach","Mengen","Schwenningen","Tuttlingen","Horb","Crailsheim","Calw","Sulz","Schramberg","Ebingen","Burgau"]
+	},
+	{
+                "name": "Westphalia",
+		"leaderName": "Jerome I (Jérôme Girolamo Napoléon Bonaparte)",
+		"adjective": ["Westphalian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+		
+		"declaringWar": "You think you can do that without being noticed, huh? Well, prepare for war, because I believe that you must die before I am.",
+		"attacked": "Unbelievable! I can't believe that you make me disgusted with your declaration. I will fight and I say I will.",
+		"defeated": "There's something that I will never get it back, but soon I will regained it.",
+		"introduction": "Welcome to Westphalia, I, Jerome I, will be pleased to talk with you about important things.",
+
+		"outerColor": [0,15,255],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "The Napoleonic Dynasty",
+		"uniques": ["Recieve +5 Gold for every enemy kills by your soldiers. Recieve a free Great General when you are a friend with France, and receive a free Great People of Choice when reached Napoleonic Era."],
+		     
+		"cities": ["Kassel","Marburg","Magdeburg","Brearschweig","Osnabrück","Meppen","Waldeck","Sondershruck","Dessau","Stade","Lunenburg","Seesen","Rietburg","Stolberg","Wernigerode","Dietz","Nidda","Ziegenhain","Katzenelnbogen","Diepholz","Lauterburg"],
 	},
 	//Italian CS
 	{
@@ -1426,8 +2056,7 @@
 		"innerColor": [185, 12, 12],
 		"uniques": ["Can only heal by pillaging"]
 	},
-	
-	Templates
+	//Templates
 	{
                 "name": "Template",
 		"leaderName": "Leader Name",
