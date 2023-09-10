@@ -241,7 +241,7 @@
 		"innerColor": [255,254,253],
 		     
 		"uniqueName": "A House Divided did not Stand",
-		"uniques": [""],
+		"uniques": ["Choose a unique wartime bonus upon the outbreak of war with a major civilization. Cities construct the cheapest Gold buildings automatically."],
 		     
 		"cities": ["Washington","New York","Philadelphia","Albany", "Baltimore","Boston","Cincinnati","St. Louis","Chicago","Louisville","Buffalo","Pittsburgh","Detroit","Milwaukee","Cleveland","Lowell","New Haven","Newark","Providence","Allegheny","Syracuse","Harrisburg","Wilmington","Manchester","Dayton","Indianapolis","Columbus","Worcester","Utica","Gettysburg","Sacramento"]
 	},
@@ -651,6 +651,26 @@
 		     
 		"cities": ["Torim","Beene","Wibism","Rahum","Potan","Vicam","Bacum","Ko'okoim","Bataconsica","Torokoba","Copas","Pitahaya","Nogalitos","Totoi-ta-kuse'epo","Otam Kawi","Vakatetteve Kawi","Guadalupe","Guaymas","New Pascua","Pueblo Yaqui","Capetamaya","El Añil"]
 	},
+	{
+                "name": "The Métis",
+		"leaderName": "Louis Riel",
+		"adjective": ["Métis"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [20,20,235],
+		     
+		"uniqueName": "North-West Revolution",
+		"uniques": ["When at war, all units got +10% attack bonus on Rough terrains."],
+		     
+		"cities": ["Caslan","Cold Lake","East Prairie","Elizabeth","Packechawanis","Machachowise","Kikino","Marlboro","Paddle Prairie","Big Prairie","Touchwood","Wolf Lake"]
+	},
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -685,8 +705,12 @@
 		
 		"declaringWar": "Your greed is immeasurable, may Allah destroys everything of your under my hand.",
 		"attacked": "It seems like you feel Egypt is weak, but I fan assure you that we are not, prepare for war!",
+		"afterPeace": "It seems you have decided to make peace with us. May Allah stop your choice of war ever again.",
 		"defeated": "Everything that I have built for Egypt have failed, may your rule on Egyptian lands will be better than mine.",
 		"introduction": "May Allah bless you on the way to Egypt, I'm Muhammad Ali Pasha, the Khedive and Sultan of Egypt.",
+		"neutralHello": "Mashallah, welcome to Egypt. What can I do for you here?"
+		"hateHello": "Mashallah, why in the name of Allah did you come to Egypt for?"
+		"tradeRequest": "Egypt want to have a trade with you, would you accept?",
 
 		"outerColor": [13,222,8],
 		"innerColor": [255,255,255],
@@ -816,8 +840,8 @@
 		"cityStateType": "Religious, Militaristic",
 		"startBias": ["Desert"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
+		"declaringWar": "May Allah bless us on this war, Allahu Akbar!",
+		"attacked": "Prepare to die under our hand, Allahu Akbar!",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
@@ -1009,6 +1033,30 @@
 		"uniques": ["Defeating hostile units in or near City State land always grants Influence and provides Culture towards border expansion. City State relationships increase construction speed (Max 25%)."],
 		     
 		"cities": ["Kuching","Lundu","Bauh","Simanggang","Limbang","Lingga","Rembas","Semunjuan","Serikei","Paku","Sibu","Muka","Igan","Kanowit","Bintulu","Kapit","Belaga","Long Akar","Truscan","Quop","Banting","Saratok","Betong","Sadong","Siniawan","Kabong","Rejang","Talang Talang","Nanga Belok","Lubok Antu","Song"]
+	},
+	{
+                "name": "The Mughals",
+		"leaderName": "Bahadur Shah II",
+		"adjective": ["Mughal"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination, Culture",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "You can strip castles from the land, banners from their posts, and crowns from of their righteous owners, but one can never scourge true faith from the hearts of believers. They will remember me, unbeliever. Who exactly are you?",
+		"introduction": "Ah, welcome traveller. You stand before the progeny of Genghis, Timur and Babur - God grants me the strength to overcome my enemies, and I pray he grants you the wisdom not to become one. Now sit, sit, let us discuss philosophy.",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
 	},
 	//Asian City-States - Gold: 218,215,47
 	{
