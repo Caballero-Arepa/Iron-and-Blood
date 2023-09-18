@@ -188,7 +188,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles, except the [Governate] improvement"],
 		"cost": 70,
 	},
 	{
@@ -213,7 +213,7 @@
 		"name": "Governor",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build a Governate, which is a [Land] improvment that governs 2 cities."],
+		"uniques": ["Can build a [Governate], which is a [Land] improvment that governs 2 cities."],
 		"cost": 1000,
 	},
 	{
@@ -223,7 +223,7 @@
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
 		"strength": 10,
-		"uniques": ["Can build a Governate, which is a [Land] improvment that governs 2 cities.", "+15% Strength bonus for [Military] units within 3 tiles"],
+		"uniques": ["Can build a [Governate], which is a [Land] improvment that governs 2 cities.", "+15% Strength bonus for [Military] units within 3 tiles"],
 		"cost": 800,
 		"attackSound": "shot",
 	},
