@@ -450,6 +450,26 @@
 		     
 		"cities": ["La Paz","Cabo San Lucas","Ensenada","Mulegé","Loreto","Tijuana","Mexicali","Comondú","Tecate","Playas de Rosarito","Hermosillo","Cajeme","Nogales","San Luis Rio Colorado","Navojoa","Caborca","Agua Prieta","Huatabampo","Etchojoa","Puerto Peñasco","Empalme","Cananea","Magdalena","Álamos","Atil","Bácum","Plutarco Elías Calles","Santa Ana","San Ignacio Río Muerte","Nacozari de Garcia","Altar","Pitiquito","San Miguel de Horcasitas","Ures","Fronteras","Nacozari","Cumpas","Yécora","Sahuaripa","Benjamín Hill","Moctezuma","Baviácora","Quiriego","Aconchi","Arizpe","La Colorada","Nácori Chico","Santa Cruz","Banámichi","Trincheras","Sáric","Vila Hidalgo","San Pedro de la Cueva","Bavispe","Rayón"]
 	},
+	{
+                "name": "Cascadia",
+		"leaderName": "Osborne Russell",
+		"adjective": ["Cascadian"],
+		"cityStateType": "Scientific",
+		"startBias": ["Forest"],
+		
+		"declaringWar": "You are joking, isn't it? I won't back down, I'm positive about it.",
+		"attacked": "The nature is depends on how you feel and it's now go against you, I will support its will, prepare, leader.",
+		"defeated": "We shall take back to the wild. The cities may have fallen, but you will never tame these hills.",
+		"introduction": "Well-met, stranger. Isn't she beautiful? The mountains; our Pacific.",
+
+		"outerColor": [15,15,235],
+		"innerColor": [50,235,50],
+		     
+		"uniqueName": "Bioregionalism",
+		"uniques": ["Cities gain +1 Food and +1 Local Happiness per 2 unimproved Forests, Jungles, or Natural Wonders within its borders. May steal enemy tiles that share a border with yours, chance scaling with Tourism output."],
+		     
+		"cities": ["Seattle","Vancouver","Portland","Spokane","Salem","Juneau","Bellevue","Bellingham","Burnaby","Gresham","Langley","Delta","Eureka","Hillsboro","Maple Ridge","Yakima","Beaverton","Pocatello","Abbotsford","Medford"]
+	},
 	//Native American CS  - Orange: 255,120,0
 	{
                 "name": "Apache",
@@ -690,6 +710,86 @@
 		"uniques": ["Foreign Trade Routes grant starting XP to units trained in their home cities. Promoting Units outside friendly territory expands the borders of the nearest friendly city."],
 		
 		"cities": ["Bear Butte","Toh'nihvoos","Vónkoohámahoéve'ho'éno","Red Fork","Mud Springs","Rush Creek","Washita River","Sand Creek","Summit Springs","Hónowa","Tsétsehéstahese","Masikota","Voxpometaneo"]
+	},
+	{
+                "name": "The Luiseño (Payómkawichum)",
+		"leaderName": "Pablo Tac",
+		"adjective": ["Luiseño"],
+		"cityStateType": "Religious",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "May God let a peaceful path for you, as the path of war is cruel, but necessary for a person like you.",
+		"attacked": "May God have mercy on you, because your ego have made you go  declare war on us, may your soul be blessed.",
+		"defeated": "God is still with us, and I must weather this trial, as it is His will...",
+		"introduction": "May the Lord be with you. I am Pablo Tac, and I speak for my people, the Payómkawichum.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [222,22,22],
+		     
+		"uniqueName": "When Merciful God Freed Us",
+		"uniques": ["+10% Building Production speed in the Capital per foreign Capital it shares a Religion with, given to all cities if also Friends. Religious Units expended in your borders provide a boost of Science."],
+		     
+		"cities": ["Quechla","Pala","Táaxanashpa","Páayaxchi","Táa'akwi","Húyyulkum","Méexa","Katúktu","Pochóorivo","Wi'áasamay","Tómqav","Mixéelum Pompáwvo","Kwáa'alam","Síikapa","Kóolu","Hurúmpa","Teméeku","Suvóova"]
+	},
+	{
+                "name": "The Mohave",
+		"leaderName": "Irataba",
+		"adjective": ["Mohave"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "We Mohave want you gone, gone for good! Bring anything you can bring, I'll show you, we'll show you!",
+		"attacked": "How dare you?! We shall be meet eachother at the battlefield, and make sure you bring your soldiers with you, I'll show them, we'll show them.",
+		"defeated": "I am so weary of the bloodshed. Dark and cheerless are my skies... Please... make it stop.",
+		"introduction": "Welcome, honored dignitary. Please, rest yourself by the cool water of the river. I am Irataba, Aha Macave Yaltanack who has seen my people through many battles and achieved peace. As you can see, I am adorned with the gifts of tribes far and wide. ...Do you have something for me, too?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [22,22,50],
+		     
+		"uniqueName": "The Old Desert Giant",
+		"uniques": ["When a city is founded, the locations of all nearby Oases and Luxury Resources in Desert are revealed. Receive Happiness from exchanged Embassies."],
+		     
+		"cities": ["Avi Kwa Ame","Aha Kwi Nyamasave","Avi Kwi Nyamaoave","Avi Melyehweke","Aha Kwahwat","Avi Mota","Avi Halywa'ampa","Avi Hamoka","Avi Veskwi","Avi Tsierqe","Ahtsye-'aksamta"]
+	},
+	{
+                "name": "The Modoc",
+		"leaderName": "Kintpuash",
+		"adjective": ["Modoc"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Oh, I see how this is, this is an act of war! I declare war on you, you must back down or else!",
+		"attacked": "You are doing too much, we can prepare for war because of you. Go scram! Begone, gone for good!",
+		"defeated": "I am not afraid to die. I will not fall on the rocks. When I die, my enemies will be under me!",
+		"introduction": "I am but one man. I am the voice of my people. Whatever their hearts feel, I talk.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [2,230,230],
+		     
+		"uniqueName": "Hell with the Fire Out",
+		"uniques": ["Cities receive additional Strength and HP per Mountain or Hill in their borders, and +1 Food per directly adjacent Mountain. Cities adjacent to Mountains allow the 'airlifting' of units to one another."],
+		     
+		"cities": ["Agawesh","Kumbat","Nushalt-Hagak-ni","Bloody Point","Lost River","Tule Lake","Dry Lake","Shasta","Land's Ranch","Hardin Butte","Sand Butte","Dokdokwas","Welwashkeni","Sputuishkeni","Keuchishkeni","Stuikishkeni","Wachamshwash"]
+	},
+	{
+                "name": "The Blackfoot",
+		"leaderName": "Isapo-mixaku (Crowfoot)",
+		"adjective": ["Blackfoot"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "It seems that you are a bad foreigner, even a villain. May the Old Wind blows you away.",
+		"attacked": "No, no matter what you dare to do with me, I and my people will not back down, get out! Get out!!!",
+		"defeated": "What is life? It is the flash of a firefly in the night. It is the breath of a buffalo in the winter time. It is the little shadow which runs across the grass and loses itself in the Sunset.",
+		"introduction": "Welcome to the land of the buffalo, where we, the Blackfoot, inhabit. I am Crowfoot.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [210,200,45],
+		     
+		"uniqueName": "To Speak for the Children",
+		"uniques": ["Worked sources of Bison and Horses provide XP for newly-trained land units. During Peace Treaties, units Level 4 or over provide Influence with City-States."],
+		     
+		"cities": ["Soyoohpawahko","Estipah Skikikini-kots","Moh-Kíns-Tsis-Aká-Piyoyis","Eyarhey Tatanga Woweyahgey Wakan"]
 	},
 	//Africa
 	{
@@ -1231,7 +1331,7 @@
 		"defeated": "And so the fate that befell the Elder Brother, befalls the younger. I go now to reunite with my Celestial Family.",
 		"introduction": "I am the Heavenly King, Hong Xiuquan. Know that ours is a divine mission, blessed with the authority of the Heavenly Father and Elder Brother.",
 
-		"outerColor": [130,121,87],
+		"outerColor": [245,245,150],
 		"innerColor": [222,227,236],
 		     
 		"uniqueName": "Brother of Christ",
@@ -1251,8 +1351,8 @@
 		"defeated": "You have defeated me, but if you think faithful are defeated you are a fool. The banner of Shari'a will be the death of you!",
 		"introduction": "A messenger, then! This isn't the best time to be passing each other letters, I'm afraid. My enemies won't slaughter themselves.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [230,80,80],
+		"innerColor": [245,245,150],
 		     
 		"uniqueName": "Jihad by Way of Gunpower",
 		"uniques": ["Cities gain a +1% Land Unit Production bonus for every follower of your Majority Religion in the Capital. Whilst at war, gain a Great General in one of your cities for every enemy city converted to your religion."],
@@ -1271,13 +1371,13 @@
 		"defeated": "Such a shame, such a shame. I can only hope my subjects will not suffer as I have.",
 		"introduction": "Greetings! I am Osman Ali Khan, by the grace of God Nizam of Hyderabad. Do you come seeking to share in the wealth of my realm?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [230,121,0],
+		"innerColor": [0,0,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Riches of Golconda",
+		"uniques": ["Cities generate additional Golden Age Points for each building purchased within them. Upon the dawn of a Golden Age, new sources of Gems are revealed within your territory."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Hyderabad","Aurangabad","Karimnagar","Bidar","Khammam","Nizamabad","Parbhani","Raichur","Ramagundam","Nalgonda","Mahbubnagar","Osmanabad","Miryalagunda","Parli","Jagtial","Shamshabad","Mahabubabad","Kinwat"]
 	},
 	//Europe
 	{
