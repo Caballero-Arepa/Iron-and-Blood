@@ -658,10 +658,10 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "You are a danger to the Métis, and I, will help them defeat you and your nation.",
+		"attacked": "How dare you go against us?! You soon will regret, you should know that.",
+		"defeated": "All is lost, thanks to you, the Métis will never be independent. Good day.",
+		"introduction": "Greetings, I am Louis Riel, I lead the Métis and they treated me good. I hope we can be ally with each other.",
 
 		"outerColor": [250,120,0],
 		"innerColor": [20,20,235],
@@ -670,6 +670,26 @@
 		"uniques": ["When at war, all units got +10% attack bonus on Rough terrains."],
 		     
 		"cities": ["Caslan","Cold Lake","East Prairie","Elizabeth","Packechawanis","Machachowise","Kikino","Marlboro","Paddle Prairie","Big Prairie","Touchwood","Wolf Lake"]
+	},
+	{
+                "name": "The Cheyenne",
+		"leaderName": "Woqini",
+		"adjective": ["Cheyenne"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "You think that you are stronger than us Cheyenne, then why don't you show us at the battlefield.",
+		"attacked": "You are losing all goodness towards us, we shall be your worst nightmare.",
+		"defeated": "This is impossible! My preparations were immaculate! How could this have happened?",
+		"introduction": "Greetings, stranger! Some call me Roman Nose, but know that I am the untouchable warrior, Woqini of the Cheyenne.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [222,222,5],
+		     
+		"uniqueName": "Bundle of Sacred Arrows",
+		"uniques": ["Foreign Trade Routes grant starting XP to units trained in their home cities. Promoting Units outside friendly territory expands the borders of the nearest friendly city."],
+		
+		"cities": ["Bear Butte","Toh'nihvoos","Vónkoohámahoéve'ho'éno","Red Fork","Mud Springs","Rush Creek","Washita River","Sand Creek","Summit Springs","Hónowa","Tsétsehéstahese","Masikota","Voxpometaneo"]
 	},
 	//Africa
 	{
@@ -760,7 +780,7 @@
 		"hateHello": "What are you doing here?!",
 		"tradeRequest": "I came hopeful that we can reach an agreement.",
 
-		"outerColor": [2,227,2],
+		"outerColor": [250,27,20],
 		"innerColor": [221,221,25],
 		     
 		"uniqueName": "Ruby of the Farthest West",
@@ -791,6 +811,30 @@
 		"uniques": ["Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion."],
 		     
 		"cities": ["Ulundi","Umgungundiovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela","KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Ezigwagweni","eMangweni","Isiphezi","Masotsheni","Mtuzini","Nyakamubi","Dumazulu","Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela","Mthatha","Maseru","Lobamba","Qunu"]
+	},
+	{
+                "name": "Sokoto",
+		"leaderName": "Usman Don Fodio",
+		"adjective": ["Sokoto"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Religious, Domination",
+		
+		"declaringWar": "You heresy! You think you can escape, not if I capture you first!",
+		"attacked": "I see, if you don't beg for peace then war it must be! Allahu Akbar!!!",
+		"afterPeace": "If you say so, then peace it is, hope you don't make that mistake again.",
+		"defeated": "Heresy! You may have won on Earth, but you will pay dearly in Jahannam.",
+		"introduction": "Salutations! You stand in the presence of Usman dan Fodio. Are you a fellow man of the faith, or are you an enemy I must destroy?",
+		"neutralHello": "Mashallah, welcome to Sokoto Caliphate, what can I do for you?",
+		"hateHello": "We don't welcome you here, what do you want?!",
+		"tradeRequest": "We, as a nation, asking you about trade, do you see this trade is fair?",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Fulani Jihads",
+		"uniques": ["Citadels increase the yields of adjacent tile improvements. When making Faith purchases, gain Great General points scaling with the amount of Faith spent."],
+		     
+		"cities": ["Sokoto","Gwandu","Kano","Gudu","Degel","Zazzau","Katsina","Alkalawa","Birni N'Konni","Gombe Aba","Bauchi","Yola","Daura","Biram","Wurno","Gawakuke","Dange Shuni","Kwasarawa","Dukku","Rano","Gusau","Nafada","Akko","Anko","Jalingo","Nupe","Zango","Baure"]
 	},
 	//African City-States - Khaki: 234,227,167
 	{
@@ -845,8 +889,8 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		     
 		"uniqueName": "The Lion of the Desert",
 		"uniques": ["When at war, all unit got the Matari promotion. When at war, +50% Production when building Infantry units."],
@@ -912,6 +956,66 @@
 		"uniques": ["Expending Great People or Civilian Units next to settlers gives the city they settle bonuses based on the type of civilian. For each cities, 5% of your unit and building maintenance cost is covered."],
 		     
 		"cities": ["Monrovia","Bassa Cove","Greenville","Harper","Caldwell","Millsburg","New Georgia","Marshall","Bexley","Edina","Crozierville","Careysburg","Clay-Ashland","Perseverance","Cape Mesurado","Cape Palmas","Louisiana","Cestos","Trade Town","Cape Mount","Garraway","Settra Kroo","Grand Sesters","King Williams Town","Baffou","Grand Bootoo","Zapi","Nitton","Baddoo","St.Paul","Nefoo","Sinou","St. John","Wela","Tembo","Butu","Culloh","Rock Cess","Katu","Virginia","Baddu","Hening","Tebo","Grand Taba","Bereby"]
+	},
+        {
+                "name": "Luba",
+		"leaderName": "Illunga Sungu",
+		"adjective": ["Luba"],
+		"cityStateType": "Militaristic, Cultural",
+		"startBias": ["None"],
+		
+		"declaringWar": "You think you can toss us around? Not a chance, prepare to be mushed.",
+		"attacked": "We cannot tolerate any shenanigans of yours, it's time for war. Be careful of my soldiers!!!",
+		"defeated": "I may have been defeated, but I will never be forgotten.",
+		"introduction": "You have arrived at the Luba Kingdom! I hope you have had a chance to see our markets, for we have the most splendid trade goods in this world.",
+
+		"outerColor": [10,5,255],
+		"innerColor": [14,50,255],
+		     
+		"uniqueName": "Long Claw of Memory",
+		"uniques": ["When conquering a city, instantly fill an empty Great Work slot in that city. Units start with additional experience for each type of Great Work present in the city where they were trained."],
+		     
+		"cities": ["Katende","Mwibele","Kipushya","Kabongo","Budyende","Kitabi","Musumba","Bukama","Kamina","Dyombo","Bunkaya","Mwansabombwe","Kolwezi","Bukunga","Dilala"]
+	},
+	{
+                "name": "Serer",
+		"leaderName": "Ama Joof",
+		"adjective": ["Serer"],
+		"cityStateType": "Cultural",
+		"startBias": ["River"],
+		
+		"declaringWar": "Your shenanigans is going too far, we have no choice but war. Good luck, we might be the victor and you might be the vanquished.",
+		"attacked": "How sad, we must resort to war because of your actions, hope something will help us  beat you down.",
+		"defeated": "How pity, you may win us, but not the trust of ours. We'll be back for independence, I promise.",
+		"introduction": "Welcome to our Kingdom of Sine, I, as the ruler of the Serer, hope to have some time of peace with you.",
+
+		"outerColor": [230,230,50],
+		"innerColor": [240,20,26],
+		     
+		"uniqueName": "Pre-Colonial Senegambia",
+		"uniques": ["Every 5 turns when Serer is at peace, receive +5 Culture and +2 Gold at every that have Palace. When at war, every 5 turns, receive +5 Culture for every city that have Temple and receive +20% unit production for every city that have Barracks."],
+		     
+		"cities": ["Diakhao","Kajoor","Danki","Somb"]
+	},
+	{
+                "name": "Zanzibar",
+		"leaderName": "Barghash bin Said",
+		"adjective": ["Zanzibari"],
+		"cityStateType": "Militaristic, Maritime",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "Why do you have to mess with me? I will show the strength of Zanzibar.",
+		"attacked": "How dare you mess with my tradings? I will fight you until the end.",
+		"defeated": "What did you want? Gold? Spices? There were far, far easier ways to get your hands on them.",
+		"introduction": "Welcome, my friend! This is the great Sultanate of Zanzibar, and I am its great Sultan. I very much hope you're here to trade.",
+
+		"outerColor": [120,245,100],
+		"innerColor": [222,227,30],
+		     
+		"uniqueName": "House of Wonder",
+		"uniques": ["Half your Happiness from Luxury Resources is provided as Science. Happiness from a Luxury Resource is doubled if you control a majority of its copies."],
+		     
+		"cities": ["Zanzibar","Malindi","Dar es Salaam","Mombasa","Kilwa","Bagamoyo","Chake-Chake","Tangu","Masoko","Siyu","Kilindoni","Mkokotoni","Watamu","Mtwara","Mikindani"]
 	},
 	//Asia
 	{
@@ -1050,14 +1154,14 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [20,245,20],
+		"innerColor": [230,230,87],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Code of the Empire",
+		"uniques": ["Converting a city to your Religion for the first time causes that city and the Capital to permanently yield +2 Gold and +1 Faith. Making purchases with either Gold or Faith grants Golden Age points."],
 		     
-		"cities": ["Capital","city","cities","city"]
-	},
+		"cities": ["Shahjahanabad","Agra","Lahore","Fatehpur Sikri","Ahmedabad","Multan","Surat","Allahabad","Patna","Dhaka","Hyderabad","Gaur","Aurangabad","Thatta","Ujjain","Srinagar","Vijayapura","Burhanpur","Nanded","Kabul","Achalpur","Varanasi","Cuttack"]
+	}
 	//Asian City-States - Gold: 218,215,47
 	{
                 "name": "Ezo",
@@ -1088,12 +1192,8 @@
 		
 		"declaringWar": "Our ministers decided that your nation is counted. Be sure to ready before it hits the fan.",
 		"attacked": "It is that today, marks a big event in our history, as now we will fight and we will fight until our last breathes.",
-		"afterPeace": "Delightful! It's no wonder that we have been fighting each other for a long time. Now, we open our hands in the era of peace and shake our hands as we now live in peace.",
 		"defeated": "How is it that this day has come to pass? I have given everything in my power and more to prevent its coming. Was it still not enough?",
 		"introduction": "Korea welcomes you, foreign leader, as do I, Gojong, her emperor. I pray that relations between our empires may be cordial, if not harmonious.",
-		"neutralHello": "Salutations, leader. Korea is opened its hand for you. What can we do for you here?",
-		"hateHello": "Who care about you in here? What do you wish for? Tell me about it.",
-		"tradeRequest": "We have delicated our deal here with fairness. May you accept it, as it was adjusted by a number of my ministers.",
 
 		"outerColor": [250,250,250],
 		"innerColor": [20,20,250],
@@ -1132,12 +1232,8 @@
 		
 		"declaringWar": "You think you can win over us, and also think that we are weak, are you? If you think so, then show me what do you have to fight us.",
 		"attacked": "It is seems that you are favor of war rather than peace. A lesson or maybe two or three will be enough for you. Get ready. Your words today might be a lie tomorrow.",
-		"afterPeace": "Finally, peace is achieved. I hope you take your note that we are not easily beaten.",
 		"defeated": "Your conquest of this land will go down as a great treachery in the history of the world. Of this, I am sure.",
 		"introduction": "I am Emilio Aguinaldo, supreme commander of the Philippine armies and president of the Philippine people. You honor us with your visit.",
-		"neutralHello": "Greetings. What can I do for you today?",
-		"hateHello": "Oh, it seems you want to meet me. What purpose do you come for me for?",
-		"tradeRequest": "I think we trade with you is a great choice so, the deal is set, and it's now your choice.",
 
 		"outerColor": [245,245,150],
 		"innerColor": [255,130,130],
@@ -1468,8 +1564,8 @@
 		"hateHello": "Oh guarda! Anche il cielo non ti favorisce quando vieni qui! It's cloudly everywhere! I'm not going standing here to look at the dull sky and a dull mind in here anyway. What do you want?",
 		"tradeRequest": "Le Due Sicilie vogliono commerciare con te! We offer you this and you check and you accept it or not, it's yours to decide.",
 				
-		"outerColor": [129, 36, 164],
-		"innerColor": [165,225,130],
+		"outerColor": [165,225,130],
+		"innerColor": [29,250,30],
 		     
 		"uniqueName": "Pride of Bourbon Sicily",
 		"uniques": ["Naval Units upgrade automatically when a new Technology is discovered. Receive a free Naval Unit when a Cargo Ship is built."],
@@ -1499,7 +1595,7 @@
 		"uniques": ["Gain Gold when settling; amount is greater the further from your Capital. Cities on other continents contribute 10% of their Science and Production to your Capital."],
 		     
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
-	},
+	}
 	//European City States - White: 241,241,241
 	{
                 "name": "Greece",
@@ -1568,18 +1664,18 @@
 		"cityStateType": "Militaristic, Religious, Cultural",
 		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "It seems war is the only choice left for someone like you, prepare to die.",
+		"attacked": "You are going too far, I hope you would be better after a lesson.",
+		"defeated": "You deserve to be destroyed. May God sent an army to crush you down.",
+		"introduction": "Welcome to Kingdom of Montenegro, I gladly to greet other leaders for peace and with peaceful intentions only.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [255,60,60],
+		"innerColor": [225,225,225],
 		     
 		"uniqueName": "Onamo, 'namo!",
 		"uniques": ["Recieve a free Cultural or Faith building of choice when at peace. Recieve Rifled Infantry when at war and have discovered Rifles."],
 		     
-		"cities": ["Podgorica","city","cities","city"]
+		"cities": ["Podgorica","Cetinje"]
 	},
 	{
                 "name": "Portugal",
@@ -1661,6 +1757,26 @@
 		     
 		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
 	},
+	{
+                "name": "Poland-Lithuania",
+		"leaderName": "Tadeusz Kosciuszko",
+		"adjective": ["Polish","Lithuanian"],
+		"cityStateType": "Cultural, Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Poland will not back down, we will march and march into your capital, prepare to be lost.",
+		"attacked": "Your words is just words, but we say, we will act, and we will march into you!",
+		"defeated": "I may be defeated today, but as long as hope remains in the hearts of my people the country will never die! Poland is not yet lost!",
+		"introduction": "I welcome you to Poland-Lithuania. I have pledged my life to my country, for liberty, and for equality. If you can accept that, I'm sure we'll get along swimmingly.",
+
+		"outerColor": [240,60,50],
+		"innerColor": [222,222,222],
+		     
+		"uniqueName": "Proclamation of Polaniec",
+		"uniques": ["Cities gain extra Culture for each enemy Unit within their borders, and a boost to Culture output for every Civilization at war with you. Adopting a Social Policy heals your Units and damages enemy Units within your borders."],
+		     
+		"cities": ["Warsaw","Vilnius","Krakow","Grodno","Brest-Litovsk","Sandomierz","Lublin","Lodz","Poznan","Drohiczyn","Minsk","Lviv","Kaunas","Rivne","Polaniec","Raclawice","Maciejowice","Radom","Kielce","Lomza","Chelm","Siedlce","Pulawy","Lutsk"]
+	}
 	//German CS - Grey: 126, 127, 131
 	{
                 "name": "Anhalt",
