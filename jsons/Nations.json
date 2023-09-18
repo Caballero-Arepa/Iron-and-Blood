@@ -403,7 +403,7 @@
 		"introduction": "Greetings! I'm Carlos Manuel de Céspedes, and you're standing in the beautiful Republic of Cuba, the land of revolutions. Make yourself comfortable while you're in here and hopefully you will join our cause for liberty and freedom.",
 
 		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"innerColor": [250,20,20],
 		     
 		"uniqueName": "La Demajagua",
 		"uniques": ["Increased Combat Strength on Plantations (+20%). Adopting a Social Policy grants Revolucionario Points. Upon adopting your first Ideological Tenet, receive 2 Revolucionarios."],
