@@ -202,7 +202,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Art" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -240,6 +240,38 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Music" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Director",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Movie" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered Mass Media"],
+		"movement": 2
+	},
+	{
+		"name": "Great Writer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Literature" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Diplomat",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Council with selected nations" ,"Great Person - [Diplomacy]", "Unbuildable", "Uncapturable","Only available after discovered International Relations"],
+		"movement": 2
+	},
+	{
+		"name": "Great Burgermeister",
+		"replaces": "Great Diplomat",
+		"uniquesTo": "Lübeck",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Hansentic Meeting with Hamburg, Lübeck and Bremen" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered Rights of Man"],
 		"movement": 2
 	},
 ]
