@@ -8,7 +8,7 @@
 		"cost": 40,
 		"requiredTech": "Flintlocks",
 		"obsoleteTech": "Rifled Barrels",
-		"upgradesTo": "Rifled Inf.",
+		"upgradesTo": "Rifled Infantry",
 		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>",
 			"Muzzleloader"],
 		"attackSound": "shot",
@@ -98,9 +98,22 @@
 		"requiredTech":"Rifled Barrels",
 		"obsoleteTech":"Bold Action Rifles",
 		"upgradesTo":"Breeching Infantry",
-		"uniques":["Muzzleloader","Ignores Terrain Cost.","Can move through foreign lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."]
+		"uniques":["Muzzleloader","Ignores terrain cost.","Can move through foreign lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."],
+		"attackSound": "shot",
 	},
-		
+	{
+		"name":"Janissary",
+		"unitType":"Infantry",
+		"movement":3,
+		"strength":20,
+		"cost":35,
+		"uniqueTo":"The Ottomans",
+		"requiredTech":"Rifled Barrels",
+		"obsoleteTech":"Bold Action Rifles",
+		"upgradesTo":"Breeching Infantry",
+		"uniques":["Muzzleloader","Ignores terrain cost.","Can move through friendly lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."],
+		"attackSound": "shot",
+	},	
 //Machine guns
 	{
 		"name": "Gatling Gunner",
@@ -123,8 +136,8 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 40,
-		"requiredTech": "Machineguns",
-		"uniques": ["Machinegun"],
+		"requiredTech": "Machine Guns",
+		"uniques": ["Machine Gun"],
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "..."}
@@ -196,7 +209,24 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
 	},
-
+        {
+		"name": "Governor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can establish a Governate, which is a [Land] improvment that governs 2 cities."],
+		"cost": 1000,
+	},
+	{
+		"name": "Vizier",
+		"unitType": "Civilian",
+		"replaces": "Governor",
+		"uniquesTo": "The Ottomans",
+		"movement": 2,
+		"strength": 10,
+		"uniques": ["Can establish a Governate, which is a [Land] improvment that governs 2 cities.", "+15% Strength bonus for [Military] units within 3 tiles"],
+		"cost": 800,
+		"attackSound": "shot",
+	},
 	/* Great people */
 
 	{
@@ -208,7 +238,7 @@
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can hurry technology research", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -271,7 +301,25 @@
 		"replaces": "Great Diplomat",
 		"uniquesTo": "Lübeck",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age","Can create a Hansentic Meeting with Hamburg, Lübeck and Bremen" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered Rights of Man"],
+		"uniques": ["Can start an [8]-turn golden age","Can call for a Bürgerschaft with Hamburg, Lübeck and Bremen" ,"Great Person - [Diplomacy]", "Unbuildable", "Uncapturable", "Only available after discovered Rights of Man"],
 		"movement": 2
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2]  Coast, Lake or Sea tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Grand Vizier",
+		"uniquesTo": "The Ottomans",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+25]% Strength bonus for [Military] units within [2] tiles",
+			"Great Person - [War]", "Uncapturable"],
+		"movement": 2,
+		"strength": 25,
+		"cost": 2500,
+		"attackSound": "shot",
 	},
 ]
