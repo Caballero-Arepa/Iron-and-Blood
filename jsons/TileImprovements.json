@@ -37,7 +37,7 @@
 		"name": "Governate",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 10,
-		"uniques":["Can only be built by a Governor or a Vizier", "It can only built on tiles between 2 cities", "It generate Influence on a City-state if a Governate is established between a city of a major civilization and its border", "Can be destroyed by the barbarians","Can be destroyed by a major civilization", "Can assimilate a City-state into a part of a major civilization with 100 or above Influence points"],
+		"uniques":["Can only be constructed by a Governor or a Vizier", "It can only built on tiles between 2 cities", "It generate Influence on a City-state if a Governate is established between a city of a major civilization and its border", "Can be destroyed by the barbarians","Can be destroyed by a major civilization", "Can assimilate a City-state into a part of a major civilization with 100 or above Influence points"],
 		"shortcutKey": "G",
 		"cost": 1500,
 	},
