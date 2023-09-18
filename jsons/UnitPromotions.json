@@ -59,7 +59,7 @@
 	        "uniques": ["When discovered Bold Action Rifles, all infantry have 50% attack effectiveness"],
 	        "requiredTech": "Bold Action Rifles",
 	        "unitType": ["Infantry"],
-	"column": 8,
+	"column": 7,
 	"row": 1
 	},
 ]
