@@ -1067,30 +1067,6 @@
 		"cities": ["Edo","Hakodate","Aizuwakamatsu","Osaka","Nagasaki","Yokohama","Shimoda","Kagoshima","Wakayama","Kanazawa","Nagoya","Niigata","Mito","Sendai","Fukuoka","Koshu","Nagaoka","Toba","Kumamoto","Matsumae","Saga","Hyogo","Shiroishi","Sapporo","Tsu","Odawara","Hikone","Akita","Morioka","Koriyama"]
 	},
 	{
-                "name": "Satsuma",
-		"leaderName": "Saigo Takamori",
-		"adjective": ["Citizen of Satsuma"],
-		"startBias": ["None"],
-		"preferredVictoryType": "Domination, Science",
-		
-		"declaringWar": "Satsuma can't keep you from any bad no more. Let's have a fight to teach you a lesson.",
-		"attacked": "Oh hoh hoh, you now show your true face, isn't it? Now it's time for me to beat you up until you surrender.",
-		"afterPeace": "Keep having good impression on everyone will be better for you here. And I gotta admit, your soldiers are strong.",
-		"defeated": "Ah, it looks as if our dreams are at an end. Please, leave me in peace so I can do what is honourable. Oh, and take this citrus tree, so you will always remember our country and our culture even after I am gone.",
-		"introduction": "Greetings from far Satsuma! I am but a warrior, but I hope to foster good relations with foreign powers such as yourself.",
-		"neutralHello": "Oh hoh hoh! Welcome, leader. What's in your mind?",
-		"hateHello": "It seems you do not understand the rules but fine, what do you want?",
-		"tradeRequest": "Satsuma ask you to trade with us, we want such things and we want exchange that with what we have here.",
-
-		"outerColor": [2,255,2],
-		"innerColor": [130,121,87],
-		     
-		"uniqueName": "War of the Southwest",
-		"uniques": ["Units gain +10% Combat Strength for every adjacent enemy above two. Damaged units adjacent to at least two enemies can Commit Seppuku, killing the unit and yielding a burst of Culture from each adjacent enemy."],
-		     
-		"cities": ["Kagoshima","Miyakonojo","Ibusuki","Izaku","Chiran","Shibushi","Kimotsuki-Takayama","Satsumasendai","Bonotsu","Izumi","Kajiki","Kaseda","Tarumizu","Hishikari","Aya","Kakuto","Kanoya","Nichinoomote","Miyanoura","Sato","Kokubu","Kushikino","Ijuin","Kobayashi","Aira","Nejime","Ishiki","Okuchi","Mimata","Kurino"]
-	},
-	{
                 "name": "Japan (Empire)",
 		"leaderName": "Emperor Meiji",
 		"adjective": ["Japanese"],
@@ -1280,6 +1256,26 @@
 		     
 		"uniqueName": "Jihad by Way of Gunpower",
 		"uniques": ["Cities gain a +1% Land Unit Production bonus for every follower of your Majority Religion in the Capital. Whilst at war, gain a Great General in one of your cities for every enemy city converted to your religion."],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Hyderabad",
+		"leaderName": "Osman Ali Khan",
+		"adjective": ["Citizen of Hyderabad"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+		
+		"declaringWar": "You imbecile, you think you can disrespect us! You are going too deep, and I mean it!",
+		"attacked": "Hahahaha!!! It's a shame that I have to waste my soldiers to invade you. Good luck beating us.",
+		"defeated": "Such a shame, such a shame. I can only hope my subjects will not suffer as I have.",
+		"introduction": "Greetings! I am Osman Ali Khan, by the grace of God Nizam of Hyderabad. Do you come seeking to share in the wealth of my realm?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
@@ -1802,7 +1798,7 @@
                 "name": "Baden",
 		"leaderName": "Charles Frederick",
 		"adjective": ["Civilian of Baden"],
-                "cityStateType": "Science",
+                "cityStateType": "Scientific",
 		"startBias": ["Hills"],
 
 		"declaringWar": "It seems war is inevitable. Oh well, let's see what Baden can or can't do and what your nation can or can't do.",
