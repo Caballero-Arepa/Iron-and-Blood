@@ -1,0 +1,9 @@
+{
+  [
+    {
+      "name":"Militaristic",
+      "uniques":["Can create units other than Civilian units"],
+    },
+    {
+      "name":"Cultural",
+      "uniques":["Can generate an additional +5% towards Great People (Cultural)"],
