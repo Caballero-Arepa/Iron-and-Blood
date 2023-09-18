@@ -828,8 +828,8 @@
 		"hateHello": "We don't welcome you here, what do you want?!",
 		"tradeRequest": "We, as a nation, asking you about trade, do you see this trade is fair?",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [20,255,20],
+		"innerColor": [50,225,50],
 		     
 		"uniqueName": "Fulani Jihads",
 		"uniques": ["Citadels increase the yields of adjacent tile improvements. When making Faith purchases, gain Great General points scaling with the amount of Faith spent."],
@@ -970,7 +970,7 @@
 		"introduction": "You have arrived at the Luba Kingdom! I hope you have had a chance to see our markets, for we have the most splendid trade goods in this world.",
 
 		"outerColor": [10,5,255],
-		"innerColor": [14,50,255],
+		"innerColor": [14,50,245],
 		     
 		"uniqueName": "Long Claw of Memory",
 		"uniques": ["When conquering a city, instantly fill an empty Great Work slot in that city. Units start with additional experience for each type of Great Work present in the city where they were trained."],
@@ -1034,7 +1034,7 @@
 		"hateHello": "You! Why are you here?! What do you want from us?!",
 		"tradeRequest": "We politely ask you to trade with us, would you mind trading with us as well?",
 
-		"outerColor": [255,254,2],
+		"outerColor": [254,254,0],
 		"innerColor": [13,12,255],
 		     
 		"uniqueName": "Self-strengthing Reforms",
@@ -1130,7 +1130,7 @@
 		"hateHello": "Well, what do you want? If you finished talking, then we negotiate.",
 		"tradeRequest": "I think this is negotiable, do you also think like me?",
 
-		"outerColor": [255,222,233],
+		"outerColor": [244,222,233],
 		"innerColor": [230,230,85],
 		     
 		"uniqueName": "The White Rajahs",
@@ -1145,14 +1145,14 @@
 		"startBias": ["None"],
 		"preferredVictoryType": "Domination, Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"declaringWar": "You messed up, we will hunt you down! Allahu Akbar!",
+		"attacked": "Why would you do that, you made me mad! May Allah help me defeat you!",
+		"afterPeace": "Mashallah, peace is achieved. May our relationships aren't sour by your mistake again.",
 		"defeated": "You can strip castles from the land, banners from their posts, and crowns from of their righteous owners, but one can never scourge true faith from the hearts of believers. They will remember me, unbeliever. Who exactly are you?",
 		"introduction": "Ah, welcome traveller. You stand before the progeny of Genghis, Timur and Babur - God grants me the strength to overcome my enemies, and I pray he grants you the wisdom not to become one. Now sit, sit, let us discuss philosophy.",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"neutralHello": "Mashallah, welcome to Mughal Empire, what do you want here?",
+		"hateHello": "Why are you here?!",
+		"tradeRequest": "We like to ask you about trade, did you satisfied about the deal?",
 
 		"outerColor": [20,245,20],
 		"innerColor": [230,230,87],
