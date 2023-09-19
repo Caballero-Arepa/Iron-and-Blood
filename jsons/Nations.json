@@ -7,7 +7,7 @@
 	//America
 	{
                 "name": "Argentina",
-		"leaderName": "Eva Péron",
+		"leaderName": "José de San Martín",
 		"adjective": ["Argentinian","Argentine"],
 		"startBias": ["River"],
 		"preferredVictoryType": "Culture",
@@ -16,7 +16,7 @@
 		"attacked": "Why would you wanted to declare war on us?! Oh dear, Argentina will not be peaceful with you for a while...",
 		"afterPeace": "¡Alegría! ¡Alegría! ¡Alegría para toda la Argentina! Today marks the day where Argentina is free from war and conflict! I hope we could be like this forever.",
 		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
-		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
+		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm José de San Martín.",
 		"neutralHello": "Greetings! What can Argentina do for you?",
 		"hateHello": "Oh dear, my people don't want you to be here. But, what can Argentina do for you?",
 		"tradeRequest": "Argentina wanted to trade with you! Would you accept this amazing deal from us Argentine?",
@@ -25,7 +25,7 @@
 		"innerColor": [245, 215, 105],
 		     
 		"uniqueName": "Pride of the People",
-		"uniques": ["+1 Food on Pastures. Upon researching Rights of Man, receive a special citizen type in all your cities (The Descamisado), which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
+		"uniques": ["+1 Food on Pastures. Upon researching Rights of Man, receive a Gaucho in all of your cities, which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
 		     
 		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Córdoba","Santa Fé","Rosario","Carmen de Patagones","Rio Negro","Tierra de Fuego"]
 	},
