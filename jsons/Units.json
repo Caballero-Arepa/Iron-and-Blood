@@ -309,7 +309,7 @@
 	{
 		"name": "Great Bürgermeister",
 		"replaces": "Great Diplomat",
-		"uniqueTo": ["Lübeck", "Hamburg", "Bremen"],
+		"uniqueTo": "Lübeck",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age","Can call for a Bürgerschaft with Hamburg, Lübeck and Bremen" ,"Great Person - [Diplomacy]", "Unbuildable", "Uncapturable", "Only available after discovered Rights of Man"],
 		"movement": 2
