@@ -66,8 +66,8 @@
 	{
 	        "name": "Guelphic Legion",
 		"uniqueTo": "Hannover",
-	        "uniques": ["When discovered Bold Action Rifles, all infantry and calvary have 25% Strength bonus"],
-	        "requiredTech": "Breached Rifles",
+	        "uniques": ["When discovered Breach-loading, all infantry and calvary have 25% Strength bonus"],
+	        "requiredTech": "Breach-loading",
 	        "unitType": ["Infantry", "Calvary"],
 	"column": 7,
 	"row": 2
