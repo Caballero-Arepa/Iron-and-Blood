@@ -122,9 +122,9 @@
 		"strength": 26,
 		"cost": 40,
 		"requiredTech": "Cloride",
-		"obsoleteTech": "Machineguns",
+		"obsoleteTech": "Machine Guns",
 		"upgradesTo": "Maxim Gunner",
-		"uniques": ["Machinegun"],
+		"uniques": ["Machine Gun"],
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "..."}
@@ -182,6 +182,40 @@
         "civilopediaText": [
 			{"text": "..."}
 		]
+	},
+	//Calvary
+	{
+		"name": "Calvary",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"movement": 4,
+		"strength": 16,
+		"cost": 64,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking."],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
+	{
+		"name": "Gaucho",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Argentina",
+		"movement": 4,
+		"strength": 16,
+		"cost": 64,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking.", "Can build [Pasture] and [Farm] faster than the Worker by 25%"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Horses are our specialty, we can hold gun while guard those Horses."}
+		                   ]
 	},
 	//Old
 	{
