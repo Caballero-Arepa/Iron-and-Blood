@@ -26,6 +26,18 @@
 	        "requiredTech":"Enlightenment",
 	        "uniques":["Increase the science in a city by 5%"]
         },
+	{
+	        "name": "Temple",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"faith": 5,
+	        "cityStrength": 1,
+	        "cost": 25,
+	        "uniques":["Increase the faith in a city by 5%"]
+        },
 ]
 	
 	
