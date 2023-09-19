@@ -367,4 +367,13 @@
 		"cost": 2500,
 		"attackSound": "shot",
 	},
+	{
+		"name": "Revolucionario",
+		"replaces": "Great General",
+		"uniqueTo": "Cuba",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+20]% Strength bonus for [Military] units within [3] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]
