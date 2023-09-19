@@ -1,10 +1,10 @@
 [
-//Temporal
+        //Temporal
     {
         "name": "Sword",
         "movementType": "Land"
     },
-	//Civilians
+	//Civilian
     {
         "name": "Civilian",
         "movementType": "Land"
@@ -15,12 +15,31 @@
         "movementType": "Land"
     },
     {
-        "name": "Machinegun",
+        "name": "Machine Gun",
         "movementType": "Land"
     },
 	//Cavalry
+    {
+	"name": "Calvary",
+	"movementType": "Land",
+    },
+    {
+	"name": "Automobile",
+	"movementType": "Land",
 	//Naval
+    {
+	"name": "Civilian Ship",
+	"movementType": "Sea",
+    },
+    {
+	"name": "Militant Ship",
+	"movementType": "Sea",
+    },
 	//Artillery
+    {
+	"name": "Artillery",
+	"movementType": "Land",
+    },
 	//Scout
     {
         "name": "Scout",
@@ -29,10 +48,10 @@
 	//Aeromobile
     {
         "name": "Plane",
-        "movementType": "Land"
+        "movementType": "Air"
     },
     {
         "name": "Airship",
-        "movementType": "Land"
+        "movementType": "Air"
     },
 ]
