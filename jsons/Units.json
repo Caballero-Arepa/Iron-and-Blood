@@ -358,9 +358,9 @@
 	},
 	{
 		"name": "Grand Vizier",
-		"uniquesTo": "The Ottomans",
+		"uniqueTo": "The Ottomans",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+25]% Strength bonus for [Military] units within [2] tiles", "Can only be upgraded from Vizier once, unless there is no Grand Vizier",
+		"uniques": ["Can start an [8]-turn golden age", "[+25]% Strength bonus for [Military] units within [2] tiles", "Can only be upgraded from [Vizier] once, unless there is no [Grand Vizier]",
 			"Great Person - [War]", "Uncapturable"],
 		"movement": 2,
 		"strength": 25,
