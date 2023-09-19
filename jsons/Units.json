@@ -211,10 +211,10 @@
 		"requiredTech": "Rifled Barrels",
 		"obsoleteTech": "Magazines",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking.", "Can build [Pasture] and [Farm] faster than the Worker by 25%"],
+		"uniques": ["Can move after attacking.", "Can build [Pasture] faster than the Worker by 25%", "Can build [Farm] faster than the Worker by 25%"],
 		"attackSound": "shot",
                 "civilopediaText": [
-			            {"text": "Horses are our specialty, we can hold gun while guard those Horses."}
+			            {"text": "Horses are our specialty, we can hold gun while guard those Horses. Maybe we serve our homeland as well!"}
 		                   ]
 	},
 	//Old
