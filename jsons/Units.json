@@ -227,6 +227,16 @@
 		"cost": 800,
 		"attackSound": "shot",
 	},
+	{
+		"name": "Daimyo",
+		"unitType": "Civilian",
+		"replaces": "Governor",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 2,
+		"strength": 5,
+		"uniques": ["Can build a [Bakufu-han], which is a [Land] improvement that governs a region.", "Can expand the [Bakufu-han] improvement 10 times", "+25% Strength bonus for [Military] units within 3 tiles"],
+		"cost": 300,
+	},
 	/* Great people */
 
 	{
