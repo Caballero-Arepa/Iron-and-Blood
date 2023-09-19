@@ -43,13 +43,13 @@
 	        "isNationalWonder": false,
 		"isWonder": true,
 	        "production": 0,
-	        "science": 5,
-	        "gold": 2,
+	        "science": 0,
+	        "gold": 0,
 	        "culture": 5,
 	        "cityStrength": 1,
-	        "cost": 25,
+	        "cost": 625,
 	        "requiredTech":"Enlightenment",
-	        "uniques":["Increase the science in a city by 5%"]
+	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture and a free Great Artist"]
         },
 ]
 	
