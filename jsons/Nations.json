@@ -25,7 +25,7 @@
 		"innerColor": [245, 215, 105],
 		     
 		"uniqueName": "Pride of the People",
-		"uniques": ["+1 Food on Pastures. Upon researching Civil Service, receive a special citizen type in all your cities (The Descamisado), which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
+		"uniques": ["+1 Food on Pastures. Upon researching Rights of Man, receive a special citizen type in all your cities (The Descamisado), which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
 		     
 		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Córdoba","Santa Fé","Rosario","Carmen de Patagones","Rio Negro","Tierra de Fuego"]
 	},
