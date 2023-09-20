@@ -72,4 +72,13 @@
 	"column": 7,
 	"row": 2
 	},
+	//Militant Ship
+	{
+	        "name": "Prized Ship"
+	        "uniques": ["Only [Caravel] can be promoted", "+15% Strength vs [Militant Ship] units"],
+	        "requiredTech": "Breach-loading",
+	        "unitType": ["Militant Ship"],
+	"column": 7,
+	"row": 3
+	},
 ]
