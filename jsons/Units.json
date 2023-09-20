@@ -237,7 +237,7 @@
 	//Militant Ships
 	{
 		"name": "Caravel",
-		"unitType": "Militant Ships",
+		"unitType": "Militant Ship",
 		"movement": 4,
 		"sight": 4,
 		"strength": 16,
@@ -252,17 +252,34 @@
 	},
 	{
 		"name": "Ironclad",
-		"unitType": "Militant Ships",
+		"unitType": "Militant Ship",
+		"requiredResource": "Coal",
 		"movement": 4,
 		"sight": 4,
-		"strength": 16,
-		"cost": 25,
-		"obsoleteTech": "Steel",
-		"upgradesTo": "Battleship",
-		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
+		"range": 3,
+		"strength": 30,
+		"cost": 45,
+		"requiredTech": "Steel",
+		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "+33% Strength vs Cities"],
 		"attackSound": "shot",
                 "civilopediaText": [
-			            {"text": "Ahoy! This is the basic ships at the time!"}
+			            {"text": "Thanks to Steel, we can go even further!"}
+		                   ]
+	},
+	{
+		"name": "Canhoneira",
+		"unitType": "Militant Ship",
+		"requiredResource": "Steel",
+		"movement": 4,
+		"sight": 4,
+		"range": 5,
+		"strength": 30,
+		"cost": 45,
+		"requiredTech": "Steel",
+		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "+33% Strength vs Cities", "Uses [Steel] rather than [Coal]", "+25% Combat Strength vs [Land] units and Cities", "-25% Combat Strength vs [Militant Ship] units"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Thanks to Steel, we can go even further!"}
 		                   ]
 	},
 	//Old
