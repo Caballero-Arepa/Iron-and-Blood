@@ -269,6 +269,7 @@
 	{
 		"name": "Canhoneira",
 		"unitType": "Militant Ship",
+		"uniqueTo": "Brazil",
 		"requiredResource": "Steel",
 		"movement": 4,
 		"sight": 4,
@@ -279,7 +280,7 @@
 		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "+33% Strength vs Cities", "Uses [Steel] rather than [Coal]", "+25% Combat Strength vs [Land] units and Cities", "-25% Combat Strength vs [Militant Ship] units"],
 		"attackSound": "shot",
                 "civilopediaText": [
-			            {"text": "Thanks to Steel, we can go even further!"}
+			            {"text": "These ships are kinda strong against the army, not the navy... For Brazil, I guess!"}
 		                   ]
 	},
 	//Old
