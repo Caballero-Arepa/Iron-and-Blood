@@ -30,11 +30,11 @@
 	//Naval
     {
 	"name": "Civilian Ship",
-	"movementType": "Sea",
+	"movementType": "Water",
     },
     {
 	"name": "Militant Ship",
-	"movementType": "Sea",
+	"movementType": "Water",
     },
 	//Artillery
     {
