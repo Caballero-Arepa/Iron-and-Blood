@@ -244,7 +244,22 @@
 		"cost": 25,
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Ironclad",
-		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus or a [Great Merchant] for +5% Sight bonus"],
+		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Ahoy! This is the basic ships at the time!"}
+		                   ]
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Militant Ships",
+		"movement": 4,
+		"sight": 4,
+		"strength": 16,
+		"cost": 25,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Battleship",
+		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
 		"attackSound": "shot",
                 "civilopediaText": [
 			            {"text": "Ahoy! This is the basic ships at the time!"}
