@@ -217,6 +217,39 @@
 			            {"text": "Horses are our specialty, we can hold gun while guard those Horses. Maybe we serve our homeland as well!"}
 		                   ]
 	},
+	{
+		"name": "Batalhão do Imperador",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Brazil",
+		"movement": 4,
+		"strength": 15,
+		"cost": 50,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Bold Action Rifles",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking.", "+15% Combat Strength when stacked with a [Great General]", "If a tile is currently occupied by a [Great General], a free [Batalhão do Imperador] will appear and stack with a [Great General]"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "For our emperor, for the great empire of Brazil!"}
+		                   ]
+	},
+	//Militant Ships
+	{
+		"name": "Caravel",
+		"unitType": "Militant Ships",
+		"movement": 4,
+		"sight": 4,
+		"strength": 16,
+		"cost": 25,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Ironclad",
+		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus or a [Great Merchant] for +5% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Ahoy! This is the basic ships at the time!"}
+		                   ]
+	},
 	//Old
 	{
 		"name": "Worker",
