@@ -269,6 +269,7 @@
 	{
 		"name": "Canhoneira",
 		"unitType": "Militant Ship",
+		"replaces": "Ironclad",
 		"uniqueTo": "Brazil",
 		"requiredResource": "Steel",
 		"movement": 4,
