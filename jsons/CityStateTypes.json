@@ -35,4 +35,11 @@
     "allyBonusUniques":["As allies, can provide a [Science] unit and +25 Science", "Sharing Technology will increase Influence by 25%"],
     "color": [0,230,255],
   },
+  {
+    "name":"Mercentile",
+    "uniques":["Can create Trade Routes on its own","Can make [Great Person - Gold] Points"],
+    "friendBonusUniques":["As friend, can provide +10 Gold"],
+    "allyBonusUniques":["As allies, can provide a [Gold] unit and +25 Gold", "Trade Routes will increase Influence by 30%"],
+    "color": [255,230,0],
+  },
 ]
