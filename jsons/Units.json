@@ -212,7 +212,7 @@
 		"requiredTech": "Rifled Barrels",
 		"obsoleteTech": "Bold Action Rifles",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking.","Ignores terrain cost","+10% Strength bonus when stacked with a [Great General]","Can create a [Sich] once"],
+		"uniques": ["Can move after attacking.","Ignores terrain cost","+10% Strength bonus when stacked with a [Great General]","Can build a [Sich] once"],
 		"attackSound": "shot",
                 "civilopediaText": [
 			            {"text": "О-о-о-о! Мы хорошо послужим империи!"}
