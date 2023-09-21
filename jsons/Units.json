@@ -201,6 +201,23 @@
 		                   ]
 	},
 	{
+		"name": "Cossack",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 16,
+		"cost": 64,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking."],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
+	{
 		"name": "Gaucho",
 		"unitType": "Calvary",
 		"requiredResource": "Horse",
@@ -470,7 +487,7 @@
 	{
 		"name": "Great Director",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Movie" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered Cinematography"],
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Movie" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered [Cinematography]"],
 		"movement": 2
 	},
 	{
