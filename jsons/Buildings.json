@@ -9,6 +9,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
+		"tourism": 0,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
@@ -21,6 +22,7 @@
 	        "science": 5,
 	        "gold": 2,
 	        "culture": 5,
+		"tourism": 0,
 	        "cityStrength": 1,
 	        "cost": 25,
 	        "requiredTech":"Enlightenment",
@@ -46,10 +48,11 @@
 	        "science": 0,
 	        "gold": 0,
 	        "culture": 5,
+		"tourism": 5,
 	        "cityStrength": 1,
 	        "cost": 625,
 	        "requiredTech":"Enlightenment",
-	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture and a free [Great Artist]"]
+	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture, +5 Tourism and a free [Great Artist]"]
         },
 	{
 	        "name": "Eiffel Tower",
@@ -59,6 +62,7 @@
 	        "science": 0,
 	        "gold": 0,
 	        "culture": 5,
+		"tourism": 10,
 	        "cityStrength": 1,
 	        "cost": 625,
 	        "requiredTech":"Steel",
