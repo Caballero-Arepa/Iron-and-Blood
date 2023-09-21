@@ -49,7 +49,21 @@
 	        "cityStrength": 1,
 	        "cost": 625,
 	        "requiredTech":"Enlightenment",
-	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture and a free Great Artist"]
+	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture and a free [Great Artist]"]
+        },
+	{
+	        "name": "Eiffel Tower",
+	        "isNationalWonder": false,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech":"Steel",
+		"requiredResource": "Steel",
+	        "uniques":["Gives a free [Great Engineer], +5 Culture and +10 Tourism"]
         },
 ]
 	
