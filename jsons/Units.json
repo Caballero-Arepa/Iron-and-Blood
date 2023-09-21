@@ -202,19 +202,20 @@
 	},
 	{
 		"name": "Cossack",
+		"replaces": "Calvary",
 		"unitType": "Calvary",
 		"requiredResource": "Horse",
 		"uniqueTo": "Russia",
 		"movement": 4,
-		"strength": 16,
-		"cost": 64,
+		"strength": 20,
+		"cost": 50,
 		"requiredTech": "Rifled Barrels",
-		"obsoleteTech": "Magazines",
+		"obsoleteTech": "Bold Action Rifles",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking."],
+		"uniques": ["Can move after attacking.","Ignores terrain cost","+10% Strength bonus when stacked with a [Great General]","Can create a [Sich] once"],
 		"attackSound": "shot",
                 "civilopediaText": [
-			            {"text": "..."}
+			            {"text": "О-о-о-о! Мы хорошо послужим империи!"}
 		                   ]
 	},
 	{
