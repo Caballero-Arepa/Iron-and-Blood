@@ -37,7 +37,7 @@
     {
         "name": "Economy",
         "victoryScreenHeader": "Having the most golds in the World",
-        "milestones": ["Build National Bank","Build National Mint","Build World Bank","Establish Economic Victory"],
+        "milestones": ["Research Private Banks","Build National Bank","Build National Mint","Build World Bank","Establish Economic Victory"],
         "victoryString": "You have triumph over your foes through the art of Economics. With your funds, you have won the vast riches that the world can harnesses with. Through the World Bank, you have make sure everyone have something to rely on. You shall be remembered as the leader who brings joy and happiness through money and economics!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
