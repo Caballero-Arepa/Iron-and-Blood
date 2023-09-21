@@ -55,7 +55,7 @@
 		"terrainsCanBeBuiltOn": ["Hills"],
 		"turnsToBuild": 10,
 		"uniqueTo": "Bavaria",
-		"uniques":["Unlocked at Enlightenment", "It can only build on [Hills] tiles, can't build adjacent or next to another Schloss",  "Grants [Great Musician] Points to the nearby city upon construction", "+1 Culture; +1 Culture for each adjacent [Mountain] or [Hills] tiles.","Improves mineable resources"],
+		"uniques":["Unlocked at Enlightenment", "It can only build on [Hill] tiles, can't build adjacent or next to another Schloss",  "Grants [Great Musician] Points to the nearby city upon construction", "+1 Culture; +1 Culture for each adjacent [Mountain] or [Hill] tiles.","Improves mineable resources"],
 		"shortcutKey": "S",
 		"cost": 500,
 		"civilopediaText": [{"text":"If this is build every where of the Kingdom, who would know the highest quality of [Great Musician] we might have!"}]
