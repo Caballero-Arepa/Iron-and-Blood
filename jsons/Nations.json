@@ -274,7 +274,7 @@
                 "name": "Uruguay",
 		"leaderName": "José Batlle",
 		"adjective": ["Uruguayan"],
-                "cityStateType": "Mercantile",
+                "cityStateType": "Mercentile",
 		"startBias": ["River"],
 		
 		"declaringWar": "I, the interim president of the Oriental Republic of Uruguay, hereby declare war on you for your unforgivable actions.",
@@ -294,7 +294,7 @@
 		"name": "Yucatán",
 		"leaderName": "Santiago Mendez",
 		"adjective": ["Yucatecan"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercentile",
 		"startBias": ["None"],
 
 		"declaringWar": "We Yucatecans have the spirit of the Mayan warrioirs of the olden days, and now we will show it.",
@@ -374,7 +374,7 @@
                 "name": "California",
 		"leaderName": "William Brown Ide",
 		"adjective": ["Californian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercentile",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "The war is inevitable between us, and you make my nerva go nuts! We will show you that we do not weak and we will beat you up.",
@@ -515,7 +515,7 @@
                 "name": "The Arapaho",
 		"leaderName": "Pretty Nose",
 		"adjective": ["Arapaho"],
-		"cityStateType": "Militaristic, Mercentile",
+		"cityStateType": "Militaristic"
 		"startBias": ["None"],
 		
 		"declaringWar": "We don't accept you as a traveller anymore, but as the evil on this earth. Our soldiers will meet you on the battlefield.",
@@ -2037,7 +2037,7 @@
                 "name": "Frankfurt am Main",
 		"leaderName": "Johannes von Miquel",
 		"adjective": ["Franconian"],
-                "cityStateType": "Mercentile",
+                "cityStateType": "Mercantile",
 		"startBias": ["Forest"],
 		
 		"declaringWar": "You treat us as a step to your cruel empire. We will make sure you will fall down like every empire ever!",
@@ -2117,7 +2117,7 @@
                 "name": "Schleswig-Holstein",
 		"leaderName": "Frederick VIII",
 		"adjective": ["Civilian of Holstein"],
-                "cityStateType": "Mercantile",
+                "cityStateType": "Mercentile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Åh nej, det gør du ikke! I see that you are treat us like nothing but a puppet, we will show you! I will call Denmark down to stop doing that to us.",
@@ -2177,7 +2177,7 @@
                 "name": "Mecklenburg",
 		"leaderName": "Frederick William",
 		"adjective": ["Civilian of Mecklenburg"],
-                "cityStateType": "Scientific, Militaristic",
+                "cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
 		"declaringWar": "Du böser kleiner Kerl! You think you're better than Mecklenburg, isn't it, then let me show you!",
