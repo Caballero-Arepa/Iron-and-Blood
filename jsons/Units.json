@@ -234,6 +234,55 @@
 			            {"text": "For our emperor, for the great empire of Brazil!"}
 		                   ]
 	},
+	//Lancer
+	{
+		"name": "Lancer",
+		"unitType": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 3,
+		"strength": 15,
+		"cost": 35,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Breech-loading",
+		"upgradesTo": "Gatling Gunner",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "The times have changed, you know what to do."}
+		                   ]
+	},
+	{
+		"name": "Uhlan",
+		"unitType": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 4,
+		"strength": 15,
+		"cost": 35,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Breech-loading",
+		"upgradesTo": "Gatling Gunner",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "Ok, good for you! These Uhlans are more lighter than that heavy [Lancer]"}
+		                   ]
+	},
+	{
+		"name": "Hartschier",
+		"unitType": "Lancer",
+		"replaces": "Uhlan",
+		"uniqueTo": "Bavaria",
+		"movement": 4,
+		"strength": 15,
+		"cost": 35,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Breech-loading",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "We serve the King good, we serve the Kingdom good, Für Bayern!!!"}
+		                   ]
+	},
 	//Militant Ships
 	{
 		"name": "Caravel",
