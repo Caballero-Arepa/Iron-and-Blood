@@ -294,7 +294,7 @@
 		"name": "Yucatán",
 		"leaderName": "Santiago Mendez",
 		"adjective": ["Yucatecan"],
-		"cityStateType": "Maritime, Mercantile",
+		"cityStateType": "Mercantile",
 		"startBias": ["None"],
 
 		"declaringWar": "We Yucatecans have the spirit of the Mayan warrioirs of the olden days, and now we will show it.",
@@ -334,7 +334,7 @@
                 "name": "Florida",
 		"leaderName": "Gregor McGregor",
 		"adjective": ["Floridian"],
-		"cityStateType": "Militaristic, Mercentile",
+		"cityStateType": "Militaristic",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "I believe that we are in the crosswalks, I hope that you don't mess with my Floridians, and you just did. So, yeah, we are now at war, mate.",
@@ -374,7 +374,7 @@
                 "name": "California",
 		"leaderName": "William Brown Ide",
 		"adjective": ["Californian"],
-		"cityStateType": "Mercantile, Scientific",
+		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "The war is inevitable between us, and you make my nerva go nuts! We will show you that we do not weak and we will beat you up.",
@@ -394,7 +394,7 @@
                 "name": "Cuba",
 		"leaderName": "Carlos Manuel de Céspedes",
 		"adjective": ["Cuban"],
-		"cityStateType": "Cultural, Militaristic",
+		"cityStateType": "Cultural",
 		"startBias": ["Jungle","Coast"],
 		
 		"declaringWar": "Cuba is good enough, why are you matter?! I don't care about your opinion no more, prepare for war!",
@@ -414,7 +414,7 @@
                 "name": "Deseret",
 		"leaderName": "Brigham Young",
 		"adjective": ["Civilian of Deseret"],
-		"cityStateType": "Cultural, Religious",
+		"cityStateType": "Religious",
 		"startBias": ["Desert"],
 		
 		"declaringWar": "Deseret will spread love and peace across the world, but you just want cause trouble into this world. Prepare for war, leader!",
@@ -555,7 +555,7 @@
                 "name": "Chickasaw",
 		"leaderName": "Tishomingo",
 		"adjective": ["Chickasaw"],
-		"cityStateType": "Mercentile, Cultural",
+		"cityStateType": "Mercentile",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "Frase",
@@ -615,7 +615,7 @@
                 "name": "Seminole",
 		"leaderName": "Micanopy",
 		"adjective": ["Seminole"],
-		"cityStateType": "Cultural, Militaristic",
+		"cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
@@ -1021,7 +1021,7 @@
                 "name": "Borno",
 		"leaderName": "Rabih az-Zubayr",
 		"adjective": ["Civilian of Borno"],
-		"cityStateType": "Militaristic, Religious",
+		"cityStateType": "Militaristic",
 		"startBias": ["Desert, Lake"],
 		
 		"declaringWar": "You acted like I am a ghost, isn't it? Well, I will show you what a 'ghost' can do to you!!!",
@@ -1041,13 +1041,13 @@
                 "name": "Cyrenaica",
 		"leaderName": "Omar al-Mukhtar",
 		"adjective": ["Cyrenaic"],
-		"cityStateType": "Religious, Militaristic",
+		"cityStateType": "Religious",
 		"startBias": ["Desert"],
 		
 		"declaringWar": "May Allah bless us on this war, Allahu Akbar!",
 		"attacked": "Prepare to die under our hand, Allahu Akbar!",
 		"defeated": "Speech",
-		"introduction": "Speech?",
+		"introduction": "Mashallah, did you find this nation palpable for you? Good, have some tea, we'll talk for a moment.",
 
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
@@ -1061,7 +1061,7 @@
                 "name": "Kongo",
 		"leaderName": "Henrique II",
 		"adjective": ["KiKongo"],
-		"cityStateType": "Cultural, Religious",
+		"cityStateType": "Cultural",
 		"startBias": ["Jungle"],
 		
 		"declaringWar": "Prepare for war, we are ready for anything that could happen, may God have mercy on you, because I do not.",
@@ -1121,9 +1121,9 @@
                 "name": "Luba",
 		"leaderName": "Illunga Sungu",
 		"adjective": ["Luba"],
-		"cityStateType": "Militaristic, Cultural",
-		"startBias": ["None"],
-		
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],		
+			
 		"declaringWar": "You think you can toss us around? Not a chance, prepare to be mushed.",
 		"attacked": "We cannot tolerate any shenanigans of yours, it's time for war. Be careful of my soldiers!!!",
 		"defeated": "I may have been defeated, but I will never be forgotten.",
@@ -1161,7 +1161,7 @@
                 "name": "Zanzibar",
 		"leaderName": "Barghash bin Said",
 		"adjective": ["Zanzibari"],
-		"cityStateType": "Militaristic, Maritime",
+		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "Why do you have to mess with me? I will show the strength of Zanzibar.",
@@ -1342,7 +1342,7 @@
                 "name": "Korea",
 		"leaderName": "Gojong (Yi Myeongbok)",
 		"adjective": ["Korean"],
-		"cityStateType": "Mercentile, Maritime",
+		"cityStateType": "Mercentile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Our ministers decided that your nation is counted. Be sure to ready before it hits the fan.",
@@ -1362,7 +1362,7 @@
                 "name": "Lanfang",
 		"leaderName": "Luo Fangbo",
 		"adjective": ["Civilian of Lanfang"],
-		"cityStateType": "Mercentile, Maritime",
+		"cityStateType": "Mercentile",
 		"startBias": ["Jungle"],
 		
 		"declaringWar": "Your actions are unacceptable! You acts cruel upon us long enough! Prepare for war!",
@@ -1422,7 +1422,7 @@
                 "name": "Yettishar (Kashgaria)",
 		"leaderName": "Yaqub Beg",
 		"adjective": ["Dungan"],
-		"cityStateType": "Religious, Militaristic",
+		"cityStateType": "Militaristic",
 		"startBias": ["Desert"],
 		
 		"declaringWar": "May Allah put you and puts you under the grains of sand in the Gobi desert. Prepare to be beaten!",
@@ -1487,7 +1487,7 @@
                 "name": "Bavaria",
 		"leaderName": "Ludwig II",
 		"adjective": ["Bavarian"],
-		"startBias": ["Hills"],
+		"startBias": ["Hill"],
 		"preferredVictoryType":"Cultural, Scientific",
 		
 		"declaringWar": "Have at you, then! We shall write new legends of this day!",
@@ -1566,7 +1566,7 @@
 		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
 		"afterPeace": "I hope that you have learned something after this, remember those things as well. It could be useful in the future, you know.",
 		"defeated": "Don't you dare feel joyous and hopeful. Someday, you shall dig your own grave when you fail your people, and fail your own nation. You soon be thank me sooner or later.",
-		"introduction": "Welcome, leader! I, Mahmud II, ruler of the Ottoman realm, the glorious Ottoman Empire, you should glad about it because the Ottoman is been admired for centuries and more centuries to come."
+		"introduction": "Welcome, leader! I, Mahmud II, ruler of the Ottoman realm, the glorious Ottoman Empire, you should glad about it because the Ottoman is been admired for centuries and more centuries to come.",
 		"neutralHello": "Greetings, leader. What should the great sultan here do for you here?",
 		"hateHello": "Why you are presented in my court despite I and my realm do not want you here?! Just saying what you want quickly, and then, get off or in other word, SCRAM!!!",
 		"tradeRequest": "The Ottoman realm want something of yours, so this deal is fair and is beneficial for both parties.",
@@ -1770,7 +1770,7 @@
 		"uniques": ["Gain Gold when settling; amount is greater the further from your Capital. Cities on other continents contribute 10% of their Science and Production to your Capital."],
 		     
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
-	}
+	},
 	//European City States - White: 241,241,241
 	{
                 "name": "Greece",
@@ -1836,7 +1836,7 @@
                 "name": "Montenegro",
 		"leaderName": "Nikola I",
 		"adjective": ["Montenegrin"],
-		"cityStateType": "Militaristic, Religious, Cultural",
+		"cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
 		"declaringWar": "It seems war is the only choice left for someone like you, prepare to die.",
@@ -1876,7 +1876,7 @@
                 "name": "Septinpular Republic",
 		"leaderName": "Antonios Komoutos",
 		"adjective": ["Ionian"],
-		"cityStateType": "Mercentile, Maritime",
+		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "We will show you what we are capable off! Ας σαλπάρουμε, παιδιά! Ας είμαστε έτοιμοι για τον πόλεμο εναντίον αυτού του εχθρού μας, παιδιά!",
@@ -1936,7 +1936,7 @@
                 "name": "Poland-Lithuania",
 		"leaderName": "Tadeusz Kosciuszko",
 		"adjective": ["Polish","Lithuanian"],
-		"cityStateType": "Cultural, Militaristic",
+		"cityStateType": "Militaristic",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "Poland will not back down, we will march and march into your capital, prepare to be lost.",
@@ -2017,9 +2017,9 @@
                 "name": "Bremen",
 		"leaderName": "Johann Smidt",
 		"adjective": ["Civilian of Bremen"],
-                "cityStateType": "Maritime, Militaristic",
+                "cityStateType": "Maritime",
 		"startBias": ["Coast"],
-
+	
 		"declaringWar": "The Free Hanseatic City of Bremen had had enough of your shenanigans, get ready to be blown off.",
 		"attacked": "The Free Hanseatic City of Bremen will do anything to secure its freedom, and I must lead until my last breath.",
 		"defeated": "My people, my land, my city. All of what left is misery, dread, suffer, lost, sorrow, tears, bloodshed, fire, war and heartbroken people of Bremen.",
@@ -2057,7 +2057,7 @@
                 "name": "Hamburg",
 		"leaderName": "Amandus Augustus Abendroth",
 		"adjective": ["Hamburger"],
-                "cityStateType": "Mercentile, Maritime",
+                "cityStateType": "Mercentile",
 		"startBias": ["River"],
 		
 		"declaringWar": "I don't that this is a fair fight, but, if I must to, I must to. Today, you and I are enemy, not neutral nor friend nor ally.",
@@ -2077,7 +2077,7 @@
                 "name": "Hanover",
 		"leaderName": "Ernest Augustus",
 		"adjective": ["Hanoverian"],
-                "cityStateType": "Scientific, Cultural",
+                "cityStateType": "Scientific",
                 "startBias": ["None"],
 		
 		"declaringWar": "Oh lord, you will see the wrath of Hanover, you will see.",
@@ -2137,7 +2137,7 @@
                 "name": "Lippe",
 		"leaderName": "Woldemar",
 		"adjective": ["Civilian of Lippe"],
-                "cityStateType": "Militaristic, Cultural",
+                "cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
 		"declaringWar": "Oh, really, so you think you can take down Lippe, not this time, you shall see.",
@@ -2157,7 +2157,7 @@
                 "name": "Lübeck",
 		"leaderName": "Johann Hermann Heeren",
 		"adjective": ["Civilian of Lübeck"],
-                "cityStateType": "Mercentile, Maritime",
+                "cityStateType": "Mercentile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Du Böser! Du Grausamer! You took Lübeck as if it was leaderless, so let's see how you fight against my army.",
@@ -2197,7 +2197,7 @@
                 "name": "Oldenburg",
 		"leaderName": "Augustus I",
 		"adjective": ["Civilian of Oldenburg"],
-                "cityStateType": "Maritime, Cultural",
+                "cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
 		"declaringWar": "What we want is peace but for you, it will never happening. Prepare for war!",
@@ -2225,7 +2225,7 @@
 		"defeated": "There's something that I will never get it back, but soon I will regained it.",
 		"introduction": "Welcome to Westphalia, I, Jerome I, will be pleased to talk with you about important things.",
 
-		"outerColor": [0,15,255],
+		"outerColor": [126,127,131],
 		"innerColor": [255,255,255],
 		     
 		"uniqueName": "The Napoleonic Dynasty",
@@ -2298,8 +2298,7 @@
                 "name": "The Papal States",
 		"leaderName": "Pius IX",
 		"adjective": ["Papal Civilian"],
-                "cityStateType": "Ilustrated",
-		"preferredReligion":"Catholicism",
+                "cityStateType": "Religious",
 		"startBias": ["Hills"],
 		
 		"declaringWar": "I see you and your actions recently is not good, my son. But those actions are cruel and wild, I certainly can't stand it. I think you need to have a lesson. Get ready at the battlefield, my generals are waiting.",
@@ -2319,7 +2318,7 @@
                 "name": "Parma",
 		"leaderName": "Charles II",
 		"adjective": ["Farnese","Etrurian"],
-                "cityStateType": "Cultural, Militaristic",
+                "cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
 		"declaringWar": "I hereby declare war on you because your unspeakable and cruel actions. Prepare for war, leader. Prepare for it!",
@@ -2339,7 +2338,7 @@
                 "name": "Tuscany",
 		"leaderName": "Leopold II",
 		"adjective": ["Tuscan"],
-                "cityStateType": "Cultural, Militaristic",
+                "cityStateType": "Militaristic",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "Tuscany will surely fight you with honor, come at me, leader, let's have a fight.",
