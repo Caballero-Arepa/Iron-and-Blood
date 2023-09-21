@@ -332,6 +332,35 @@
 			            {"text": "These ships are kinda strong against the army, not the navy... For Brazil, I guess!"}
 		                   ]
 	},
+	//Civilian Ship
+	{
+		"name": "Clippership",
+		"unitType": "Civilian Ship",
+		"movement": 4,
+		"sight": 4,
+		"cost": 25,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Ocean Liner"
+		"uniques": ["Can withdraw before melee attacks", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Ahoy! This is the basic ships at the time!"}
+		                   ]
+	},
+	{
+		"name": "Ocean Liner",
+		"unitType": "Civilian Ship",
+		"requiredResource": "Steel",
+		"movement": 6,
+		"sight": 4,
+		"cost": 50,
+		"requiredTech": "Steel",
+		"uniques": ["Can stacked 2 [Land] units at the same time","Can stacked with a [Great Admiral] for +10% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Remember RMS Titanic? Now, there's only a matter of time before something like this could happen!"}
+		                   ]
+	},
 	//Old
 	{
 		"name": "Worker",
