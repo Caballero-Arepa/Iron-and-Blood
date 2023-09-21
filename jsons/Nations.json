@@ -104,8 +104,8 @@
 	{
                 "name": "Gran Colombia",
 		"leaderName": "Simón Bolívar",
-		"adjective": ["Granadine"],
-		"startBias": ["terrains"],
+		"adjective": ["Granadine","Colombian","Venezuelan","Ecuadorian"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination, Culture",
 		
 		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
@@ -394,7 +394,7 @@
                 "name": "Cuba",
 		"leaderName": "Carlos Manuel de Céspedes",
 		"adjective": ["Cuban"],
-		"cityStateType": "Cultural, Domination",
+		"cityStateType": "Cultural, Militaristic",
 		"startBias": ["Jungle","Coast"],
 		
 		"declaringWar": "Cuba is good enough, why are you matter?! I don't care about your opinion no more, prepare for war!",
@@ -1559,14 +1559,14 @@
                 "name": "The Ottomans",
 		"leaderName": "Mahmud II",
 		"adjective": ["Ottoman"],
-		"startBias": ["terrains"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		
 		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
 		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
 		"afterPeace": "I hope that you have learned something after this, remember those things as well. It could be useful in the future, you know.",
 		"defeated": "Don't you dare feel joyous and hopeful. Someday, you shall dig your own grave when you fail your people, and fail your own nation. You soon be thank me sooner or later.",
-		"introduction": "Welcome, leader! I, Mahmud II, ruler of the Ottoman realm, the glorious Ottoman Empire, you should glad about it because the Ottoman is been admired for centuries and more centuries to come.",
+		"introduction": "Welcome, leader! I, Mahmud II, ruler of the Ottoman realm, the glorious Ottoman Empire, you should glad about it because the Ottoman is been admired for centuries and more centuries to come."
 		"neutralHello": "Greetings, leader. What should the great sultan here do for you here?",
 		"hateHello": "Why you are presented in my court despite I and my realm do not want you here?! Just saying what you want quickly, and then, get off or in other word, SCRAM!!!",
 		"tradeRequest": "The Ottoman realm want something of yours, so this deal is fair and is beneficial for both parties.",
@@ -1679,8 +1679,8 @@
                 "name": "Spain",
 		"leaderName": "Ferdinand VII",
 		"adjective": ["Spanish"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Plains"],
+		"preferredVictory": "Domination",
 		
 		"declaringWar": "¡¿Cómo te atreves?! I will show you the power of the Spanish infantry, you will see.",
 		"attacked": "¡Oh mi señor! ¡Ay dios mío! Are you prepared for the battles and invasions from the Spanish infantry? I sure do when you say that.",
@@ -1728,7 +1728,7 @@
 		"leaderName": "Ferdinand I",
 		"adjective": ["Neapolitan","Sicilian"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination, Scientific",
+		"preferredVictoryType": "Domination, Science",
 		
 		"declaringWar": "I can't tolerate all of your shenanigans no more, get ready for war!",
 		"attacked": "Oh really? How about you read a book before, because I do, you don't, and my army is ready, and yours don't. Buona fortuna, coglione.",
