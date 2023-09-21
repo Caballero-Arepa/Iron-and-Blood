@@ -4,6 +4,10 @@
         "name": "Sword",
         "movementType": "Land"
     },
+    {
+        "name": "Lancer",
+        "movementType": "Land"
+    },
 	//Civilian
     {
         "name": "Civilian",
