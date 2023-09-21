@@ -470,6 +470,26 @@
 		     
 		"cities": ["Seattle","Vancouver","Portland","Spokane","Salem","Juneau","Bellevue","Bellingham","Burnaby","Gresham","Langley","Delta","Eureka","Hillsboro","Maple Ridge","Yakima","Beaverton","Pocatello","Abbotsford","Medford"]
 	},
+	{
+                "name": "Newfoundland",
+		"leaderName": "Edward Norris",
+		"adjective": ["Newfoundlander"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "Look like you didn't want to be at peace with us, then fine, we will fight you 'til our last breathh.",
+		"attacked": "You just love war, isn't it? Well, fine by me, let's see who have the last laugh!",
+		"defeated": "Ha ha hah. It is now my last wish must complete, which is seeing Newfoundland the last time before I depart. Hope you govern it well, I am hoping so.",
+		"introduction": "Greetings, I am Newfoundland's prime minister, Edward Norris. Hope we could cooperate with each other.",
+
+		"outerColor": [0,23,0],
+		"innerColor": [255,240,240],
+		     
+		"uniqueName": "First Baron of Newfoundland",
+		"uniques": ["+15% Production when [Sea] resources is nearby","When at war, all [Civilian Ship] units will become the latest [Militant Ship] units"],
+		     
+		"cities": ["St.John's","Corner Brook","Labrador City","Mount Pearl","Stephenville","Deer Lake","Torbay","Marystown","Lewisporte","Paradise","Bonavista"]
+	},
 	//Native American CS  - Orange: 255,120,0
 	{
                 "name": "Apache",
@@ -790,6 +810,46 @@
 		"uniques": ["Worked sources of Bison and Horses provide XP for newly-trained land units. During Peace Treaties, units Level 4 or over provide Influence with City-States."],
 		     
 		"cities": ["Soyoohpawahko","Estipah Skikikini-kots","Moh-Kíns-Tsis-Aká-Piyoyis","Eyarhey Tatanga Woweyahgey Wakan"]
+	},
+	{
+                "name": "The Chumash",
+		"leaderName": "Rafael Solares",
+		"adjective": ["Chumash"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [250,120,0],
+		"innerColor": [255,12,12],
+		     
+		"uniqueName": "In the Trace of Zanja de Cote",
+		"uniques": ["When at war, all [Land] and [Water] units receive +25% Strength bonus against Cities."],
+		     
+		"cities": ["Malibu","Nipomo","Lompoc","Ojai","Point Mugu","Point Hueneme","Lake Castaic","Saticoy","Simi Valley","Somis"]
+	},
+	{
+                "name": "The Nez Perce (Nimiipuu)",
+		"leaderName": "Chief Joseph",
+		"adjective": ["Nimiipuu"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "It seems that you don't quite fond of us, and so you becomes a jerk. That route, I might say, profoundly stupid.",
+		"attacked": "Uhhh, undoubtedly dumb. Let's see who wins this war.",
+		"defeated": "I am tired of fighting. Our chiefs are killed.  The old men are all dead. It is the young men who say no.",
+		"introduction": "Welcome, stranger. These are the lands where we have always lived and subsisted.",
+
+		"outerColor": [250,120,0],
+		"innerColor": [25,20,255],
+		     
+		"uniqueName": "Thunder Rolling to Great Heights",
+		"uniques": ["While a City is training a [Calvary] Unit, it gains the effects of a Golden Age. After researching Ecology, gain +1 Culture and +1 Tourism for each Mounted Unit you constructed during the game."],
+		     
+		"cities": ["Kamiah","Shimínĕkĕm","Hăsweiwăwih","Kuseyneisekit"]
 	},
 	//Africa
 	{
@@ -1116,6 +1176,25 @@
 		"uniques": ["Half your Happiness from Luxury Resources is provided as Science. Happiness from a Luxury Resource is doubled if you control a majority of its copies."],
 		     
 		"cities": ["Zanzibar","Malindi","Dar es Salaam","Mombasa","Kilwa","Bagamoyo","Chake-Chake","Tangu","Masoko","Siyu","Kilindoni","Mkokotoni","Watamu","Mtwara","Mikindani"]
+	},{
+                "name": "Azande",
+		"leaderName": "Gbudwe Mbio",
+		"adjective": ["Azande"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
+		
+		"declaringWar": "No wonder you are arrogant, but dark-hearted. Prepare to meet your fate, you foreigner!",
+		"attacked": "You foreigner, prepare to cost your life at stake, you are the danger and you must pay!",
+		"defeated": "You cannot take me alive! Death awaits us both, barbarian!",
+		"introduction": "You're too close already, damned crop-headed barbarian! If you inflict any of your mangu upon me, I shall spare you the benge and judge you instead with my blade.",
+
+		"outerColor": [255,1,1],
+		"innerColor": [22,2,2],
+		     
+		"uniqueName": "Niam-Niam",
+		"uniques": ["Units outside your borders gain Golden Age Points from kills. While in a Golden Age, your Capital City and any city with a Level 3 or greater garrisoned unit enter We Love The King Day."],
+		     
+		"cities": ["Yambio","Dungu","Bazungua","Kpelememe"]
 	},
 	//Asia
 	{
@@ -1337,7 +1416,7 @@
 		"uniqueName": "Brother of Christ",
 		"uniques": ["Upon capturing a City, earn a boost of Faith and a restore a portion of the City's HP for each pillaged tile within working distance. Puppet Cities produce +25% Religious Pressure while following your Religion."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Taiping","Suzhou","Hangzhou","Wuchang","Nanchang","Ningbo","Jiujiang","Songjiang","Shouzhou","Pukou","Tongcheng","Chengtang","Hankou","Wuxi","Zhelin","Qimen","Zhenjiang","Huizhou","Yangzhou","Jingdezhen","Yong'an","Fencheng","Jinhua","Dongyang","Linhai"]
 	},
 	{
                 "name": "Yettishar (Kashgaria)",
