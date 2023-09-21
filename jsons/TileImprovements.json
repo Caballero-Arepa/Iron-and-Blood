@@ -60,6 +60,16 @@
 		"cost": 500,
 		"civilopediaText": [{"text":"If this is build every where of the Kingdom, who would know the highest quality of [Great Musician] we might have!"}]
 	},
+	{
+		"name": "Sich",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Forest"],
+		"turnsToBuild": 10,
+		"uniqueTo": "Russia",
+		"uniques":["Can only be built by [Cossack]", "It can only build on [Plains], [Grassland] or [Forest] tiles, can't build adjacent or next to another Sich",  "Must build next to a city", "+5 Culture; +10 City Strength","Improves [Wheat] and [Horse] resources"],
+		"shortcutKey": "S",
+		"cost": 500,
+		"civilopediaText": [{"text":"Мы живем только в Сечи!"}]
+	},
 	// Unbuildable improvements
 	{
 		"name": "Ancient ruins",
