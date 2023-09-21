@@ -1,0 +1,23 @@
+//You can merge as many of the City State Types as possible.
+[
+  {
+    "name":"Militaristic",
+    "uniques":["Can make [Military] units","As friends, can provide a special unit for every 100 turns","As allies, can provide a special unit for every 50 turns"],
+  },
+  {
+    "name":"Maritime",
+    "uniques":["Must near [Coast] or [Ocean] tiles","Can make [Water] units","As friend, can provide a [Civilian Ship] unit and Trade Routes will increase Influence by 10%","As allies,can provide a [Water] units and Trade Route will increase Influence by 25%"],
+  },
+  {
+    "name":"Cultural",
+    "uniques":["Can build [Wonders]","Can make [Great Person - Cultural] Points","As friend, can provide +10 Culture","As allies, can provide +25 culture and Gifts will increase Influence by 25%"],
+  },
+  {
+    "name":"Religious",
+    "uniques":["Can create, expand and spread a religious","Can make [Great Person - Faith] units","As friend, can provide a [Faith] unit and +10 Faith","As allies, can provide a [Faith] unit, +25 Faith and Having the same Religion will increase Influence by 25%"],
+  },
+  {
+    "name":"Scientific",
+    "uniques":["Can research the technology on its own","Can make [Great Person - Science] units","As friend, can provide +10 Science","As allies, can provide a [Science] unit and Sharing Technology will increase Influence by 25%"],
+  },
+]
