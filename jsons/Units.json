@@ -1,6 +1,20 @@
 [
 //Infantry
 	{
+		"name": "Grenadier",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"obsoleteTech": "Flintlocks",
+		"upgradesTo": "Flintlock Infantry",
+		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Drafted men armed with muskets, each made by an artisan, each different to the other,\nand very well may or may not hit their target. That's why you form them up in lines. Just not properly instant."}
+		]
+	},
+	{
 		"name": "Flintlock Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
