@@ -551,34 +551,8 @@
 		"weight": 10
 	},
 //Others
-	{
-		"name": "Ha Long Bay",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Coast"],
-		"turnsInto": "Coast",
-		"impassable": false,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] to [4] [Coast] tiles",
-			"Grants [The Sea's Blessing] ([triple movement, triple sight and +10% Strength in [Coast] tiles]) to adjacent [Land] units for the rest of the game"],
-		"weight": 7
-	},
-	{
-		"name": "Delicate Arch",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Desert"],
-		"turnsInto": "Mountain",
-		"impassable": false,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles",
-			"Grants [Desert Natural Arch] ([quadruple defense bonus]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	},
-	{
-		"name": "Eye of Sahara",
+        {
+		"name": "Eye of the Sahara",
 		"type": "NaturalWonder",
 		"food": 3,
 		"culture": 2,
