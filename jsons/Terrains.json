@@ -1,4 +1,4 @@
-[
+
 	// Base terrains
 	{
 		"name": "Ocean",
@@ -330,7 +330,7 @@
 			"Grants 500 Gold to the first civilization to discover it"],
 		"weight": 2
 	},
-	{ // This will count as "Fresh water" in civ 6
+	{
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
@@ -536,20 +536,6 @@
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	},
-	{
-		"name": "King Solomon's Mine",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Plains"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	},
 //Others
         {
 		"name": "Eye of the Sahara",
@@ -595,4 +581,3 @@
 			"Grants [Icelandic Altitude Training] ([double movement and +15% Strength in Tundra]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	},
-]
