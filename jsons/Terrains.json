@@ -233,8 +233,6 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
-		// For map editor only - the generator won't place it without code or enabling uniques
-		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
 		"defenceBonus": -0.15
 	},
@@ -511,7 +509,8 @@
 		"unbuildable": true,
 		"weight": 4
 	},
-	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
+	// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
+	{
 		"name": "Lake Victoria",
 		"type": "NaturalWonder",
 		"food": 6,
@@ -536,6 +535,79 @@
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
-	}
+	},
+	{
+		"name": "King Solomon's Mine",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Plains"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	},
+//Others
+	{
+		"name": "Ha Long Bay",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Coast"],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] to [4] [Coast] tiles",
+			"Grants [The Sea's Blessing] ([triple movement, triple sight and +10% Strength in [Coast] tiles]) to adjacent [Land] units for the rest of the game"],
+		"weight": 7
+	},
+	{
+		"name": "Delicate Arch",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Desert"],
+		"turnsInto": "Mountain",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles",
+			"Grants [Desert Natural Arch] ([quadruple defense bonus]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	},
+	{
+		"name": "Eye of Sahara",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Desert"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Desert] tiles",
+			"Grants [Berber Training] ([double movement in [Desert] tiles]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	},
+	{
+		"name": "Mount Everest",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Plains","Grassland","Mountain"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [4] [Hill] tiles",
+			"Must be adjacent to [0] to [6] [Mountain] tiles",
+			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	},
+*/
+]
+]
 */
 ]
