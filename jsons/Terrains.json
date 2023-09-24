@@ -535,49 +535,4 @@
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	},
-//Others
-        {
-		"name": "Eye of the Sahara",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Desert"],
-		"turnsInto": "Desert",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Desert] tiles",
-			"Grants [Berber Training] ([double movement in [Desert] tiles]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	},
-	{
-		"name": "Mount Everest",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Plains","Grassland","Mountain"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [4] [Hill] tiles",
-			"Must be adjacent to [0] to [6] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	},
-	{
-		"name": "Mount Eyjafjallajökull",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Tundra","Mountain"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Icelandic Altitude Training] ([double movement and +15% Strength in Tundra]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	},
 ]
