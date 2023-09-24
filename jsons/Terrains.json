@@ -1,4 +1,4 @@
-
+[
 	// Base terrains
 	{
 		"name": "Ocean",
@@ -580,3 +580,5 @@
 			"Grants [Icelandic Altitude Training] ([double movement and +15% Strength in Tundra]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	},
+]
+]
