@@ -580,6 +580,36 @@
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	},
+	{
+		"name": "Mount Eyjafjallajökull",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Tundra","Mountain"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Grants [Icelandic Altitude Training] ([double movement and +15% Strength in Tundra]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	},
+	{
+		"name": "Devil's Tower",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Plains","Mountain"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Grants [Devil's Guardian] ([+25% Strength in [Plains] tiles]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	},
 */
 ]
 ]
