@@ -609,9 +609,5 @@
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Grants [Devil's Guardian] ([+25% Strength in [Plains] tiles]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
-	},
-*/
-]
-]
-*/
+	}
 ]
