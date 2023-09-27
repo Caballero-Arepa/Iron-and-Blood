@@ -383,6 +383,13 @@
 	},
 	//Civilian Ship
 	{
+		"name": "Worker Boat",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Water] improvements on tiles"],
+		"cost": 70,
+	},
+	{
 		"name": "Clippership",
 		"unitType": "Civilian Ship",
 		"movement": 4,
