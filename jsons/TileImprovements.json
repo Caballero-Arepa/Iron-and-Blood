@@ -79,6 +79,15 @@
             "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
 	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Mountain"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Enlightenment",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]","Can be pillaged even on a [Mountain] tile"],
+		"shortcutKey": "M"
+	},
 	// Unbuildable improvements
 	{
 		"name": "Ancient ruins",
