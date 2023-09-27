@@ -72,12 +72,11 @@
 	},
 	{
 		"name": "Pasture",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Enlightenment",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill"],
+		"production": 2,
+		"turnsToBuild": 5,
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+            "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
 	},
 	// Unbuildable improvements
