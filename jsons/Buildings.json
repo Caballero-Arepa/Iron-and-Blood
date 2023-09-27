@@ -14,6 +14,14 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
+	{
+        "name": "Monument",
+        "culture": 2,
+        "cost": 40,
+        "hurryCostModifier": 40,
+        "maintenance": 1,
+        "uniques": ["Destroyed when the city is captured"]
+    },
 	//Neo-Classical  
         {
 	        "name": "University",
@@ -70,6 +78,75 @@
 		"requiredResource": "Steel",
 	        "uniques":["Gives a free [Great Engineer], +5 Culture and +10 Tourism"]
         },
+	 // Religious buildings
+    {
+        "name": "Cathedral",
+        "faith": 1,
+        "culture": 4,
+        "uniques": [
+            "Unbuildable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Mosque",
+        "culture": 1,
+        "faith": 3,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Pagoda",
+        "culture": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Gurdwara",
+        "culture": 1,
+        "faith": 5,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Synagogue",
+        "culture": 1,
+        "faith": 2,
+        "production": 1,
+        "uniques": [
+            "Unbuildable",
+            "[+15]% Production when constructing [All] buildings [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Vihara",
+        "faith": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "[+15]% [Gold] [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Mandir",
+        "uniques": [
+            "Unbuildable",
+            "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
 ]
 	
 	
