@@ -10,8 +10,7 @@
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
-
-	{
+        {
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 2,
@@ -87,6 +86,14 @@
 		"techRequired": "Enlightenment",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]","Can be pillaged even on a [Mountain] tile"],
 		"shortcutKey": "M"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["Pillaging this improvement yields approximately [+15 Gold]", "Can be rebuilt after be pillaged"],
+		"shortcutKey": "B"
 	},
 	// Unbuildable improvements
 	{
