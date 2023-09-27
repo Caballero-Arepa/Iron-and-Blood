@@ -1951,7 +1951,27 @@
 		"uniques": ["Cities gain extra Culture for each enemy Unit within their borders, and a boost to Culture output for every Civilization at war with you. Adopting a Social Policy heals your Units and damages enemy Units within your borders."],
 		     
 		"cities": ["Warsaw","Vilnius","Krakow","Grodno","Brest-Litovsk","Sandomierz","Lublin","Lodz","Poznan","Drohiczyn","Minsk","Lviv","Kaunas","Rivne","Polaniec","Raclawice","Maciejowice","Radom","Kielce","Lomza","Chelm","Siedlce","Pulawy","Lutsk"]
-	}
+	},
+	{
+                "name": "San Marino",
+		"leaderName": "Innocenzo Bonelli",
+		"adjective": ["Sammarinese"],
+		"cityStateType": "Religious",
+		"startBias": ["Hill","Mountain"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Bound to the Mountains",
+		"uniques": ["All units can go into [Mountain] tiles, all units can go into [Impassable] tiles. +5 Faith if a unit got killed."],
+		     
+		"cities": ["San Marino"]
+	},
 	//German CS - Grey: 126, 127, 131
 	{
                 "name": "Anhalt",
