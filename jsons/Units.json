@@ -347,6 +347,23 @@
 		                   ]
 	},
 	{
+		"name": "Royal Ship of the Line",
+		"unitType": "Militant Ship",
+		"replaces": "Caravel",
+		"uniqueTo": "United Kingdom",
+		"movement": 5,
+		"sight": 4,
+		"strength": 20,
+		"cost": 20,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Ironclad",
+		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "This is the reason why Britannia rules the waves!"}
+		                   ]
+	},
+	{
 		"name": "Canhoneira",
 		"unitType": "Militant Ship",
 		"replaces": "Ironclad",
