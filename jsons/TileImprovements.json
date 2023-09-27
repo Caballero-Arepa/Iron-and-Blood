@@ -71,7 +71,7 @@
 		"civilopediaText": [{"text":"Мы живем только в Сечи!"}]
 	},
 	{
-		"name": "Farm",
+		"name": "Pasture",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"production": 1,
 		"turnsToBuild": 7,
