@@ -45,4 +45,12 @@
 		"majorDepositAmount": {"sparse": 6, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6}
 	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Lake"],
+		"production": 1,
+		"improvedBy": ["Farm"],
+		"improvementStats": {"production": 1}
+       },
 ]
