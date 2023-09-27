@@ -1,0 +1,10 @@
+[
+  {
+		"name": "Horse",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
+		"production": 1,
+		"improvedBy": ["Pasture"],
+		"improvementStats": {"production": 1}
+	},
+]
