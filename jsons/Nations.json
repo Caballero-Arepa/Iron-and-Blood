@@ -1959,13 +1959,13 @@
 		"cityStateType": "Religious",
 		"startBias": ["Hill","Mountain"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "You are being improperly rude. You shalll be ousted by us! Goodbye.",
+		"attacked": "Oh! How atrocious you are! How frightening! You shall be ousted by us! Goodbye.",
+		"defeated": "Oh dear God, what did I go wrong? What did I go wrong?! Why didn't you save us from the enemy like you save Saint Marinus in the Roman times?!",
+		"introduction": "Greetings, greetings, greetings. I am Innocenzo Bonello, the Captain Regent of San Marino. Hope you be gracious surrounding by our hospitality.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [0,10,250],
+		"innerColor": [255,255,255],
 		     
 		"uniqueName": "Bound to the Mountains",
 		"uniques": ["All units can go into [Mountain] tiles, all units can go into [Impassable] tiles. +5 Faith if a unit got killed."],
