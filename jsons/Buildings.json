@@ -119,6 +119,21 @@
 		"requiredResource": "Steel",
 	        "uniques":["Gives a free [Great Engineer], +5 Culture and +10 Tourism"]
         },
+	{
+	        "name": "Oxford University",
+	        "isNationalWonder": false,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 5,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech":"Education System",
+		"requiredResource": "Marble",
+	        "uniques":["Gives a free [Great Person] of choice, +50% Science for every [University] in your civilization,+5 Culture, +5 Science and +10 Tourism"]
+        },
 	 // Religious buildings
     {
         "name": "Cathedral",
