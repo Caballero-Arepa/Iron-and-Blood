@@ -72,6 +72,15 @@
 	"column": 7,
 	"row": 2
 	},
+	{
+	        "name": "Canton System",
+		"uniqueTo": "Prussia",
+	        "uniques": ["When discover Rights of Man, all [Infantry] and [Calvary], and [Militant Ship] units will produce +25% faster. All units that have this promotion gets +25 Exp after killing enemy units."],
+	        "requiredTech": "Rights of Man",
+	        "unitType": ["Infantry", "Calvary", "Militant Ship"],
+	"column": 7,
+	"row": 3
+	},
 	//Militant Ship
 	{
 	        "name": "Prized Ship"
