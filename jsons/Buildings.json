@@ -62,6 +62,32 @@
 	        "requiredTech":"Enlightenment",
 	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture, +5 Tourism and a free [Great Artist]"]
         },
+	{
+	        "name": "Workshop",
+		"requiredTech":"Guild-based Production",
+	        "isNationalWonder": false,
+	        "production": 2,
+	        "science": 0,
+	        "gold": 2,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 1,
+	        "cost": 30,
+	        "uniques":["Increase production in a city by +5%"]
+        },
+	{
+	        "name": "Barracks",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 8,
+	        "cost": 35,
+		"requiredTech":"Army Professionalization",
+	        "uniques":["Increase the faith in a city by 5%"]
+        },
 	//Victorian Era
 	{
 	        "name": "Eiffel Tower",
