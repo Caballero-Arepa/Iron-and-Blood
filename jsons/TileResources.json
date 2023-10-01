@@ -50,6 +50,14 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Lakes"],
 		"production": 1,
+		"improvedBy": ["Fishing Boat"],
+		"improvementStats": {"production": 1}
+       },
+	{
+		"name": "Corn (Maize)",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 2,
 		"improvedBy": ["Farm"],
 		"improvementStats": {"production": 1}
        },
