@@ -61,4 +61,13 @@
 		"improvedBy": ["Farm"],
 		"improvementStats": {"production": 1}
        },
+	{
+		"name": "Gold",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"production": 2,
+		"gold": 5,
+		"improvedBy": ["Mine"],
+		"improvementStats": {"production": 1, "gold": 5,}
+       },
 ]
