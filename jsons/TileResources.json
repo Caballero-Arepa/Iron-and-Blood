@@ -68,6 +68,14 @@
 		"production": 2,
 		"gold": 5,
 		"improvedBy": ["Mine"],
-		"improvementStats": {"production": 1, "gold": 5,}
+		"improvementStats": {"production": 2, "gold": 5,}
+       },
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"production": 2,
+		"improvedBy": ["Mine"],
+		"improvementStats": {"production": 2}
        },
 ]
