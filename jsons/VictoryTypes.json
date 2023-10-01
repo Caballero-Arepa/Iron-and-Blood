@@ -23,7 +23,7 @@
     {
         "name": "Culture",
         "victoryScreenHeader": "Build all wonders",
-        "milestones": ["Build Uffizi","Build Big Ben","Build Brandenburg Gate","Build Louvre","Build Bolshoi Theater","Build Eiffel Tower","Build Winter Castle","Build Oxford University","Build Panama Canal","Build Ruhr Valley","Build Statue of Liberty","Build St.Basil Cathedral"],
+        "milestones": ["Build Uffizi","Build Arch of Triumph","Build Big Ben","Build Brandenburg Gate","Build Louvre","Build Bolshoi Theater","Build Eiffel Tower","Build Winter Castle","Build Oxford University","Build Panama Canal","Build Ruhr Valley","Build Statue of Liberty","Build St.Basil Cathedral"],
         "victoryString": "You have achieved through the awesome power of your Culture. Your nation's greatness - the magnificence of its monuments and the power of its artifacts - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
