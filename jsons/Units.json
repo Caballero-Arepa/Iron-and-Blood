@@ -132,6 +132,7 @@
 	{
 		"name": "Potsdam Giants",
 		"unitType": "Infantry",
+		"uniqueTo": "Prussia",
 		"replaces":"Rifled Infantry",
 		"movement": 2,
 		"strength": 30,
