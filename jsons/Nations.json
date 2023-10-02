@@ -490,6 +490,26 @@
 		     
 		"cities": ["St.John's","Corner Brook","Labrador City","Mount Pearl","Stephenville","Deer Lake","Torbay","Marystown","Lewisporte","Paradise","Bonavista"]
 	},
+	{
+                "name": "The Cristeros",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//Native American CS  - Orange: 255,120,0
 	{
                 "name": "Apache",
@@ -851,6 +871,106 @@
 		     
 		"cities": ["Kamiah","Shimínĕkĕm","Hăsweiwăwih","Kuseyneisekit"]
 	},
+	{
+                "name": "The Shoshone",
+		"leaderName": "Leader Name",
+		"adjective": ["Shoshone"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+        {
+                "name": "The Chinook",
+		"leaderName": "Comcomly",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "The Pawnee",
+		"leaderName": "Sharitarish",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "The Crow",
+		"leaderName": "Aleek-chea-ahoosh (Plenty Coups)",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "The Squamish",
+		"leaderName": "Sahpluk",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -1029,7 +1149,7 @@
 		"defeated": "You treacherous conqueror! How dare you defy the power of Allah! Don't be so happy, because I will come back from the grave!",
 		"introduction": "May Allah bless you for you here to meet me. I'm Rabih al-Zubayr, or the French called me, Rabah. Let's see what we can do.",
 
-		"outerColor": [130,121,87],
+		"outerColor": [140,121,87],
 		"innerColor": [222,227,236],
 		     
 		"uniqueName": "The Warlord of Lake Chad",
@@ -1195,6 +1315,26 @@
 		"uniques": ["Units outside your borders gain Golden Age Points from kills. While in a Golden Age, your Capital City and any city with a Level 3 or greater garrisoned unit enter We Love The King Day."],
 		     
 		"cities": ["Yambio","Dungu","Bazungua","Kpelememe"]
+	},
+	{
+                "name": "Dahomey",
+		"leaderName": "Guézo",
+		"adjective": ["Dahomean"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [150,121,87],
+		"innerColor": [255,227,236],
+		     
+		"uniqueName": "End the Tribute",
+		"uniques": ["When in a Golden Age, receive a [Great Musician], when in a Dark Age, receive a [Great General]. Receive an additional unit when at war in every 25 turns."],
+		     
+		"cities": ["Abomey","Allada","Whydah"]
 	},
 	//Asia
 	{
@@ -1457,6 +1597,26 @@
 		"uniques": ["Cities generate additional Golden Age Points for each building purchased within them. Upon the dawn of a Golden Age, new sources of Gems are revealed within your territory."],
 		     
 		"cities": ["Hyderabad","Aurangabad","Karimnagar","Bidar","Khammam","Nizamabad","Parbhani","Raichur","Ramagundam","Nalgonda","Mahbubnagar","Osmanabad","Miryalagunda","Parli","Jagtial","Shamshabad","Mahabubabad","Kinwat"]
+	},
+	{
+                "name": "The Nenets",
+		"leaderName": "Vavlyo Neniang (Vauli Piettomin)",
+		"adjective": ["Nenet"],
+		"cityStateType": "Religious",
+		"startBias": ["Tundra"],
+		
+		"declaringWar": "You think we just let the oppresion happening to us!? No, in fact, we will fight, fights until our last breath.",
+		"attacked": "By the power of our gods, you shall be punished. Begone and never show up on our lands again!!!",
+		"defeated": "You may have the power to destroy my lands, slaughter my people and take my deer, but you will NEVER break my spirit!",
+		"introduction": "I am Vavlyo Neniang, shaman of these lands. Ah, a foreign leader? Excellent! Your deer should provide an excellent feast once we relieve you of them.",
+
+		"outerColor": [245,245,255],
+		"innerColor": [22,22,2],
+		     
+		"uniqueName": "Sambadabts",
+		"uniques": ["Each source of Deer worked by a city provides +1 Faith and causes one unfilled Great Work of Music slot to act as if it were filled. Over time, sources of Deer may appear on Snow or Tundra tiles within your territory."],
+		     
+		"cities": ["Nyar'yana Marq","Vaigach","Khaimersede","Varandey","Bugrino"]
 	},
 	//Europe
 	{
