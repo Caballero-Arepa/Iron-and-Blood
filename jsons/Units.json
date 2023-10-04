@@ -469,7 +469,7 @@
 			            {"text": "Remember RMS Titanic? Now, there's only a matter of time before something like this could happen!"}
 		                   ]
 	},
-	//Old
+	//Civilian
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -494,6 +494,17 @@
 		"cost": 25,
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Lawyer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 40,
+		"requiredTech": "Rights of Men",
+		"uniques": ["Can hurry adopting policies"],
+        "civilopediaText": [
+			{"text": "May all men have rights to be free, forever!"}
+		]
 	},
         {
 		"name": "Governor",
