@@ -79,4 +79,12 @@
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 2}
        },
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Jungle"],
+		"gold": 3,
+		"improvedBy": ["Plantations"],
+		"improvementStats": {"gold": 3}
+       },
 ]
