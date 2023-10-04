@@ -49,6 +49,31 @@
 	        "uniques":["Increase the faith in a city by 5%"]
         },
 	{
+	        "name": "Bank",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 5,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 2,
+	        "cost": 25,
+		"requiredTech": "Private Banks",
+	        "uniques":["Increase the gold in a city by 5%"]
+        },{
+	        "name": "Trade Depot",
+	        "isNationalWonder": false,
+	        "production": 5,
+	        "science": 0,
+	        "gold": 10,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 1,
+	        "cost": 35,
+		"requiredTech": "Private Banks",
+	        "uniques":["Increase the gold in a city by 10%, with an additional 10% production", "Must build on coastal cities"]
+        },
+	{
 	        "name": "Uffizi",
 	        "isNationalWonder": false,
 		"isWonder": true,
