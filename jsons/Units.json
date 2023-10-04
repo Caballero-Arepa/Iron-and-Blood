@@ -1,4 +1,21 @@
 [
+//Temporal
+	{
+		"name": "Samurai",
+		"unitType": "Sword",
+		"replaces": "Grenadier",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 2,
+		"strength": 15,
+		"cost": 20,
+		"obsoleteTech": "Rifled Barrels",
+		"upgradesTo": "Rifled Infantry",
+		"uniques": ["[+5]% to [+25]% Strength against [Grenadier] units."],
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": "It seems those times are at the end. But the Shogun still there means Japan still there."}
+		]
+	},
 //Infantry
 	{
 		"name": "Grenadier",
