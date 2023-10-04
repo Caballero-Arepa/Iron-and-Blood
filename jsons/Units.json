@@ -48,6 +48,23 @@
 		]
 	},
 	{
+		"name": "Tanegashima Infantry",
+		"replaces": "Flintlock Infantry",
+		"unitType": "Infantry",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 3,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Rifle Barrels",
+		"upgradesTo": "Rifled Infantry",
+		"uniques": ["Muzzleloader", "[+50]% Strength against [Flintlock Infantry] units", "Ignores terrain cost"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Thanks to the west, we can have flintlocks. Good uses, and more importantly, good formations."}
+		]
+	},
+	{
 		"name": "Rifled Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
