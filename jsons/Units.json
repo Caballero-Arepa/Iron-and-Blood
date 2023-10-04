@@ -418,7 +418,7 @@
 	},
 	//Civilian Ship
 	{
-		"name": "Work Boat",
+		"name": "Work Boats",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Water] improvements on tiles"],
