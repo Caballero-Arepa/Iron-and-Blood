@@ -109,6 +109,7 @@
 		"name": "Plantations",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Forest","Jungle"],
 		"turnsToBuild": 10,
+		"gold": 2,
 		"uniques":["Can be constructed by [Governor]", "It can only built on tiles between 2 cities", "It generates Influence on a City-state if a [Governate] is established between a city of a major civilization and its border", "Can be destroyed by the barbarians","Can be destroyed by a major civilization", "Can assimilate a City-state into a part of a major civilization with 100 or above Influence points"],
 		"shortcutKey": "G",
 		"cost": 1500,
