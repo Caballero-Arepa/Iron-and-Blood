@@ -90,34 +90,22 @@
                 "column": 1
             },
             {
-                "name": "Free Thought",
-                "uniques": [
-                    "[+1 Science] from every [Trading post]",
-                    "[+1 Science] from every [Chateau]",
-                    "[+1 Science] from every [Caer]",
-                    "[+1 Science] from every [Brazilwood Camp]",
-                    "[+4 Science] from every [Customs house]",
-                    "[+4 Science] from every [Academy]",
-                    "Provides [1] [Policies]"
-                ],
+                "name": "Corps System",
+                "uniques": ["[+35]% movement for [Infantry] units in rough terrains", "[+35]% movement for [Calvary] units in rough terrains", "[+35]% movement for [Artillery] units in rough terrains"],
                 "row": 1,
-                "column": 3
+                "column": 3,
             },
             {
-                "name": "Humanism",
+                "name": "State Code",
                 "uniques": [
-                    "[+50]% Production when constructing [Library] buildings [in all cities]",
-                    "[+50]% Production when constructing [University] buildings [in all cities]",
-                    "[+50]% Production when constructing [Observatory] buildings [in all cities]",
-                    "[+50]% Production when constructing [Public School] buildings [in all cities]",
-                    "[+50]% Production when constructing [Research Lab] buildings [in all cities]",
-                    "Provides [1] [Policies]"
+                    "[+5]% Production when discovered Rights of Men",
+                    "Provides [1] [Policies]",
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "Scientific Revolution",
+                "name": "Army Modernization",
                 "uniques": [
                     "Free [Great Scientist] appears",
                     "Provides [1] [Policies]"
