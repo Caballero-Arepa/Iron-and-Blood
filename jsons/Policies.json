@@ -107,27 +107,28 @@
             {
                 "name": "Army Modernization",
                 "uniques": [
-                    "Free [Great Scientist] appears",
+                    "Free [Great General] appears",
+                    "Free [Barracks] built [in the capital]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Free Thought","Sovereignty"],
+                "requires": ["Corps System","State Code","Army Professionalization"],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
-                "name": "Secularism",
+                "name": "State Census",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]",
+                    "[+2 Sight] from every [Infantry] units [in all cities]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Scientific Revolution"],
+                "requires": ["State Code", "Republicanism"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "Rationalism Complete",
+                "name": "Liberalism Complete",
                 "uniques": [
-                    "[10]% [Science] <while the empire is happy>"
+                    "[+25]% Strength for [All] units vs Cities"
                 ]
             }
         ]
