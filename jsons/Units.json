@@ -399,6 +399,24 @@
 			            {"text": "We serve the King good, we serve the Kingdom good, Für Bayern!!!"}
 		                   ]
 	},
+	{
+		"name": "Cherik Horsemen",
+		"unitType": "Lancer",
+		"uniqueTo": "Persia",
+		"replaces": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 3,
+		"strength": 30,
+		"cost": 25,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Breech-loading",
+		"upgradesTo": "Gatling Gunner",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking", "Don't receives Exp", "[+10] Exp for every Pastures in a city", "While in production, Pastures in its training city yield +1 Production"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "The times have changed, you know what to do."}
+		                   ]
+	},
 	//Militant Ships
 	{
 		"name": "Caravel",
@@ -469,7 +487,7 @@
 	//Civilian Ship
 	{
 		"name": "Work Boats",
-		"unitType": "Civilian",
+		"unitType": "Civilian Ship",
 		"movement": 2,
 		"uniques": ["Can build [Water] improvements on tiles"],
 		"cost": 70,
