@@ -272,26 +272,26 @@
 	{
                 "name": "Canada",
 		"leaderName": "Wilfrid Laurier",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"adjective": ["Canadian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Culture, Diplomacy",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "As an unstinting malignancy defines your relationship to Canada, we have no recourse than war.",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"afterPeace": "May our peace was",
+		"defeated": "So ends our dream of a Canada that might have been. Our people are good-hearted. Rule with mercy, and learn from them.",
+		"introduction": "On behalf of the people of Canada, welcome. I am Prime Minister Laurier.",
 		"neutralHello": "Greetings",
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [255,255,255],
+		"innerColor": [150,0,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Last Best West",
+		"uniques": ["Founded Cities begin with additional Food and Population based on distance from the Capital.","Settlers have doubled Movement when starting adjacent to a coastal tile."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Ottawa","Toronto","Montreal","Halifax","Winnipeg","Vancouver","Quebec","Misissauga","Brampton","Hamilton","Surrey","Laval","Markham","Vaughan","Gatineau","Longueuil","Burnaby","Saskatoon","Kitchener","Windsor","Regina","Richmond","Oakville","Burlington","Sherbrooke","Oshawa","Richmond Hill","Saguenay","Levis","Barrie","Abbotsford","St. Catharines","Trois-Rivier","Coquitlam"]
 	},
 	//American City-States - [color]: 0,0,0,
 	{
