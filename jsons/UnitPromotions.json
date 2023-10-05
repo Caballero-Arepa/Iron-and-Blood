@@ -2,7 +2,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Infantry","Calvary","Scout","Artillery","Machine Gun","Lancer","Militant Ship","Civilian Ship"],
         "row": 0,
         "column": 0
     },
@@ -88,6 +88,6 @@
 	        "requiredTech": "Breach-loading",
 	        "unitType": ["Militant Ship"],
 	"column": 7,
-	"row": 3
+	"row": 4
 	},
 ]
