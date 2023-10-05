@@ -318,6 +318,39 @@
 			            {"text": "For our emperor, for the great empire of Brazil!"}
 		                   ]
 	},
+	{
+		"name": "Royal Dragoon",
+		"unitType": "Calvary",
+		"uniqueTo": "Canada",
+		"requiredResource": "Horse",
+		"movement": 5,
+		"strength": 25,
+		"cost": 54,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking."],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
+	{
+		"name": "Mountie",
+		"unitType": "Calvary",
+		"uniqueTo": "Canada"
+		"requiredResource": "Horse",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Enlightenment",
+		"upgradesTo": "Royal Dragoon",
+		"uniques": ["Can move after attacking.","Ignores terrain cost"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
 	//Lancer
 	{
 		"name": "Lancer",
