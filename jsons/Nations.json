@@ -538,8 +538,8 @@
                 "name": "Araucanía and Patagonia",
 		"leaderName": "Orélie-Antoine de Tounens",
 		"adjective": ["Araucanían", "Patagonian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill"],
 		
 		"declaringWar": "You foreigner! You think I am crazy! But I am not, and you should be gone, forever!",
 		"attacked": "How rigorous of you! You think I didn't notice that! Make sure that all the soldier you send are nothing but weaklings, begone!",
