@@ -557,22 +557,22 @@
 	{
                 "name": "Oregon",
 		"leaderName": "John Whiteaker",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"adjective": ["Oregonian"],
+		"cityStateType": "Mercentile",
+		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [10,121,10],
+		"innerColor": [122,127,25],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Oregon Trail",
+		"uniques": ["Cities founded at least 7 tiles from the capital start with a Worker; Lumber Mills provide [+1] Gold"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Salem","city","cities","city"]
 	},
 	{
                 "name": "Dakota",
