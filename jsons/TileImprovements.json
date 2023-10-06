@@ -111,8 +111,17 @@
 		"turnsToBuild": 10,
 		"gold": 2,
 		"uniques":["Can generates [Gold] for a city"],
-		"shortcutKey": "L",
+		"shortcutKey": "I",
 		"cost": 1500,
+	},
+	{
+		"name": "Lumber Mills",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"turnsToBuild": 10,
+		"production": 3,
+		"uniques":["Can generates [Wood] for a city"],
+		"shortcutKey": "L",
+		"cost": 1800,
 	},
 	// Unbuildable improvements
 	{
