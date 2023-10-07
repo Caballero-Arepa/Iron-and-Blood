@@ -1,6 +1,4 @@
 [
-	// Ancient Era
-
 	// Always available
 	{
 		"name": "Palace",
@@ -100,6 +98,7 @@
 	        "cost": 30,
 	        "uniques":["Increase production in a city by +5%"]
         },
+//Napoleonic Era
 	{
 	        "name": "Barracks",
 	        "isNationalWonder": false,
@@ -113,8 +112,22 @@
 		"requiredTech":"Army Professionalization",
 	        "uniques":["Increase the faith in a city by 5%"]
         },
+{
+	        "name": "Stables",
+	        "isNationalWonder": false,
+		"isWonder": false,
+	        "production": 4,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 0,
+		"tourism": 0,
+	        "cityStrength": 5,
+	        "cost": 625,
+	        "requiredTech":"Army Professionalization",
+	        "uniques":["Produces [Calvary] units, +4 production"]
+        },
 	{
-	        "name": "Eiffel Tower",
+	        "name": "Arch of Triumph",
 	        "isNationalWonder": false,
 		"isWonder": true,
 	        "production": 0,
@@ -127,6 +140,34 @@
 	        "requiredTech":"Army Professionalization",
 		"requiredResource": "Marble",
 	        "uniques":["Gives a free [Great General], +3 Gold, +5 Culture and +10 Tourism"]
+        },
+ {
+	        "name": "National Epic",
+	        "isNationalWonder": true,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 10,
+	        "cost": 6250,
+	        "requiredTech":"Patriotism",
+	        "uniques":["Gives a free [Great General], +5 Culture and +10 Tourism"]
+        },
+{
+	        "name": "Heroic",
+	        "isNationalWonder": true,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 25,
+	        "cost": 1250,
+	        "requiredTech":"Patriotism",
+	        "uniques":["Gives a free [Great General] and a free [Great Work of Art] slot, +5 Culture and +10 Tourism"]
         },
 	//Victorian Era
 	{
