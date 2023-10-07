@@ -577,9 +577,9 @@
 	{
                 "name": "Dakota",
 		"leaderName": "John Burke",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"adjective": ["Dakotan"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Plains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -592,7 +592,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Bismarck","city","cities","city"]
 	},
 	//Native American CS  - Orange: 255,120,0
 	{
