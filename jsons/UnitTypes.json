@@ -11,7 +11,7 @@
 	//Civilian
     {
         "name": "Civilian",
-        "movementType": "Land"
+        "movementType": "Land, Water"
     },
 	//Infantry
     {
