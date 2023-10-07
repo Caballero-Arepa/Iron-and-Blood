@@ -564,7 +564,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+			"Requires at least [2] population", "Can go to [Water] tiles"],
 		"hurryCostModifier": 20,
 	},
 	{
@@ -602,7 +602,7 @@
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
 		"strength": 10,
-		"uniques": ["Can build a [Governate], which is a [Land] improvment that governs 2 cities.", "+15% Strength bonus for [Military] units within 3 tiles"],
+		"uniques": ["Can build a [Vilayet], which is a [Land] improvment that governs 2 cities.", "+15% Strength bonus for [Military] units within 3 tiles"],
 		"cost": 800,
 		"attackSound": "shot",
 	},
