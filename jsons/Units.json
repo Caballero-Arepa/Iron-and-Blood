@@ -321,6 +321,7 @@
 	{
 		"name": "Royal Dragoon",
 		"unitType": "Calvary",
+  "replaces": "Calvary",
 		"uniqueTo": "Canada",
 		"requiredResource": "Horse",
 		"movement": 5,
@@ -338,7 +339,8 @@
 	{
 		"name": "Mountie",
 		"unitType": "Calvary",
-		"uniqueTo": "Canada"
+		"uniqueTo": "Canada",
+  "replaces": "Lancer",
 		"requiredResource": "Horse",
 		"movement": 4,
 		"strength": 20,
@@ -350,6 +352,34 @@
                 "civilopediaText": [
 			            {"text": "..."}
 		                   ]
+	},
+ //Automobile
+ {
+		"name": "Landship",
+		"unitType": "Automobile",
+		"movement": 6,
+		"strength": 50,
+		"cost": 150,
+		"requiredTech": "Magazines",
+		"upgradesTo": "Armoured Car",
+		"uniques": ["Muzzleloader","Can be retreat after attacking or being attacked"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Oh dear, this might be worse than I thought!"}
+		]
+	},
+ {
+		"name": "Armoured Car",
+		"unitType": "Automobile",
+		"movement": 8,
+		"strength": 64,
+		"cost": 250,
+		"requiredTech": "International Relations",
+		"uniques": ["Muzzleloader", "Can retreat from attacking or being attacked"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "I have no words."}
+		]
 	},
 	//Lancer
 	{
