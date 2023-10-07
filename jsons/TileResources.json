@@ -96,4 +96,24 @@
 		"improvedBy": ["Fishing Boats"],
 		"improvementStats": {"food": 1, "gold": 2}
        },
+ {
+		"name": "Wood",
+		"resourceType": "Strategic",
+		"revealedBy": "Enlightenment",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"production": 3,
+  "gold": 1,
+		"improvedBy": ["Lumber Mill"],
+		"improvementStats": {"production": 2},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [120] <in [Forest] tiles>",
+    "Generated with weight [100] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [150] <in tiles with [Forest]> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [100] <in tiles with [Forest]> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in tiles with [Jungle]>"],
+		"majorDepositAmount": {"sparse": 6, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7}
+	},
 ]
