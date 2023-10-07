@@ -144,7 +144,7 @@
  {
 	        "name": "National Epic",
 	        "isNationalWonder": true,
-		"isWonder": true,
+		"isWonder": false,
 	        "production": 0,
 	        "science": 0,
 	        "gold": 0,
@@ -156,9 +156,9 @@
 	        "uniques":["Gives a free [Great General], +5 Culture and +10 Tourism"]
         },
 {
-	        "name": "Heroic",
+	        "name": "Heroic Epic",
 	        "isNationalWonder": true,
-		"isWonder": true,
+		"isWonder": false,
 	        "production": 0,
 	        "science": 0,
 	        "gold": 0,
