@@ -51,7 +51,7 @@
 		"uniqueName": "Patron of the Arts",
 		"uniques": ["Tourism output is +100% during their Golden Ages. Earn Great Artists, Musicians, and Writers 50% faster during their Golden Ages."],
 		     
-		"cities": ["Rio do Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
+		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
 	{
                 "name": "Central America",
@@ -2218,13 +2218,13 @@
 		"defeated": Khốn thay cho ngươi!",
 		"introduction": "Chào mừng, chào mừng, chào mừn ngươi đã đến Đại Nam, may I take you to our court?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [230,121,87],
+		"innerColor": [222,227,23],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Nam quốc sơn hà Nam đế cư",
+		"uniques": ["When every natio"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Thăng Long","city","cities","city"]
 	},
 	{
 	        "name": "Sarawak",
@@ -2534,7 +2534,7 @@
 	{
                 "name": "Spain (Victorian)",
 		"leaderName": "Isabella II",
-		"adjective": ["Civilian"],
+		"adjective": ["Spanish"],
 		"startBias": ["terrains"],
 		"preferredVictoryType": "Victory type",
 		
@@ -2954,6 +2954,26 @@
 		"adjective": ["Galician", "Lodomerian"],
 		"cityStateType": "Militaristic",
 		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+{
+                "name": "Krakow",
+		"leaderName": "Adam Jerzy Czartoryski",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
