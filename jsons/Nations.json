@@ -2207,16 +2207,16 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	{
-                "name": "Vietnam",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+                "name": "Đại Nam",
+		"leaderName": "Mình Mạng",
+		"adjective": ["Vietnamese"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Forest"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": Khốn thay cho ngươi!",
+		"introduction": "Chào mừng, chào mừng, chào mừn ngươi đã đến Đại Nam, may I take you to our court?",
 
 		"outerColor": [130,121,87],
 		"innerColor": [222,227,236],
