@@ -2,7 +2,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Infantry","Calvary","Scout","Artillery","Machine Gun","Lancer","Militant Ship","Civilian Ship"],
         "row": 0,
         "column": 0
     },
@@ -56,10 +56,38 @@
 	//Infantry (WIP)
 	{
 	        "name": "Royal Württemberg",
-	        "uniques": ["When discovered Bold Action Rifles, all infantry have 50% attack effectiveness"],
+		"uniqueTo": "Württemberg",
+	        "uniques": ["When discovered Bold Action Rifles, all infantry have 50% Strength bonus"],
 	        "requiredTech": "Bold Action Rifles",
 	        "unitType": ["Infantry"],
-	"column": 8,
+	"column": 7,
 	"row": 1
+	},
+	{
+	        "name": "Guelphic Legion",
+		"uniqueTo": "Hannover",
+	        "uniques": ["When discovered Breach-loading, all infantry and calvary have 25% Strength bonus"],
+	        "requiredTech": "Breach-loading",
+	        "unitType": ["Infantry", "Calvary"],
+	"column": 7,
+	"row": 2
+	},
+	{
+	        "name": "Canton System",
+		"uniqueTo": "Prussia",
+	        "uniques": ["When discover Rights of Man, all [Infantry] and [Calvary], and [Militant Ship] units will produce +25% faster. All units that have this promotion gets +25 Exp after killing enemy units."],
+	        "requiredTech": "Rights of Man",
+	        "unitType": ["Infantry", "Calvary", "Militant Ship"],
+	"column": 7,
+	"row": 3
+	},
+	//Militant Ship
+	{
+	        "name": "Prized Ship"
+	        "uniques": ["Only [Caravel] can be promoted", "+15% Strength vs [Militant Ship] units"],
+	        "requiredTech": "Breach-loading",
+	        "unitType": ["Militant Ship"],
+	"column": 7,
+	"row": 4
 	},
 ]

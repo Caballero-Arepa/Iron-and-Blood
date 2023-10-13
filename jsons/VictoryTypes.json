@@ -23,7 +23,7 @@
     {
         "name": "Culture",
         "victoryScreenHeader": "Build all wonders",
-        "milestones": ["Build Uffizi","Build Big Ben","Build Brandenburg Gate","Build Louvre","Build Bolshoi Theater","Build Eiffel Tower","Build Winter Castle","Build Oxford University","Build Panama Canal","Build Ruhr Valley","Build Statue of Liberty","Build St.Basil Cathedral"],
+        "milestones": ["Build Uffizi","Build Arch of Triumph","Build Big Ben","Build Brandenburg Gate","Build Louvre","Build Bolshoi Theater","Build Eiffel Tower","Build Winter Castle","Build Oxford University","Build Panama Canal","Build Ruhr Valley","Build Statue of Liberty","Build St.Basil Cathedral"],
         "victoryString": "You have achieved through the awesome power of your Culture. Your nation's greatness - the magnificence of its monuments and the power of its artifacts - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
@@ -32,6 +32,13 @@
         "victoryScreenHeader": "Being voted as world leader",
         "milestones": ["Research Internationalist Relations","Build League of Nations","Call for a Vote","Being voted as the world leader with a majority."],
         "victoryString": "You have triumph over your foes through the art of Diplomacy! Your cunning and wisdom have earned your great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace into this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Economy",
+        "victoryScreenHeader": "Having the most golds in the World",
+        "milestones": ["Research Private Banks","Build National Bank","Build National Mint","Build World Bank","Establish Economic Victory"],
+        "victoryString": "You have triumph over your foes through the art of Economics. With your funds, you have won the vast riches that the world can harnesses with. Through the World Bank, you have make sure everyone have something to rely on. You shall be remembered as the leader who brings joy and happiness through money and economics!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
 ]

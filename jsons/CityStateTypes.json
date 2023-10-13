@@ -1,0 +1,44 @@
+[
+  {
+    "name":"Militaristic",
+    "uniques":["Can make [Military] units"]
+    "friendBonusUniques":["As friends, can provide a special [Land] unit for every 100 turns"],
+    "allyBonusUniques": ["As allies, can provide a special [Land] unit for every 50 turns"],
+    "color":[255,0,0]
+  },
+  {
+    "name":"Maritime",
+    "uniques":["Must near [Coast] or [Ocean] tiles","Can make [Water] units"],
+    "friendBonusUniques":["As friend, can provide a [Civilian Ship] unit", "Trade Routes will increase Influence by 10%"],
+    "allyBonusUniques": ["As allies, can provide a [Water] unit", "Trade Route will increase Influence by 25%"],
+    "color": [0,0,255],
+  },
+  {
+    "name":"Cultural",
+    "uniques":["Can build [Wonders]","Can make [Great Person - Cultural] Points"],
+    "friendBonusUniques":["As friend, can provide +10 Culture"],
+    "allyBonusUniques":["As allies, can provide +25 culture", "Gifts will increase Influence by 25%"],
+    "color": [255,0,255],
+  },
+  {
+    "name":"Religious",
+    "uniques":["Can create, expand and spread a religious","Can make [Great Person - Faith] Points"],
+    "friendBonusUniques":["As friend, can provide a [Faith] unit and +10 Faith"],
+    "allyBonusUniques":["As allies, can provide a [Faith] unit and +25 Faith", "Having the same Religion will increase Influence by 25%"],
+    "color": [255,255,255]
+  },
+  {
+    "name":"Scientific",
+    "uniques":["Can research the technology on its own","Can make [Great Person - Science] Points"],
+    "friendBonusUniques":["As friend, can provide +10 Science"],
+    "allyBonusUniques":["As allies, can provide a [Science] unit and +25 Science", "Sharing Technology will increase Influence by 25%"],
+    "color": [0,230,255],
+  },
+  {
+    "name":"Mercentile",
+    "uniques":["Can create Trade Routes on its own","Can make [Great Person - Gold] Points"],
+    "friendBonusUniques":["As friend, can provide +10 Gold"],
+    "allyBonusUniques":["As allies, can provide a [Gold] unit and +25 Gold", "Trade Routes will increase Influence by 30%"],
+    "color": [255,230,0],
+  },
+]
