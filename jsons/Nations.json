@@ -561,10 +561,10 @@
 		"cityStateType": "Mercentile",
 		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Our Oregon is only want peace and trade, not war, I hope you would understand that you made us to do this.",
+		"attacked": "It seems you just want to grab this land for money! How pity of you! We will fight for Oregon 'til our last breath.",
+		"defeated": "I... am... speechless... Oregon is lost, lost forever in time, as independent as it is. I hope you would be a better ruler of this land than me.",
+		"introduction": "Welcome to the land of Oregon, next to the Rockies and I, as the governor of Oregon, pleases to see a foreigner like you here.",
 
 		"outerColor": [10,121,10],
 		"innerColor": [122,127,25],
@@ -572,7 +572,7 @@
 		"uniqueName": "The Oregon Trail",
 		"uniques": ["Cities founded at least 7 tiles from the capital start with a Worker; Lumber Mills provide [+1] Gold"],
 		     
-		"cities": ["Salem","city","cities","city"]
+		"cities": ["Salem","Portland","Beaverton","Oregon City","Medford","Hillsboro","Gresham","St. Helens","Woodburn","Wilsonville","Canyon City","Troutdale","Tigard","Bandon"]
 	},
 	{
                 "name": "Dakota",
@@ -581,25 +581,25 @@
 		"cityStateType": "Mercantile",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "May will will let us be victorious against your might. I declare war on you! No trade, no agreement, no nothing. Enjoy your day while you can.",
+		"attacked": "Ah! What are you doing! Dakota is not for you to take! You tyrant! I declare war! Get out! Now!",
+		"defeated": "No! Why!? Dakota has lost!!! You may enjoy your victory for now, but we will prevail forever and ever!",
+		"introduction": "May I greet you with formalities, to Dakota. This lands maybe good for agriculture, but who known knows. Anyway, I, John Burke, open hands for relations for Dakota.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [225,225,225],
+		"innerColor": [0,72,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "From Humble Origins",
+		"uniques": ["[Farm] and [Plantations] produces more [Food] and [Gold] by [50%], [Farm] provides [+5] [City Strength]"],
 		     
-		"cities": ["Bismarck","city","cities","city"]
+		"cities": ["Bismarck","Aberdeen","Fargo","Deadwood","Harrison","Yankton","Watertown","Mitchell","Grand Forks","Hot Springs","Madison","Hill City"]
 	},
 	{
                 "name": "Kentucky",
 		"leaderName": "Henry Clay",
 		"adjective": ["Kentuckian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -612,7 +612,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Frankfort","Louisville","cities","city"]
 	},
 	{
                 "name": "Virginia",
@@ -1880,9 +1880,9 @@
 	{
                 "name": "Siam",
 		"leaderName": "Rama V",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"adjective": ["Siamese"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Culture, Faith, Domination",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -1917,14 +1917,14 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 
-		"outerColor": [22,180,23],
+		"outerColor": [23,160,23],
 		"innerColor": [180,180,23],
 		     
 		"uniqueName": "Royal Tours",
 		"uniques": ["Receive Science from Friends while discovering Techs they have already discovered, and receive Golden Age Points for completing these Techs. +50% Combat Strength vs Cities during a Golden Age."],
 		     
 		"cities": ["Capital","city","cities","city"]
-	},       
+	},      
 	//Asian City-States - Gold: 218,215,47
 	{
                 "name": "Ezo",
