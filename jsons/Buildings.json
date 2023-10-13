@@ -127,6 +127,20 @@
 	        "uniques":["Produces [Calvary] units, +4 production"]
         },
 	{
+	        "name": "Laboratory",
+	        "isNationalWonder": false,
+		"isWonder": false,
+	        "production": 0,
+	        "science": 25,
+	        "gold": 0,
+	        "culture": 0,
+		"tourism": 5,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech": "Chemistry",
+	        "uniques":["Provides +25 Science and +5 Tourism","Can be stacked with [Great Scientist] for [+5] Science bonus"]
+        },
+	{
 	        "name": "Arch of Triumph",
 	        "isNationalWonder": false,
 		"isWonder": true,
