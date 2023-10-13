@@ -578,7 +578,7 @@
                 "name": "Dakota",
 		"leaderName": "John Burke",
 		"adjective": ["Dakotan"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercentile",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "May will will let us be victorious against your might. I declare war on you! No trade, no agreement, no nothing. Enjoy your day while you can.",
@@ -637,7 +637,7 @@
 	{
                 "name": "Carolina",
 		"leaderName": "Zebulon Vance",
-		"adjective": ["Civilian"],
+		"adjective": ["Carolinian"],
 		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		
@@ -1884,22 +1884,22 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Culture, Faith, Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "You are shaming yourself here, I can show you where are the mistakes that you just did.",
+		"attacked": "Don't worry, just a bit of spices will cheer you up, I hope you can be more careful before saying something.",
+		"afterPeace": "Oh gracious, the peace is here. Hope you can be nicer to us Siamese.",
+		"defeated": "I could not keep this kingdom from tearing itself apart.",
+		"introduction": "Greetings and welcome upon you, friend. I am Chulalongkorn, king of Siam. I hope you'll find my humble realm a wonder to behold.",
+		"neutralHello": "Salutations, can I help you here in my land?",
+		"hateHello": "Why are you here, if for a matter that matters, then I still hear your words. Speak out.",
+		"tradeRequest": "We Siamese are asking you for trade, may we have an agreement for you here?",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [140,140,2],
+		"innerColor": [230,221,87],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Monthon Reforms",
+		"uniques": ["Adopting new Social Policies expands the borders in connected cities and grants Production for the Capital based on those cities' Population size."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Phra Nakorn","Samut Songkram","Nakhon Si Thammarat","Nakhon Ratchasima","Chiang Mai","Ubon Ratchathani","Ratchaburi","Chanthaburi","Ayutthaya","Udon Thani","Khon Kaen","Buriram","Chiang Rai","Chonburi","Nakhon Sawan","Songkhla","Phitsanulok","Phetchabun","Pattani","Kamphaeng Phet","Chumphon","Prachinburi","Sukhothai Thani","Nakhon Pathom","Phrae","Phuket","Rayong","Ranong","Nakhon Chai Si","Saraburi","Lopburi","Lampang","Samut Sakhon","Samut Prakarn","Prachuap Khiri Khan","Patchan Khiri Khet","Sriracha","Ratburi","Pattaya"]
 	},
         {
                 "name": "Persia",
