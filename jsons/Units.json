@@ -668,6 +668,12 @@
 		"movement": 2
 	},
 	{
+		"name": "Great Photographer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Imagery" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered [Photography]"],
+		"movement": 2
+	},
+	{
 		"name": "Great Director",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Movie" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered [Cinematography]"],
