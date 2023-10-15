@@ -2275,7 +2275,7 @@
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
-		"defeated": Khốn thay cho ngươi!",
+		"defeated": "Khốn thay cho ngươi!",
 		"introduction": "Chào mừng, chào mừng, chào mừn ngươi đã đến Đại Nam, may I take you to our court?",
 
 		"outerColor": [230,121,87],
@@ -2420,7 +2420,7 @@
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Christiania","Jelling","Truso","Bergen","Fearoerne","Reykjavik","Trondheim","Godthåb","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsø","Vejle","Køge","Sandnes","Holstebro","Slagelse","Drammen","Hillerød","Sønderborg","Skien","Svendborg","Holbæk","Hjørring","Fladstrand","Haderslev","Ringsted","Skive"]
 	},
 	{
-                "name": "France (Empire)",
+                "name": "France (Second Empire)",
 		"leaderName": "Napoleon III",
 		"adjective": ["French"],
 		"startBias": ["Grassland"],
@@ -2444,7 +2444,7 @@
 		"cities": ["Paris","Lyon","Marseilles","Bordeaux","Lille","Nantes","Toulouse","Saint-Étienne","Orléans","Rouen","Le Havre","Strasbourg","Toulon","Brest","Amiens","Nîmes","Limoges","Montpellier","Besançon","Rennes","Nice","Reims","Angers","Metz","Tours","Caen","Grenoble","Dijon","Nancy","Bône","Le Mans","Aix-en-Provence","Perpignan","Mulhouse","Clermont"]
 	},
 	{
-                "name": "France (Napoleonic)",
+                "name": "France (First Empire)",
 		"leaderName": "Napoleon Bonaparte",
 		"adjective": ["French"],
 		"startBias": ["None"],
@@ -2459,8 +2459,8 @@
 		"hateHello": "Ah, it's you. What do you want, mon ennemi?",
 		"tradeRequest": "France asks you to trade with France, is the deal justly for you, mon ami?",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [38,115,197],
+		"innerColor": [255,255,227],
 		     
 		"uniqueName": "The Master of Europe",
 		"uniques": ["[+200]% Strength bonus when adopted [Liberalism] or discovered [Army Professionalization]."],
@@ -2627,8 +2627,8 @@
 		"hateHello": "frase",
 		"tradeRequest": "Asking for trade",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [236,178,0],
+		"innerColor": [151,32,37],
 		     
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
