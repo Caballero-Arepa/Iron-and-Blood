@@ -222,7 +222,7 @@
 		"cities": ["Tacna","La Paz","Lima","Sucre","Arequipa","Cobija","Trujillo","Santa Cruz","Huancayo","Potosí","Cusco","Oruro","Iquitos","Ayacucho","Tarija","Piura","Arica","Puno","Trinidad","Chiclayo","Abancay","Montero","Chimbote","Ica","Llallagua","Pucallpa","Juliaca","Desaguadero"]
 	},
 	{
-                "name": "The United States",
+                "name": "The United States (Industrial)",
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"], 
 		"startBias": ["Coast"],
@@ -292,6 +292,30 @@
 		"uniques": ["Founded Cities begin with additional Food and Population based on distance from the Capital.","Settlers have doubled Movement when starting adjacent to a coastal tile."],
 		     
 		"cities": ["Ottawa","Toronto","Montreal","Halifax","Winnipeg","Vancouver","Quebec","Misissauga","Brampton","Hamilton","Surrey","Laval","Markham","Vaughan","Gatineau","Longueuil","Burnaby","Saskatoon","Kitchener","Windsor","Regina","Richmond","Oakville","Burlington","Sherbrooke","Oshawa","Richmond Hill","Saguenay","Levis","Barrie","Abbotsford","St. Catharines","Trois-Rivier","Coquitlam"]
+	},
+	{
+                "name": "The United States (Victorian)",
+		"leaderName": "Theodore Roosevelt",
+		"adjective": ["American"], 
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomacy, Science",
+		
+		"declaringWar": "I wanted to avoid this, you know, but your idea of peace left me no choice.",
+		"attacked": "If I must choose between righteousness and peace, I choose righteousness.",
+		"afterPeace": "I am glad we could resolve our problems with peaceful measures.",
+		"defeated": "Oh, so you think you've won? Well, my friend, maybe not today, and maybe not tomorrow, but soon you'll get what's coming to you.",
+		"introduction": "Welcome to the United States of America. You'd have best come with good intentions. Now tell me who you are.",
+		"neutralHello": "Greetings, leader. What can the United States of America do for you here?",
+		"hateHello": "A House divided against itself cannot stand. But now I must ask you, what can I do for you?",
+		"tradeRequest": "We want you to make a trade with us, because we got you a magnificent offer.",
+				
+		"outerColor": [36,80,164],
+		"innerColor": [255,254,253],
+		     
+		"uniqueName": "Big Stick Diplomacy",
+		"uniques": ["Each Citystate City-State you can demand from increases resting rate by +5 (max: +20). Units in Citystate City-State borders do not decrease Influence Influence and begin with +1 Moves Moves."],
+		     
+		"cities": ["Washington","New York","Philadelphia","Albany", "Baltimore","Boston","Cincinnati","St. Louis","Chicago","Louisville","Buffalo","Pittsburgh","Detroit","Milwaukee","Cleveland","Lowell","New Haven","Newark","Providence","Allegheny","Syracuse","Harrisburg","Wilmington","Manchester","Dayton","Indianapolis","Columbus","Worcester","Utica","Gettysburg","Sacramento"]
 	},
 	//American City-States - [color]: 0,0,0,
 	{
