@@ -353,6 +353,23 @@
 			            {"text": "..."}
 		                   ]
 	},
+	{
+		"name": "Rough Rider",
+		"replaces": "Calvary",
+		"uniqueTo": "The United States (Victorian)",
+		"unitType": "Calvary",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking", "Ignores terrain cost when moving, when beginning outside your borders", "Begins with Survivalism I"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Who thought spinning was a good trick? Because it actually is. Now our bullets hit where we aim them.\nAltough it's a pain chucking the ball inside the barrel. *sigh*"}
+		]
+	},
  //Automobile
  {
 		"name": "Landship",
