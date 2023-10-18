@@ -630,13 +630,13 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [222,221,222],
+		"innerColor": [222,227,26],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Bluegrass Spirit",
+		"uniques": ["Extra Coal from improved sources. Improved and worked Horses provide +1 Happiness, +2 Tourism at the discovery of the Railroad."],
 		     
-		"cities": ["Frankfort","Louisville","cities","city"]
+		"cities": ["Frankfort","Louisville","Lexington","Bowling Green","Owensboro","Covington","Lawrenceburg","Blandville","Middlesboro","Danville"]
 	},
 	{
                 "name": "Virginia",
