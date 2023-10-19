@@ -625,12 +625,12 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Grassland"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "No, no, no more! We have enough! We will stop you by declaring war on you! Begone!",
+		"attacked": "Oh, I see how it is! Come, and let's see who has the last laugh!",
+		"defeated": "NO, IMPOSSIBLE!!! How dare you advance your units to Kentucky!!! I will come back for revenge for Kentucky, until my last breath!",
+		"introduction": "Greetings, and welcome you to the great Commonwealth State of Kentucky, which you should be cooperative with us or else...",
 
-		"outerColor": [222,221,222],
+		"outerColor": [210,210,222],
 		"innerColor": [222,227,26],
 		     
 		"uniqueName": "Bluegrass Spirit",
@@ -642,28 +642,28 @@
                 "name": "Virginia",
 		"leaderName": "Francis Harrison Pierpont",
 		"adjective": ["Virginian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Forest"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [130,121,187],
+		"innerColor": [222,123,0],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Mountain Country",
+		"uniques": ["Double quantities of Coal; all units get extra defense in hills with the unique promotion Mountaineer, and ignore terrain cost"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Richmond","Chesapeake","Roanoke","Charlottesville","Alexandria","Fredericksburg","Jamestown","Fairfax","Newport City","Manassas","Arlington","Petersburg"]
 	},
 	{
                 "name": "Carolina",
 		"leaderName": "Zebulon Vance",
 		"adjective": ["Carolinian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -673,10 +673,10 @@
 		"outerColor": [130,121,87],
 		"innerColor": [222,227,236],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Tarheel State",
+		"uniques": ["Receive a 15% combat bonus vs larger civs; naval units start with the Supply Promotion; +15% production towards air units."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Charlotte","Columbia","Raleigh","Charleston","Asheville","Fayetteville","New Bath","Greensboro","Jacksonville","Aiken","Spartanburg","Orangeburg"]
 	},
 	//Native American CS  - Orange: 255,120,0
 	{
@@ -686,7 +686,7 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "Curse you! You are crossed the line, prepapre to lose all your chance to recover!",
+		"declaringWar": "Curse you! You have crossed the line, prepare to lose all your chances to recover!",
 		"attacked": "That's it! No more negotiating, you must be killed. Soldiers, prepare to beat those punies.",
 		"defeated": "All I done is nothing to save my nation. But you, prepare to get punished by the Old Wind.",
 		"introduction": "Ah, greetings. I am Geronimo, hope you will make peace with us Apache.",
@@ -706,7 +706,7 @@
 		"cityStateType": "Militaristic"
 		"startBias": ["None"],
 		
-		"declaringWar": "We don't accept you as a traveller anymore, but as the evil on this earth. Our soldiers will meet you on the battlefield.",
+		"declaringWar": "We don't accept you as a traveler anymore but as the evil on this earth. Our soldiers will meet you on the battlefield.",
 		"attacked": "Frase",
 		"defeated": "Every battle cannot be won. Howouunoni. Have mercy on me. Have mercy on my people. Because beware, we are still strong in defeat.",
 		"introduction": "Tous, my fellow traveller. I am Pretty Nose of the Arapaho, and I would see that you do no harm while in my lands.",
@@ -775,7 +775,7 @@
 		"innerColor": [255,100,100],
 		     
 		"uniqueName": "The Indian General",
-		"uniques": ["When at war, recieve +25% attack effectiveness for every Infantry units and +25% defensiveness when the Infantry units is in defense."],
+		"uniques": ["When at war, receive +25% attack effectiveness for every Infantry units and +25% defensiveness when the Infantry units is in defense."],
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
@@ -815,7 +815,7 @@
 		"innerColor": [222,227,222],
 		     
 		"uniqueName": "Sint-chakkee",
-		"uniques": ["When at war, units will ignores terrain cost and can have a movement of 5 when in Seminole's or in an ally territories."],
+		"uniques": ["When at war, units will ignore terrain cost and can have a movement of 5 when in Seminole's or in an ally territories."],
 		     
 		"cities": ["Cuscowilla"]
 	},
@@ -826,7 +826,7 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "You think we will let you free without a punishment? Prepare for war, because your actions in other places have reached my ear. Let's fight!",
+		"declaringWar": "You think we will set you free without a punishment? Prepare for war, because your actions in other places have reached my ear. Let's fight!",
 		"attacked": "Oh really, then show us then. Show us that you are capable of fighting with us people.",
 		"defeated": "This nation is like a spring freshet; it overruns its banks and destroys all who are in its path.",
 		"introduction": "Each man is good in the sight of the Great Spirit. I am here by the will of the Great Spirit, and by his will I am Chief.",
