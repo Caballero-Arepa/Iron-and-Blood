@@ -1041,43 +1041,43 @@
 	},
 	{
                 "name": "The Shoshone",
-		"leaderName": "Leader Name",
+		"leaderName": "Pocatello",
 		"adjective": ["Shoshone"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"cityStateType": "Militaristic",
+		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Shoshone will prevail, you foreigners, we will kill you all!",
+		"attacked": "I must make you foreigners go away from our lands forever!",
+		"defeated": "You damned people! I assure you, we will come back!",
+		"introduction": "I am Chief Pocatello. You have arrived in the thick of Shoshone land.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [250,120,0],
+		"innerColor": [22,235,230],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Great Expanse",
+		"uniques": ["Founded cities start with additional territory. Units receive a combat bonus when fighting within their own territory (+15% Melee strength unit strength)."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Moson Kahni","Agaidike","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Tukudeka","Skull Valley","Big Pine","Duck Valley"]
 	},
         {
                 "name": "The Chinook",
 		"leaderName": "Comcomly",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+		"adjective": ["Chinook"],
+		"cityStateType": "Mercentile",
+		"startBias": ["Coast","Tundra"],
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"defeated": "All we have exchanged is blows, and we have lost. I accept defeat, but the Chinook people won't.",
+		"introduction": "I am Chief Comcomly, and in the name of the Chinook Confederacy I greet you, with hopes that trade will flow freely between our peoples.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [250,120,0],
+		"innerColor": [0,1,2],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "The Salmon Migrations",
+		"uniques": ["Coastal resources are automatically improved. Salmon and Orca may periodically migrate to and from Cities within range of the Coast, being more likely to migrate to cities next to Rivers."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Chinook","Clastop","Qaniak","Cathlamet","Cathlapotle","Willamette Falls","Nechacolee"]
 	},
 	{
                 "name": "The Pawnee",
@@ -1091,13 +1091,13 @@
 		"defeated": "Speech",
 		"introduction": "Speech?",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [250,120,0],
+		"innerColor": [250,236,236],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Morning Star Ritual",
+		"uniques": ["Farms yield Faith when adjacent to a River. Gain Golden Age points based on the Faith per turn."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Pawnee","Pawnee City"]
 	},
 	{
                 "name": "The Crow",
