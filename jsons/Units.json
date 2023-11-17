@@ -32,6 +32,22 @@
 		]
 	},
 	{
+		"name": "Mountaineer",
+		"replaces": "Grenadier",
+		"uniqueTo": "Virginia",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"obsoleteTech": "Flintlocks",
+		"upgradesTo": "Flintlock Infantry",
+		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>","+20% Strength when <on [Hills] tiles> or <neighboring [1] to [6] [Hills] or [Mountain] tiles>"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "We Mountaineer will be crushing y'all with the high grounds on our side."}
+		]
+	},
+	{
 		"name": "Flintlock Infantry",
 		"unitType": "Infantry",
 		"movement": 2,
