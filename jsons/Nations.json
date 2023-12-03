@@ -1932,14 +1932,14 @@
 		"startBias": ["None"],
 		"preferredVictoryType": "Domination",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
+		"declaringWar": "You think that Persia will die?! We will show you the might of Persia!",
+		"attacked": "Persia will break every bone that your nation has and make your nation bend the knees. Make sure to beg me when your nation is perished.",
+		"afterPeace": "Guess you're lucky to survive another day...",
 		"defeated": "My empire has crumbled, like those before it. Perhaps the sun has finally set on this fine land.",
 		"introduction": "Welcome to Persia, visitor! Her history is rich, and I endeavour to ensure her future is similarly so.",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"neutralHello": "Welcome to Persia. What brings you here?",
+		"hateHello": "Greetings... Why are you here?",
+		"tradeRequest": "Persia is in a favor of trading with you, would you accept this offer?",
 
 		"outerColor": [23,160,23],
 		"innerColor": [180,180,23],
@@ -1947,7 +1947,7 @@
 		"uniqueName": "Royal Tours",
 		"uniques": ["Receive Science from Friends while discovering Techs they have already discovered, and receive Golden Age Points for completing these Techs. +50% Combat Strength vs Cities during a Golden Age."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Tehran","city","cities","city"]
 	},      
 	//Asian City-States - Gold: 218,215,47
 	{
@@ -2292,23 +2292,23 @@
 	},
 	{
                 "name": "Đại Nam",
-		"leaderName": "Mình Mạng",
+		"leaderName": "Minh Mạng",
 		"adjective": ["Vietnamese"],
 		"cityStateType": "Militaristic",
 		"startBias": ["Forest"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Khốn thay cho ngươi!",
+		"declaringWar": "Hôm nay, ta sẽ hủy hoại nhà ngươi! Cho đến khi ngươi tàn phế rồi mới thôi!",
+		"attacked": "Sao ngươi dám?! Ta sẽ gửi quân phá hủy dân tộc các ngươi! Chuẩn bị đi!",
+		"defeated": "Khốn thay cho ngươi! Sẽ có ngày Đại Nam sẽ nổi lên chống lại ngươi!",
 		"introduction": "Chào mừng, chào mừng, chào mừn ngươi đã đến Đại Nam, may I take you to our court?",
 
 		"outerColor": [230,121,87],
 		"innerColor": [222,227,23],
 		     
 		"uniqueName": "Nam quốc sơn hà Nam đế cư",
-		"uniques": ["When every natio"],
+		"uniques": ["[Đại Nam] will never get influence from any major civilizations unless got a good relations with [Đại Nam]."],
 		     
-		"cities": ["Thăng Long","city","cities","city"]
+		"cities": ["Phú Xuân","Thăng Long","Gia Định","Hải Phòng","Nam Vang"]
 	},
 	{
 	        "name": "Sarawak",
@@ -2348,7 +2348,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Taipei","Kaohsiung","Tainan","Taichung"]
 	},
 	{
                 "name": "The Amis",
@@ -2639,8 +2639,8 @@
                 "name": "Spain (Victorian)",
 		"leaderName": "Isabella II",
 		"adjective": ["Spanish"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomacy, Domination, Science",
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
@@ -2657,7 +2657,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Madrid","Seville","Barcelona","Córdoba","Toledo","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vittoria","Oviedo","Jaen","Logroño","Valladolid","Teruel","Almeria","Léon","Zamora","Mida","Lugo","Alicante","Cádiz","Elche","Alcorcón","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao","San Sebastián","Granada","Mérida","Huelva","Palma de Mallorca","Santa Cruz de Tenerife","Asturias"]
 	},
 	{
                 "name": "Sweden-Norway",
@@ -2732,6 +2732,7 @@
 		"cities": ["London","Birmingham","Leeds","Edinburgh","Cardiff","Belfast","Dublin","Leinster","Glasgow","Liverpool","Newcastle","Oxford","Bristol","Aberdeen","Sheffield","Southampton","Portsmouth","Leicester","Coventry","Brighton","Swansea","Dundee","Canterbury","Cambridge","Cork","Plymouth","Armagh","Meath","Desmond","York","Derby","Norwich","Ipswich","Exeter","Bath","Newport","Londonderry"]
 	},
 	//European City States - White: 241,241,241
+	
 	{
                 "name": "Greece",
 		"leaderName": "Elftherios Venizelos",
@@ -2970,7 +2971,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Riga","Daugaupils","cities","city"]
 	},
 	{
                 "name": "Paris",
@@ -3010,7 +3011,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Vaduz"]
 	},
 	{
                 "name": "Bulgaria",
@@ -3030,7 +3031,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-	        "cities": ["Capital","city","cities","city"]
+	        "cities": ["Sofia","Tarnovo","Plovdiv"]
 	},
         {
                 "name": "Tyrol",
@@ -3050,7 +3051,7 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Innsbruck","Trento"]
 	},
         {
                 "name": "Galicia-Lodomeria",
@@ -3070,9 +3071,9 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Lviv","Rivne"]
 	},
-{
+        {
                 "name": "Krakow",
 		"leaderName": "Adam Jerzy Czartoryski",
 		"adjective": ["Civilian"],
@@ -3090,9 +3091,10 @@
 		"uniqueName": "Unique Name",
 		"uniques": ["Nation Unique"],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Krakow"]
 	},
 	//German CS - Grey: 126, 127, 131
+	
 	{
                 "name": "Anhalt",
 		"leaderName": "Leopold IV",
@@ -3249,14 +3251,14 @@
 		"innerColor": [226, 223, 221],
 		     
 		"uniqueName": "The Zivilgesetzbuch",
-		"uniques": ["Science bonus once ideological Thought has been researched, Gain a 5% combat bonus for 20 turns"],
+		"uniques": ["Science bonus once [Ideological Thought] has been researched, Gain a 5% combat bonus for 20 turns"],
 		     
 		"cities": ["Darmstadt","Giessen","Mainz","Bingen","Alzey","Worms","Erbach","Offenbach","Groß-Gerau","Heppenheim","Kassel","Lauterbach","Alsfeld","Büdingen","Nauheim","Geinhausen","Schlüchtern","Fulda","Hersfeld","Ziegenhain","Witzenhausen","Eschwege","Fritzlar","Melsungen","Biedenkopf","Marburg","Frankenburg","Homberg","Fritzlar","Hofgeismar"]
 	},
 	{
                 "name": "Schleswig-Holstein",
 		"leaderName": "Frederick VIII",
-		"adjective": ["Civilian of Holstein"],
+		"adjective": ["Holsteiner"],
                 "cityStateType": "Mercentile",
 		"startBias": ["None"],
 		
@@ -3276,7 +3278,7 @@
 	{
                 "name": "Lippe",
 		"leaderName": "Woldemar",
-		"adjective": ["Civilian of Lippe"],
+		"adjective": ["Lippean"],
                 "cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
@@ -3296,7 +3298,7 @@
 	{
                 "name": "Lübeck",
 		"leaderName": "Johann Hermann Heeren",
-		"adjective": ["Civilian of Lübeck"],
+		"adjective": ["Lübecker"],
                 "cityStateType": "Mercentile",
 		"startBias": ["None"],
 		
@@ -3316,7 +3318,7 @@
 	{
                 "name": "Mecklenburg",
 		"leaderName": "Frederick William",
-		"adjective": ["Civilian of Mecklenburg"],
+		"adjective": ["Mecklenburger"],
                 "cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
@@ -3336,7 +3338,7 @@
 	{
                 "name": "Oldenburg",
 		"leaderName": "Augustus I",
-		"adjective": ["Civilian of Oldenburg"],
+		"adjective": ["Oldenburger"],
                 "cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
@@ -3437,7 +3439,7 @@
 	{
                 "name": "The Papal States",
 		"leaderName": "Pius IX",
-		"adjective": ["Papal Civilian"],
+		"adjective": ["Roman"],
                 "cityStateType": "Religious",
 		"startBias": ["Hills"],
 		
