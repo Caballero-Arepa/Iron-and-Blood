@@ -213,12 +213,12 @@
 		"uniqueTo": "Prussia",
 		"replaces":"Rifled Infantry",
 		"movement": 2,
-		"strength": 30,
+		"strength": 50,
 		"cost": 25,
 		"requiredTech": "Rifled Barrels",
 		"obsoleteTech": "Bolt Action Rifles",
 		"upgradesTo": "Breeching Infantry",
-		"uniques": ["Muzzleloader"],
+		"uniques": ["Muzzleloader","+10 Strength per kills","Ignore terrain cost when in [Rough] tiles"],
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "Oh hoh hoh, do you realize that they are huge!!! You gonna see their uses. You gonna see."}
