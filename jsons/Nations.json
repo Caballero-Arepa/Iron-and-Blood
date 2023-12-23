@@ -643,11 +643,11 @@
 		"leaderName": "Francis Harrison Pierpont",
 		"adjective": ["Virginian"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Forest"],
+		"startBias": ["Forest", "Mountain"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
+		"declaringWar": "Virginia has no virtue to compare to yours! Get out of my sight, as of right now, we are officially at war.",
+		"attacked": "How dare you touch the Virginian soil?! You shall pay for what you have done to these soil!",
+		"defeated": "I am speechless, as now I am nothing but your prisoner, but the Commonwealth of Virginia shall rise once more!",
 		"introduction": "Oh greetings, as the leader of Virginia, might I say today is a great day to meet you, dear leader.",
 
 		"outerColor": [130,121,187],
@@ -665,10 +665,10 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["None"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Seems your greedy little hands DO want both Carolinas, well, we will fight until the end!",
+		"attacked": "Your attack is now let me in confirmation that you want war, so we will give you WAR!!!",
+		"defeated": "I might be a good leader, but to no avail of the state's enemies' strength. Carolina, both North and South is now yours.",
+		"introduction": "Welcome to the Carolinians' states. I am the current leader of this land, and may I be pleased to see you here.",
 
 		"outerColor": [130,121,87],
 		"innerColor": [222,227,236],
@@ -746,9 +746,9 @@
 		"cityStateType": "Mercentile",
 		"startBias": ["Plains"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
+		"declaringWar": "It seems a warning is not meaning to you, then fine, we will declare war on you.",
+		"attacked": "How about you taking one step into my land and see what will happen.",
+		"defeated": "This will marked the beginning of your end, I am sure of it!",
 		"introduction": "I am Tishomingo, leader of the Chickasaw. You should be careful to announcing war on us.",
 
 		"outerColor": [250,120,0],
