@@ -1299,6 +1299,26 @@
 		     
 		"cities": ["Capital","city","cities","city"]
 	},
+	{
+                "name": "The Three Affiliated Tribes",
+		"leaderName": "Four Bears",
+		"adjective": ["Mandan","Hidatsa","Arikara"],
+		"cityStateType": "Mercentile",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Buffalo Bird Woman"s Garden",
+		"uniques": ["Farms increase the [Range] and [Gold] earnt from [Outgoing Trade Route] in [Cities] that working with them"],
+		     
+		"cities": ["Like-a-Fishhook","Parshall"]
+	},
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -2888,8 +2908,8 @@
 		"outerColor": [190,0,57],
 		"innerColor": [222,227,236],
 		     
-		"uniqueName": "Sonderbund War",
-		"uniques": ["Doubled Great General rate in own borders. Forts and Citadels generate Great Engineer Points during peace and heal adjacent Units during war."],
+		"uniqueName": "Confoederatio Helvetica",
+		"uniques": ["Doubled Great General rate in own borders. Forts and Citadels generate Great Engineer Points during peace and heal adjacent Units during the war. Your cities provide bonuses similar to the City-States' ones that can be acquired by Gold or sold to the other civilizations."],
 		     
 		"cities": ["Bern","Zürich","Geneva","Basel","Lucerne","St.Gallen","Lausanne","Winterthur","Lugano","Biel","Thun","Schaffhausen","La Chaux de Fonds","Fribourg","Chur","Neuhatel","Vernier","Uster","Sion","Emmen","Portein","Corippo","Mulegns","Bister","Martisberg","Goumoens le Jux","Largario","Clugin","Cauco"]
 	},
