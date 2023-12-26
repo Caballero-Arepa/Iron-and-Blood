@@ -298,7 +298,7 @@
                 "name": "Uruguay",
 		"leaderName": "José Batlle",
 		"adjective": ["Uruguayan"],
-                "cityStateType": "Mercentile",
+                "cityStateType": "Mercantile",
 		"startBias": ["River"],
 		
 		"declaringWar": "I, the interim president of the Oriental Republic of Uruguay, hereby declare war on you for your unforgivable actions.",
@@ -318,7 +318,7 @@
 		"name": "Yucatán",
 		"leaderName": "Santiago Mendez",
 		"adjective": ["Yucatecan"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["None"],
 
 		"declaringWar": "We Yucatecans have the spirit of the Mayan warrioirs of the olden days, and now we will show it.",
@@ -398,7 +398,7 @@
                 "name": "California",
 		"leaderName": "William Brown Ide",
 		"adjective": ["Californian"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "The war is inevitable between us, and you make my nerva go nuts! We will show you that we do not weak and we will beat you up.",
@@ -518,7 +518,7 @@
                 "name": "Rupert's Land",
 		"leaderName": "George Simpson",
 		"adjective": ["Northwesterner"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["Tundra"],
 		
 		"declaringWar": "Although I and Hudson's Bay Company are not the means to fight, we still have an army, so be careful, 'cause this maybe your last war you could ever participate in.",
@@ -558,7 +558,7 @@
                 "name": "Oregon",
 		"leaderName": "John Whiteaker",
 		"adjective": ["Oregonian"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
@@ -655,7 +655,7 @@
 		"cities": ["Capital","city","cities","city"]
 	},
 	//Native American CS  - Orange: 255,120,0
-	{
+	/*{
                 "name": "Apache",
 		"leaderName": "Geronimo",
 		"adjective": ["Apache"],
@@ -719,7 +719,7 @@
                 "name": "Chickasaw",
 		"leaderName": "Tishomingo",
 		"adjective": ["Chickasaw"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "Frase",
@@ -1274,7 +1274,7 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital","city","cities","city"]
-	},
+	},*/
 	//Africa
 	{
                 "name": "The Boer Republics",
@@ -1525,7 +1525,7 @@
                 "name": "Liberia",
 		"leaderName": "Joseph Jenkins Roberts",
 		"adjective": ["Liberian"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "We don't want to make any conflict between us, but the tension is too much. I must declare war on you.",
@@ -1950,7 +1950,7 @@
                 "name": "Korea",
 		"leaderName": "Gojong (Yi Myeongbok)",
 		"adjective": ["Korean"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Our ministers decided that your nation is counted. Be sure to ready before it hits the fan.",
@@ -1970,7 +1970,7 @@
                 "name": "Lanfang",
 		"leaderName": "Luo Fangbo",
 		"adjective": ["Civilian of Lanfang"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["Jungle"],
 		
 		"declaringWar": "Your actions are unacceptable! You acts cruel upon us long enough! Prepare for war!",
@@ -2275,7 +2275,7 @@
 		
 		"declaringWar": "Frase",
 		"attacked": "Frase",
-		"defeated": Khốn thay cho ngươi!",
+		"defeated": "Khốn thay cho ngươi!",
 		"introduction": "Chào mừng, chào mừng, chào mừn ngươi đã đến Đại Nam, may I take you to our court?",
 
 		"outerColor": [230,121,87],
@@ -2290,7 +2290,7 @@
 	        "name": "Sarawak",
 		"leaderName": "James Brooke",
 		"adjective": ["Sarawakian"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Frase",
@@ -2752,7 +2752,7 @@
                 "name": "Monaco",
 		"leaderName": "Albert I",
 		"adjective": ["Monégasque"],
-		"cityStateType": "Mercentile",
+		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "Monaco is afraid that your actions is not good for Monaco, so I, Prince of Monaco, hereby declare war on you.",
@@ -3173,7 +3173,7 @@
                 "name": "Hamburg",
 		"leaderName": "Amandus Augustus Abendroth",
 		"adjective": ["Hamburger"],
-                "cityStateType": "Mercentile",
+                "cityStateType": "Mercantile",
 		"startBias": ["River"],
 		
 		"declaringWar": "I don't that this is a fair fight, but, if I must to, I must to. Today, you and I are enemy, not neutral nor friend nor ally.",
@@ -3233,7 +3233,7 @@
                 "name": "Schleswig-Holstein",
 		"leaderName": "Frederick VIII",
 		"adjective": ["Civilian of Holstein"],
-                "cityStateType": "Mercentile",
+                "cityStateType": "Mercantile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Åh nej, det gør du ikke! I see that you are treat us like nothing but a puppet, we will show you! I will call Denmark down to stop doing that to us.",
@@ -3273,7 +3273,7 @@
                 "name": "Lübeck",
 		"leaderName": "Johann Hermann Heeren",
 		"adjective": ["Civilian of Lübeck"],
-                "cityStateType": "Mercentile",
+                "cityStateType": "Mercantile",
 		"startBias": ["None"],
 		
 		"declaringWar": "Du Böser! Du Grausamer! You took Lübeck as if it was leaderless, so let's see how you fight against my army.",
@@ -3372,7 +3372,7 @@
 	//Italian CS - Green: 70, 114, 60
 	{
                 "name": "Lucca",
-		"leaderName":"Maria Luisa"
+		"leaderName":"Maria Luisa",
 		"adjective": ["Lucchesi"],
                 "cityStateType": "Cultural",
 		"startBias": ["None"],
@@ -3476,7 +3476,7 @@
 	//Spectator
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255]
+		"outerColor": [255,255,255],
 		"innerColor": [0,0,0]
 	},
 	//Barbarian
@@ -3487,7 +3487,7 @@
 		"uniques": ["Can only heal by pillaging"]
 	},
 	//Templates
-	{
+	/*{
                 "name": "Template",
 		"leaderName": "Leader Name",
 		"adjective": ["Civilian"],
@@ -3529,5 +3529,5 @@
 		"uniques": ["Nation Unique"],
 		     
 		"cities": ["Capital"]
-	},
+	},*/
 	]

@@ -24,13 +24,13 @@
 				"name": "Rights of Man",
 				"row": 2,
 				"prerequisites": ["Enlightenment"],
-				"quote": "Independence is my happiness, and I view things as they are, without regard to place or person; my country is the world, and my religion is to do good. Whatever is my right as a man is also the right of another; and it becomes my duty to guarantee as well as to possess.   -Thomas Paine",
+				"quote": "Independence is my happiness, and I view things as they are, without regard to place or person; my country is the world, and my religion is to do good. Whatever is my right as a man is also the right of another; and it becomes my duty to guarantee as well as to possess. - Thomas Paine"
 			},
 			{
 				"name": "Private Banks",
 				"row": 5,
 				"prerequisites": ["Enlightenment"],
-				"quote": "If the American people ever allow private banks to control the issue of their currency, first by inflation, then by deflation, the banks and corporations that will grow up around them will deprive the people of all property until their children wake up homeless on the continent their Fathers conquered.   -Thomas Jefferson",
+				"quote": "If the American people ever allow private banks to control the issue of their currency, first by inflation, then by deflation, the banks and corporations that will grow up around them will deprive the people of all property until their children wake up homeless on the continent their Fathers conquered. - Thomas Jefferson"
 			},
 			{
 				"name": "Guild-based Production",
@@ -407,7 +407,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Long XX Century",
+		"era": "Long XIX Century",
 		"techCost": 220,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -423,7 +423,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Long XX Century",
+		"era": "Long XIX Century",
 		"techCost": 500,
 		"buildingCost": 40,
 		"wonderCost": 185,
