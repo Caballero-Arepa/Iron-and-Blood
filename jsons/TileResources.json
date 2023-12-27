@@ -52,7 +52,7 @@
 		"production": 1,
 		"improvedBy": ["Fishing Boats"],
 		"improvementStats": {"production": 1}
-       },
+        },
 	{
 		"name": "Corn (Maize)",
 		"resourceType": "Bonus",
@@ -60,7 +60,7 @@
 		"food": 2,
 		"improvedBy": ["Farm"],
 		"improvementStats": {"production": 1}
-       },
+        },
 	{
 		"name": "Gold",
 		"resourceType": "Luxury",
@@ -70,7 +70,7 @@
 		"gold": 5,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 2, "gold": 5}
-       },
+        },
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
@@ -78,7 +78,7 @@
 		"production": 2,
 		"improvedBy": ["Mine"],
 		"improvementStats": {"production": 2}
-       },
+        },
 	{
 		"name": "Silk",
 		"resourceType": "Luxury",
@@ -86,7 +86,7 @@
 		"gold": 3,
 		"improvedBy": ["Plantations"],
 		"improvementStats": {"gold": 3}
-       },
+        },
 	{
 		"name": "Shrimp",
 		"resourceType": "Bonus",
@@ -96,23 +96,23 @@
 		"improvedBy": ["Fishing Boats"],
 		"improvementStats": {"food": 1, "gold": 2}
        },
- {
+       {
 		"name": "Wood",
 		"resourceType": "Strategic",
 		"revealedBy": "Enlightenment",
 		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"production": 3,
-  "gold": 1,
+                "gold": 1,
 		"improvedBy": ["Lumber Mill"],
 		"improvementStats": {"production": 2},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [120] <in [Forest] tiles>",
-    "Generated with weight [100] <in [Jungle] tiles>",
+                                        "Generated with weight [100] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [150] <in tiles with [Forest]> <in [Fresh Water] tiles>",
-					"Minor deposits generated with weight [100] <in tiles with [Forest]> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in tiles with [Jungle]>"],
+					"Minor deposits generated with weight [150] <in [Forest] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [100] <in [Forest] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [Jungle] tiles>"],
 		"majorDepositAmount": {"sparse": 6, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7}
 	},
