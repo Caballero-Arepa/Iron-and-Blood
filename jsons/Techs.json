@@ -378,6 +378,7 @@
 				"name": "International Standard",
 				"row": 4,
 				"prerequisites": ["Advanced Medicine","Cloride"],
+				"uniques": ["Unlocks the League of Nations"],
 				"quote": "quote",
 			},
 			{
@@ -407,22 +408,6 @@
 		]
 	},
 	{
-		"columnNumber": 9,
-		"era": "Long XIX Century",
-		"techCost": 220,
-		"buildingCost": 40,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name":"Internationalist Relations",
-				"row": 5,
-				"prerequisites": ["International Standard"],
-				"uniques": ["Can build League of Nations."],
-				"quotes": "",
-			},
-		]
-	},
-	{
 		"columnNumber": 10,
 		"era": "Long XIX Century",
 		"techCost": 500,
@@ -432,7 +417,7 @@
 			{
 				"name": "The Future",
 				"row": 5,
-				"prerequisites": ["Cinematography", "Machine Guns", "Radio", "Flight", "Advanced Hydrodinamics", "Magazines","Internationalist Relations"],
+				"prerequisites": ["Cinematography", "Machine Guns", "Radio", "Flight", "Advanced Hydrodinamics", "Magazines"],
 				"quote": "quote",
 				"uniques": ["Can be continually researched"]
 			},
