@@ -3176,7 +3176,27 @@
 	{
                 "name": "Karelia",
 		"leaderName": "Ukki Väinämöinen",
-		"adjective": ["Civilian"],
+		"adjective": ["Karelian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
+                "name": "Corsica",
+		"leaderName": "Filippo Antonio Pasquale de' Paoli",
+		"adjective": ["Corsican"],
 		"cityStateType": "Type",
 		"startBias": ["terrains"],
 		
