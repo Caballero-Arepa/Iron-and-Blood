@@ -183,6 +183,20 @@
 	        "requiredTech":"Patriotism",
 	        "uniques":["Gives a free [Great General] and a free [Great Work of Art] slot, +5 Culture and +10 Tourism"]
         },
+	/1st Industrial Era
+	{
+	        "name": "Hospital",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 15,
+	        "gold": 5,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 1,
+	        "cost": 25,
+		"requiredTech": ["Medicine"],
+	        "uniques":["[+5]% Health for [Land] units every turn."]
+        },
 	//Victorian Era
 	{
 	        "name": "Eiffel Tower",
