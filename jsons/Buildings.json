@@ -183,7 +183,7 @@
 	        "requiredTech":"Patriotism",
 	        "uniques":["Gives a free [Great General] and a free [Great Work of Art] slot, +5 Culture and +10 Tourism"]
         },
-	/1st Industrial Era
+	//First Industrial Era
 	{
 	        "name": "Hospital",
 	        "isNationalWonder": false,
