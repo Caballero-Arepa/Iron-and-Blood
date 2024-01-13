@@ -1,6 +1,6 @@
 [
 //Temporal
-	/*{
+	{
 		"name": "Samurai",
 		"unitType": "Sword",
 		"replaces": "Grenadier",
@@ -15,7 +15,7 @@
         "civilopediaText": [
 			{"text": "It seems those times are at the end. But the Shogun still there means Japan still there."}
 		]
-	},*/
+	},
 //Infantry
 	{
 		"name": "Grenadier",
@@ -62,7 +62,7 @@
         "civilopediaText": [
 			{"text": "Drafted men armed with muskets, each made by an artisan, each different to the other,\nand very well may or may not hit their target. That's why you form them up in lines."}
 		]
-	},/*
+	},
 	{
 		"name": "Tanegashima Infantry",
 		"replaces": "Flintlock Infantry",
@@ -79,7 +79,7 @@
         "civilopediaText": [
 			{"text": "Thanks to the west, we can have flintlocks. Good uses, and more importantly, good formations."}
 		]
-	},*/
+	},
 	{
 		"name": "Rifled Infantry",
 		"unitType": "Infantry",
@@ -151,7 +151,7 @@
         "civilopediaText": [
 			{"text": "Capable of shooting multiple rounds without reloading, this bad boys will roll over the enemy and will be home by December, be sure of it."}
 		]
-	},/*
+	},
 	{
 		"name":"Redcoat",
 		"unitType":"Infantry",
@@ -223,7 +223,7 @@
         "civilopediaText": [
 			{"text": "Oh hoh hoh, do you realize that they are huge!!! You gonna see their uses. You gonna see."}
 	]	
-	},*/
+	},
 //Machine guns
 	{
 		"name": "Gatling Gunner",
@@ -294,7 +294,7 @@
 		]
 	},
 	//Calvary
-	/*{
+	{
 		"name": "Calvary",
 		"unitType": "Calvary",
 		"requiredResource": "Horse",
@@ -574,7 +574,7 @@
                 "civilopediaText": [
 			            {"text": "These ships are kinda strong against the army, not the navy... For Brazil, I guess!"}
 		                   ]
-	},*/
+	},
 	//Civilian Ship
 	{
 		"name": "Work Boats",
@@ -636,7 +636,7 @@
 		"cost": 25,
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
-	},/*
+	},
         {
 		"name": "Chassure",
 		"replaces": "Scout",
@@ -647,7 +647,7 @@
 		"cost": 20,
 		"uniques": ["Never appears as a Barbarian unit", "Can move after attacking"],
 		"attackSound": "nonmetalhit"
-	},*/
+	},
 	{
 		"name": "Lawyer",
 		"unitType": "Civilian",
@@ -687,7 +687,7 @@
 		"strength": 5,
 		"uniques": ["Can build a [Bakufu-han], which is a [Land] improvement that governs a region.", "Can expand the [Bakufu-han] improvement 10 times", "+25% Strength bonus for [Military] units within 3 tiles"],
 		"cost": 300,
-	},*/
+	},
 	/* Great people */
 
 	{
