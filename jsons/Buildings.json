@@ -194,7 +194,7 @@
 		"faith": 0,
 	        "cityStrength": 1,
 	        "cost": 25,
-		"requiredTech": ["Medicine"],
+		"requiredTech": "Medicine",
 	        "uniques":["[+5]% Health for [Land] units every turn."]
         },
 	//Victorian Era
