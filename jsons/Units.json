@@ -636,8 +636,8 @@
 		"cost": 25,
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
-	},
-{
+	},/*
+        {
 		"name": "Chassure",
 		"replaces": "Scout",
 		"uniqueTo": "France (First Empire)",
@@ -647,7 +647,7 @@
 		"cost": 20,
 		"uniques": ["Never appears as a Barbarian unit", "Can move after attacking"],
 		"attackSound": "nonmetalhit"
-	},
+	},*/
 	{
 		"name": "Lawyer",
 		"unitType": "Civilian",
