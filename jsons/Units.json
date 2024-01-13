@@ -224,6 +224,23 @@
 			{"text": "Oh hoh hoh, do you realize that they are huge!!! You gonna see their uses. You gonna see."}
 	]	
 	},
+	{
+		"name": "Shenjiying",
+		"replaces": "Breeching Infantry",
+		"unitType": "Infantry",
+		"uniqueTo": "Qing",
+		"movement": 2,
+		"strength": 19,
+		"cost": 55,
+		"requiredTech": "Breech-loading",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Bold Action Infantry",
+		"uniques": ["Muzzleloader","Train half the time when trained in the [Capital]"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Finally, some actions... -Steven He"}
+		]
+	},
 //Machine guns
 	{
 		"name": "Gatling Gunner",
@@ -332,6 +349,8 @@
 		"name": "Qazzaq",
 		"replaces": "Cavalry",
 		"unitType": "Cavalry",
+		"requiredResource": "Horse",
+		"uniqueTo": "Persia",
 		"movement": 4,
 		"strength": 20,
 		"cost": 40,
@@ -589,6 +608,24 @@
 		"attackSound": "shot",
                 "civilopediaText": [
 			            {"text": "These ships are kinda strong against the army, not the navy... For Brazil, I guess!"}
+		                   ]
+	},	
+	{
+	        "name": "Mikasa",
+		"unitType": "Militant Ship",
+		"replaces": "Ironclad",
+		"uniqueTo": "Japan (Empire)",
+		"requiredResource": "Steel",
+		"movement": 5,
+		"sight": 5,
+		"range": 5,
+		"strength": 40,
+		"cost": 45,
+		"requiredTech": "Steel",
+		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "[+25]% Combat Strength vs [Militant Ship] units","[+25]% Combat Strength when fighting on friendly tiles","Generates [10] Golden Age points when completed"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Meet the backbone of the Japanese Empire itself! The greatest ship you will ever see made in Japan!"}
 		                   ]
 	},
 	//Civilian Ship
