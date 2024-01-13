@@ -329,6 +329,22 @@
 		                   ]
 	},
 	{
+		"name": "Qazzaq",
+		"replaces": "Cavalry",
+		"unitType": "Cavalry",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","Ignores terrain cost","[+10]% Strength bonus when stacked with a [Great General]"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "I feel confused, am I Persian or Caucasian? Nah, I serve for the Qajars, I am a Persian."}
+		]
+	},
+	{
 		"name": "Gaucho",
 		"unitType": "Calvary",
 		"requiredResource": "Horse",
