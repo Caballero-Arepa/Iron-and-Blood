@@ -543,77 +543,122 @@
 			            {"text": "The times have changed, you know what to do."}
 		                   ]
 	},
-	//Militant Ships
+	//Light Ship
 	{
-		"name": "Caravel",
-		"unitType": "Militant Ship",
+		"name": "Corvette",
+		"unitType": "Light Ship",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Steam Engine",
+		"uniques": ["Wooden-ship"]
+	},
+	{
+		"name": "Monitor",
+		"unitType": "Light Ship",
+		"movement": 3,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Pressure Steam Engine",
+		"uniques": ["Armored-ship"]
+	},
+	{
+		"name": "Torpedo Boat",
+		"unitType": "Light Ship",
+		"movement": 5,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Advanced Metalcasting",
+		"uniques": ["May withdraw before melee ([50]%)",
+					"Torpedo"]
+	},
+	{
+		"name": "Torpedo Cruiser",
+		"unitType": "Light Ship",
 		"movement": 4,
-		"sight": 4,
-		"strength": 16,
-		"cost": 25,
-		"obsoleteTech": "Steel",
-		"upgradesTo": "Ironclad",
-		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
-		"attackSound": "shot",
-                "civilopediaText": [
-			            {"text": "Ahoy! This is the basic ships at the time!"}
-		                   ]
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Advanced Hydrodinamics",
+		"uniques": ["Torpedo"]
+	},
+		//Gunboat
+	{
+		"name": "Frigate",
+		"unitType": "Gunboat",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Steam Engine",
+		"uniques": ["Wooden-ship"]
+	},
+	{
+		"name": "Armored Frigate",
+		"unitType": "Gunboat",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Steel",
+		"uniques": ["Armored-ship"]
+	},
+	{
+		"name": "Gunboat",
+		"unitType": "Gunboat",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Dynamite",
+		"uniques": ["Armored-ship"]
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Gunboat",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Combustion Engine",
+		"uniques": ["Armored-ship"]
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Gunboat",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "International Standard",
+		"uniques": ["Armored-ship"]
+	},
+		//Man'o'War
+	{
+		"name": "Ship of the Line",
+		"unitType": "Man'o'War",
+		"movement": 4,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Enlightenment",
+		"uniques": ["Wooden-ship"]
 	},
 	{
 		"name": "Ironclad",
-		"unitType": "Militant Ship",
-		"requiredResource": "Coal",
-		"movement": 4,
-		"sight": 4,
-		"range": 3,
-		"strength": 30,
-		"cost": 45,
-		"requiredTech": "Steel",
-		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "+33% Strength vs Cities"],
-		"attackSound": "shot",
-                "civilopediaText": [
-			            {"text": "Thanks to Steel, we can go even further!"}
-		                   ]
-	},
-	{
-		"name": "Royal Ship of the Line",
-		"unitType": "Militant Ship",
-		"replaces": "Caravel",
-		"uniqueTo": "United Kingdom",
-		"movement": 5,
-		"sight": 4,
+		"unitType": "Man'o'War",
+		"movement": 3,
 		"strength": 20,
-		"cost": 20,
-		"obsoleteTech": "Steel",
-		"upgradesTo": "Ironclad",
-		"uniques": ["Can withdraw before melee attacks","Can stacked with a [Great Admiral] for +5% Strength bonus", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
-		"attackSound": "shot",
-                "civilopediaText": [
-			            {"text": "This is the reason why Britannia rules the waves!"}
-		                   ]
+		"cost": 40,
+		"requiredTech": "Steel",
+		"uniques": ["Armored-ship"]
 	},
 	{
-		"name": "Canhoneira",
-		"unitType": "Militant Ship",
-		"replaces": "Ironclad",
-		"uniqueTo": "Brazil",
-		"requiredResource": "Steel",
-		"movement": 4,
-		"sight": 4,
-		"range": 5,
-		"strength": 30,
-		"cost": 45,
-		"requiredTech": "Steel",
-		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "+33% Strength vs Cities", "Uses [Steel] rather than [Coal]", "+25% Combat Strength vs [Land] units and Cities", "-25% Combat Strength vs [Militant Ship] units"],
-		"attackSound": "shot",
-                "civilopediaText": [
-			            {"text": "These ships are kinda strong against the army, not the navy... For Brazil, I guess!"}
-		                   ]
-	},	
+		"name": "Cruiser",
+		"unitType": "Man'o'War",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Advanced Metalcasting",
+		"uniques": ["Armored-ship"]
+	},
 	{
 	        "name": "Mikasa",
-		"unitType": "Militant Ship",
-		"replaces": "Ironclad",
+		"unitType": "Man'o'war",
+		"replaces": "Cruiser",
 		"uniqueTo": "Japan (Empire)",
 		"requiredResource": "Steel",
 		"movement": 5,
@@ -621,13 +666,41 @@
 		"range": 5,
 		"strength": 40,
 		"cost": 45,
-		"requiredTech": "Steel",
-		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "[+25]% Combat Strength vs [Militant Ship] units","[+25]% Combat Strength when fighting on friendly tiles","Generates [10] Golden Age points when completed"],
+		"requiredTech": "Advanced Metalcasting",
+		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "[+25]% Combat Strength vs [Militant Ship] units","[+25]% Combat Strength when fighting on friendly tiles","Generates [10] Golden Age points when completed","Armored-ship"],
 		"attackSound": "shot",
                 "civilopediaText": [
 			            {"text": "Meet the backbone of the Japanese Empire itself! The greatest ship you will ever see made in Japan!"}
 		                   ]
 	},
+	{
+		"name": "Pre-dreadnought",
+		"unitType": "Man'o'War",
+		"movement": 5,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "International Standard",
+		"uniques": ["Armored-ship"]
+	},
+	{
+		"name": "Dreadnought",
+		"unitType": "Man'o'War",
+		"movement": 4,
+		"strength": 50,
+		"cost": 40,
+		"requiredTech": "The Future",
+		"uniques": ["Armored-ship"]
+	},
+		//Submarine
+	{
+		"name": "Submarine",
+		"unitType": "Submarine",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Advanced Hydrodinamics",
+		"uniques": ["May withdraw before melee ([73]%)"]
+	},	
 	//Civilian Ship
 	{
 		"name": "Work Boats",
