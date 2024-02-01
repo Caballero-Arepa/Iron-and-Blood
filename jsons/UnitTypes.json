@@ -37,7 +37,15 @@
 	"movementType": "Water",
     },
     {
-	"name": "Militant Ship",
+	"name": "Light Ship",
+	"movementType": "Water",
+    },
+    {
+	"name": "Gunboat",
+	"movementType": "Water",
+    },
+    {
+	"name": "Man'o'war",
 	"movementType": "Water",
     },
 	//Artillery
