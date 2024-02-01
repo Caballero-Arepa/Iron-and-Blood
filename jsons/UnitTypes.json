@@ -8,6 +8,10 @@
         "name": "Lancer",
         "movementType": "Land"
     },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
 	//Civilian
     {
         "name": "Civilian",
@@ -19,44 +23,25 @@
         "movementType": "Land"
     },
     {
-        "name": "Machine Gun",
+        "name": "Machinegunner",
         "movementType": "Land"
     },
-	//Cavalry
+    //Naval
     {
-	"name": "Calvary",
-	"movementType": "Land",
+        "name": "Light Ship",
+        "movementType": "Water"
     },
     {
-	"name": "Automobile",
-	"movementType": "Land",
-    },
-	//Naval
-    {
-	"name": "Civilian Ship",
-	"movementType": "Water",
+        "name": "Gunboat",
+        "movementType":"Water"
     },
     {
-	"name": "Militant Ship",
-	"movementType": "Water",
-    },
-	//Artillery
-    {
-	"name": "Artillery",
-	"movementType": "Land",
-    },
-	//Scout
-    {
-        "name": "Scout",
-        "movementType": "Land"
-    },
-	//Aeromobile
-    {
-        "name": "Plane",
-        "movementType": "Air"
+        "name": "Man'o'War",
+        "movementType": "Water"
     },
     {
-        "name": "Airship",
-        "movementType": "Air"
-    },
+        "name": "Submarine",
+        "movementType": "Water"
+    }
+
 ]
