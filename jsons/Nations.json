@@ -1,34 +1,11 @@
 [
 	//These are the nations. Organized first by Continent, then Major Nations first, then Minor nation, all in alphabetical order.
-	// Yes, minor nations also do get Unique Abilites and dialogues. They also follow a color code, depending on their association are.
+	// Yes, minor nations also do get Unique Abilites and dialogues. They also follow a color code, depending on their culture is.
 	// German CS have Grey background, Italian CS have Green Background, American Natives CS are Orange, African CS are Khaki, etc... These will be listed at the begging of their section.
 	
 	
 	//America
-	{
-                "name": "Argentina",
-		"leaderName": "José de San Martín",
-		"adjective": ["Argentinian","Argentine"],
-		"startBias": ["River"],
-		"preferredVictoryType": "Culture",
-		
-		"declaringWar": "Argentina isn't wanted to do this, but you made it to do it. We're going to have a war with you!",
-		"attacked": "Why would you wanted to declare war on us?! Oh dear, Argentina will not be peaceful with you for a while...",
-		"afterPeace": "¡Alegría! ¡Alegría! ¡Alegría para toda la Argentina! Today marks the day where Argentina is free from war and conflict! I hope we could be like this forever.",
-		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
-		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm José de San Martín.",
-		"neutralHello": "Greetings! What can Argentina do for you?",
-		"hateHello": "Oh dear, my people don't want you to be here. But, what can Argentina do for you?",
-		"tradeRequest": "Argentina wanted to trade with you! Would you accept this amazing deal from us Argentine?",
-
-		"outerColor": [32, 128, 147],
-		"innerColor": [245, 215, 105],
-		     
-		"uniqueName": "Pride of the People",
-		"uniques": ["+1 Food on Pastures. Upon researching Rights of Man, receive a Gaucho in all of your cities, which yields +2 Culture and +2 Production and works towards generation of a Great Person of your choice."],
-		     
-		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Córdoba","Santa Fé","Rosario","Carmen de Patagones","Rio Negro","Tierra de Fuego"]
-	},
+	
 	{
                 "name": "Brazil",
 		"leaderName": "Pedro II",
@@ -54,54 +31,6 @@
 		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
 	{
-                "name": "Central America",
-		"leaderName": "Francisco Morazán",
-		"adjective": ["Central American"],
-		"startBias": ["None"],
-		"preferredVictoryType": "Science, Domination",
-		
-		"declaringWar": "Centroamerica can't accept your actions no more. Prepare for war!",
-		"attacked": "War can't be a solution for every conflict, you know... Nonetheless, if you want war, we will be at war with each other.",
-		"afterPeace": "Hope that these grueling actions will never happen again.",
-		"defeated": "I do not desire death for I was an apostle of freedom!",
-		"introduction": "I welcome you to Centroamerica, I am her president, Francisco Morazán. We strive for progress and liberty and hope that you share these aspirations.",
-		"neutralHello": "Greetings, Centroamerica welcomes you. What can Central America do for you today?",
-		"hateHello": "Why are you here? Aren't you supposed to be in your country? What do you want from us here?",
-		"tradeRequest": "Trade with us, this deal is ideal and very beneficial for both of our nations. Consider it done, my friend.",
-
-		"outerColor": [119, 144, 170],
-		"innerColor": [255, 254, 253],
-		     
-		"uniqueName": "Alma de los Libres",
-		"uniques": ["+1 Culture from specialists, increasing to +2 in cities without a majority Religion. Great Generals may build the tile improvements of other Great People if you have completed the appropriate Social Policy tree."],
-		     
-		"cities": ["Cuidad de Guatemala","San Salvador","Sonsonate","Managua","Tegucigalpa","San José","Comayagua","Antigua","San Pedro Sula","Villa Nueva","Mixco","La Trinidad","Soyapango","Santa Anna","Léon","San Miguel","La Ceiba","Choloma","Choluteca","Ojojona","Chimaltenango","La Union","Zacapa","San Pedro Perulapán","La Libertad","Cartago","Mataquescuintla"]
-	},
-	{
-                "name": "Chile",
-		"leaderName": "Bernardo O'Higgins",
-		"adjective": ["Chilean"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural, Diplomacy",
-		
-		"declaringWar": "Lads! Live with honor, or die with glory! He who is brave, follow me!",
-		"attacked": "Chile isn't gonna surrender to you, get ready, lads, let get his nations failing to succeed!",
-		"afterPeace": "I rather choose peace than war, but if necessary, we might see each other on the battlefield once more.",
-		"defeated": "When this war started, I said to my men: Lads! Live with honor, or die with glory! He who is brave, follow me!... And my men followed me, and we shall die with glory!",
-		"introduction": "I'm Bernardo O'Higgins Riquelme, Supreme Director of Chile, and hero to its independence. Welcome to Chile, here's hoping you are a friend, and not a foe.",
-		"neutralHello": "Salutations! Can Chile help you here?",
-		"hateHello": "¡No, no! ¡Tu cara me hace sentir un poco infeliz! What do you want from us?!",
-		"tradeRequest": "Asking for trade isn't terrible, in fact, it's benifiting for someone. So, may I say the same for this deal right here?",
-
-		"outerColor": [239, 191, 108],
-		"innerColor": [201, 55, 50],
-		     
-		"uniqueName": "By Reason or By Force",
-		"uniques": ["Coastal cities claim tiles 25% faster. Units gain a +20% Combat Bonus within Foreign borders. Friendly and Allied City-States generate Points towards Great Admirals, which receive the Medic promotion."],
-		     
-		"cities": ["Santiago de Chile","Concepción","Valparaiso","Le Serena","Valdivia","Castro","Talca","Capiapl","Iquique","Arica","Puerto Montt","Antofagasta","Punta Arenas","Temuco","Coyhaique","Calama","Ancud","Chillán","Coquimbo","San Felipe","Constitución","Hanga Roa","Puerto Aysen","Talcahuano","Los Angeles","Quillota","Osorno","San Antonio","Ovalle","Melipilla","Los Andes","Caldera","Curico","Linares","Llanquihue","Buin","San Fernando"]
-	},
-	{
                 "name": "Gran Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine","Colombian","Venezuelan","Ecuadorian"],
@@ -124,7 +53,7 @@
 		"uniques": ["Occupied cities start with a Courthouse. Liberating a Civilization or City-State starts a Golden Age. Great People may be upgraded to Libertadors, losing the ability to build Citadels."],
 		     
 		"cities": ["Bogotá","Caracas","Quito","Panamá","Santo Tomás","Magangue","Guayaquil","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
-	},
+  },
 	{
                 "name": "Haiti",
 		"leaderName": "Toussaint L'ouverture",
@@ -677,8 +606,9 @@
 		"uniques": ["Receive a 15% combat bonus vs larger civs; naval units start with the Supply Promotion; +15% production towards air units."],
 		     
 		"cities": ["Charlotte","Columbia","Raleigh","Charleston","Asheville","Fayetteville","New Bath","Greensboro","Jacksonville","Aiken","Spartanburg","Orangeburg"]
-	},{
-                "name": "Confederation of the Equator",
+	},
+  {
+    "name": "Confederation of the Equator",
 		"leaderName": "Manuel de Carvalho Pais de Andrade",
 		"adjective": ["Civilian"],
 		"cityStateType": "Type",

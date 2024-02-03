@@ -10,7 +10,7 @@
 				"name": "Enlightenment",
 				"row": 5,
 				"quote": "You are here for no other purpose than to realize your inner divinity and manifest your inner enlightenment. Foster peace in your own life and then apply the Art to all that you encounter. -Morihei Ueshiba",
-				"uniques": ["Starting tech", "Cannot enter [Coast], [Lakes] and [Ocean] tiles <before discovering Enlightenment>"]
+				"uniques": ["Starting tech"]
 			}
 		]
 	},
@@ -238,6 +238,7 @@
 				"row": 7,
 				"prerequisites": ["Mechanical Production","Pressure Steam Engine"],
 				"quote": "quote",
+				"uniques": ["[+30%] Strength <vs [Wooden-ship] units>"]
 			},
 			{
 				"name": "Interchangeable Parts",

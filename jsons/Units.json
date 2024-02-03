@@ -28,7 +28,7 @@
 		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>"],
 		"attackSound": "shot",
         "civilopediaText": [
-			{"text": "Drafted men armed with muskets, each made by an artisan, each different to the other,\nand very well may or may not hit their target. That's why you form them up in lines. Just not properly instant."}
+			{"text": "."}
 		]
 	},
 	{
@@ -61,23 +61,6 @@
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "Drafted men armed with muskets, each made by an artisan, each different to the other,\nand very well may or may not hit their target. That's why you form them up in lines."}
-		]
-	},
-	{
-		"name": "Tanegashima Infantry",
-		"replaces": "Flintlock Infantry",
-		"unitType": "Infantry",
-		"uniqueTo": "Japan (Shogunate)",
-		"movement": 3,
-		"strength": 20,
-		"cost": 40,
-		"requiredTech": "Flintlocks",
-		"obsoleteTech": "Rifle Barrels",
-		"upgradesTo": "Rifled Infantry",
-		"uniques": ["Muzzleloader", "[+50]% Strength against [Flintlock Infantry] units", "Ignores terrain cost"],
-		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "Thanks to the west, we can have flintlocks. Good uses, and more importantly, good formations."}
 		]
 	},
 	{
@@ -136,7 +119,7 @@
 		"uniques": ["Rifle"],
 		"attackSound": "shot",
         "civilopediaText": [
-			{"text": "With these metalic rounds, now your troops can fight all they want under anyweather condition. They aren't very happy about it, but you will."}
+			{"text": "With these metalic rounds, now your troops can fight all they want under any weather condition. They aren't very happy about it, but you will."}
 		]
 	},
 	{
@@ -150,6 +133,23 @@
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "Capable of shooting multiple rounds without reloading, this bad boys will roll over the enemy and will be home by December, be sure of it."}
+		]
+	},
+  {
+		"name": "Tanegashima Infantry",
+		"replaces": "Flintlock Infantry",
+		"unitType": "Infantry",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 3,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Rifle Barrels",
+		"upgradesTo": "Rifled Infantry",
+		"uniques": ["Muzzleloader", "[+50]% Strength against [Flintlock Infantry] units", "Ignores terrain cost"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Thanks to the west, we can have flintlocks. Good uses, and more importantly, good formations."}
 		]
 	},
 	{
@@ -244,7 +244,7 @@
 //Machine guns
 	{
 		"name": "Gatling Gunner",
-		"unitType": "Infantry",
+		"unitType": "Machinegunner",
 		"movement": 1,
 		"strength": 26,
 		"cost": 40,
@@ -259,7 +259,7 @@
 	},
 	{
 		"name": "Maxim Gunner",
-		"unitType": "Infantry",
+		"unitType": "Machinegunner",
 		"movement": 2,
 		"strength": 30,
 		"cost": 40,
@@ -270,7 +270,7 @@
 			{"text": "Now that's I meant! It was wonderful, hope you could see the same as me."}
 		]
 	},
-//Aerial
+	//Aerial
 	{
 		"name": "Biplane",
 		"unitType": "Plane",

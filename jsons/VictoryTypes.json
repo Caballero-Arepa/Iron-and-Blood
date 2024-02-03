@@ -4,7 +4,7 @@
         "victoryScreenHeader": "Destroy all enemies or affiliates or allies of the enemies to win",
         "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!",
     },
     {
         "name": "Science",
@@ -46,6 +46,6 @@
         "victoryScreenHeader": "Establish a World Order that follows your ideology",
         "milestones": ["Choose an ideology","Spread the words","Establish the World Order"],
         "victoryString": "You have triumph over your foes through your ideology. The ideology you have made was made your people happy, and you spread out for the world to see and act like you. You have win over their hearts and you have established an Order across the world that everyone on this earth have followed your path. You shall be remembered as the spark that shines this Earth through your ideology!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!",
     }
 ]
