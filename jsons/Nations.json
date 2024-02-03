@@ -55,51 +55,76 @@
 		"cities": ["Bogotá","Caracas","Quito","Panamá","Santo Tomás","Magangue","Guayaquil","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
   },
 	{
-                "name": "Argentina",
-		"leaderName": "",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+                "name": "Rio de la Plata",
+		"leaderName": "José de San Martin",
+		"adjective": ["Argentine"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination, Diplomacy",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "The altitude you give me was awful! I declare war on you, you should be deposed!",
+		"attacked": "I see, you want war, the I give you war!!!",
+		"afterPeace": "Well fought. If you want do to that again, then I'll keep you at bay.",
+		"defeated": "I have fought countless battles, both against the Crown and against my brothers. But only you succeeded in defeating me... All I hope is you respect the independence of my people, or the other Libertadores will crush you!",
+		"introduction": "Greetings, my friend! My name is José Francisco de San Martín y Matorras, but you can just call me José de San Martín. I led many to their independence, and will fight to keep these lands free.",
+		"neutralHello": "¡Holá! Rio de la Plata is always welcome you will open arms. What are you want to do here?",
+		"hateHello": "Well, if it is not the great enemy of la Plata. What do you want?",
+		"tradeRequest": "Can we be agree about this trade offer.",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [222,222,255],
+		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "Docta Latinoamericana",
+		"uniques": ["Whenever a Citizen is born you receive an amount of Science, Culture, Production or Gold depending on the City Focus. Mounted Units grant points towards Golden Ages when defeating an enemy."],
 		     
-		"cities": ["Capital","city","cities","city"]
-	},{
-                "name": "Template",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"startBias": ["terrains"],
-		"preferredVictoryType": "Victory type",
+		"cities": ["Buenos Aires","Tucuman","Catamarca","Tupiza","La Plata","Jujuy","La Rioja","Mendoza","Mizque","Salta","San Juan","Tarija","San Luis","Santiago del Estero","Cordoba","Sucre","Santa Fe","Rosario","Potosi","Cochabamba","Paraná","Carmen de Patagones"]
+	},
+	{
+                "name": "Chile (Independencia)",
+		"leaderName": "Bernardo O'Higgins",
+		"adjective": ["Chilean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination, Culture",
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"afterPeace": "...",
-		"defeated": "Speech",
-		"introduction": "Speech?",
-		"neutralHello": "Greetings",
-		"hateHello": "frase",
-		"tradeRequest": "Asking for trade",
+		"declaringWar": "Guess you want war so badly... Lads, let's go over there since I now declare war on this land.",
+		"attacked": "Oh, ok, I see... You made today quite a bad day. Lads, let's go over there!",
+		"afterPeace": "Ok, I warn you that do not touch any Chilean land ever again!",
+		"defeated": "When this war started, I said to my men: Lads! Live with honor, or die with glory! He who is brave, follow me!... And my men followed me, and we shall die with glory!",
+		"introduction": "This beautiful sea you see here is from the lands of Chile... I fought hard for its independency, and will fight again if needed...",
+		"neutralHello": "Salutations to you. What can Chile help you here?",
+		"hateHello": "I don't know why you are here. Finish quickly then scram, understand?",
+		"tradeRequest": "Would you accept this Chilean deal here?",
 
-		"outerColor": [222,227,236],
-		"innerColor": [130,121,87],
+		"outerColor": [0,0,120],
+		"innerColor": [255,255,255],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "By Reason or By Force",
+		"uniques": ["Coastal cities claim tiles 25% faster. Units gain a +20% Combat Bonus within Foreign borders. Friendly and Allied City-States generate Points towards [Great Admirals], which receive the Medic promotion."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["Santiago de Chile","Valparaíso","Concepción","Talca","Iquique","Chillán","La Serena","Antofagasta","Curicó","San Felipe","Talcahuano","Quillota","Tacna","Copiapó","Parral","Cauquenes","Valdivia","Los Ángeles","San Fernando","Linares","Angol","Rancagua","Temuco","Ancud","Lebu","Punta Arenas"]
+	},
+	{
+                "name": "Chile (Reforma)",
+		"leaderName": "Joseé Manuel Balmaceda Fernández",
+		"adjective": ["Chilean"],
+		"startBias": ["Coast","Desert"],
+		"preferredVictoryType": "Diplomacy, Culture",
+		
+		"declaringWar": "Let me say this once: I hereby declare war on you!",
+		"attacked": "Chile does appreciate the declaration of war... You may be regret from this point on.",
+		"afterPeace": "It seems we are alike in terms of peace... When you want war, we can give war, if you want to anyway.",
+		"defeated": "Though our flag has fallen folded and bloodied on the battlefields, it will be raised again."",
+		"introduction": "Welcome to Chile. I am José Manuel Balmaceda. If you share in the principles of liberty and prosperity, then I believe that you and I will have much to speak about.",
+		"neutralHello": "Salutations to you. What can Chile help you here?",
+		"hateHello": "Well, well, well, are you wanting something from us? If you have none or finished, then get out off my sight.",
+		"tradeRequest": "Would you accept this Chilean deal here?",
+
+		"outerColor": [0,0,120],
+		"innerColor": [255,255,255],
+		     
+		"uniqueName": "Club de la Reforma",
+		"uniques": ["Adopted Social Policies boost building Production based on the Policy Branch focus.For each Policy Branch that shares an even number of adopted Policies with another, +1 Happiness"],
+		     
+		"cities": ["Santiago de Chile","Valparaíso","Concepción","Talca","Iquique","Chillán","La Serena","Antofagasta","Curicó","San Felipe","Talcahuano","Quillota","Tacna","Copiapó","Parral","Cauquenes","Valdivia","Los Ángeles","San Fernando","Linares","Angol","Rancagua","Temuco","Ancud","Lebu","Punta Arenas"]
 	},
 	{
                 "name": "Haiti",
@@ -315,24 +340,24 @@
 		"cities": ["Montevideo","Salto","Paysandu","Colonia del Sacramento","Ciudad de la Costa","Las Piedras","Rivera","Maldonaldo","Tacuarembo","Melo","Mercedes","Artigas","Minas","San José de Mayo","Durazno","Barros Blanco","Ciudad del Plata","San Carlos","Pando","Triente y Tres","Rocha","Fray Bentos","Trinidad","La Paz","Canelones","Carmelo","Dolores","Young","Santa Lucia","Progreso","Paso de Carrasco","Rio Blanco","Paso de los Toros","Dr. Francisco Soca"]
 	},
 	{
-                "name": "City-State",
-		"leaderName": "Leader Name",
-		"adjective": ["Civilian"],
-		"cityStateType": "Type",
-		"startBias": ["terrains"],
+                "name": "Cuba",
+		"leaderName": "Carlos Manuel de Céspedes",
+		"adjective": ["Cuban"],
+		"cityStateType": "Maritime",
+		"startBias": ["Jungle","Coast"],
 		
-		"declaringWar": "Frase",
-		"attacked": "Frase",
-		"defeated": "Speech",
-		"introduction": "Speech?",
+		"declaringWar": "Cuba will remember this day! We will beat you up, I sure of it.",
+		"attacked": "You have done a mistake! We Cubans will hunt you down.",
+		"defeated": "The revolution will never be dead! Soon you'll see new revolucionarios rise and recover Cuba's independence!",
+		"introduction": "Greetings! I'm Carlos Manuel de Céspedes, and you're standing in the beautiful Republic in Arms of Cuba. Make yourself comfortable... just, not as much as our oppressors.",
 
-		"outerColor": [130,121,87],
-		"innerColor": [222,227,236],
+		"outerColor": [230,12,87],
+		"innerColor": [2,227,2],
 		     
-		"uniqueName": "Unique Name",
-		"uniques": ["Nation Unique"],
+		"uniqueName": "La Demajagua",
+		"uniques": ["Increased Combat Strength on Plantations (+20%). Adopting a Social Policy grants Revolucionario Points. Upon adopting your first Ideological Tenet, receive 2 [Revolucionarios]."],
 		     
-		"cities": ["Capital","city","cities","city"]
+		"cities": ["La Habana","Santiago de Cuba","Camagüey","Guantanamo","Pinar del Rio"]
 	},
 	{
 		"name": "Yucatán",
