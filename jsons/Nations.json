@@ -55,6 +55,53 @@
 		"cities": ["Bogotá","Caracas","Quito","Panamá","Santo Tomás","Magangue","Guayaquil","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
   },
 	{
+                "name": "Argentina",
+		"leaderName": "",
+		"adjective": ["Civilian"],
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},{
+                "name": "Template",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"startBias": ["terrains"],
+		"preferredVictoryType": "Victory type",
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"afterPeace": "...",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+		"neutralHello": "Greetings",
+		"hateHello": "frase",
+		"tradeRequest": "Asking for trade",
+
+		"outerColor": [222,227,236],
+		"innerColor": [130,121,87],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
+	},
+	{
                 "name": "Haiti",
 		"leaderName": "Toussaint L'ouverture",
 		"adjective": ["Haitian"],
@@ -266,6 +313,26 @@
 		"uniques": ["Half of your excess Happiness is provided as Production, divided equally between your cities. Specialists provide an additional +1 of their primary yield while the empire is Happy."],
 		     
 		"cities": ["Montevideo","Salto","Paysandu","Colonia del Sacramento","Ciudad de la Costa","Las Piedras","Rivera","Maldonaldo","Tacuarembo","Melo","Mercedes","Artigas","Minas","San José de Mayo","Durazno","Barros Blanco","Ciudad del Plata","San Carlos","Pando","Triente y Tres","Rocha","Fray Bentos","Trinidad","La Paz","Canelones","Carmelo","Dolores","Young","Santa Lucia","Progreso","Paso de Carrasco","Rio Blanco","Paso de los Toros","Dr. Francisco Soca"]
+	},
+	{
+                "name": "City-State",
+		"leaderName": "Leader Name",
+		"adjective": ["Civilian"],
+		"cityStateType": "Type",
+		"startBias": ["terrains"],
+		
+		"declaringWar": "Frase",
+		"attacked": "Frase",
+		"defeated": "Speech",
+		"introduction": "Speech?",
+
+		"outerColor": [130,121,87],
+		"innerColor": [222,227,236],
+		     
+		"uniqueName": "Unique Name",
+		"uniques": ["Nation Unique"],
+		     
+		"cities": ["Capital","city","cities","city"]
 	},
 	{
 		"name": "Yucatán",
