@@ -58,7 +58,8 @@
 	        "cost": 25,
 		"requiredTech": "Private Banks",
 	        "uniques":["Increase the gold in a city by 5%"]
-        },{
+        },
+	{
 	        "name": "Trade Depot",
 	        "isNationalWonder": false,
 	        "production": 5,
