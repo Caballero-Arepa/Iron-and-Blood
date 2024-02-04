@@ -347,8 +347,8 @@
 	},
 	{
 		"name": "Qazzaq",
-		"replaces": "Cavalry",
-		"unitType": "Cavalry",
+		"replaces": "Calvary",
+		"unitType": "Calvary",
 		"requiredResource": "Horse",
 		"uniqueTo": "Persia",
 		"movement": 4,
