@@ -1,5 +1,21 @@
 [
-
+//Temporal
+	{
+		"name": "Samurai",
+		"unitType": "Sword",
+		"replaces": "Grenadier",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 2,
+		"strength": 15,
+		"cost": 20,
+		"obsoleteTech": "Rifled Barrels",
+		"upgradesTo": "Rifled Infantry",
+		"uniques": ["[+5]% to [+25]% Strength against [Grenadier] units."],
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": "It seems those times are at the end. But the Shogun still there means Japan still there."}
+		]
+	},
 //Infantry
 	{
 		"name": "Grenadier",
@@ -13,6 +29,22 @@
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "."}
+		]
+	},
+	{
+		"name": "Mountaineer",
+		"replaces": "Grenadier",
+		"uniqueTo": "Virginia",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"obsoleteTech": "Flintlocks",
+		"upgradesTo": "Flintlock Infantry",
+		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>","+20% Strength when <on [Hills] tiles> or <neighboring [1] to [6] [Hills] or [Mountain] tiles>"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "We Mountaineer will be crushing y'all with the high grounds on our side."}
 		]
 	},
 	{
@@ -104,6 +136,112 @@
 			{"text": "Capable of shooting multiple rounds without reloading, this bad boys will roll over the enemy and will be home by December, be sure of it."}
 		]
 	},
+  {
+		"name": "Tanegashima Infantry",
+		"replaces": "Flintlock Infantry",
+		"unitType": "Infantry",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 3,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Rifle Barrels",
+		"upgradesTo": "Rifled Infantry",
+		"uniques": ["Muzzleloader", "[+50]% Strength against [Flintlock Infantry] units", "Ignores terrain cost"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Thanks to the west, we can have flintlocks. Good uses, and more importantly, good formations."}
+		]
+	},
+	{
+		"name":"Redcoat",
+		"unitType":"Infantry",
+		"replaces":"Rifled Infantry",
+		"movement":2,
+		"strength":16,
+		"cost":25,
+		"uniqueTo":"United Kingdom",
+		"requiredTech":"Rifled Barrels",
+		"obsoleteTech":"Bold Action Rifles",
+		"upgradesTo":"Breeching Infantry",
+		"uniques":["Muzzleloader","Ignores terrain cost.","Can move through foreign lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."],
+		"attackSound": "shot",
+	},
+	{
+		"name":"Young Guard",
+		"unitType":"Infantry",
+		"replaces":"Flintlock Infantry",
+		"movement":2,
+		"strength":16,
+		"cost":20,
+		"uniqueTo":"France (First Empire)",
+		"requiredTech":"Flintlocks",
+		"obsoleteTech":"Rifle Barrels",
+		"upgradesTo":"Old Guard",
+		"uniques":["Muzzleloader","Ignores terrain cost.","Can move through foreign lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned.", "Needs 100 Exp to be upgraded into [Old Guard]"],
+		"attackSound": "shot",
+	},
+	{
+		"name":"Old Guard",
+		"unitType":"Infantry",
+		"replaces":"Flintlock Infantry",
+		"movement":3,
+		"strength":25,
+		"cost":25,
+		"uniqueTo":"France (First Empire)",
+		"requiredTech":"Flintlocks",
+		"obsoleteTech":"Bold Action Rifles",
+		"upgradesTo":"Breeching Infantry",
+		"uniques":["Muzzleloader","Ignores terrain cost.","Can move through foreign lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."],
+		"attackSound": "shot",
+	},
+	{
+		"name":"Janissary",
+		"unitType":"Infantry",
+		"movement":3,
+		"strength":20,
+		"cost":35,
+		"uniqueTo":"The Ottomans",
+		"requiredTech":"Rifled Barrels",
+		"obsoleteTech":"Bold Action Rifles",
+		"upgradesTo":"Breeching Infantry",
+		"uniques":["Muzzleloader","Ignores terrain cost.","Can move through friendly lands without Open Borders.","Offsets Production penalties from Unhappiness when garrisoned."],
+		"attackSound": "shot",
+	},
+	{
+		"name": "Potsdam Giants",
+		"unitType": "Infantry",
+		"uniqueTo": "Prussia",
+		"replaces":"Rifled Infantry",
+		"movement": 2,
+		"strength": 50,
+		"cost": 25,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Breeching Infantry",
+		"uniques": ["Muzzleloader","+10 Strength per kills","Ignore terrain cost when in [Rough] tiles"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Oh hoh hoh, do you realize that they are huge!!! You gonna see their uses. You gonna see."}
+	]	
+	},
+	{
+		"name": "Shenjiying",
+		"replaces": "Breeching Infantry",
+		"unitType": "Infantry",
+		"uniqueTo": "Qing",
+		"movement": 2,
+		"strength": 19,
+		"cost": 55,
+		"requiredTech": "Breech-loading",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Bold Action Infantry",
+		"uniques": ["Muzzleloader","Train half the time when trained in the [Capital]"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Finally, some actions... -Steven He"}
+		]
+	},
 //Machine guns
 	{
 		"name": "Gatling Gunner",
@@ -133,7 +271,280 @@
 			{"text": "Now that's I meant! It was wonderful, hope you could see the same as me."}
 		]
 	},
-	//Naval
+	//Aerial
+	{
+		"name": "Biplane",
+		"unitType": "Plane",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Flight",
+		"uniques": ["Fighter"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Plane",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Flight",
+		"uniques": ["Bomber"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "This will kaboom the battlefield!!! Ha Hah!!!"}
+		]
+	},
+	{
+		"name": "Airship",
+		"unitType": "Airship",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Flight",
+		"uniques": ["Airship"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	//Calvary
+	{
+		"name": "Calvary",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"movement": 4,
+		"strength": 16,
+		"cost": 64,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking."],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
+	{
+		"name": "Cossack",
+		"replaces": "Calvary",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Bold Action Rifles",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking.","Ignores terrain cost","+10% Strength bonus when stacked with a [Great General]","Can build a [Sich] once"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "О-о-о-о! Мы хорошо послужим империи!"}
+		                   ]
+	},
+	{
+		"name": "Qazzaq",
+		"replaces": "Calvary",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Persia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Bolt Action Rifles",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","Ignores terrain cost","[+10]% Strength bonus when stacked with a [Great General]"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "I feel confused, am I Persian or Caucasian? Nah, I serve for the Qajars, I am a Persian."}
+		]
+	},
+	{
+		"name": "Gaucho",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Argentina",
+		"movement": 4,
+		"strength": 16,
+		"cost": 64,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking.", "Can build [Pasture] faster than the Worker by 25%", "Can build [Farm] faster than the Worker by 25%"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Horses are our specialty, we can hold gun while guard those Horses. Maybe we serve our homeland as well!"}
+		                   ]
+	},
+	{
+		"name": "Batalhão do Imperador",
+		"unitType": "Calvary",
+		"requiredResource": "Horse",
+		"uniqueTo": "Brazil",
+		"movement": 4,
+		"strength": 15,
+		"cost": 50,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Bold Action Rifles",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking.", "+15% Combat Strength when stacked with a [Great General]", "If a tile is currently occupied by a [Great General], a free [Batalhão do Imperador] will appear and stack with a [Great General]"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "For our emperor, for the great empire of Brazil!"}
+		                   ]
+	},
+	{
+		"name": "Royal Dragoon",
+		"unitType": "Calvary",
+  "replaces": "Calvary",
+		"uniqueTo": "Canada",
+		"requiredResource": "Horse",
+		"movement": 5,
+		"strength": 25,
+		"cost": 54,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking."],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
+	{
+		"name": "Mountie",
+		"unitType": "Calvary",
+		"uniqueTo": "Canada",
+  "replaces": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Enlightenment",
+		"upgradesTo": "Royal Dragoon",
+		"uniques": ["Can move after attacking.","Ignores terrain cost"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "..."}
+		                   ]
+	},
+	{
+		"name": "Rough Rider",
+		"replaces": "Calvary",
+		"uniqueTo": "The United States (Victorian)",
+		"unitType": "Calvary",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Rifled Barrels",
+		"obsoleteTech": "Magazines",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking", "Ignores terrain cost when moving, when beginning outside your borders", "Begins with Survivalism I"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Who thought spinning was a good trick? Because it actually is. Now our bullets hit where we aim them.\nAltough it's a pain chucking the ball inside the barrel. *sigh*"}
+		]
+	},
+ //Automobile
+ {
+		"name": "Landship",
+		"unitType": "Automobile",
+		"movement": 6,
+		"strength": 50,
+		"cost": 150,
+		"requiredTech": "Magazines",
+		"upgradesTo": "Armoured Car",
+		"uniques": ["Muzzleloader","Can be retreat after attacking or being attacked"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "Oh dear, this might be worse than I thought!"}
+		]
+	},
+ {
+		"name": "Armoured Car",
+		"unitType": "Automobile",
+		"movement": 8,
+		"strength": 64,
+		"cost": 250,
+		"requiredTech": "International Relations",
+		"uniques": ["Muzzleloader", "Can retreat from attacking or being attacked"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "I have no words."}
+		]
+	},
+	//Lancer
+	{
+		"name": "Lancer",
+		"unitType": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 3,
+		"strength": 30,
+		"cost": 35,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Breech-loading",
+		"upgradesTo": "Gatling Gunner",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "The times have changed, you know what to do."}
+		                   ]
+	},
+	{
+		"name": "Uhlan",
+		"unitType": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 4,
+		"strength": 25,
+		"cost": 35,
+		"requiredTech": "Flintlocks",
+		"obsoleteTech": "Breech-loading",
+		"upgradesTo": "Gatling Gunner",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "Ok, good for you! These Uhlans are more lighter than that heavy [Lancer]"}
+		                   ]
+	},
+	{
+		"name": "Hartschier",
+		"unitType": "Lancer",
+		"replaces": "Uhlan",
+		"uniqueTo": "Bavaria",
+		"movement": 4,
+		"strength": 22,
+		"cost": 30,
+		"requiredTech": "Flintlocks",
+		"uniques": ["+50% Defense and +2 Gold whilst stationed on a Schloss", "+25% Defense bonus while on [Hill] tiles.", "Can move after attacking"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "We serve the King good, we serve the Kingdom good, Für Bayern!!!"}
+		                   ]
+	},
+	{
+		"name": "Cherik Horsemen",
+		"unitType": "Lancer",
+		"uniqueTo": "Persia",
+		"replaces": "Lancer",
+		"requiredResource": "Horse",
+		"movement": 3,
+		"strength": 30,
+		"cost": 25,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Breech-loading",
+		"upgradesTo": "Gatling Gunner",
+		"uniques": ["Have a combat penalty vs Cities", "No defense terrain bonuses", "Can move after attacking", "Don't receives Exp", "[+10] Exp for every Pastures in a city", "While in production, Pastures in its training city yield +1 Production"],
+		"attackSound": "HorsemenAttackSound",
+                "civilopediaText": [
+			            {"text": "The times have changed, you know what to do."}
+		                   ]
+	},
+	//Light Ship
 	{
 		"name": "Gunboat",
 		"unitType": "Gunboat",
@@ -288,6 +699,24 @@
 		"uniques": ["Armored-ship"]
 	},
 	{
+	        "name": "Mikasa",
+		"unitType": "Man'o'war",
+		"replaces": "Cruiser",
+		"uniqueTo": "Japan (Empire)",
+		"requiredResource": "Steel",
+		"movement": 5,
+		"sight": 5,
+		"range": 5,
+		"strength": 40,
+		"cost": 45,
+		"requiredTech": "Advanced Metalcasting",
+		"uniques": ["Can withdraw before melee attacks","Double movement in Coast tiles", "[+25]% Combat Strength vs [Militant Ship] units","[+25]% Combat Strength when fighting on friendly tiles","Generates [10] Golden Age points when completed","Armored-ship"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Meet the backbone of the Japanese Empire itself! The greatest ship you will ever see made in Japan!"}
+		                   ]
+	},
+	{
 		"name": "Pre-dreadnought",
 		"unitType": "Man'o'War",
 		"movement": 5,
@@ -349,8 +778,42 @@
 		"rangedStrength": 90,
 		"cost": 140,
 		"requiredTech": "Advanced Hydrodinamics",
-		"uniques": ["May withdraw before melee ([73]%)",
-			"Torpedo"]
+    "uniques": ["May withdraw before melee ([73]%)","Torpedo"]
+//Civilian Ship
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Ship",
+		"movement": 2,
+		"uniques": ["Can build [Water] improvements on tiles"],
+		"cost": 70,
+	},
+	{
+		"name": "Clippership",
+		"unitType": "Civilian Ship",
+		"movement": 4,
+		"sight": 4,
+		"cost": 25,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Ocean Liner"
+		"uniques": ["Can withdraw before melee attacks", "Can stacked with a [Great Merchant] for +5% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Ahoy! This is the basic ships at the time!"}
+		                   ]
+	},
+	{
+		"name": "Ocean Liner",
+		"unitType": "Civilian Ship",
+		"requiredResource": "Steel",
+		"movement": 6,
+		"sight": 4,
+		"cost": 50,
+		"requiredTech": "Steel",
+		"uniques": ["Can stacked 2 [Land] units at the same time","Can stacked with a [Great Admiral] for +10% Sight bonus"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			            {"text": "Remember RMS Titanic? Now, there's only a matter of time before something like this could happen!"}
+		                   ]
 	},
 	//Civilian
 	{
@@ -377,6 +840,57 @@
 		"cost": 25,
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
+	},
+        {
+		"name": "Chassure",
+		"replaces": "Scout",
+		"uniqueTo": "France (First Empire)",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 10,
+		"cost": 20,
+		"uniques": ["Never appears as a Barbarian unit", "Can move after attacking"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Lawyer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 40,
+		"requiredTech": "Rights of Men",
+		"uniques": ["Can hurry adopting policies"],
+        "civilopediaText": [
+			{"text": "May all men have rights to be free, forever!"}
+		]
+	},
+        {
+		"name": "Governor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build a [Governate], which is a [Land] improvment that governs 2 cities."],
+		"cost": 1000,
+	},
+	{
+		"name": "Vizier",
+		"unitType": "Civilian",
+		"replaces": "Governor",
+		"upgradesTo": "Grand Vizier",
+		"uniqueTo": "The Ottomans",
+		"movement": 2,
+		"strength": 10,
+		"uniques": ["Can build a [Vilayet], which is a [Land] improvment that governs 2 cities.", "+15% Strength bonus for [Military] units within 3 tiles"],
+		"cost": 800,
+		"attackSound": "shot",
+	},
+	{
+		"name": "Daimyo",
+		"unitType": "Civilian",
+		"replaces": "Governor",
+		"uniqueTo": "Japan (Shogunate)",
+		"movement": 2,
+		"strength": 5,
+		"uniques": ["Can build a [Bakufu-han], which is a [Land] improvement that governs a region.", "Can expand the [Bakufu-han] improvement 10 times", "+25% Strength bonus for [Military] units within 3 tiles"],
+		"cost": 300,
 	},
 	/* Great people */
 
@@ -422,5 +936,71 @@
 		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Music" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Photographer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Imagery" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered [Photography]"],
+		"movement": 2
+	},
+	{
+		"name": "Great Director",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Movie" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable", "Only available after discovered [Cinematography]"],
+		"movement": 2
+	},
+	{
+		"name": "Great Writer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Literature" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Diplomat",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can create a Council with selected nations" ,"Great Person - [Diplomacy]", "Unbuildable", "Uncapturable","Only available after discovered International Relations"],
+		"movement": 2
+	},
+	{
+		"name": "Great Bürgermeister",
+		"replaces": "Great Diplomat",
+		"uniqueTo": "Lübeck",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age","Can call for a Bürgerschaft with Hamburg, Lübeck and Bremen" ,"Great Person - [Diplomacy]", "Unbuildable", "Uncapturable", "Only available after discovered Rights of Man"],
+		"movement": 2
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2]  Coast, Lake or Sea tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Grand Vizier",
+		"uniqueTo": "The Ottomans",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+25]% Strength bonus for [Military] units within [2] tiles", "Can only be upgraded from [Vizier] once, unless there is no [Grand Vizier]",
+			"Great Person - [War]", "Uncapturable"],
+		"movement": 2,
+		"strength": 25,
+		"cost": 2500,
+		"attackSound": "shot",
+	},
+	{
+		"name": "Revolucionario",
+		"replaces": "Great General",
+		"uniqueTo": "Cuba",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+20]% Strength bonus for [Military] units within [3] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 	}
 ]

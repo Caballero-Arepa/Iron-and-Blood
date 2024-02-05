@@ -20,6 +20,284 @@
         "maintenance": 1,
         "uniques": ["Destroyed when the city is captured"]
     },
+	//Neo-Classical  
+        {
+	        "name": "University",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 5,
+	        "gold": 2,
+	        "culture": 5,
+		"tourism": 0,
+	        "cityStrength": 1,
+	        "cost": 25,
+	        "requiredTech":"Enlightenment",
+	        "uniques":["Increase the science in a city by 5%"]
+        },
+	{
+	        "name": "Temple",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"faith": 5,
+	        "cityStrength": 1,
+	        "cost": 25,
+	        "uniques":["Increase the faith in a city by 5%"]
+        },
+	{
+	        "name": "Bank",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 5,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 2,
+	        "cost": 25,
+		"requiredTech": "Private Banks",
+	        "uniques":["Increase the gold in a city by 5%"]
+        },
+	{
+	        "name": "Trade Depot",
+	        "isNationalWonder": false,
+	        "production": 5,
+	        "science": 0,
+	        "gold": 10,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 1,
+	        "cost": 35,
+		"requiredTech": "Private Banks",
+	        "uniques":["Increase the gold in a city by 10%, with an additional 10% production", "Must build on coastal cities"]
+        },
+	{
+	        "name": "Uffizi",
+	        "isNationalWonder": false,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 5,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech":"Enlightenment",
+	        "uniques":["Gives 3 free Great Work of Art slots, +5 Culture, +5 Tourism and a free [Great Artist]"]
+        },
+	{
+	        "name": "Workshop",
+		"requiredTech":"Guild-based Production",
+	        "isNationalWonder": false,
+	        "production": 2,
+	        "science": 0,
+	        "gold": 2,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 1,
+	        "cost": 30,
+	        "uniques":["Increase production in a city by +5%"]
+        },
+//Napoleonic Era
+	{
+	        "name": "Barracks",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 8,
+	        "cost": 35,
+		"requiredTech":"Army Professionalization",
+	        "uniques":["Increase the faith in a city by 5%"]
+        },
+{
+	        "name": "Stables",
+	        "isNationalWonder": false,
+		"isWonder": false,
+	        "production": 4,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 0,
+		"tourism": 0,
+	        "cityStrength": 5,
+	        "cost": 625,
+	        "requiredTech":"Army Professionalization",
+	        "uniques":["Produces [Calvary] units, +4 production"]
+        },
+	{
+	        "name": "Laboratory",
+	        "isNationalWonder": false,
+		"isWonder": false,
+	        "production": 0,
+	        "science": 25,
+	        "gold": 0,
+	        "culture": 0,
+		"tourism": 5,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech": "Chemistry",
+	        "uniques":["Provides +25 Science and +5 Tourism","Can be stacked with [Great Scientist] for [+5] Science bonus"]
+        },
+	{
+	        "name": "Arch of Triumph",
+	        "isNationalWonder": false,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 3,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech":"Army Professionalization",
+		"requiredResource": "Marble",
+	        "uniques":["Gives a free [Great General], +3 Gold, +5 Culture and +10 Tourism"]
+        },
+ {
+	        "name": "National Epic",
+	        "isNationalWonder": true,
+		"isWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 10,
+	        "cost": 6250,
+	        "requiredTech":"Patriotism",
+	        "uniques":["Gives a free [Great General], +5 Culture and +10 Tourism"]
+        },
+{
+	        "name": "Heroic Epic",
+	        "isNationalWonder": true,
+		"isWonder": false,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 25,
+	        "cost": 1250,
+	        "requiredTech":"Patriotism",
+	        "uniques":["Gives a free [Great General] and a free [Great Work of Art] slot, +5 Culture and +10 Tourism"]
+        },
+	//First Industrial Era
+	{
+	        "name": "Hospital",
+	        "isNationalWonder": false,
+	        "production": 0,
+	        "science": 15,
+	        "gold": 5,
+	        "culture": 0,
+		"faith": 0,
+	        "cityStrength": 1,
+	        "cost": 25,
+		"requiredTech": "Medicine",
+	        "uniques":["[+5]% Health for [Land] units every turn."]
+        },
+	//Victorian Era
+	{
+	        "name": "Eiffel Tower",
+	        "isNationalWonder": false,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 0,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech":"Steel",
+		"requiredResource": "Steel",
+	        "uniques":["Gives a free [Great Engineer], +5 Culture and +10 Tourism"]
+        },
+	{
+	        "name": "Oxford University",
+	        "isNationalWonder": false,
+		"isWonder": true,
+	        "production": 0,
+	        "science": 5,
+	        "gold": 0,
+	        "culture": 5,
+		"tourism": 10,
+	        "cityStrength": 1,
+	        "cost": 625,
+	        "requiredTech":"Education System",
+		"requiredResource": "Marble",
+	        "uniques":["Gives a free [Great Person] of choice, +50% Science for every [University] in your civilization,+5 Culture, +5 Science and +10 Tourism"]
+        },
+	 // Religious buildings
+    {
+        "name": "Cathedral",
+        "faith": 1,
+        "culture": 4,
+        "uniques": [
+            "Unbuildable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Mosque",
+        "culture": 1,
+        "faith": 3,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Pagoda",
+        "culture": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Gurdwara",
+        "culture": 1,
+        "faith": 5,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Synagogue",
+        "culture": 1,
+        "faith": 2,
+        "production": 1,
+        "uniques": [
+            "Unbuildable",
+            "[+15]% Production when constructing [All] buildings [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Vihara",
+        "faith": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "[+15]% [Gold] [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
+    {
+        "name": "Mandir",
+        "uniques": [
+            "Unbuildable",
+            "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
+            "Hidden when religion is disabled"
+        ]
+    },
 ]
 	
 	

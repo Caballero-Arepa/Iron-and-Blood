@@ -94,9 +94,9 @@
 				"name": "Paper Cartriges",
 				"row": 10,
 				"prerequisites": ["Flintlocks"],
-				"quote": "'.' - ",
-				"uniques": ["+13% Strength for Infantry"]
-			}
+        "quote": "Nullam pretium id elit.",
+				"uniques": ["+13% Strength for Flintlock Infantry"]
+			},
 		]
 	},
 	{
@@ -147,8 +147,8 @@
 				"row": 10,
 				"prerequisites": ["Paper Cartriges","Organized Factories"],
 				"quote": "quote",
-				"uniques": ["+13% Strength for CapLock Infantry"]
-			}
+        "uniques": ["+13% Strength for Flintlock Infantry"]
+			},
 		]
 	},
 	{
