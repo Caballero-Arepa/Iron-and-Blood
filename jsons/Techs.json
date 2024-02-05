@@ -9,7 +9,7 @@
 			{
 				"name": "Enlightenment",
 				"row": 5,
-				"quote": "You are here for no other purpose than to realize your inner divinity and manifest your inner enlightenment. Foster peace in your own life and then apply the Art to all that you encounter. -Morihei Ueshiba",
+				"quote": "'You are here for no other purpose than to realize your inner divinity and manifest your inner enlightenment. Foster peace in your own life and then apply the Art to all that you encounter.' - Morihei Ueshiba",
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -25,26 +25,26 @@
 				"name": "Rights of Man",
 				"row": 2,
 				"prerequisites": ["Enlightenment"],
-				"quote": "Independence is my happiness, and I view things as they are, without regard to place or person; my country is the world, and my religion is to do good. Whatever is my right as a man is also the right of another; and it becomes my duty to guarantee as well as to possess. - Thomas Paine"
+				"quote": "'Independence is my happiness, and I view things as they are, without regard to place or person; my country is the world, and my religion is to do good. Whatever is my right as a man is also the right of another; and it becomes my duty to guarantee as well as to possess.' - Thomas Paine"
 			},
 			{
 				"name": "Private Banks",
 				"row": 5,
 				"prerequisites": ["Enlightenment"],
-				"quote": "If the American people ever allow private banks to control the issue of their currency, first by inflation, then by deflation, the banks and corporations that will grow up around them will deprive the people of all property until their children wake up homeless on the continent their Fathers conquered. - Thomas Jefferson"
+				"quote": "'If the American people ever allow private banks to control the issue of their currency, first by inflation, then by deflation, the banks and corporations that will grow up around them will deprive the people of all property until their children wake up homeless on the continent their fathers conquered.' - Thomas Jefferson"
 			},
 			{
-				"name": "Guild-based Production",
+				"name": "Homespun Production",
 				"row": 8,
 				"prerequisites": ["Enlightenment"],
-				"quote": "Unions have been the only powerful and effective voice working people have ever had in the history of this country.    -Bruce Springsteen",
+				"quote": "'Unions have been the only powerful and effective voice working people have ever had in the history of this country.' - Bruce Springsteen"
 			},
 			{
 				"name": "Flintlocks",
 				"row": 10,
 				"prerequisites": ["Enlightenment"],
-				"quote": "Little Richard walked a few paces back, armed with a flintlock pistol, which he hoped would be effective against spiders.   -Dave Barry",
-			},
+				"quote": "'Little Richard walked a few paces back, armed with a flintlock pistol, which he hoped would be effective against spiders.' - Dave Barry"
+			}
 		]
 	},
 	{
@@ -58,43 +58,43 @@
 				"name": "Patriotism",
 				"row": 1,
 				"prerequisites": ["Rights of Man"],
-				"quote": "The patriot's blood is the seed of freedom's tree.    -Thomas Campbell",
+				"quote": "'The patriot's blood is the seed of freedom's tree.' - Thomas Campbell"
 			},
 			{
 				"name": "Chemistry",
 				"row": 3,
 				"prerequisites": ["Rights of Man"],
-				"quote": "One thing that you can't fake is chemistry.    -Blake Shelton",
+				"quote": "'One thing that you can't fake is chemistry.' - Blake Shelton"
 			},
 			{
 				"name": "Market Structure",
 				"row": 4,
 				"prerequisites": ["Private Banks"],
-				"quote": "The tension between centrality, on the one hand, and competition, on the other, is probably the oldest of all market structure issues.       -Arthur Levitt",
+				"quote": "'The tension between centrality, on the one hand, and competition, on the other, is probably the oldest of all market structure issues.' - Arthur Levitt"
 			},
 			{
 				"name": "Army Professionalization",
 				"row": 6,
 				"prerequisites": ["Private Banks"],
-				"quote": "Associate with men of good quality if you esteem your own reputation; for it is better to be alone in the bad company.    -George Washington",
+				"quote": "'Associate with men of good quality if you esteem your own reputation; for it is better to be alone in the bad company.' - George Washington"
 			},
 			{
 				"name": "Steam Engine",
 				"row": 7,
-				"prerequisites": ["Guild-based Production"],
-				"quote": "Science owes more to the steam engine than the steam engine owes to science.    -Lawrence Joseph Henderson",
+				"prerequisites": ["Homespun Production"],
+				"quote": "'Science owes more to the steam engine than the steam engine owes to science.' - Lawrence Joseph Henderson"
 			},
 			{
 				"name": "Organized Factories",
 				"row": 9,
-				"prerequisites": ["Guild-based Production"],
-				"quote": "If everybody else seems to be doing it one way, there might be more opportunity the other way.       -Andrew Scheuermann",
+				"prerequisites": ["Homespun Production"],
+				"quote": "'If everybody else seems to be doing it one way, there might be more opportunity the other way.' - Andrew Scheuermann"
 			},
 			{
 				"name": "Paper Cartriges",
 				"row": 10,
 				"prerequisites": ["Flintlocks"],
-				"quote": "Nullam pretium id elit.",
+        "quote": "Nullam pretium id elit.",
 				"uniques": ["+13% Strength for Flintlock Infantry"]
 			},
 		]
@@ -110,44 +110,44 @@
 				"name": "Medicine",
 				"row": 1,
 				"prerequisites": ["Chemistry","Patriotism"],
-				"quote": "Where the art of medicine is loved, there is also love for humanity.   -Hippocrates",
+				"quote": "'Where the art of medicine is loved, there is also love for humanity.' - Hippocrates"
 			},
 			{
 				"name": "Fertilizer",
 				"row": 3,
 				"prerequisites": ["Chemistry"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Inorganic Chemistry",
 				"row": 4,
 				"prerequisites": ["Market Structure","Chemistry"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Silver Standard",
 				"row": 6,
 				"prerequisites": ["Market Structure","Army Professionalization"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Railroads",
 				"row": 7,
 				"prerequisites": ["Steam Engine"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Mass Production",
 				"row": 9,
 				"prerequisites": ["Organized Factories","Steam Engine"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Fulminate",
 				"row": 10,
 				"prerequisites": ["Paper Cartriges","Organized Factories"],
 				"quote": "quote",
-				"uniques": ["+13% Strength for Flintlock Infantry"]
+        "uniques": ["+13% Strength for Flintlock Infantry"]
 			},
 		]
 	},
@@ -162,44 +162,44 @@
 				"name": "Photography",
 				"row": 1,
 				"prerequisites": ["Medicine"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Biology",
 				"row": 3,
 				"prerequisites": ["Fertilizer","Inorganic Chemistry"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Mechanical Mining",
 				"row": 4,
 				"prerequisites": ["Inorganic Chemistry"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Steel",
 				"row": 6,
 				"prerequisites": ["Silver Standard","Railroads"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Pressure Steam Engine",
 				"row": 7,
 				"prerequisites": ["Railroads"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Mechanical Production",
 				"row": 9,
 				"prerequisites": ["Mass Production"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Rifled Barrels",
 				"row": 10,
 				"prerequisites": ["Fulminate","Mass Production"],
-				"quote": "quote",
-			},
+				"quote": "quote"
+			}
 		]
 	},
 	{
@@ -213,25 +213,25 @@
 				"name": "Idealism",
 				"row": 1,
 				"prerequisites": ["Photography"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Archeology",
 				"row": 3,
 				"prerequisites": ["Mechanical Mining","Biology","Photography"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Gold Standard",
 				"row": 4,
 				"prerequisites": ["Mechanical Mining","Steel"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Scientific Theory",
 				"row": 6,
 				"prerequisites": ["Pressure Steam Engine","Steel"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Dynamite",
@@ -244,14 +244,14 @@
 				"name": "Interchangeable Parts",
 				"row": 9,
 				"prerequisites": ["Mechanical Production"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Breech-loading",
 				"row": 10,
 				"prerequisites": ["Rifled Barrels"],
-				"quote": "quote",
-			},
+				"quote": "quote"
+			}
 		]
 	},
 	{
@@ -265,44 +265,44 @@
 				"name": "Refrigeration",
 				"row": 1,
 				"prerequisites": ["Idealism","Archeology"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Education System",
 				"row": 3,
 				"prerequisites": ["Archeology"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Stock Market",
 				"row": 4,
 				"prerequisites": ["Gold Standard"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Telegraph",
 				"row": 6,
 				"prerequisites": ["Scientific Theory"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Electricity",
 				"row": 7,
 				"prerequisites": ["Scientific Theory","Dynamite"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Advanced Metalcasting",
 				"row": 9,
 				"prerequisites": ["Dynamite","Interchangeable Parts"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Bolt Action Rifles",
 				"row": 10,
 				"prerequisites": ["Breech-loading","Interchangeable Parts"],
-				"quote": "quote",
-			},
+				"quote": "quote"
+			}
 		]
 	},
 	{
@@ -316,44 +316,45 @@
 				"name": "Social Science",
 				"row": 1,
 				"prerequisites": ["Refrigeration","Education System"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Cloride",
 				"row": 3,
 				"prerequisites": ["Education System"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Advanced Medicine",
 				"row": 4,
 				"prerequisites": ["Stock Market","Telegraph"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Phonograph",
 				"row": 6,
 				"prerequisites": ["Telegraph"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Combustion Engine",
 				"row": 7,
 				"prerequisites": ["Electricity"],
-				"quote": "quote",
+				"uniques": ["Comment [+1 Gold for Road maintenance]"],
+				"quote": "quote"
 			},
 			{
 				"name": "Chain Production",
 				"row": 9,
 				"prerequisites": ["Electricity","Advanced Metalcasting"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Metal Cartriges",
 				"row": 10,
 				"prerequisites": ["Bolt Action Rifles"],
-				"quote": "quote",
-			},
+				"quote": "quote"
+			}
 		]
 	},
 	{
@@ -367,45 +368,45 @@
 				"name": "Cinematography",
 				"row": 2,
 				"prerequisites": ["Social Science"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Machine Guns",
 				"row": 3,
 				"prerequisites": ["Cloride"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "International Standard",
 				"row": 4,
 				"prerequisites": ["Advanced Medicine","Cloride"],
-				"uniques": ["Unlocks the League of Nations"],
-				"quote": "quote",
+				"uniques": ["Comment [Unlocks the League of Nations]"],
+				"quote": "quote"
 			},
 			{
 				"name": "Radio",
 				"row": 6,
 				"prerequisites": ["Phonograph"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Flight",
 				"row": 7,
 				"prerequisites": ["Combustion Engine"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Advanced Hydrodinamics",
 				"row": 9,
 				"prerequisites": ["Chain Production"],
-				"quote": "quote",
+				"quote": "quote"
 			},
 			{
 				"name": "Magazines",
 				"row": 10,
 				"prerequisites": ["Metal Cartriges","Chain Production"],
-				"quote": "quote",
-			},
+				"quote": "quote"
+			}
 		]
 	},
 	{
@@ -421,7 +422,7 @@
 				"prerequisites": ["Cinematography", "Machine Guns", "Radio", "Flight", "Advanced Hydrodinamics", "Magazines"],
 				"quote": "quote",
 				"uniques": ["Can be continually researched"]
-			},
+			}
 		]
-	},
+	}
 ]

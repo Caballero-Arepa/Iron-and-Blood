@@ -115,6 +115,7 @@
 		"strength": 26,
 		"cost": 40,
 		"requiredTech": "Metal Cartriges",
+		"obsoleteTech": "Magazines",
 		"upgradesTo": "Infantry",
 		"uniques": ["Rifle"],
 		"attackSound": "shot",
@@ -545,84 +546,113 @@
 	},
 	//Light Ship
 	{
-		"name": "Corvette",
-		"unitType": "Light Ship",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
-		"requiredTech": "Steam Engine",
-		"uniques": ["Wooden-ship"]
-	},
-	{
-		"name": "Monitor",
-		"unitType": "Light Ship",
-		"movement": 3,
-		"strength": 10,
-		"cost": 40,
-		"requiredTech": "Pressure Steam Engine",
-		"uniques": ["Armored-ship"]
-	},
-	{
-		"name": "Torpedo Boat",
-		"unitType": "Light Ship",
-		"movement": 5,
-		"strength": 10,
-		"cost": 40,
-		"requiredTech": "Advanced Metalcasting",
-		"uniques": ["May withdraw before melee ([50]%)",
-					"Torpedo"]
-	},
-	{
-		"name": "Torpedo Cruiser",
-		"unitType": "Light Ship",
-		"movement": 4,
-		"strength": 10,
-		"cost": 40,
-		"requiredTech": "Advanced Hydrodinamics",
-		"uniques": ["Torpedo"]
-	},
-		//Gunboat
-	{
-		"name": "Frigate",
-		"unitType": "Gunboat",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
-		"requiredTech": "Steam Engine",
-		"uniques": ["Wooden-ship"]
-	},
-	{
-		"name": "Armored Frigate",
-		"unitType": "Gunboat",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
-		"requiredTech": "Steel",
-		"uniques": ["Armored-ship"]
-	},
-	{
 		"name": "Gunboat",
 		"unitType": "Gunboat",
 		"movement": 2,
 		"strength": 10,
+		"rangedStrength": 13,
+		"range": 2,
 		"cost": 40,
-		"requiredTech": "Dynamite",
-		"uniques": ["Armored-ship"]
+		"requiredTech": "Steam Engine",
+		"obsoleteTech": "Pressure Steam Engine",
+		"upgradesTo": "Monitor",
+		"uniques": ["[+20]% Strenght <after discovering [Dynamite]>",
+		"Wooden-ship"]
+	},
+	{
+		"name": "Monitor",
+		"unitType": "Gunboat",
+		"movement": 3,
+		"strength": 18,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 40,
+		"requiredTech": "Pressure Steam Engine",
+		"obsoleteTech": "Chain Production",
+		"upgradesTo": "Torpedo Cruiser",
+		"uniques": ["Can upgrade to [Battleship]",
+					"Armored-ship"]
+	},
+	{
+		"name": "Torpedo Boat",
+		"unitType": "Gunboat",
+		"movement": 6,
+		"strength": 20,
+		"rangedStrength": 40,
+		"range": 1,
+		"cost": 40,
+		"requiredTech": "Advanced Metalcasting",
+		"obsoleteTech": "Advanced Hydrodinamics",
+		"upgradesTo": "Torpedo Cruiser",
+		"uniques": ["May withdraw before melee ([50]%)","Can move after attacking",
+					"Torpedo"]
+	},
+	{
+		"name": "Torpedo Cruiser",
+		"unitType": "Gunboat",
+		"movement": 4,
+		"strength": 40,
+		"rangedStrength": 60,
+		"range": 2,
+		"cost": 40,
+		"requiredTech": "Advanced Hydrodinamics",
+		"uniques": ["May withdraw before melee ([20]%)",
+			"Torpedo"]
+	},
+		//Battleship
+	{
+		"name": "Frigate",
+		"unitType": "Battleship",
+		"movement": 3,
+		"strength": 10,
+		"cost": 20,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Steam Engine",
+		"upgradesTo": "Paddle Frigate",
+		"uniques": ["Can move after attacking",
+			"[+20]% Strenght <after discovering [Dynamite]>",
+			"Wooden-ship"]
+	},
+	{
+		"name": "Paddle Frigate",
+		"unitType": "Battleship",
+		"movement": 3,
+		"strength": 15,
+		"cost": 40,
+		"requiredTech": "Steam Engine",
+		"obsoleteTech": "Pressure Steam Engine",
+		"upgradesTo": "Screw Frigate",
+		"uniques": ["[+20]% Strenght <after discovering [Dynamite]>",
+			"Wooden-ship"]
+	},
+	{
+		"name": "Screw Frigate",
+		"unitType": "Battleship",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Pressure Steam Engine",
+		"obsoleteTech": "Dynamite",
+		"upgradesTo": "Destroyer",
+		"uniques": ["[+75%] Strenght <after discovering [Dynamite]> <when attacking>","[+50%] Strenght <after discovering [Dynamite]> <when defending>",
+			"Can move after attacking",
+			"Armored-ship"]
 	},
 	{
 		"name": "Destroyer",
-		"unitType": "Gunboat",
-		"movement": 2,
-		"strength": 10,
+		"unitType": "Battleship",
+		"movement": 6,
+		"strength": 45,
 		"cost": 40,
 		"requiredTech": "Combustion Engine",
-		"uniques": ["Armored-ship"]
+		"uniques": ["Can move after attacking",
+			"Armored-ship"]
 	},
 	{
-		"name": "Battleship",
-		"unitType": "Gunboat",
-		"movement": 2,
-		"strength": 10,
+		"name": "Battle Cruiser",
+		"unitType": "Battleship",
+		"movement": 6,
+		"strength": 65,
 		"cost": 40,
 		"requiredTech": "International Standard",
 		"uniques": ["Armored-ship"]
@@ -631,28 +661,41 @@
 	{
 		"name": "Ship of the Line",
 		"unitType": "Man'o'War",
-		"movement": 4,
-		"strength": 10,
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 15,
+		"range": 1,
 		"cost": 40,
 		"requiredTech": "Enlightenment",
-		"uniques": ["Wooden-ship"]
+		"obsoleteTech": "Dynamite",
+		"upgradesTo": "Ironclad",
+		"uniques": ["[+20]% Strenght <after discovering [Dynamite]>",
+			"Wooden-ship"]
 	},
 	{
 		"name": "Ironclad",
 		"unitType": "Man'o'War",
 		"movement": 3,
-		"strength": 20,
+		"strength": 24,
+		"rangedStrength": 25,
+		"range": 1,
 		"cost": 40,
 		"requiredTech": "Steel",
+		"obsoleteTech": "Advanced Metalcasting",
+		"upgradesTo": "Armored Cruiser",
 		"uniques": ["Armored-ship"]
 	},
 	{
-		"name": "Cruiser",
+		"name": "Armored Cruiser",
 		"unitType": "Man'o'War",
-		"movement": 2,
-		"strength": 10,
+		"movement": 4,
+		"strength": 40,
+		"rangedStrength": 41,
+		"range": 1,
 		"cost": 40,
 		"requiredTech": "Advanced Metalcasting",
+		"obsoleteTech": "International Standard",
+		"upgradesTo": "Pre-dreadnought",
 		"uniques": ["Armored-ship"]
 	},
 	{
@@ -677,31 +720,66 @@
 		"name": "Pre-dreadnought",
 		"unitType": "Man'o'War",
 		"movement": 5,
-		"strength": 10,
+		"strength": 49,
+		"rangedStrength": 50,
+		"range": 1,
 		"cost": 40,
 		"requiredTech": "International Standard",
+		"obsoleteTech": "The Future",
+		"upgradesTo": "Dreadnought",
 		"uniques": ["Armored-ship"]
 	},
 	{
 		"name": "Dreadnought",
 		"unitType": "Man'o'War",
-		"movement": 4,
-		"strength": 50,
+		"movement": 6,
+		"strength": 69,
+		"rangedStrength": 70,
+		"range": 1,
 		"cost": 40,
 		"requiredTech": "The Future",
-		"uniques": ["Armored-ship"]
+		"uniques": ["[+1] Sight",
+			"Armored-ship"]
 	},
+		//Naval War Support
+	{
+		"name": "Corvette",
+		"unitType": "Civilian Water",
+		"movement": 2,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Enlightenment",
+		"uniques": ["Comment [+Strenght to the ship on top. Give continous upgrate with techs, like more power and speed.]",
+		"Wooden-ship"]
+	},
+	{
+		"name": "Supply Ship",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 40,
+		"requiredTech": "Enlightenment",
+		"uniques": ["A bit of health while healing, and reduces damage by ocean tiles. Doesnt take tile damage"]
+	},
+	{
+		"name": "Admiral",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 100,
+		"requiredTech": "Enlightenment",
+		"uniques": ["[+2] Sight","Comment [Has promotions to design your admiral's traits.]"]
+	}
 		//Submarine
 	{
 		"name": "Submarine",
 		"unitType": "Submarine",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
+		"movement": 4,
+		"strength": 35,
+		"range": 1,
+		"rangedStrength": 90,
+		"cost": 140,
 		"requiredTech": "Advanced Hydrodinamics",
-		"uniques": ["May withdraw before melee ([73]%)"]
-	},	
-	//Civilian Ship
+    "uniques": ["May withdraw before melee ([73]%)","Torpedo"]
+//Civilian Ship
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Ship",
@@ -743,7 +821,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 70,
+		"cost": 70
 	},
 	{
 		"name": "Settler",
@@ -752,7 +830,7 @@
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population", "Can go to [Water] tiles"],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 20
 	},
 	{
 		"name": "Scout",
@@ -924,4 +1002,5 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	}
 ]

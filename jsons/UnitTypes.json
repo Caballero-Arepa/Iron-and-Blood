@@ -28,19 +28,26 @@
     },
     //Naval
     {
-        "name": "Light Ship",
+        "name": "Gunboat",
         "movementType": "Water"
     },
     {
-	"name": "Gunboat",
-	"movementType": "Water",
+        "name": "Battleship",
+        "movementType":"Water",
+        "uniques": ["[+2] Sight"]
     },
     {
         "name": "Man'o'War",
-        "movementType": "Water"
+        "movementType": "Water",
+        "uniques": ["[+1] Sight"]
     },
     {
         "name": "Submarine",
+        "movementType": "Water",
+        "uniques": [/*"Invisible to non-adjacent units"*/]
+    },
+    {
+        "name": "Civilian Water",
         "movementType": "Water"
     }
 
