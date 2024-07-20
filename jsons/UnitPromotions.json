@@ -48,7 +48,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"],
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3

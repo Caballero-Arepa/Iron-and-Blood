@@ -9,7 +9,7 @@
 		"cost": 40,
 		"obsoleteTech": "Flintlocks",
 		"upgradesTo": "Flintlock Infantry",
-		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>"],
+		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges] technology>","[13]% Strength <upon discovering [Fulminate] technology>"],
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "."}
@@ -24,7 +24,7 @@
 		"requiredTech": "Flintlocks",
 		"obsoleteTech": "Rifled Barrels",
 		"upgradesTo": "Rifled Infantry",
-		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges]>","[13]% Strength <upon discovering [Fulminate]>",
+		"uniques": ["[13]% Strength <upon discovering [Paper Cartriges] technology>","[13]% Strength <upon discovering [Fulminate] technology>",
 			"Muzzleloader"],
 		"attackSound": "shot",
         "civilopediaText": [
@@ -173,7 +173,7 @@
 		"requiredTech": "Advanced Metalcasting",
 		"obsoleteTech": "Advanced Hydrodinamics",
 		"upgradesTo": "Torpedo Cruiser",
-		"uniques": ["May withdraw before melee ([50]%)","Can move after attacking",
+		"uniques": ["Withdraws before melee combat <with [50]% chance>","Can move after attacking",
 					"Torpedo"]
 	},
 	{
@@ -185,7 +185,7 @@
 		"range": 2,
 		"cost": 40,
 		"requiredTech": "Advanced Hydrodinamics",
-		"uniques": ["May withdraw before melee ([20]%)",
+		"uniques": ["Withdraws before melee combat <with [20]% chance>",
 			"Torpedo"]
 	},
 		//Battleship
@@ -349,7 +349,7 @@
 		"rangedStrength": 90,
 		"cost": 140,
 		"requiredTech": "Advanced Hydrodinamics",
-		"uniques": ["May withdraw before melee ([73]%)",
+		"uniques": ["Withdraws before melee combat <with [73]% chance>",
 			"Torpedo"]
 	},
 	//Civilian
@@ -383,7 +383,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age","Can create a Great Work of Art" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can create a Great Work of Art" ,"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -419,7 +419,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	}
