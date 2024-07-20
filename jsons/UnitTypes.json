@@ -13,7 +13,7 @@
         "name": "Infantry",
         "movementType": "Land",
         "uniques": [
-		//EXP for logevity
+		//EXP for longevity
 		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
@@ -24,7 +24,7 @@
         "name": "Machinegunner",
         "movementType": "Land",
         "uniques": [
-		//EXP for logevity
+		//EXP for longevity
 		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
@@ -36,7 +36,7 @@
         "name": "Gunboat",
         "movementType": "Water",
         "uniques": [
-		//EXP for logevity
+		//EXP for longevity
 		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
@@ -48,7 +48,7 @@
         "movementType":"Water",
         "uniques": ["[+2] Sight"],
         "uniques": [
-		//EXP for logevity
+		//EXP for longevity
 		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
@@ -60,7 +60,7 @@
         "movementType": "Water",
         "uniques": ["[+1] Sight"],
         "uniques": [
-		//EXP for logevity
+		//EXP for longevity
 		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
@@ -72,7 +72,7 @@
         "movementType": "Water",
         "uniques": [
 		// Hidden while alpha version "Invisible to non-adjacent units",
-		//EXP for logevity
+		//EXP for longevity
 		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
 		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
