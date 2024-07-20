@@ -1,4 +1,85 @@
 [
+	//Civilian
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+	//Infantry
+    {
+        "name": "Infantry",
+        "movementType": "Land",
+        "uniques": [
+		//EXP for logevity
+		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [12] turns> <on [Marathon] game speed>",
+	]
+    },
+    {
+        "name": "Machinegunner",
+        "movementType": "Land",
+        "uniques": [
+		//EXP for logevity
+		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [12] turns> <on [Marathon] game speed>",
+	]
+    },
+    //Naval
+    {
+        "name": "Gunboat",
+        "movementType": "Water",
+        "uniques": [
+		//EXP for logevity
+		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [12] turns> <on [Marathon] game speed>",
+	]
+    },
+    {
+        "name": "Battleship",
+        "movementType":"Water",
+        "uniques": ["[+2] Sight"],
+        "uniques": [
+		//EXP for logevity
+		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [12] turns> <on [Marathon] game speed>",
+	]
+    },
+    {
+        "name": "Man'o'War",
+        "movementType": "Water",
+        "uniques": ["[+1] Sight"],
+        "uniques": [
+		//EXP for logevity
+		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [12] turns> <on [Marathon] game speed>",
+	]
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": [
+		// Hidden while alpha version "Invisible to non-adjacent units",
+		//EXP for logevity
+		"This Unit gains [1] XP <upon turn end> <every [3] turns> <on [Quick] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [5] turns> <on [Standard] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [8] turns> <on [Epic] game speed>",
+		"This Unit gains [1] XP <upon turn end> <every [12] turns> <on [Marathon] game speed>",
+	]
+    },
+
         //Temporal
     {
         "name": "Sword",
@@ -12,44 +93,4 @@
         "name": "Scout",
         "movementType": "Land"
     },
-	//Civilian
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
-	//Infantry
-    {
-        "name": "Infantry",
-        "movementType": "Land",
-        "uniques": ["This Unit gains [1] XP <upon turn end> <every [5] turns>"]
-    },
-    {
-        "name": "Machinegunner",
-        "movementType": "Land"
-    },
-    //Naval
-    {
-        "name": "Gunboat",
-        "movementType": "Water"
-    },
-    {
-        "name": "Battleship",
-        "movementType":"Water",
-        "uniques": ["[+2] Sight"]
-    },
-    {
-        "name": "Man'o'War",
-        "movementType": "Water",
-        "uniques": ["[+1] Sight"]
-    },
-    {
-        "name": "Submarine",
-        "movementType": "Water",
-        "uniques": [/*"Invisible to non-adjacent units"*/]
-    },
-    {
-        "name": "Civilian Water",
-        "movementType": "Water"
-    }
-
 ]
