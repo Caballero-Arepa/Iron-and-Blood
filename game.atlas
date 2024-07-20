@@ -102,3 +102,24 @@ TileSets/HexaRealm/Tiles/City center-Neo-Classical Era
   orig: 64, 66
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/King Solomon's Mines
+  rotate: false
+  xy: 412, 74
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lake Victoria
+  rotate: false
+  xy: 452, 74
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mount Kilimanjaro
+  rotate: false
+  xy: 292, 33
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
