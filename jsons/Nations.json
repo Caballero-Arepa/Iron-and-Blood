@@ -30,7 +30,7 @@
 		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
 	{
-                "name": "(Gran) Colombia",
+                "name": "Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine","Colombian","Venezuelan","Ecuadorian"],
 		"startBias": ["Jungle"],
