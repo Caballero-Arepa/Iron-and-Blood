@@ -33,7 +33,6 @@
                 "name": "Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine","Colombian","Venezuelan","Ecuadorian"],
-		"startBias": ["Jungle"],
 		
 		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
 		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
