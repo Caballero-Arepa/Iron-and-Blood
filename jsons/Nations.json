@@ -11,7 +11,6 @@
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Science, Culture, Diplomacy",
 		
 		"declaringWar": "Your reign will be better under MY domain.",
 		"attacked": "I worry about all those who are affected by this conflict.",
@@ -31,11 +30,10 @@
 		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","São Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuaibá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
 	{
-                "name": "Gran Colombia",
+                "name": "(Gran) Colombia",
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Granadine","Colombian","Venezuelan","Ecuadorian"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Domination, Culture",
 		
 		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
 		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
@@ -52,7 +50,7 @@
 		"uniqueName": "The Independence of a Continent",
 		"uniques": ["Occupied cities start with a Courthouse. Liberating a Civilization or City-State starts a Golden Age. Great People may be upgraded to Libertadors, losing the ability to build Citadels."],
 		     
-		"cities": ["Bogotá","Caracas","Quito","Panamá","Santo Tomás","Magangue","Guayaquil","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
+		"cities": ["Bogotá","Caracas","Quito","Guayaquil","Panamá","Santo Tomás","Magangue","Maracaibo","Cumana","Puerto Cabello","Popayán","Angostura","Santiago de Cali","Tunja","Medellín","Santa Marta","Barranquilla","Cartagena de Indias","La Paz","Lima","Boa Vista","Bucaramanga"]
 	},
 	//American City-States - [color]: 0,0,0,
 	{
