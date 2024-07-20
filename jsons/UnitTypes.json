@@ -20,7 +20,8 @@
 	//Infantry
     {
         "name": "Infantry",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["This Unit gains [1] XP <upon turn end> <every [5] turns>"]
     },
     {
         "name": "Machinegunner",

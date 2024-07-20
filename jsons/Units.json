@@ -159,7 +159,7 @@
 		"requiredTech": "Pressure Steam Engine",
 		"obsoleteTech": "Chain Production",
 		"upgradesTo": "Torpedo Cruiser",
-		"uniques": ["Can upgrade to [Battleship]",
+		"uniques": ["Can upgrade to [Destroyer]",
 					"Armored-ship"]
 	},
 	{
