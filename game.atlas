@@ -1,6 +1,6 @@
 
 game.png
-size: 512, 128
+size: 512, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -9,6 +9,13 @@ NationsPortraits/Brazil
   xy: 4, 46
   size: 66, 66
   orig: 66, 66
+  offset: 0, 0
+  index: -1
+NationsPortraits/Gran Colombia
+  rotate: false
+  xy: 4, 120
+  size: 132, 132
+  orig: 132, 132
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barbarian encampment
@@ -20,112 +27,112 @@ TileSets/FantasyHex/Tiles/Barbarian encampment
   index: -1
 TileSets/FantasyHex/Tiles/City center-1st Industrial Era
   rotate: false
-  xy: 366, 79
+  xy: 360, 219
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-2nd Industrial Era
   rotate: false
-  xy: 366, 79
+  xy: 360, 219
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Victorian Era
   rotate: false
-  xy: 366, 79
+  xy: 360, 219
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Long XIX Century
   rotate: false
-  xy: 406, 78
+  xy: 44, 4
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Napoleonic Era
   rotate: false
-  xy: 446, 80
+  xy: 216, 142
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Neo-Classical Era
   rotate: false
-  xy: 446, 80
+  xy: 216, 142
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Barbarian encampment
   rotate: false
-  xy: 78, 48
+  xy: 144, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-1st Industrial Era
   rotate: false
-  xy: 150, 42
+  xy: 216, 182
   size: 64, 70
   orig: 64, 70
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-2nd Industrial Era
   rotate: false
-  xy: 150, 42
+  xy: 216, 182
   size: 64, 70
   orig: 64, 70
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Victorian Era
   rotate: false
-  xy: 150, 42
+  xy: 216, 182
   size: 64, 70
   orig: 64, 70
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Long XIX Century
   rotate: false
-  xy: 222, 42
+  xy: 288, 182
   size: 64, 70
   orig: 64, 70
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Napoleonic Era
   rotate: false
-  xy: 294, 46
+  xy: 144, 114
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Neo-Classical Era
   rotate: false
-  xy: 294, 46
+  xy: 144, 114
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/King Solomon's Mines
   rotate: false
-  xy: 44, 4
+  xy: 78, 78
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lake Victoria
   rotate: false
-  xy: 84, 6
+  xy: 400, 218
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Kilimanjaro
   rotate: false
-  xy: 366, 37
+  xy: 440, 218
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
